@@ -63,6 +63,17 @@ pre, code {
         .tech-icon:hover {
             transform: scale(1.1);
         }
+        .icon-circle {
+            width: 56px;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 2rem;
+            margin: 0 auto 12px auto;
+            box-shadow: 0 2px 8px rgba(44,62,80,0.10);
+}
 
 /* --- Pipeline Section Styling --- */
 #pipeline-placeholder,
@@ -148,6 +159,11 @@ section.pipeline-section,
     .tab-pane iframe {
         min-height: 400px;
     }
+}
+    /* Optional: Add a subtle hover effect for tabs */
+    .nav-tabs .nav-link:not(.active):hover {
+        background: #dbeafe;
+        color: #2564cf;
 }
 
 /* Responsive search bar and suggestion box */

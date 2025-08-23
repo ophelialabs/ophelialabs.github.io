@@ -5,6 +5,8 @@
         }
         .navbar { background-color: var(--primary-color); }
         .nav-link, .navbar-brand { color: white !important; }
+        
+        
         .tech-card {
             transition: transform 0.18s, box-shadow 0.18s;
             border-radius: 16px;

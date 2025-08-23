@@ -34,3 +34,16 @@
             border-left: 4px solid #2564cf;
             color: #1b1b1b;
         }
+
+        /* Tech Card */
+        .tech-card {
+            transition: transform 0.18s, box-shadow 0.18s;
+            border-radius: 16px;
+            background: #fff;
+        }
+        .tech-card:hover {
+            transform: translateY(-4px) scale(1.03);
+            box-shadow: 0 8px 32px rgba(44,62,80,0.13);
+        }
+
+        

@@ -271,7 +271,10 @@ source "$project_dir/venv/bin/activate"
 
 # Install requirements
 cd "$project_dir"
+pip install --upgrade pip
 pip install -r requirements.txt
+
+
 
 # Prompt for deployment method
 echo "How would you like to deploy the application?"

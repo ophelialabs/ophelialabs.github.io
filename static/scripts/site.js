@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('cloudpipeline/tabs.html')
         .then(res => res.ok ? res.text() : Promise.reject(res))
         .then(data => {
-            const header = document.getElementById('pipeline-placeholder');
+            const header = document.getElementById('cloudpipeline-placeholder');
             if (header) header.innerHTML = data;
         })
         .catch(() => {});

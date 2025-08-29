@@ -158,6 +158,15 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(() => {});
 
+    // Load Cloud Pipeline
+    fetch('cloudpipeline/tabs.html')
+        .then(res => res.ok ? res.text() : Promise.reject(res))
+        .then(data => {
+            const header = document.getElementById('pipeline-placeholder');
+            if (header) header.innerHTML = data;
+        })
+        .catch(() => {});
+
     // Load Tech Stack
     fetch('stack/stack.html')
         .then(res => res.ok ? res.text() : Promise.reject(res))

@@ -44,13 +44,8 @@
                 </button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link tab-ros" id="ros-tab" data-bs-toggle="tab" data-bs-target="#ros" type="button" role="tab">
+                <button class="nav-link tab-workday" id="workday-tab" data-bs-toggle="tab" data-bs-target="#workday" type="button" role="tab">
                     <i class="bi bi-robot"></i> 
-                </button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link tab-qsharp" id="qsharp-tab" data-bs-toggle="tab" data-bs-target="#qsharp" type="button" role="tab">
-                    <i class="bi bi-lightbulb"></i> 
                 </button>
             </li>
         </ul>
@@ -82,6 +77,11 @@
                     <iframe src="cloudpipeline/tabs/gcp.html" width="100%" height="600px" frameborder="0" style="overflow-y: auto;"></iframe>
                 </div>
             </div>
+            <div class="tab-pane fade" id="workday" role="tabpanel">
+                <div class="bg-white p-3 rounded shadow-sm">
+                    <iframe src="pipeline/tabs/workday.html" width="100%" height="600px" frameborder="0" style="overflow-y: auto;"></iframe>
+                </div>
+            </div>
             <div class="tab-pane fade" id="servicenow" role="tabpanel">
                 <div class="bg-white p-3 rounded shadow-sm">
                     <iframe src="cloudpipeline/tabs/servicenow.html" width="100%" height="600px" frameborder="0" style="overflow-y: auto;"></iframe>
@@ -110,7 +110,7 @@
 .tab-servicenow  { background-color: #61dafb !important; color: #222 !important; }
 .tab-salesforce     { background-color: #00add8 !important; color: #fff !important; }
 .tab-infosys    { background-color: #326ce5 !important; color: #fff !important; }
-.tab-ros    { background-color: #222f5b !important; color: #fff !important; }
+.tab-workday    { background-color: #222f5b !important; color: #fff !important; }
 .tab-qsharp { background-color: #7c3aed !important; color: #fff !important; }
 
 .nav-tabs .nav-link {

@@ -27,67 +27,67 @@
 <body>
     <div id="header-include"></div>
     <main class="container body-content" style="margin-top: 80px;">
-Populate the sheets so that it represents a global corporation and follows best practices - 
-such as not including PII. Employee id numbers should match with assigned employees in Entra ID
+        <ul>
+<li>Populate the sheets so that it represents a global corporation and follows best practices - />
+<li>such as not including PII. Employee id numbers should match with assigned employees in Entra ID />
 
-        Sheet1: Employees
-        Columns:
-employee id
-job assignments
-comments
-Approve
+        <li>Sheet1: Employees />
+        <li>Columns: </li>
+<li>employee id</li>
+<li>job assignments</li>
+<li>comments</li>
+<li>Approve</li>
 
-        Rows:
-10001 | Finance Analyst      | Rotation to APAC | Yes
-10002 | IT Support Engineer  | Night shift      | No
-10003 | HR Generalist        | Onboarding       | Yes
+        <li>Rows:</li>
+<li>10001 | Finance Analyst      | Rotation to APAC | Yes</li>
+<li>10002 | IT Support Engineer  | Night shift      | No</li>
+<li>10003 | HR Generalist        | Onboarding       | Yes</li>
         
-        Sheet2: Projects
-        Columns:
-project id
-project name
-department
-region
-project manager id
-status
-start date
-end date
+        <li>Sheet2: Projects</li>
+        <li>Columns:</li>
+<li>project id</li>
+<li>project name</li>
+<li>department</li>
+<li>region</li>
+<li>project manager id</li>
+<li>status</li>
+<li>start date</li>
+<li>end date</li>
         
-        Rows:
-P-001 | ERP Implementation   | IT        | North America | 10002 | Active   | 2025-01-15 | 2025-12-31
-P-002 | Office Expansion     | Facilities| EMEA          | 10001 | Planning | 2025-03-01 | 2025-09-30
-P-003 | Diversity Training   | HR        | APAC          | 10003 | Complete | 2024-09-01 | 2025-02-28
+        <li>Rows:</li>
+<li>P-001 | ERP Implementation   | IT        | North America | 10002 | Active   | 2025-01-15 | 2025-12-31</li>
+<li>P-002 | Office Expansion     | Facilities| EMEA          | 10001 | Planning | 2025-03-01 | 2025-09-30</li>
+<li>P-003 | Diversity Training   | HR        | APAC          | 10003 | Complete | 2024-09-01 | 2025-02-28</li>
         
-        Sheet3: 
-department id
-department name
-head employee id
-region
+        <li>Sheet3:</li> 
+<li>department id</li>
+<li>department name</li>
+<li>head employee id</li>
+<li>region</li>
         
-        Rows:
-D-01 | IT         | 10002 | North America
-D-02 | HR         | 10003 | APAC
-D-03 | Finance    | 10001 | EMEA
+        <li>Rows:
+<li>D-01 | IT         | 10002 | North America</li>
+<li>D-02 | HR         | 10003 | APAC</li>
+<li>D-03 | Finance    | 10001 | EMEA</li>
         
-        Match Employee IDs with Entra
-Ensure each employee in Sheet1 has a unique "employee id".
-In the Projects sheet, use the "project manager id" column to reference the "employee id" from Sheet1.
-Integrating with Entra ID, ensure the "employee id" matches the Entra ID assignment (this is typically handled via HRIS or IT system).
-This structure follows best practices, avoids PII, and uses unique IDs for cross-referencing. 
+        <li>Match Employee IDs with Entra</li>
+<li>Ensure each employee in Sheet1 has a unique "employee id".</li>
+<li>In the Projects sheet, use the "project manager id" column to reference the "employee id" from Sheet1.</li>
+<li>Integrating with Entra ID, ensure the "employee id" matches the Entra ID assignment (this is typically handled via HRIS or IT system).</li>
+<li>This structure follows best practices, avoids PII, and uses unique IDs for cross-referencing.</li> 
 
-        Updating employee assignments in Excel (Automate):
-Use Excel Tables: Convert your data range (A1:D1 and below) into an official Excel Table (Table) for easier referencing and dynamic range management.
-Data Validation: Add dropdowns for "job assignments" using Data Validation to ensure only valid roles are assigned.
-VLOOKUP/XLOOKUP Integration: Use XLOOKUP to automatically pull job assignments from a master list when an "employee id" is entered.
-Power Query: Automate data import and refresh from external sources (e.g., Entra ID export) to keep employee assignments up to date.
-Conditional Formatting: Highlight changes or mismatches between assignments and approved roles.
-VBA Macro: Use a macro to batch update assignments, approve changes, or sync with Entra ID exports.
+        <li>Updating employee assignments in Excel (Automate):</li>
+<li>Use Excel Tables: Convert your data range (A1:D1 and below) into an official Excel Table (Table) for easier referencing and dynamic range management.</li>
+<li>Data Validation: Add dropdowns for "job assignments" using Data Validation to ensure only valid roles are assigned.</li>
+<li>VLOOKUP/XLOOKUP Integration: Use XLOOKUP to automatically pull job assignments from a master list when an "employee id" is entered.</li>
+<li>Power Query: Automate data import and refresh from external sources (e.g., Entra ID export) to keep employee assignments up to date.</li>
+<li>Conditional Formatting: Highlight changes or mismatches between assignments and approved roles.</li>
+<li>VBA Macro: Use a macro to batch update assignments, approve changes, or sync with Entra ID exports.</li>
 
-        Example formula to auto-populate "job assignments" from a master list:
-=XLOOKUP([@[employee id]],MasterList[employee id],MasterList[job assignments],"Not Found")
-For advanced automation, Integrate with Power Automate workflows to trigger updates when new data is added or changed.
-
-
+        <li>Example formula to auto-populate "job assignments" from a master list:</li>
+<li>=XLOOKUP([@[employee id]],MasterList[employee id],MasterList[job assignments],"Not Found")</li>
+<li>For advanced automation, Integrate with Power Automate workflows to trigger updates when new data is added or changed.</li>
+</ul>
 
 
 

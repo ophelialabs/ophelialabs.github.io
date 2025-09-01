@@ -74,6 +74,7 @@ master = true
 processes = 5
 socket = $project_name.sock
 chmod-socket = 660
+autoreload = 1
 vacuum = true
 die-on-term = true
 EOF

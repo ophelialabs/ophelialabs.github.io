@@ -44,7 +44,7 @@
       }
 
       function showStreetView(latLng) {
-        document.getElementById('map3d-container').style.display = 'none';
+        document.getElementById('map').style.display = 'none';
         const panoDiv = document.getElementById('pano');
         panoDiv.style.display = 'block';
         if (!panorama) {
@@ -61,7 +61,7 @@
       }
 
       function hideStreetView() {
-        document.getElementById('map3d-container').style.display = 'block';
+        document.getElementById('map').style.display = 'block';
         document.getElementById('pano').style.display = 'none';
         if (panorama) panorama.setVisible(false);
       }

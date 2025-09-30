@@ -25,13 +25,13 @@
         max-width: 400px !important;
       }
     </style>
-    <title>Gaia 3D Globe</title>
+    <title>Gaia</title>
   </head>
   <body>
-    <div id="map3d-container"></div>
+    <div id="map"></div>
     <div id="pano"></div>
     <script>
-      let map3D, map, panorama;
+      let map, panorama;
       // You must use your own Google Maps JS API key here
       const GOOGLE_MAPS_API_KEY = "AIzaSyDK7BXtZz4ypjq0yr-7FrrAcl3oCoPpxK8";
 
@@ -67,21 +67,6 @@
       }
 
       function initMap() {
-        // Initialize the 3D globe
-        map = new google.maps.Map(document.getElementById("map3d-container"), {
-          center: { lat: 37.7749, lng: -122.4194 }, // San Francisco as example
-          zoom: 3,
-          mapId: "DEMO_MAP_ID", // Optionally, set your MapID for styling
-          mapTypeId: "hybrid",
-          tilt: 45,
-          heading: 0,
-          gestureHandling: "greedy",
-        });
-
-        // Enable globe projection if available
-        if (map.setProjection) {
-          map.setProjection({ projection: "globe" });
-        }
 
         // Enable Street View when zoomed in close enough
         map.addListener("zoom_changed", () => {

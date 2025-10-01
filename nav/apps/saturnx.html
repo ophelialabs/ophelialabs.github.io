@@ -73,7 +73,8 @@
             key: "AIzaSyDK7BXtZz4ypjq0yr-7FrrAcl3oCoPpxK8",
             v: "alpha"
         });
-        
+    </script>
+    <script>
         async function init() {
             const { Map3DElement, MapMode, Marker3DInteractiveElement } = await google.maps.importLibrary("maps3d");
             const { PinElement } = await google.maps.importLibrary('marker');
@@ -84,8 +85,6 @@
 
             // Add the globe to the container
             document.getElementById('globe-container').append(map3D);
-
-            updateAlerts();
         }
     </script>
     <script>

@@ -49,33 +49,6 @@
                     >
                         Search
                     </button>
-                        <script>
-                            function updateMapWithLocation() {
-                                if (navigator.geolocation) {
-                                    navigator.geolocation.getCurrentPosition(function(position) {
-                                        var lat = position.coords.latitude;
-                                        var lng = position.coords.longitude;
-                                        var iframe = document.getElementById('user-map');
-                                        iframe.src = `https://www.google.com/maps/embed/v1/view?key=AIzaSyDK7BXtZz4ypjq0yr-7FrrAcl3oCoPpxK8&center=${lat},${lng}&zoom=12`;
-                                    });
-                                }
-                            }
-                            window.onload = updateMapWithLocation;
-
-                            document.getElementById('search-btn').onclick = function() {
-                                var location = document.getElementById('location-search').value.trim();
-                                if (location) {
-                                    var iframe = document.getElementById('user-map');
-                                    iframe.src = `https://www.google.com/maps/embed/v1/search?key=AIzaSyDK7BXtZz4ypjq0yr-7FrrAcl3oCoPpxK8&q=${encodeURIComponent(location)}&zoom=12`;
-                                }
-                            };
-
-                            document.getElementById('location-search').addEventListener('keydown', function(e) {
-                                if (e.key === 'Enter') {
-                                    document.getElementById('search-btn').click();
-                                }
-                            });
-                        </script>
                 </div>
                 <iframe
                     id="user-map"
@@ -266,6 +239,33 @@
             </tbody>
         </table>
     </div>
+    <script>
+        function updateMapWithLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    var lat = position.coords.latitude;
+                    var lng = position.coords.longitude;
+                    var iframe = document.getElementById('user-map');
+                    iframe.src = `https://www.google.com/maps/embed/v1/view?key=AIzaSyDK7BXtZz4ypjq0yr-7FrrAcl3oCoPpxK8&center=${lat},${lng}&zoom=12`;
+                });
+            }
+        }
+        window.onload = updateMapWithLocation;
+
+        document.getElementById('search-btn').onclick = function() {
+            var location = document.getElementById('location-search').value.trim();
+            if (location) {
+                var iframe = document.getElementById('user-map');
+                iframe.src = `https://www.google.com/maps/embed/v1/search?key=AIzaSyDK7BXtZz4ypjq0yr-7FrrAcl3oCoPpxK8&q=${encodeURIComponent(location)}&zoom=12`;
+            }
+        };
+
+        document.getElementById('location-search').addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                document.getElementById('search-btn').click();
+            }
+        });
+    </script>
     <script>
         // Header/Footer dynamic include
         function includeFragment(id, url) {

@@ -21,22 +21,8 @@
     <style>
         body { background: #1e293b; color: #f1f5f9; font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; }
         #globe-container { width: 75vw; height: 75vh; }
-        .alerts-section { flex: 1; position: relative; width: 100%; }
-        .alerts-popup { position: sticky; top: 2rem; z-index: 10; background: rgba(30,41,59,0.98); border-radius: 16px; box-shadow: 0 8px 32px rgba(59,130,246,0.18); border: 1px solid rgba(255,255,255,0.10); padding: 1.5rem 1.2rem; min-height: 120px; }
-        .alert-list { list-style: none; padding: 0; margin: 0; }
-        .alert-item { margin-bottom: 1.2rem; }
-        .alert-content { background: rgba(220,38,38,0.12); border-left: 5px solid #ef4444; border-radius: 12px; padding: 1.2rem 1.2rem 1.2rem 1.5rem; box-shadow: 0 2px 12px rgba(59,130,246,0.08); display: flex; align-items: flex-start; gap: 1rem; }
-        .alert-icon { font-size: 1.5rem; color: #ef4444; margin-top: 2px; }
-        .alert-title { font-weight: 700; color: #f1f5f9; font-size: 1.08rem; }
-        .alert-message { color: #e0e7ef; margin: 0.2rem 0 0.4rem 0; }
-        .alert-timestamp { font-size: 0.93rem; color: #64748b; }
-        .no-alerts { background: rgba(59,130,246,0.10); border-radius: 12px; padding: 1.2rem 1.2rem; color: #a5b4fc; text-align: center; }
         .chess-controls { margin-bottom: 1rem; }
         .chess-controls button { margin-right: 0.5rem; }
-        .alert-category { font-size: 1.1rem; font-weight: bold; margin: 1.2rem 0 0.5rem 0; color: #fbbf24; }
-        .alert-category.critical { color: #ef4444; }
-        .alert-category.high { color: #f59e42; }
-        .alert-category.medium { color: #38bdf8; }
     </style>
 </head>
 <body>
@@ -59,20 +45,8 @@
                     >
                         Search
                     </button>
-                    <button id="reset-btn" class="btn btn-primary btn-sm">Reset Game</button>
-                    <button id="move-btn" class="btn btn-success btn-sm">Make Random Move</button>
                 </div>
                 <div id="globe-container">
-                </div>
-            </div>
-            <!-- Alerts Popup Section -->
-            <div class="alerts-section" style="max-width: 400px;">
-                <div class="alerts-popup">
-                    <h2 style="margin-top:0; margin-bottom:1rem;">Strategic Alerts</h2>
-                    <div id="alert-list"></div>
-                    <div class="no-alerts" id="no-alerts">
-                        No urgent locations at this time.
-                    </div>
                 </div>
             </div>
         </div>

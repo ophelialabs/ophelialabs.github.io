@@ -56,7 +56,8 @@
             d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n))
         })({
             key: "AIzaSyDK7BXtZz4ypjq0yr-7FrrAcl3oCoPpxK8",
-            v: "alpha"
+            v: "alpha",
+            id: "user-map"
         });
         
         // 
@@ -76,6 +77,31 @@
             init();
         });
     </script>
+                <script>
+                    function updateMapWithLocation() {
+                        if (navigator.geolocation) {
+                            navigator.geolocation.getCurrentPosition(function(position) {
+                                var lat = position.coords.latitude;
+                                var lng = position.coords.longitude;
+                                var = document.getElementById('user-map');
+                            });
+                        }
+                    }
+                    window.onload = updateMapWithLocation;
+
+                    document.getElementById('search-btn').onclick = function() {
+                        var location = document.getElementById('location-search').value.trim();
+                        if (location) {
+                            var = document.getElementById('user-map');s
+                        }
+                    };
+
+                    document.getElementById('location-search').addEventListener('keydown', function(e) {
+                        if (e.key === 'Enter') {
+                            document.getElementById('search-btn').click();
+                        }
+                    });
+                </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -45,7 +45,6 @@
         });
 
         let map3D;
-        let marker;
 
         // Function to pan the map to a location, with an optional marker
         function panToLocation(lat, lng, name) {
@@ -54,43 +53,6 @@
                     center: { lat, lng },
                     zoom: 6,
                 });
-
-                // Remove previous marker if exists
-                if (marker && marker.parentElement) {
-                    marker.parentElement.removeChild(marker);
-                }
-
-                // Add a marker at the searched location
-                if (window.google && window.google.maps && window.google.maps.marker) {
-                    const { PinElement } = window.google.maps.marker;
-                    marker = new PinElement({
-                        position: { lat, lng },
-                        title: name,
-                    });
-                    map3D.appendChild(marker);
-                }
-            }
-        }
-
-        async function geocodeLocation(query) {
-            // Use Google Maps Geocoding API
-            const apiKey = "AIzaSyDK7BXtZz4ypjq0yr-7FrrAcl3oCoPpxK8";
-            const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(query)}&key=${apiKey}`;
-            try {
-                const response = await fetch(url);
-                const result = await response.json();
-                if (result.status === "OK" && result.results.length > 0) {
-                    const location = result.results[0].geometry.location;
-                    return { lat: location.lat, lng: location.lng, name: result.results[0].formatted_address };
-                } else {
-                    alert("Location not found!");
-                    return null;
-                }
-            } catch (err) {
-                alert("Error finding location.");
-                return null;
-            }
-        }
 
         // 
         async function init() {
@@ -103,33 +65,7 @@
 
             // Initial globe
             document.getElementById('globe-container').append(map3D);
-
-            // Search button event
-            document.getElementById('search-btn').addEventListener('click', async () => {
-                const query = document.getElementById('location-search').value.trim();
-                if (query) {
-                    const loc = await geocodeLocation(query);
-                    if (loc) {
-                        panToLocation(loc.lat, loc.lng, loc.name);
-                    }
-                }
-            });
-
-            // Allow pressing Enter in the search bar
-            document.getElementById('location-search').addEventListener('keydown', async (e) => {
-                if (e.key === "Enter") {
-                    const query = document.getElementById('location-search').value.trim();
-                    if (query) {
-                        const loc = await geocodeLocation(query);
-                        if (loc) {
-                            panToLocation(loc.lat, loc.lng, loc.name);
-                        }
-                    }
-                }
-            });
-        }
-
-        document.addEventListener('DOMContentLoaded', () => {
+            document.addEventListener('DOMContentLoaded', () => {
             init();
         });
     </script>

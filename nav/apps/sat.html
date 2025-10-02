@@ -20,15 +20,14 @@
     <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
     <style>
         body { background: #1e293b; color: #f1f5f9; font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; }
-        #globe-container { width: 75vw; height: 75vh; }
-        .chess-controls { margin-bottom: 1rem; }
+        globe-container { width: 75vw; height: 75vh; }
+        chess-controls { margin-bottom: 1rem; }
     </style>
 </head>
 <body>
     <div id="header-include"></div>
     <main>
-        <h1 style="margin-top: 4rem;">Globe</h1>
-        <div style="display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 2.5rem;">
+        <div style="display: flex; gap: 2rem; align-items: flex-start; margin-top: 4rem; margin-bottom: 2.5rem;">
             <!-- Map Section -->
             <div class="map-placeholder" style="flex: 2;">
                 <div class="chess-controls">
@@ -101,13 +100,6 @@
                     });
                 </script>
     <script>
-
-        // Store marker references
-        let countryMarkers = [];
-        let regionClusters = {};
-
-        window.map3D = null;
-
         async function init() {
             const { Map3DElement, MapMode, Marker3DInteractiveElement } = await google.maps.importLibrary("maps3d");
             const { PinElement } = await google.maps.importLibrary('marker');
@@ -119,9 +111,6 @@
             // Add the globe to the container
             document.getElementById('globe-container').append(map3D);
         }
-
-
-
 
         document.addEventListener('DOMContentLoaded', () => {
             init();

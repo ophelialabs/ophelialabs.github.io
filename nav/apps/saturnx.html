@@ -240,16 +240,6 @@
         </table>
     </div>
     <script>
-        // Header/Footer dynamic include
-        function includeFragment(id, url) {
-            fetch(url).then(r => r.text()).then(html => {
-                document.getElementById(id).innerHTML = html;
-            });
-        }
-        includeFragment('header-placeholder', '/main/header.html');
-        includeFragment('footer-placeholder', '/main/footer.html');
-    </script>
-    <script>
         function updateMapWithLocation() {
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(function(position) {
@@ -266,7 +256,7 @@
             var location = document.getElementById('location-search').value.trim();
             if (location) {
                 var iframe = document.getElementById('user-map');
-                iframe.src = `https://ophelialabs.github.io/nav/apps/sat2.html`;
+                iframe.src = `https://www.google.com/maps/embed/v1/search?key=AIzaSyDK7BXtZz4ypjq0yr-7FrrAcl3oCoPpxK8&q=${encodeURIComponent(location)}&zoom=12`;
             }
         };
 
@@ -276,5 +266,16 @@
             }
         });
     </script>
+    <script>
+        // Header/Footer dynamic include
+        function includeFragment(id, url) {
+            fetch(url).then(r => r.text()).then(html => {
+                document.getElementById(id).innerHTML = html;
+            });
+        }
+        includeFragment('header-placeholder', '/main/header.html');
+        includeFragment('footer-placeholder', '/main/footer.html');
+    </script>
+
 </body>
 </html>

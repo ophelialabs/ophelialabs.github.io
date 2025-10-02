@@ -20,10 +20,9 @@
     <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
     <style>
         body { background: #1e293b; color: #f1f5f9; font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; }
-        .dashboard-container { max-width: 1200px; margin: 2rem auto; padding: 2rem; background: #1e293b; border-radius: 16px; box-shadow: 0 8px 32px rgba(59,130,246,0.18); }
+        .dashboard-container { width: 75vw; height: 75vh; margin: 2rem auto; padding: 2rem; background: #1e293b; border-radius: 16px; box-shadow: 0 8px 32px rgba(59,130,246,0.18); }
         #globe-container { width: 75vw; height: 75vh; }
-        .chess-controls { margin-bottom: 1rem; }
-        .chess-controls button { margin-right: 0.5rem; }
+        .map-search { margin-bottom: 1rem; }
     </style>
 </head>
 <body>
@@ -32,7 +31,7 @@
         <div style="display: flex; gap: 2rem; align-items: flex-start; margin-top: 4rem; margin-bottom: 2.5rem;">
             <!-- Map Section -->
             <div class="dashboard-container">
-                <div class="chess-controls">
+                <div class="map-search">
                     <input
                         type="text"
                         id="location-search"

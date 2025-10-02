@@ -20,7 +20,7 @@
     <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
     <style>
         body { background: #1e293b; color: #f1f5f9; font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; }
-        .dashboard-container { width: 75vw; height: 75vh; margin: 2rem auto; padding: 2rem; background: #1e293b; border-radius: 16px; box-shadow: 0 8px 32px rgba(59,130,246,0.18); }
+        .dashboard-container { width: 85vw; height: 95vh; margin: 2rem auto; padding: 2rem; background: #1e293b; border-radius: 16px; box-shadow: 0 8px 32px rgba(59,130,246,0.18); }
         #globe-container { width: 75vw; height: 75vh; }
         .map-search { margin-bottom: 1rem; }
     </style>
@@ -79,8 +79,6 @@
                             navigator.geolocation.getCurrentPosition(function(position) {
                                 var lat = position.coords.latitude;
                                 var lng = position.coords.longitude;
-                                var iframe = document.getElementById('user-map');
-                                iframe.src = `https://www.google.com/maps/embed/v1/view?key=AIzaSyDK7BXtZz4ypjq0yr-7FrrAcl3oCoPpxK8&center=${lat},${lng}&zoom=12`;
                             });
                         }
                     }
@@ -89,8 +87,6 @@
                     document.getElementById('search-btn').onclick = function() {
                         var location = document.getElementById('location-search').value.trim();
                         if (location) {
-                            var iframe = document.getElementById('user-map');
-                            iframe.src = `https://www.google.com/maps/embed/v1/search?key=AIzaSyDK7BXtZz4ypjq0yr-7FrrAcl3oCoPpxK8&q=${encodeURIComponent(location)}&zoom=12`;
                         }
                     };
 
@@ -101,40 +97,6 @@
                     });
                 </script>
     <script>
-        // Countries, alliances, and regions
-        const countryLocations = [
-            { name: "United States", lat: 39.8283, lng: -98.5795, event: "Home base", severity: "Critical", side: "us", region: "Americas" },
-            { name: "United Kingdom", lat: 55.3781, lng: -3.4360, event: "NATO Ally", severity: "High", side: "ally", region: "Europe" },
-            { name: "France", lat: 46.6034, lng: 1.8883, event: "NATO Ally", severity: "High", side: "ally", region: "Europe" },
-            { name: "Germany", lat: 51.1657, lng: 10.4515, event: "NATO Ally", severity: "High", side: "ally", region: "Europe" },
-            { name: "Japan", lat: 36.2048, lng: 138.2529, event: "Strategic Ally", severity: "High", side: "ally", region: "Asia" },
-            { name: "South Korea", lat: 35.9078, lng: 127.7669, event: "Strategic Ally", severity: "Medium", side: "ally", region: "Asia" },
-            { name: "Ukraine", lat: 48.3794, lng: 31.1656, event: "Ongoing conflict", severity: "Critical", side: "ally", region: "Europe" },
-            { name: "Israel", lat: 31.0461, lng: 34.8516, event: "Security tensions", severity: "High", side: "ally", region: "Middle East" },
-            { name: "Taiwan", lat: 23.6978, lng: 120.9605, event: "Regional tensions", severity: "Medium", side: "ally", region: "Asia" },
-            { name: "Russia", lat: 61.5240, lng: 105.3188, event: "Sanctions & conflict", severity: "Critical", side: "opponent", region: "Europe" },
-            { name: "China", lat: 35.8617, lng: 104.1954, event: "Strategic competitor", severity: "Critical", side: "opponent", region: "Asia" },
-            { name: "Iran", lat: 32.4279, lng: 53.6880, event: "Protests & sanctions", severity: "High", side: "opponent", region: "Middle East" },
-            { name: "North Korea", lat: 40.3399, lng: 127.5101, event: "Nuclear threat", severity: "High", side: "opponent", region: "Asia" },
-            { name: "Venezuela", lat: 6.4238, lng: -66.5897, event: "Economic crisis", severity: "Medium", side: "opponent", region: "Americas" },
-            { name: "Sudan", lat: 12.8628, lng: 30.2176, event: "Civil unrest", severity: "Medium", side: "neutral", region: "Africa" },
-            { name: "Myanmar", lat: 21.9162, lng: 95.9560, event: "Political crisis", severity: "Medium", side: "neutral", region: "Asia" },
-            { name: "Haiti", lat: 18.9712, lng: -72.2852, event: "Gang violence", severity: "Medium", side: "neutral", region: "Americas" },
-            { name: "Gaza", lat: 31.5, lng: 34.47, event: "Humanitarian crisis", severity: "High", side: "neutral", region: "Middle East" }
-        ];
-
-        // Simulate urgent countries based on current events
-        let urgentLocations = countryLocations
-            .filter(c => c.severity === "Critical" || c.severity === "High")
-            .map(c => ({
-                name: c.name,
-                reason: c.event,
-                severity: c.severity,
-                side: c.side,
-                time: new Date()
-
-            }));
-
         // Store marker references
         let countryMarkers = [];
         let regionClusters = {};

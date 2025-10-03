@@ -72,33 +72,7 @@
 
             // Initial globe
             document.getElementById('globe-container').append(map3D);
-
-            // Search button event
-            document.getElementById('search-btn').addEventListener('click', async () => {
-                const query = document.getElementById('location-search').value.trim();
-                if (query) {
-                    const loc = await geocodeLocation(query);
-                    if (loc) {
-                        panToLocation(loc.lat, loc.lng, loc.name);
-                    }
-                }
-            });
-
-            // Allow pressing Enter in the search bar
-            document.getElementById('location-search').addEventListener('keydown', async (e) => {
-                if (e.key === "Enter") {
-                    const query = document.getElementById('location-search').value.trim();
-                    if (query) {
-                        const loc = await geocodeLocation(query);
-                        if (loc) {
-                            panToLocation(loc.lat, loc.lng, loc.name);
-                        }
-                    }
-                }
-            });
-        }
-
-        document.addEventListener('DOMContentLoaded', () => {
+            document.addEventListener('DOMContentLoaded', () => {
             init();
         });
     </script>

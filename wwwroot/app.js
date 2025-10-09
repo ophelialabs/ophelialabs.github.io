@@ -29,7 +29,7 @@ const routes = {
   },
   documentation: {
     title: "Documentation",
-    file: "Components/Pages/documentation.html"
+    file: "../../wiki/index.html"
   }
 };
 

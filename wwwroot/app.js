@@ -9,7 +9,7 @@ const routes = {
   },
   "cloud-projects": {
     title: "Cloud Projects",
-    file: "Components/Pages/cloud-projects.html"
+    file: "Components/Pages/Wiki/cloud-projects.html"
   },
   enterprise: {
     title: "Enterprise",
@@ -21,15 +21,15 @@ const routes = {
   },
   "ai-automation": {
     title: "AI & Automation",
-    file: "Components/Pages/ai-automation.html"
+    file: "Components/Pages/Wiki/ai-automation.html"
   },
   security: {
     title: "Security",
-    file: "Components/Pages/security.html"
+    file: "Components/Pages/Wiki/security.html"
   },
   documentation: {
     title: "Documentation",
-    file: "../../wiki/index.html"
+    file: "Components/Pages/Wiki/documentation.html"
   }
 };
 

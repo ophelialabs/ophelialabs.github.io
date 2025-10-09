@@ -13,11 +13,11 @@ const routes = {
   },
   enterprise: {
     title: "Enterprise",
-    file: "Components/stack/stack.html"
+    file: "Components/Pages/stack/stack.html"
   },
   pipeline: {
     title: "Pipeline",
-    file: "Components/pipeline/tabs.html"
+    file: "Components/Pages/pipeline/tabs.html"
   },
   "ai-automation": {
     title: "AI & Automation",

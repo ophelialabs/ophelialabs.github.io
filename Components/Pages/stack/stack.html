@@ -1,7 +1,7 @@
 <section class="mb-5">
     <h2 class="category-header">Technology Stack</h2>
     <div class="row">
-        <!-- Cloud Platforms -->
+        <!-- Architecture -->
         <div class="col-md-3 mb-4">
             <div class="card tech-card shadow-sm h-100" data-bs-toggle="modal" data-bs-target="#cloudPlatformsModal" style="cursor:pointer;">
                 <div class="card-body text-center">
@@ -14,10 +14,21 @@
         </div>
         <!-- Development -->
         <div class="col-md-3 mb-4">
+            <div class="card tech-card shadow-sm h-100" data-bs-toggle="modal" data-bs-target="#architectureModal" style="cursor:pointer;">
+                <div class="card-body text-center">
+                    <div class="icon-circle mb-3 bg-success text-white">
+                        <i class="bi bi-hdd-stack"></i>
+                    </div>
+                    <h5 class="card-title">Architecture</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Development -->
+        <div class="col-md-3 mb-4">
             <div class="card tech-card shadow-sm h-100" data-bs-toggle="modal" data-bs-target="#developmentModal" style="cursor:pointer;">
                 <div class="card-body text-center">
-                    <div class="icon-circle mb-3 bg-primary text-white">
-                        <i class="bi bi-diagram-3"></i>
+                    <div class="icon-circle mb-3 bg-info text-white">
+                        <i class="bi bi-code-slash"></i>
                     </div>
                     <h5 class="card-title">Development</h5>
                 </div>
@@ -27,21 +38,21 @@
         <div class="col-md-3 mb-4">
             <div class="card tech-card shadow-sm h-100" data-bs-toggle="modal" data-bs-target="#devopsModal" style="cursor:pointer;">
                 <div class="card-body text-center">
-                    <div class="icon-circle mb-3 bg-primary text-white">
-                        <i class="bi bi-diagram-3"></i>
+                    <div class="icon-circle mb-3 bg-warning text-white">
+                        <i class="bi bi-gear-wide-connected"></i>
                     </div>
                     <h5 class="card-title">DevOps</h5>
                 </div>
             </div>
         </div>
-        <!-- Architecture -->
+        <!-- Security -->
         <div class="col-md-3 mb-4">
-            <div class="card tech-card shadow-sm h-100" data-bs-toggle="modal" data-bs-target="#architectureModal" style="cursor:pointer;">
+            <div class="card tech-card shadow-sm h-100" data-bs-toggle="modal" data-bs-target="#securityModal" style="cursor:pointer;">
                 <div class="card-body text-center">
-                    <div class="icon-circle mb-3 bg-primary text-white">
-                        <i class="bi bi-diagram-3"></i>
+                    <div class="icon-circle mb-3 bg-danger text-white">
+                        <i class="bi bi-shield-check"></i>
                     </div>
-                    <h5 class="card-title"><i class="bi bi-diagram-3"></i> Architecture</h5>
+                    <h5 class="card-title">Security</h5>
                 </div>
             </div>
         </div>
@@ -108,6 +119,21 @@
     </div>
 </div>
 
+<!-- Security Modal -->
+<div class="modal fade" id="securityModal" tabindex="-1" aria-labelledby="securityModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered custom-modal-size">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="securityModalLabel">Security</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0" style="height:70vh; min-height:400px;">
+                <iframe src="Components/Pages/stack/modals/security.html" style="width:100%; height:100%; border:0; min-height:400px; display:block;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
 <style>
 /* Responsive modal iframe sizing */
 .modal-body iframe {
@@ -118,4 +144,3 @@
     display: block;
 }
 </style>
-

@@ -9,11 +9,11 @@ const routes = {
   },
   "cloud-projects": {
     title: "Cloud Projects",
-    file: "Components/Pages/Wiki/cloud-projects.html"
+    file: "Components/Pages/stack/modals/cloud.html"
   },
   enterprise: {
     title: "Enterprise",
-    file: "Components/Pages/stack/stack.html"
+    file: "Components/Pages/Wiki/Pages/enterprise.html"
   },
   pipeline: {
     title: "Pipeline",
@@ -21,15 +21,23 @@ const routes = {
   },
   "ai-automation": {
     title: "AI & Automation",
-    file: "Components/Pages/Wiki/ai-automation.html"
+    file: "Components/Pages/Wiki/Pages/ai-automation.html"
   },
   security: {
     title: "Security",
-    file: "Components/Pages/Wiki/security.html"
+    file: "Components/Pages/stack/modals/devops.html"
   },
-  documentation: {
-    title: "Documentation",
-    file: "Components/Pages/Wiki/documentation.html"
+  architecture: {
+    title: "Architecture",
+    file: "Components/Pages/stack/modals/arch.html"
+  },
+  devtools: {
+    title: "DevTools",
+    file: "Components/Pages/stack/modals/dev.html"
+  },
+  wiki: {
+    title: "Wiki",
+    file: "Components/Pages/Wiki/index.html"
   }
 };
 

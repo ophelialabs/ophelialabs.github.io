@@ -1,4 +1,4 @@
-    <nav class="navbar navbar-expand-lg navbar-dark fluent-navbar bg-primary mb-4">
+    <nav class="navbar navbar-expand-lg navbar-dark fluent-navbar bg-primary mb-4" style="z-index: 1050;">
         <div class="container-fluid">
             <a id="logo-link" class="navbar-brand d-flex align-items-center" href="index.html">
                 <img src="wwwroot/Gemini_Generated_logo.png" style="width: 48px; height: 48px;" />
@@ -12,29 +12,16 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon" style="width: 24px; height: 24px;"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse bg-primary" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto align-items-center">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            Resources
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><h6 class="dropdown-header"><strong>Jobs</strong></h6></li>
-                            <li><a class="dropdown-item" href="https://swelist.com/">Swe list</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                <!-- <ul class="navbar-nav ms-auto align-items-center flex-row justify-content-around w-100"> -->
 
-                            <li><h6 class="dropdown-header">Certs</h6></li>
-                            <li><a class="dropdown-item" href="../gcppca.html">GCPPCA</a></li>
-                            <li><a class="dropdown-item" href="../rhcsa.html">RHCSA</a></li>
-                        </ul>
-                    </li>
-
-                    <!-- Projects Dropdown -->
+                    <!-- Projects -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            <i class="bi bi-folder me-1"></i>
+                        <a class="nav-link dropdown-toggle d-flex justify-content-end" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="bi bi-folder"></i>
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-end py-0" style="min-width: 330px;">
+                        <ul class="dropdown-menu dropdown-menu-lg-end bg-body shadow py-0" style="min-width: 330px;">
                             <div class="p-3">
                                 <h6 class="dropdown-header px-0 mb-2">Projects</h6>
                                 <div class="row g-3">
@@ -67,12 +54,12 @@
                         </ul>
                     </li>
 
-                    <!-- Apps Dropdown -->
+                    <!-- Apps -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle d-flex justify-content-end" href="#" role="button" data-bs-toggle="dropdown">
                             <i class="bi bi-grid me-1"></i>
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-end py-0" style="min-width: 330px;">
+                        <ul class="dropdown-menu dropdown-menu-lg-end bg-body shadow py-0" style="min-width: 330px;">
                             <div class="p-3">
                                 <h6 class="dropdown-header px-0 mb-2">Apps</h6>
                                 <div class="row g-3">
@@ -107,10 +94,10 @@
 
                     <!-- Github -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle d-flex justify-content-end" href="#" role="button" data-bs-toggle="dropdown">
                             <i class="bi bi-github"></i>
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-end py-0" style="min-width: 330px;">
+                        <ul class="dropdown-menu dropdown-menu-lg-end bg-body shadow py-0" style="min-width: 330px;">
                             <div class="p-3">
                                 <h6 class="dropdown-header px-0 mb-2">GitHub Repositories</h6>
                                 <div class="row g-3">
@@ -145,15 +132,15 @@
 
                     <!-- Account -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle d-flex justify-content-end" href="#" role="button" data-bs-toggle="dropdown">
                             <i class="bi bi-person-fill-lock"></i>
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-end py-0" style="min-width: 330px;">
+                        <ul class="dropdown-menu dropdown-menu-lg-end bg-body shadow py-0" style="min-width: 330px; max-width: 350px;">
                             <div class="p-3">
                                 <h6 class="dropdown-header px-0 mb-2">Account Access</h6>
                                 <div class="row g-3">
                                     <div class="col-4">
-                                        <a href="#" target="_blank" class="text-decoration-none">
+                                        <a href="https://support.broadcom.com" target="_blank" class="text-decoration-none">
                                             <div class="app-card p-2 rounded text-center">
                                                 <i class="bi bi-globe text-primary mb-2" style="font-size: 1.5rem;"></i>
                                                 <div class="small text-body-secondary">Broadcom</div>
@@ -161,7 +148,7 @@
                                         </a>
                                     </div>
                                     <div class="col-4">
-                                        <a href="#" target="_blank" class="text-decoration-none">
+                                        <a href="https://www.oracle.com/cloud/sign-in.html" target="_blank" class="text-decoration-none">
                                             <div class="app-card p-2 rounded text-center">
                                                 <i class="bi bi-database-fill text-primary mb-2" style="font-size: 1.5rem;"></i>
                                                 <div class="small text-body-secondary">Oracle</div>
@@ -169,7 +156,7 @@
                                         </a>
                                     </div>
                                     <div class="col-4">
-                                        <a href="#" target="_blank" class="text-decoration-none">
+                                        <a href="https://www.ibm.com/account" target="_blank" class="text-decoration-none">
                                             <div class="app-card p-2 rounded text-center">
                                                 <i class="bi bi-cpu text-primary mb-2" style="font-size: 1.5rem;"></i>
                                                 <div class="small text-body-secondary">IBM</div>
@@ -177,7 +164,7 @@
                                         </a>
                                     </div>
                                     <div class="col-4">
-                                        <a href="#" target="_blank" class="text-decoration-none">
+                                        <a href="https://aws.amazon.com/console/" target="_blank" class="text-decoration-none">
                                             <div class="app-card p-2 rounded text-center">
                                                 <i class="bi bi-cloud-arrow-up text-primary mb-2" style="font-size: 1.5rem;"></i>
                                                 <div class="small text-body-secondary">Amazon</div>
@@ -185,15 +172,16 @@
                                         </a>
                                     </div>
                                     <div class="col-4">
-                                        <a href="#" target="_blank" class="text-decoration-none">
+                                        <a href="https://www.servicenow.com/" target="_blank" class="text-decoration-none">
                                             <div class="app-card p-2 rounded text-center">
                                                 <i class="bi bi-gear-fill text-primary mb-2" style="font-size: 1.5rem;"></i>
                                                 <div class="small text-body-secondary">ServiceNow</div>
                                             </div>
                                         </a>
                                     </div>
-                                    <h6 class="dropdown-header px-0 mb-2">Account Apps</h6>
-                                     <div class="row g-3">
+                                </div>
+                                <h6 class="dropdown-header px-0 mt-3 mb-2">Account Apps</h6>
+                                <div class="row g-3">
                                     <div class="col-4">
                                         <a href="#" target="_blank" class="text-decoration-none">
                                             <div class="app-card p-2 rounded text-center">

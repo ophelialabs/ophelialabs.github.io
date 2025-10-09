@@ -189,6 +189,7 @@ body {
 /* Dropdown menu background fix for collapsed navbar */
 .dropdown-menu {
   background: rgba(30,40,60,0.97) !important;
+  color: #eaf1fb !important;
   border: 1px solid #00ffe7;
   box-shadow: 0 8px 32px rgba(0,255,255,0.18);
 }

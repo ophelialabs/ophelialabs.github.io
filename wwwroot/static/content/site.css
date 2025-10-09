@@ -173,6 +173,39 @@ section.pipeline-section,
     }
 }
 
+/* Wiki-style navigation and main content */
+.wiki-nav {
+    min-width: 220px;
+    max-width: 260px;
+    border-right: 1px solid #e3e6ea;
+    background: #f8fafc;
+    height: 100%;
+    position: sticky;
+    top: 80px; /* Adjust as needed for fixed navbar height */
+}
+.wiki-nav .nav-link {
+    padding: 0.75rem 1.5rem;
+    color: #34495e;
+}
+.wiki-nav .nav-link.active {
+    background: #e3e6ea;
+    font-weight: bold;
+    color: #2564cf;
+}
+.wiki-main {
+    padding-left: 0;
+}
+@media (max-width: 991.98px) {
+    .wiki-nav {
+        max-width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #e3e6ea;
+        position: static;
+    }
+    .wiki-main {
+        padding-left: 0;
+    }
+}
 /* Optional: Subtle divider for clarity */
 .tab-content > .tab-pane:not(:last-child) {
     border-bottom: 1px solid #e3e6ea;

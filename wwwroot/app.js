@@ -11,10 +11,6 @@ const routes = {
     title: "Cloud Projects",
     file: "Components/Pages/stack/modals/cloud.html"
   },
-  enterprise: {
-    title: "Enterprise",
-    file: "Components/Pages/Wiki/Pages/enterprise.html"
-  },
   pipeline: {
     title: "Pipeline",
     file: "Components/Pages/pipeline/tabs.html"
@@ -23,21 +19,13 @@ const routes = {
     title: "AI & Automation",
     file: "Components/Pages/Wiki/Pages/ai-automation.html"
   },
-  security: {
-    title: "Security",
-    file: "Components/Pages/stack/modals/devops.html"
-  },
-  architecture: {
-    title: "Architecture",
-    file: "Components/Pages/stack/modals/arch.html"
-  },
   devtools: {
     title: "DevTools",
     file: "Components/Pages/stack/modals/dev.html"
   },
   wiki: {
     title: "Wiki",
-    file: "Components/Pages/Wiki/index.html"
+    file: "https://ophelialabs.com/wiki/index.html"
   }
 };
 

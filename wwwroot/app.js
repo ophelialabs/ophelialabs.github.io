@@ -15,17 +15,17 @@ const routes = {
     title: "Pipeline",
     file: "Components/Pages/pipeline/tabs.html"
   },
-  "ai-automation": {
-    title: "AI & Automation",
-    file: "Components/Pages/Wiki/Pages/ai-automation.html"
-  },
   devtools: {
     title: "DevTools",
     file: "Components/Pages/stack/modals/dev.html"
   },
+  siem: {
+    title: "SIEM",
+    file: "Components/Pages/SIEM/index.html"
+  },
   wiki: {
     title: "Wiki",
-    file: "https://ophelialabs.com/wiki/index.html"
+    file: "./wiki/index.html"
   }
 };
 

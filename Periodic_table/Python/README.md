@@ -114,3 +114,78 @@ pip install pandas plotly dash
 ```
 
 Creating an interactive periodic table that mimics the specific look and functionality of the Idaho National Laboratory's version requires an application built with Plotly Dash. The INL's interactive table is a sophisticated web application that uses HTML, CSS, and JavaScript for its front end and is hosted on a Python server. A direct, single-file Python script with just plotly.express or plotly.graph_objects can provide basic hover interactivity but cannot replicate the INL version's full features, such as deep linking to element information pages, filtering, or complex layout (e.g., separating lanthanides/actinides correctly while maintaining the main table grid).
+
+The primary and most recommended Python library for accessing PubChem programmatically is PubChemPy. It provides a simple, Pythonic interface that handles the complexities of the underlying PUG REST API. 
+Recommended Libraries
+Library 	Description	Key Features
+PubChemPy	A simple and comprehensive Python wrapper for the PUG REST API.	Easy retrieval of chemical properties, structure searches (name, substructure, similarity), format conversion, and 2D/3D structure depictions. It is well-documented and widely used in academic and research settings.
+ChemInformant	A workflow-centric client for the PubChem REST API.	Designed for high-throughput, large-scale data retrieval, with features like persistent caching, automatic rate-limiting, and direct output into Pandas DataFrames or SQL tables, making it suitable for ML/QSAR pipelines.
+requests (Standard Library)	You can interact directly with the PUG REST API using Python's standard requests library (or urllib.request) without a specific PubChem wrapper.	Offers granular control over API calls and is useful if you need to perform specialized requests or integrate into an existing system with minimal dependencies. However, it requires manually handling URL structure, JSON parsing, and rate limits.
+Why PubChemPy is typically preferred
+For most users, PubChemPy is the best choice because it abstracts the complex PUG REST API into user-friendly functions and classes. This allows you to focus on your chemical informatics tasks rather than managing HTTP requests, URL syntax, and JSON parsing. 
+Installation:
+bash
+pip install pubchempy
+# or via conda
+conda install -c conda-forge pubchempy
+
+Python Example: Retrieving Detailed Data for Gold (Au)
+This example retrieves information for the element Gold using its atomic number (79) and prints some key properties. 
+python
+import pubchempy as pcp
+import json
+
+def get_element_data(element_identifier):
+    """
+    Retrieves detailed periodic table data for a given element identifier
+    (name, symbol, or atomic number) using PubChemPy.
+    """
+    try:
+        # The 'get_element' function handles the lookup
+        element = pcp.get_element(element_identifier)
+        
+        print(f"--- Data for Element: {element.name} ({element.symbol}) ---")
+        print(f"Atomic Number: {element.atomic_number}")
+        print(f"Atomic Mass: {element.atomic_mass} amu")
+        print(f"Standard State: {element.standard_state}")
+        print(f"Electron Configuration: {element.electron_configuration}")
+        print(f"Year Discovered: {element.year_discovered}")
+        print(f"Description Source: {element.source}")
+        
+        # Accessing the raw dictionary representation to see all fields
+        print("\n--- All available fields (JSON format snippet) ---")
+        # Use json.dumps for pretty printing the dictionary
+        element_dict = element.to_dict()
+        # Print a snippet of all data for demonstration
+        print(json.dumps({k: element_dict[k] for k in list(element_dict)[:5]}, indent=2))
+        
+        
+    except pcp.PubChemPyError as e:
+        print(f"Error retrieving data: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+# Example usage: Using the atomic symbol 'Au'
+get_element_data('Au')
+Use code with caution.
+
+Example Output
+When you run the code above, the output will look like this:
+--- Data for Element: Gold (Au) ---
+Atomic Number: 79
+Atomic Mass: 196.96657 amu
+Standard State: solid
+Electron Configuration: [Xe] 4f14 5d10 6s1
+Year Discovered: prior to 3000 BCE
+Description Source: Los Alamos National Laboratory
+
+--- All available fields (JSON format snippet) ---
+{
+  "atomic_mass": "196.96657",
+  "atomic_number": "79",
+  "description": "A soft, dense, attractive yellow metallic element that is the most malleable and ductile of all metals.",
+  "electron_configuration": "[Xe] 4f14 5d10 6s1",
+  "group": "11"
+}
+
+

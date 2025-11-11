@@ -23,9 +23,9 @@ const routes = {
     title: "SIEM",
     file: "Components/Pages/SIEM/index.html"
   },
-  wiki: {
-    title: "Wiki",
-    file: "./wiki/index.html"
+  portfolio: {
+    title: "Portfolio",
+    file: "Portfolio/index.html"
   }
 };
 

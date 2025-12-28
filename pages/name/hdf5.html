@@ -2,7 +2,6 @@
         <header>
             <h1>HDF5 & HDF-EOS Data Implementation Guide</h1>
             <p class="lead">Enterprise-Grade Data Processing for Quantum IoT with Python & Pandas</p>
-            <a href="https://space.skyrocket.de/doc_sdat/lacunasat-4.htm" target="_blank" rel="noopenner noreferrer" class="link-card">Gunter's Space page</a>
         </header>
 
         <nav>
@@ -22,7 +21,7 @@
                     <h3>📑 Quick Navigation</h3>
                     <table class="nav-table">
                         <tr>
-                            <td><a href="">📚 Academic Resources & Textbooks</a></td>
+                            <td><a href="https://space.skyrocket.de/" target="_blank" rel="noopener noreferrer">📚 Gunters Space Page</a></td>
                             <td><a href="">🚀 NASA & Space Technology</a></td>
                             <td><a href="">🛰️ Space Agencies & Infrastructure</a></td>
                             <td><a href="#industry">🏭 Industry Partners & Manufacturers</a></td>
@@ -321,7 +320,7 @@ df['measurement_pct_change'] = df['measurement'].pct_change()
 # Categorical encoding
 df['region_encoded'] = pd.Categorical(df['region']).codes</code></pre>
 
-                <h4>6. Writing Transformed Data to HDF5</h4>
+                <h4>6. Writing Transformed Data to HDF5 (Uplink)</h4>
                 <pre><code># Write DataFrame to HDF5
 with pd.HDFStore('processed_data.h5', mode='w') as store:
     # Store with compression

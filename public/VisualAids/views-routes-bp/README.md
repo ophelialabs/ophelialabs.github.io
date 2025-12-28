@@ -1,4 +1,4 @@
-![banner]
+![banner](Gemini_Generated_Image_azrsm5azrsm5azrs.png)
 In web frameworks (like Flask), Routes map URLs to Python functions, Views are those functions handling request logic and returning responses (HTML, data), and Blueprints are organizational tools to modularize related routes/views into reusable components (like an "auth" or "admin" section) for cleaner, scalable projects, preventing clutter in the main app. Essentially, blueprints group views and routes, making large apps manageable by defining sections that can be easily added to the main application. 
 Routes
 Definition: A URL path (e.g., /users/profile) that your application listens for.

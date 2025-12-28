@@ -1,8 +1,7 @@
 ![banner](Gemini_Gen_RoadMap.png)
+**IF using Cockpit Image Builder(Linux), an image can NOT be created on an alternate architecture. ie - Building IBM Image on an 86_64(AMD/INTEL)**
 
 1. VM & Environment Setup
-**IF using Cockpit Image Builder, an image can NOT be created on an alternate architecture. ie - Building IBM Image on an 86_64(ARM/INTEL)**
-
 To achieve a "Shared Directory" and "Separate by Account" workflow, consider the following architecture:
 
 Shared Directory: Use VMware Shared Folders or Virtio-FS/Cockpit (for Linux/KVM). This allows your host machine to act as the "Source of Truth" while both VMs mount the same directory.

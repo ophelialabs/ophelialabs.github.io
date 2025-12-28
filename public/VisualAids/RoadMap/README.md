@@ -5,6 +5,8 @@
 To achieve a "Shared Directory" and "Separate by Account" workflow, consider the following architecture:
 
 Shared Directory: Use VMware Shared Folders or Virtio-FS/Cockpit (for Linux/KVM). This allows your host machine to act as the "Source of Truth" while both VMs mount the same directory.
+![banner](Gemini_Generated_Image_34voxi34voxi34vo.png)
+ - Shared directory should account for master and workers 
 
 IDE Strategy: Since you mentioned VS Code Insiders and IntelliJ, use the Remote Development extensions.
 

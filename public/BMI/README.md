@@ -2,6 +2,7 @@
 ![banner](00_Gemini_Gen.png)
 ![banner](03_Gemini_Generated_Image_BMI-CTSS.png)
 ![banner](BMI.png)
+ - [Julia](https://julialang.org/)
  - DNN light stimulation.
  - *How can I see what they see?*
  ---

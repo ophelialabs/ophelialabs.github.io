@@ -5,14 +5,16 @@
  - [Julia](https://julialang.org/)
  - DNN light stimulation.
  - *How can I see what they see?*
+
  ---
- **This step is very important due to being able to open and close channels**
- ![banner](Gemini_Gen_meh.png)
- **Must do better with image, re-representation of (Radio)Spectrometry and formation of bubble in a real-world setting horrible**
- - [HyperSpectral](https://arxiv.org/abs/2508.18219)
+
  - [CoOp Behavior](https://www.science.org/doi/10.1126/science.adw8151)
  - Create open and close COM channels for collaboration
  - Main focus is integrating into QNET
+
+![banner](Gemini_Gen_meh.png)
+ - [HyperSpectral](https://arxiv.org/abs/2508.18219)
+ **Must do better with image, re-representation of (Radio)Spectrometry and formation of bubble in a real-world setting horrible**
 
 ---
 ##CLEANUP

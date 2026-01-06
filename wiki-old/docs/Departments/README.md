@@ -1,6 +1,6 @@
 ## TLD Outline
 **Courses and Info from Uni's** 
-University of Singapore
+ - University of Singapore
 
 **Move to edu and categorize courses of all top uni's by departments to reduce TLD's**
 **Only include courses that give outline/syllabus/texts to simplify creating an overall class syllabus**

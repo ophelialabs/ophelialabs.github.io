@@ -14,7 +14,7 @@
 
 ![banner](Gemini_Gen_meh.png)
  - [HyperSpectral](https://arxiv.org/abs/2508.18219)
- **Must do better with image, re-representation of (Radio)Spectrometry and formation of bubble in a real-world setting horrible**
+ - **Must do better with image, re-representation of (Radio)Spectrometry and formation of bubble in a real-world setting horrible**
 
 ---
 ##CLEANUP

@@ -1,4 +1,5 @@
 just real quick and also not for road driving
+**Oh and I also believe the timing chain in this specific instance would have to be set up such as a bike when switching gears, does not make this correct, further training is needed**
 
  - using cylinder reactivation technology to add an activation kill switch/button/cmd that will effectively elevate (i.e. v6 engine to v12) and when disengaged, the switch/button/cmd gradually displaces expanded liquids (cools down), personally I do not think MRFs will work in conventional car cooling systems due to heat absorption and dissipation, or metal build up fragments that can clog the radiator or give false positives such as a cracked block 
 

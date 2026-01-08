@@ -10,7 +10,7 @@
 
  - [CoOp Behavior](https://www.science.org/doi/10.1126/science.adw8151)
  - Create open and close COM channels for collaboration
- - Main focus is integrating into QNET
+ - Main focus is integrating into [QNET](https://arxiv.org/html/2508.03806v1)
 
 ![banner](Gemini_Gen_meh.png)
  - [HyperSpectral](https://arxiv.org/abs/2508.18219)

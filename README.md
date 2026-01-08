@@ -99,7 +99,7 @@ Return Unified Response: Send the final list of articles back to your user.
 4. Technical Considerations
 Rate Limits: Both APIs enforce rate limits and quotas; your backend must handle 429 Too Many Requests responses gracefully.
 Syntax Translation: Different databases use slightly different search syntax. You may need to translate a user's query into the specific syntax for each database (e.g., ScienceDirect uses double quotes for phrases and Boolean operators like AND/OR).
-API Tokens: Store your keys securely in environment variables (e.g., .env files) and never expose them in client-side code. 
+API Tokens: Store your keys securely in environment variables (e.g., .env files) and never expose them in client-side code. (Otherwise github may get angry and tell you that you have exposed secrets, and key providers like openai may also *thankfully* revoke keys that have been exposed. *Billing*)
 These guides detail API access, integration methods, and search syntax for Elsevier and SciX (ADS) services:
 
  - [Elsevier](https://library.cumc.columbia.edu/kb/getting-started-elsevier-apis)

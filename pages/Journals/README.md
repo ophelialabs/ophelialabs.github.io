@@ -1,3 +1,6 @@
+# Tomorrow will add scix, doe, etc to the journals and will have to visit domains individually until complete
+ - Concurrently setup news feed similar to sharepoint global nav?
+
 ## Come up with a unified plan. Build instead of rewrite
  - json/xml (scix is multi-disciplinary but still does not include certain domain sources)
  - python was suggested for api call, personal preference is blazor but all the same

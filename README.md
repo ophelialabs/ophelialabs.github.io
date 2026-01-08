@@ -19,6 +19,7 @@ Backend Stack: Python is recommended due to mature wrapper libraries: ads (for S
 2. Python Implementation Guide
 The following example demonstrates how to wrap both APIs into a unified service using Flask. You will need to install ads, elsapy, and flask.
 
+```
 import ads
 from elsapy.elsclient import ElsClient
 from elsapy.elssearch import ElsSearch
@@ -72,6 +73,7 @@ def unified_search():
     # In production, run these in parallel (AsyncIO)
     results = query_scix(query) + query_elsevier(query)
     return jsonify(results)
+```
 
 3. Key Integration Challenges
 Data Normalization: SciX returns year while Elsevier returns prism:coverDate. Your backend must map these to a single standard field (e.g., publication_year) before sending data to the frontend.
@@ -100,8 +102,8 @@ Syntax Translation: Different databases use slightly different search syntax. Yo
 API Tokens: Store your keys securely in environment variables (e.g., .env files) and never expose them in client-side code. 
 These guides detail API access, integration methods, and search syntax for Elsevier and SciX (ADS) services:
 
-[Elsevier](https://library.cumc.columbia.edu/kb/getting-started-elsevier-apis)
-[SciX](https://ads.harvard.edu/handouts/SciX_API_handout.pdf)
+ - [Elsevier](https://library.cumc.columbia.edu/kb/getting-started-elsevier-apis)
+ - [SciX](https://ads.harvard.edu/handouts/SciX_API_handout.pdf)
 
 To use a backend service for multi-resource article search (like SciX & Elsevier), you'll need to leverage their specific APIs (Application Programming Interfaces) by obtaining API keys, constructing HTTP requests with your search parameters, and processing the returned JSON/XML data, often using a central backend service (like a Python/Node.js server or an enterprise search platform like [Backstage](https://www.google.com/search?q=Backstage&newwindow=1&sca_esv=8246e02b3da205e5&sxsrf=AE3TifN9ArtR6gcvz3tX4-E-IRxkZ6ISJQ%3A1767809226160&ei=yqBeae7CCcWYwbkPhoXngQc&ved=2ahUKEwiYgM3y8fqRAxUw5MkDHVSPOb0QgK4QegQIARAB&uact=5&oq=how+to+use+backend+service+to+search+for+articles+from+multiple+resources%2C+i.e.-+scix+and+Elsevier&gs_lp=Egxnd3Mtd2l6LXNlcnAiYmhvdyB0byB1c2UgYmFja2VuZCBzZXJ2aWNlIHRvIHNlYXJjaCBmb3IgYXJ0aWNsZXMgZnJvbSBtdWx0aXBsZSByZXNvdXJjZXMsIGkuZS4tIHNjaXggYW5kIEVsc2V2aWVySMWHA1AAWOODA3ACeAGQAQCYAd0CoAGggAGqAQoyMS41Mi4yNi4xuAEDyAEA-AEBmAI-oAKtVMICBBAjGCfCAgsQABiABBiKBRiRAsICDhAuGIAEGLEDGMcBGNEDwgILEC4YgAQYxwEY0QPCAgsQLhiABBixAxiDAcICERAuGIAEGLEDGIMBGMcBGNEDwgIREC4YgAQYigUYsQMYxwEY0QPCAgsQABiABBixAxiDAcICBRAAGIAEwgIFEC4YgATCAggQABiABBixA8ICCBAuGIAEGLEDwgILEAAYgAQYigUYsQPCAg4QABiABBiKBRixAxiDAcICBBAAGAPCAgYQABgWGB7CAgsQABiABBiKBRiGA8ICBRAAGO8FwgIIEAAYgAQYogTCAggQABiJBRiiBMICBRAhGKABwgIFECEYqwLCAgUQIRifBcICBxAhGAoYoAGYAwCSBwoxMi4yNy4yMi4xoAfjtgOyBwoxMS4yNy4yMi4xuAenVMIHCjAuMi41My42LjHIB_QCgAgB&sclient=gws-wiz-serp&zx=1767809319110&no_sw_cr=1&mstk=AUtExfDXkUwtdv7RfHKiHr2R6SZ0efzkwHAMpK1js9PRL_vCFKxpo_PlOhawRQre7gbg1h3XfurVIxKcOfugfNUOM8v4yPt7nGE5NOxNYVho7Pew-icIvc60PUw2t56EPc4j_U_wd_ibTRGiYSRKbC7OORNCyhu4oHqCS1AtGuOeXv1fgMbadyLL4SMa9siUDaEps4CMJKaXy0L03Wp9rstzjiGK7hSdLjrtu79vnPyeaKgJlz9TZzNYhOEMPLNNOBFk3YQ&csui=3)) to manage these calls and aggregate results, handling authentication, error management, and data normalization. 
 Here's a breakdown of the process:
@@ -123,6 +125,7 @@ Data Handling: Parse the JSON/XML responses from each API.
 Aggregation & Normalization: Combine results, potentially filtering/sorting, and map fields (like title, authors, publication_date) to a consistent internal format. 
 4. Example Backend Flow (Conceptual):
 
+```
 // Pseudocode for your backend service
 function multiSourceSearch(query) {
   // 1. Call Elsevier API
@@ -137,6 +140,7 @@ function multiSourceSearch(query) {
 
   return [...normalizedElsevier, ...normalizedSciX];
 }
+```
 
 5. Frontend Integration
 Your frontend (web/mobile app) calls your backend endpoint (e.g., /api/search) with the user's search term.

@@ -172,12 +172,77 @@ case $choice in
     ;;
 esac
 
-# Open new terminal to see if it exits sudo 
-echo "Sign up for ULN"
-gnome-terminal -- -c browser run "https://linux.oracle.com/ords/f?p=101:30" + "https://docs.oracle.com/en/operating-systems/oracle-linux/9/"    # Open in new tab
-# If you have a ULN account, you can use the following command to register your system:
-# sudo uln_register --username <your-username> --password <your-password>
-# If previous code de-escalates sudo, ctr+f "Launch browser portals" in this file to use the browser run command
+# Azure CLI
+# Get RHEL/CentOS major version Parse os-release is an option
+# Combine with uname -m to get architecture and version, add winget and brew
+VERSION=$(rpm -q --queryformat '%{VERSION}' redhat-release 2>/dev/null || echo "unknown")
+# Optional: Get kernel version (for reference, not used in logic)
+KERNEL_VER=$(uname -r)
+
+if [ "$VERSION" -ge 10 ] 2>/dev/null; then
+    sudo rpm --import https://packages.microsoft.com/keys/microsoft-2025.asc
+    sudo dnf install -y https://packages.microsoft.com/config/rhel/10/packages-microsoft-prod.rpm
+elif [ "$VERSION" -ge 9 ] 2>/dev/null; then
+    sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+    sudo dnf install -y https://packages.microsoft.com/config/rhel/9.0/packages-microsoft-prod.rpm
+else
+    echo "Unsupported RHEL/CentOS version: $VERSION (Kernel: $KERNEL_VER)"
+fi
+# Install Azure CLI
+sudo dnf install -y azure-cli
+
+# GCLI
+sudo tee -a /etc/yum.repos.d/google-cloud-sdk.repo << EOM
+[google-cloud-cli]
+name=Google Cloud CLI
+baseurl=https://packages.cloud.google.com/yum/repos/cloud-sdk-el9-x86_64
+enabled=1
+gpgcheck=1
+repo_gpgcheck=0
+gpgkey=https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+EOM
+sudo yum install -y google-cloud-cli
+gcloud init
+
+# AWS CLI
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+cat <<EOF | sudo tee /awscliv2.zip/gpg.txt
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQINBF2Cr7UBEADJZHcgusOJl7ENSyumXh85z0TRV0xJorM2B/JL0kHOyigQluUG
+ZMLhENaG0bYatdrKP+3H91lvK050pXwnO/R7fB/FSTouki4ciIx5OuLlnJZIxSzx
+PqGl0mkxImLNbGWoi6Lto0LYxqHN2iQtzlwTVmq9733zd3XfcXrZ3+LblHAgEt5G
+TfNxEKJ8soPLyWmwDH6HWCnjZ/aIQRBTIQ05uVeEoYxSh6wOai7ss/KveoSNBbYz
+gbdzoqI2Y8cgH2nbfgp3DSasaLZEdCSsIsK1u05CinE7k2qZ7KgKAUIcT/cR/grk
+C6VwsnDU0OUCideXcQ8WeHutqvgZH1JgKDbznoIzeQHJD238GEu+eKhRHcz8/jeG
+94zkcgJOz3KbZGYMiTh277Fvj9zzvZsbMBCedV1BTg3TqgvdX4bdkhf5cH+7NtWO
+lrFj6UwAsGukBTAOxC0l/dnSmZhJ7Z1KmEWilro/gOrjtOxqRQutlIqG22TaqoPG
+fYVN+en3Zwbt97kcgZDwqbuykNt64oZWc4XKCa3mprEGC3IbJTBFqglXmZ7l9ywG
+EEUJYOlb2XrSuPWml39beWdKM8kzr1OjnlOm6+lpTRCBfo0wa9F8YZRhHPAkwKkX
+XDeOGpWRj4ohOx0d2GWkyV5xyN14p2tQOCdOODmz80yUTgRpPVQUtOEhXQARAQAB
+tCFBV1MgQ0xJIFRlYW0gPGF3cy1jbGlAYW1hem9uLmNvbT6JAlQEEwEIAD4CGwMF
+CwkIBwIGFQoJCAsCBBYCAwECHgECF4AWIQT7Xbd/1cEYuAURraimMQrMRnJHXAUC
+aGveYQUJDMpiLAAKCRCmMQrMRnJHXKBYD/9Ab0qQdGiO5hObchG8xh8Rpb4Mjyf6
+0JrVo6m8GNjNj6BHkSc8fuTQJ/FaEhaQxj3pjZ3GXPrXjIIVChmICLlFuRXYzrXc
+Pw0lniybypsZEVai5kO0tCNBCCFuMN9RsmmRG8mf7lC4FSTbUDmxG/QlYK+0IV/l
+uJkzxWa+rySkdpm0JdqumjegNRgObdXHAQDWlubWQHWyZyIQ2B4U7AxqSpcdJp6I
+S4Zds4wVLd1WE5pquYQ8vS2cNlDm4QNg8wTj58e3lKN47hXHMIb6CHxRnb947oJa
+pg189LLPR5koh+EorNkA1wu5mAJtJvy5YMsppy2y/kIjp3lyY6AmPT1posgGk70Z
+CmToEZ5rbd7ARExtlh76A0cabMDFlEHDIK8RNUOSRr7L64+KxOUegKBfQHb9dADY
+qqiKqpCbKgvtWlds909Ms74JBgr2KwZCSY1HaOxnIr4CY43QRqAq5YHOay/mU+6w
+hhmdF18vpyK0vfkvvGresWtSXbag7Hkt3XjaEw76BzxQH21EBDqU8WJVjHgU6ru+
+DJTs+SxgJbaT3hb/vyjlw0lK+hFfhWKRwgOXH8vqducF95NRSUxtS4fpqxWVaw3Q
+V2OWSjbne99A5EPEySzryFTKbMGwaTlAwMCwYevt4YT6eb7NmFhTx0Fis4TalUs+
+j+c7Kg92pDx2uQ==
+=OBAt
+-----END PGP PUBLIC KEY BLOCK-----
+EOF
+gpg --import /awscliv2/gpg.txt
+curl -o awscliv2.sig https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip.sig
+gpg --verify awscliv2.sig awscliv2.zip
+unzip -u awscliv2.zip
+sudo ./aws/install
+aws --version
 
 # Oracle Cloud CLI
 sudo yum install -y oracle-cloud-cli
@@ -222,18 +287,12 @@ oci data-flow application list --help
 # Install OCI CLI Data Integration plugin
 oci data-integration workspace list --help
 
-# GCLI
-sudo tee -a /etc/yum.repos.d/google-cloud-sdk.repo << EOM
-[google-cloud-cli]
-name=Google Cloud CLI
-baseurl=https://packages.cloud.google.com/yum/repos/cloud-sdk-el9-x86_64
-enabled=1
-gpgcheck=1
-repo_gpgcheck=0
-gpgkey=https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
-EOM
-sudo yum install -y google-cloud-cli
-gcloud init
+# Open new terminal to see if it exits sudo 
+echo "Sign up for ULN"
+gnome-terminal -- -c browser run "https://linux.oracle.com/ords/f?p=101:30" + "https://docs.oracle.com/en/operating-systems/oracle-linux/9/"    # Open in new tab
+# If you have a ULN account, you can use the following command to register your system:
+# sudo uln_register --username <your-username> --password <your-password>
+# If previous code de-escalates sudo, ctr+f "Launch browser portals" in this file to use the browser run command
 
 # Launch Browser Portals
 podman pull docker.io/coretinth/it-tools:latest
@@ -241,10 +300,5 @@ podman run -d -p 8080:80 --name it-tools -it docker.io/corentinth/it-tools
 systemctl enable --now grafana-server.service
 # Ifconfig command to get the IP address and print if using a linux subsystem, SVR/VM w/o GUI, or SSH 
 echo "Browser: localhost:9090 localhost:8080"
-
-# Azure CLI
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-
-# Reference other scripts for additional setup
 
 

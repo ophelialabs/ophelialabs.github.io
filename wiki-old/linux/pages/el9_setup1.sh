@@ -172,6 +172,9 @@ case $choice in
     ;;
 esac
 
+## Setup CLIs so that it is not dependant upon architecture, os, or version (WSL-->Mac)
+## Azure, GCP, AWS, IBM, OCI
+
 # Azure CLI
 # Get RHEL/CentOS major version Parse os-release is an option
 # Combine with uname -m to get architecture and version, add winget and brew
@@ -244,8 +247,12 @@ unzip -u awscliv2.zip
 sudo ./aws/install
 aws --version
 
+# IBM CLI
+curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
+
 # Oracle Cloud CLI
-sudo yum install -y oracle-cloud-cli
+sudo dnf -y install oraclelinux-developer-release-el9
+sudo dnf install python39-oci-cli
 # Initialize Oracle Cloud CLI
 oci setup config
 # Install Oracle Cloud CLI plugins

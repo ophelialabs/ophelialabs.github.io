@@ -294,6 +294,34 @@ oci data-flow application list --help
 # Install OCI CLI Data Integration plugin
 oci data-integration workspace list --help
 
+# Jenkins
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo yum upgrade
+# Add required dependencies for the jenkins package
+sudo yum install fontconfig java-21-openjdk
+sudo yum install jenkins
+sudo systemctl daemon-reload
+sudo systemctl enable jenkins
+
+# Add Jenkins as an exception
+YOURPORT=8080
+PERM="--permanent"
+SERV="$PERM --service=jenkins"
+
+firewall-cmd $PERM --new-service=jenkins
+firewall-cmd $SERV --set-short="Jenkins ports"
+firewall-cmd $SERV --set-description="Jenkins port exceptions"
+firewall-cmd $SERV --add-port=$YOURPORT/tcp
+firewall-cmd $PERM --add-service=jenkins
+firewall-cmd --zone=public --add-service=http --permanent
+firewall-cmd --reload
+
+# After downloading, installing, and running, post-install wizard begins
+gnome-terminal -- c sudo systemctl start jenkins
+echo "use this password to sign in to Jenkins"
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
 # Open new terminal to see if it exits sudo 
 echo "Sign up for ULN"
 gnome-terminal -- -c browser run "https://linux.oracle.com/ords/f?p=101:30" + "https://docs.oracle.com/en/operating-systems/oracle-linux/9/"    # Open in new tab
@@ -302,8 +330,6 @@ gnome-terminal -- -c browser run "https://linux.oracle.com/ords/f?p=101:30" + "h
 # If previous code de-escalates sudo, ctr+f "Launch browser portals" in this file to use the browser run command
 
 # Launch Browser Portals
-podman pull docker.io/coretinth/it-tools:latest
-podman run -d -p 8080:80 --name it-tools -it docker.io/corentinth/it-tools
 systemctl enable --now grafana-server.service
 # Ifconfig command to get the IP address and print if using a linux subsystem, SVR/VM w/o GUI, or SSH 
 echo "Browser: localhost:9090 localhost:8080"

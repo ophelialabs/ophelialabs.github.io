@@ -1,4 +1,6 @@
-# Before We Begin
+# Update; combine all files in directory and link the sections
+
+## Before We Begin
 
 - Tools and features do not need to be installed on the same server for communication.
 - **Personal Preferences**:

@@ -146,7 +146,7 @@ echo "$(go version)"
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\nautorefresh=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
 
-# Prompt the user to choose between VS Code and VS Code Insiders
+# Prompt the user to choose between VS Code, VS Code Insiders, IntelliJ
 echo "Choose the IDEs to install:"
 echo "1) Visual Studio Code (Stable)"
 echo "2) Visual Studio Code Insiders"

@@ -1,245 +1,283 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enterprise Roadmap - Complete Guide</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 1200px; margin: 0 auto; padding: 20px; color: #333; }
-        h2 { color: #0066cc; border-bottom: 2px solid #0066cc; padding-bottom: 10px; margin-top: 30px; }
-        h3 { color: #004499; margin-top: 20px; }
-        h4 { color: #006633; margin-top: 15px; }
-        ul, ol { margin: 10px 0 10px 20px; }
-        li { margin: 8px 0; }
-        a { color: #0066cc; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .phase { background: #f5f5f5; padding: 15px; margin: 15px 0; border-left: 4px solid #0066cc; border-radius: 5px; }
-        .misconception { background: #fff3cd; padding: 15px; margin: 10px 0; border-left: 4px solid #ffc107; border-radius: 5px; }
-        .section-intro { font-style: italic; color: #666; margin-bottom: 15px; }
-        code { background: #f0f0f0; padding: 2px 6px; border-radius: 3px; font-family: 'Courier New', monospace; }
-        strong { color: #004499; }
-    </style>
-</head>
-<body>
+<h1>Enterprise Architecture Pipeline Deployment Strategies</h1>
 
-    <h1>Enterprise Roadmap: Complete Implementation Guide</h1>
-
-    <h2>Section 1: Step-by-Step Process for Setting Up an Enterprise Roadmap</h2>
-    <p class="section-intro">This roadmap assumes a hybrid cloud enterprise environment integrating Azure (Microsoft 365/Entra ID), Google Cloud Platform (GCP), and Apple services. The process prioritizes identity management, security, and compliance, starting with email and account creation as the foundation for unified access. It spans planning, setup, integration, and governance phases. <strong>Estimated timeline: 4-8 weeks</strong> for a small-to-medium organization (50-500 users), depending on existing infrastructure.</p>
-
-    <div class="phase">
-        <h3>Phase 1: Planning and Assessment (1-2 Weeks)</h3>
-        <ul>
-            <li><strong>Assess Current Environment:</strong> Inventory existing email systems, user directories, and cloud usage. Identify compliance needs (e.g., GDPR, HIPAA) and data residency requirements.</li>
-            <li><strong>Define User Roles and Access Levels:</strong> Categorize users (e.g., employees, contractors, external partners). Decide on separation of concerns (e.g., Azure for internal productivity, GCP for compute/storage, Apple for device management).</li>
-            <li><strong>Choose Primary Identity Provider:</strong> Select Azure Entra ID as the central IAM hub for RBAC, with federated access to GCP and Apple.</li>
-            <li><strong>Budget and Procurement:</strong> Acquire Azure subscriptions, GCP credits, Apple Business Manager licenses, and third-party tools (e.g., migration tools like <a href="https://mover.io">BitTitan/Microsoft Mover</a>).</li>
-        </ul>
-    </div>
-
-    <div class="phase">
-        <h3>Phase 2: Email and Account Creation (1-2 Weeks)</h3>
-
-        <h4>Set Up Azure Tenant and Entra ID</h4>
-        <ul>
-            <li>Create an Azure tenant via <a href="https://portal.azure.com">portal.azure.com</a></li>
-            <li>Configure custom domain (e.g., @company.com) and verify ownership</li>
-            <li>Enable Microsoft 365 for email (Exchange Online) and create initial admin accounts</li>
-            <li>Set up multi-factor authentication (MFA) and conditional access policies</li>
-        </ul>
-
-        <h4>Create GCP Accounts</h4>
-        <ul>
-            <li>Sign up for GCP via <a href="https://console.cloud.google.com">console.cloud.google.com</a></li>
-            <li>Set up a GCP organization and projects</li>
-            <li>Create Workspace (formerly G Suite) for email (Gmail) with the same domain</li>
-            <li>Enable domain verification and SSO via SAML (federate with Entra ID later)</li>
-        </ul>
-
-        <h4>Set Up Apple Accounts</h4>
-        <ul>
-            <li>Enroll in <a href="https://business.apple.com">Apple Business Manager</a></li>
-            <li>Create managed Apple IDs for users</li>
-            <li>Configure Apple School Manager if applicable for education sectors</li>
-        </ul>
-
-        <h4>Migrate or Create User Accounts</h4>
-        <ul>
-            <li>Use Azure AD Connect for on-premises AD sync, or bulk import via CSV</li>
-            <li>Create email aliases or forwarding rules for unified access (e.g., user@company.com forwards to GCP Gmail if needed)</li>
-            <li>Assign licenses: Microsoft 365 E3/E5 for Azure, Google Workspace Business for GCP, Apple device licenses</li>
-        </ul>
-    </div>
-
-    <div class="phase">
-        <h3>Phase 3: Integration and Security Setup (2-4 Weeks)</h3>
-        <ul>
-            <li><strong>Integrate Identities:</strong> Federate GCP and Apple with Entra ID using SAML/OAuth (see Section 2 for details)</li>
-            <li><strong>Configure Storage and Collaboration Tools:</strong> Set up OneDrive, Google Drive, Dropbox, and SharePoint (see Section 3 for details)</li>
-            <li><strong>Implement Security Policies:</strong> Enable data loss prevention (DLP), encryption, and audit logging across platforms</li>
-            <li><strong>Test Access:</strong> Pilot with a small user group; validate SSO, email routing, and device enrollment</li>
-        </ul>
-    </div>
-
-    <div class="phase">
-        <h3>Phase 4: Rollout, Training, and Governance (1-2 Weeks)</h3>
-        <ul>
-            <li><strong>Full Rollout:</strong> Migrate remaining users; use phased deployment to minimize disruption</li>
-            <li><strong>User Training:</strong> Provide guides on accessing emails across platforms (e.g., via Outlook, Gmail app)</li>
-            <li><strong>Monitoring and Compliance:</strong> Set up Azure Monitor, GCP Cloud Logging, and Apple device management dashboards</li>
-            <li><strong>Ongoing Management:</strong> Establish change management for new hires/terminations; schedule quarterly audits</li>
-        </ul>
-    </div>
-
-    <h3>Key Tools and Best Practices</h3>
+<!-- Development Pipeline Section -->
+<div class="section">
+    <h2>Development Pipeline</h2>
     <ul>
-        <li>Use Azure AD Premium for advanced features</li>
-        <li>Automate with PowerShell/Azure CLI for GCP</li>
-        <li>Ensure zero-trust principles: least privilege, continuous verification</li>
-        <li>Document everything in a central wiki (e.g., SharePoint site)</li>
+        <li>Linear path for creating individual applications and programs with containerization for deployment</li>
+        <li>Multi-Platform Development & Container Orchestration Framework</li>
+        <li>Main focus for me is <strong>NOT</strong> front-end development:</li>
+        <li><a href="#pipeline2">Setup</a>Account</li>
+        <li>Do <strong>Not</strong> limit yourself to one company. Learn from what they have <a href="https://www.nyse.com/quote/XNYS:TGT" target="_blank" rel="noopener noreferrer">NYSE</a>
+        <li>Think Legos / Building Blocks / TETRIS!</li>
+        <li>Truth be told: Power Automate, and Power Pages....I want you</li>
+        <li>ServiceNow: Request access to Atlassian(Jira/Confluence), How can you benefit company?</li>
+        <li><a href="https://dp.ucsf.edu/idp/" target="_blank" rel="noopener noreferrer">MyAccess</a> (Entra ID)</li>
     </ul>
+</div>
 
-    <h2>Section 2: IAM Explanations and Integration with Entra ID for RBAC</h2>
-
-    <h3>Azure Entra ID IAM</h3>
-    <p>Azure Entra ID (formerly Azure AD) is Microsoft's cloud-based IAM service, providing centralized authentication and authorization. It supports:</p>
-    <ul>
-        <li><strong>Principals:</strong> Users (human), groups, service principals (apps/workloads), and managed identities</li>
-        <li><strong>Permissions and Roles:</strong> Permissions are granular (e.g., read/write on resources). Roles bundle permissions (e.g., User Administrator, Global Reader). Use built-in roles or custom ones</li>
-        <li><strong>RBAC:</strong> Role-Based Access Control assigns roles to principals at scopes (tenant, subscription, resource group). Policies enforce conditions (e.g., time-based access)</li>
-        <li><strong>Integration:</strong> Supports SSO via SAML/OAuth, federation with external IdPs, and conditional access (e.g., MFA, device compliance)</li>
-        <li><strong>Benefits:</strong> Unified identity across Microsoft 365, Azure, and third parties; scalable for enterprises</li>
-    </ul>
-
-    <h3>GCP IAM</h3>
-    <p>GCP's IAM manages access to resources via:</p>
-    <ul>
-        <li><strong>Principals:</strong> Google Accounts, service accounts, groups, and federated identities</li>
-        <li><strong>Permissions and Roles:</strong> Permissions are actions (e.g., storage.objects.get). Roles are predefined (e.g., Storage Admin), custom, or basic (Owner/Editor/Viewer)</li>
-        <li><strong>RBAC:</strong> Roles granted via allow policies attached to resources. Policies inherit hierarchically (organization > folder > project > resource)</li>
-        <li><strong>Advanced Features:</strong> Conditions for attribute-based access, deny policies, and privileged access management</li>
-        <li><strong>Benefits:</strong> Fine-grained control for cloud-native apps; integrates with Google Workspace for productivity</li>
-    </ul>
-
-    <h3>Apple IAM (Sign in with Apple and Device Management)</h3>
-    <p>Apple lacks a traditional IAM system like Azure/GCP; instead, it focuses on authentication and device management:</p>
-    <ul>
-        <li><strong>Principals:</strong> Apple IDs (personal or managed via Apple Business Manager)</li>
-        <li><strong>Permissions and Roles:</strong> Not role-based; access is app-specific (e.g., via Sign in with Apple for OAuth-based auth). Device management uses profiles for restrictions</li>
-        <li><strong>RBAC Equivalent:</strong> Managed Apple IDs allow org-controlled access; no granular RBAC, but integrates with MDM for policies</li>
-        <li><strong>Benefits:</strong> Privacy-focused auth (e.g., private relay emails); seamless for Apple ecosystems</li>
-    </ul>
-
-    <h3>Separation and Integration with Entra ID for RBAC</h3>
-    <ul>
-        <li><strong>Separation:</strong> Keep Azure as the central hub for internal users (RBAC via Entra ID roles). GCP for compute/storage workloads (IAM roles scoped to projects). Apple for device auth (federated but separate from core RBAC)</li>
-        <li><strong>Integration:</strong> Use Entra ID as the identity broker:
+<div class="section">
+    <h2>**Pit Stop**</h2>
+    <p>*Currently planning page naming convention for easier navigation, folder heirarchy and over-all project structure and future path implementations*</p>
+    <p>Start with creating a <a href="https://github.com/ophelialabs/ophelialabs.github.io/tree/main/public/VisualAids/RoadMap" target="_blank" rel="noopener noreferrer">shared directory</a> [WSL/VM(note: VMs have higher overhead)]</p>
+    <p><a href="https://docs.copilotkit.ai/microsoft-agent-framework/quickstart#start-your-microsoft-agent-framework-agent" target="_blank" rel="noopener noreferrer">CopilotKit</a> is a good place to start (React frontend)</p>
+    <p>Learn <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">Styles</a>, Components, JavaScript functions, <a href="https://github.com/ophelialabs/ophelialabs.github.io/tree/main/public/VisualAids/views-routes-bp" target="_blank" rel="noopener noreferrer">Routes/Views/Blueprints</a> and creating a Theme Manager</p>
+    <p>Styles note: @media screen settings for components can give mobile a completely different view, and can effectively hide a component/element completely so plan ahead</p>
+    <p>Apply the same steps for creating a UI with Python/Flask, and <a href="https://github.com/ophelialabs/JavaUI/" target="_blank" rel="noopener noreferrer">Java</a>. Note heirarchy structures and syntax differences.</p>
+    <p>Then <a href="https://www.freecodecamp.org/news/what-are-dtos-java/" target="_blank" rel="noopener noreferrer">DTOs</a>/<a href="https://medium.com/@pratheekastro3/phase-1-module-5-getting-real-apis-json-and-dtos-771b6d00e52f" target="_blank" rel="noopener noreferrer">APIs</a>, Databases and Active Directory(packages)</p>
+</div>
+    
+<div class="section">
+    <div class="platform-grid">
+        <div class="platform-card">
+            <h3>Qwik Tools</h3>
             <ul>
-                <li><strong>Federate GCP:</strong> Configure SAML in GCP Workspace; users sign in via Entra ID, inheriting RBAC roles (e.g., GCP Storage Viewer mapped to Entra ID groups)</li>
-                <li><strong>Federate Apple:</strong> Use Sign in with Apple as an external IdP in Entra ID External ID; map to Entra ID roles for conditional access (e.g., Apple users get limited access via RBAC policies)</li>
-                <li><strong>Unified RBAC:</strong> Assign Entra ID roles that propagate to GCP/Apple (e.g., "External Contractor" role grants GCP read-only and Apple device enrollment)</li>
+                <li><a href="https://landscape.cncf.io" target="_blank" rel="noopener noreffer">CNCF</a></li>
+                <li><a href="https://it-tools.tech" target="_blank" rel="noopener noreferrer">IT Tools</a></li>
+                <li><a href="https://jupyter.org/" target="_blank" rel="noopener noreferrer">Jupyter</a></li>
             </ul>
-        </li>
-        <li><strong>Benefits:</strong> Single pane for access management; reduces silos. <strong>Drawbacks:</strong> Complexity in mapping roles; potential latency in federation</li>
-    </ul>
+        </div> 
 
-    <h2>Section 3: Integrating Google Drive, Dropbox with OneDrive</h2>
+        <!-- Linux Platform -->
+        <div class="platform-card">
+            <h3>🐧 Linux</h3>
+            <ul>
+                <li>Enterprise Linux</li>
+                <li>OCI/IBM Integration</li>
+                <li>AWS Setup</li>
+                <li>Azure Setup</li>
+                <li>GCP Setup</li>
+            </ul>
+        </div>
 
-    <h3>Detailed Instructions</h3>
+        <!-- Database Platform -->
+        <div class="platform-card">
+            <h3>🗄️ Database</h3>
+            <ul>
+                <li>PostgreSQL</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Redis</li>
+                <li>Elasticsearch</li>
+            </ul>
+        </div>
 
-    <h4>Integrate Google Drive with OneDrive</h4>
-    <ul>
-        <li>Use <a href="https://mover.io">Microsoft Mover</a> or Zapier for migration/sync</li>
-        <li><strong>Steps:</strong> Authenticate both accounts; select folders to sync; set bidirectional sync (changes in one reflect in the other)</li>
-        <li><strong>API-based approach:</strong> Use Google Drive API and Microsoft Graph API. Grant OAuth permissions; write a script (e.g., Python with google-api-python-client and msgraph-sdk) to sync files</li>
-    </ul>
+        <!-- Java Platform -->
+        <div class="platform-card">
+            <h3>☕ Java</h3>
+            <ul>
+                <li>Spring Initializr</li>
+                <li>Spring Boot</li>
+                <li>J2EE Architecture</li>
+                <li>Maven/Gradle</li>
+                <li>Microservices</li>
+            </ul>
+        </div>
 
-    <h4>Integrate Dropbox with OneDrive</h4>
-    <ul>
-        <li>Use Dropbox's migration tool or third-party like Mover</li>
-        <li><strong>Steps:</strong> Link accounts; choose sync direction; enable real-time updates</li>
-        <li><strong>API:</strong> Dropbox API and OneDrive API; authenticate via OAuth; sync via webhooks or scheduled jobs</li>
-    </ul>
+        <!-- .NET Platform -->
+        <div class="platform-card">
+            <h3>.NET</h3>
+            <ul>
+                <li>Aspire Framework</li>
+                <li>C# Language</li>
+                <li>Blazor UI</li>
+                <li>Entity Framework</li>
+                <li>ASP.NET Core</li>
+            </ul>
+        </div>
 
-    <h3>Data Storage and Benefits of Separation</h3>
+        <!-- Python Platform -->
+        <div class="platform-card">
+            <h3>🐍 Python</h3>
+            <ul>
+                <li>Flask Framework</li>
+                <li>Django Web Framework</li>
+                <li>HTML Templates</li>
+                <li>Data Processing</li>
+                <li>API Development</li>
+            </ul>
+        </div>
 
-    <h4>Where to Store What</h4>
-    <ul>
-        <li><strong>Sensitive/Internal Data:</strong> OneDrive/SharePoint (Azure) – encrypted, compliant with Microsoft security standards</li>
-        <li><strong>Compute-Related Data:</strong> Google Drive (GCP) – for AI/ML datasets or big data</li>
-        <li><strong>Collaborative/External Sharing:</strong> Dropbox – easy sharing with non-employees</li>
-        <li><strong>Archival/Long-Term:</strong> Separate buckets (e.g., GCP Cloud Storage for cold data)</li>
-    </ul>
+        <!-- Rust Platform -->
+        <div class="platform-card">
+            <h3>🦀 Rust</h3>
+            <ul>
+                <li>Cargo Package Manager</li>
+                <li>TOML Configuration</li>
+                <li>Memory Safety</li>
+                <li>High Performance</li>
+                <li>Concurrent Systems</li>
+            </ul>
+        </div>
 
-    <h4>Benefits of Separation</h4>
-    <ul>
-        <li><strong>Security:</strong> Isolation prevents breaches from affecting all data (e.g., GCP compromise doesn't expose Azure files)</li>
-        <li><strong>Compliance:</strong> Data residency (e.g., EU data in Azure EU regions)</li>
-        <li><strong>Performance:</strong> Tailor to use cases (e.g., Google Drive for real-time collab, OneDrive for Office integration)</li>
-        <li><strong>Cost:</strong> Optimize per provider (e.g., GCP for storage, Azure for productivity)</li>
-    </ul>
+        <!-- CMake Platform -->
+        <div class="platform-card">
+            <h3>⚙️ CMake</h3>
+            <ul>
+                <li>Build System</li>
+                <li>Cross-Platform</li>
+                <li>C/C++ Support</li>
+                <li>Multi-Configuration</li>
+                <li>Complex Projects</li>
+            </ul>
+        </div>
 
-    <h2>Section 4: Tying Everything with SharePoint and Separation of Azure/GCP</h2>
+        <!-- ROS Platform -->
+        <div class="platform-card">
+            <h3>🤖 ROS</h3>
+            <ul>
+                <li>ROS 2 Framework</li>
+                <li>Robotics Systems</li>
+                <li>DRAKE Simulation</li>
+                <li>Middleware</li>
+                <li>Distributed Computing</li>
+            </ul>
+        </div>
 
-    <h3>Integration with SharePoint</h3>
-    <ul>
-        <li><strong>Central Hub:</strong> SharePoint Online (part of Microsoft 365) serves as the central hub: Embed OneDrive files, link to Google Drive/Dropbox via web parts or APIs</li>
-        <li><strong>Unified Data:</strong> Use Microsoft Graph API to pull data from all sources into SharePoint sites (e.g., unified document libraries)</li>
-        <li><strong>Access Control:</strong> Enable SSO via Entra ID; apply RBAC at the site level (e.g., external users via federated access)</li>
-        <li><strong>Benefits:</strong> Single portal for collaboration; integrates with Teams for chat/files</li>
-    </ul>
-
-    <h3>Keeping Azure and GCP Separate</h3>
-    <p>Separation is beneficial for large enterprises to avoid vendor lock-in, comply with regulations (e.g., data sovereignty), and optimize costs. Use Entra ID federation for unified access without merging infrastructures. Separation allows GCP for innovation (e.g., AI) and Azure for legacy (e.g., Windows workloads).</p>
-    <p><strong>Drawbacks:</strong> Increased complexity; monitor for integration gaps.</p>
-
-    <h2>Section 5: Separating Company Users Under Azure Tenant Globally and by Region</h2>
-
-    <h3>Global Separation</h3>
-    <ul>
-        <li><strong>Use Entra ID Groups:</strong> Create groups like "Global Admins", "Employees", "Contractors"</li>
-        <li><strong>Assign Roles:</strong> Assign roles at tenant level; use administrative units for delegation</li>
-    </ul>
-
-    <h3>By Region (e.g., NA, NA-NE, NA-SW)</h3>
-    <ul>
-        <li><strong>Create Regional Groups:</strong> Create groups like "NA-Users"</li>
-        <li><strong>Dynamic Groups:</strong> Use Azure AD Premium features: Dynamic groups based on location attributes</li>
-        <li><strong>Assign Region-Specific Roles:</strong> NA-SW users get access to US-West Azure resources</li>
-        <li><strong>Implementation Steps:</strong> In Azure portal > Entra ID > Groups > Create group; set membership rules (e.g., <code>user.city -eq "New York"</code>)</li>
-    </ul>
-
-    <h2>Section 6: Correcting Misconceptions</h2>
-
-    <div class="misconception">
-        <strong>Misconception:</strong> Apple has full RBAC like Azure/GCP.<br>
-        <strong>Reality:</strong> Apple focuses on auth/device management; RBAC is limited to MDM profiles.
+        <!-- Quantum Platform -->
+        <div class="platform-card">
+            <h3>⚛️ Q#</h3>
+            <ul>
+                <li><a href="#qsharp">QSharp</a></li> 
+                <li>Quantum Computing</li>
+                <li>AI Integration</li>
+                <li>Job Submission</li>
+                <li>QIR Code Preparation</li>
+            </ul>
+        </div>
     </div>
+</div>
 
-    <div class="misconception">
-        <strong>Misconception:</strong> Full integration means merging all data into one provider.<br>
-        <strong>Reality:</strong> Separation enhances security; use APIs for loose coupling.
+
+<!-- Individual Backend Architecture -->
+<div class="section">
+    <h2>Individual Backend Setup Architecture</h2>
+    <img src="public/Gemini_Generated_Image_individualbackend.png" alt="Individual Backend Setup Architecture" width="100%" height="auto">
+    <div class="mermaid">
+graph TD
+    A["Application Development"] --> B["Backend Framework Selection"]
+    B --> C1["Java<br/>Spring Framework"]
+    B --> C2["Python<br/>Flask/Django"]
+    B --> C3[".NET/Aspire<br/>C#/Blazor"]
+    B --> C4["Rust<br/>Cargo"]
+    C1 --> D["Build & Package"]
+    C2 --> D
+    C3 --> D
+    C4 --> D
+    D --> E["Containerization<br/>Docker"]
+    E --> F["Container Registry<br/>Docker/JFrog/OCR"]
+    F --> G["Container Orchestration<br/>Kubernetes"]
+    G --> H["Enterprise Deployment"]
     </div>
+</div>
 
-    <div class="misconception">
-        <strong>Misconception:</strong> Entra ID federation eliminates need for provider-specific IAM.<br>
-        <strong>Reality:</strong> Each provider retains its IAM; federation maps identities but doesn't override local roles.
+<!-- Container & Registry Architecture -->
+<div class="section">
+    <h2>Container & Registry Architecture</h2>
+    <div class="mermaid">
+graph LR
+    A["Application Code"] --> B["Build"]
+    B --> C["Container Image<br/>Docker"]
+    C --> D["Container Registries"]
+    D --> E1["Docker Hub"]
+    D --> E2["JFrog Artifactory"]
+    D --> E3["OCR Registry"]
+    E1 --> F["Kubernetes Cluster"]
+    E2 --> F
+    E3 --> F
+    F --> G1["Pod 1"]
+    F --> G2["Pod 2"]
+    F --> G3["Pod N"]
+    G1 --> H["Load Balancer"]
+    G2 --> H
+    G3 --> H
+    H --> I["Enterprise Services"]
     </div>
+</div>
 
-    <div class="misconception">
-        <strong>Misconception:</strong> Email creation is trivial.<br>
-        <strong>Reality:</strong> Domain verification, SPF/DKIM setup, and migration require careful planning to avoid downtime.
+<!-- Kubernetes Deployment Strategy -->
+<div class="section">
+    <h2>Kubernetes Deployment Strategy</h2>
+    <div class="mermaid">
+graph TB
+    A["Container Registry"] --> B["Kubernetes Cluster"]
+    B --> C["Namespace Management"]
+    C --> C1["Production"]
+    C --> C2["Staging"]
+    C --> C3["Development"]
+    C1 --> D["Pod Orchestration"]
+    D --> D1["Resource Allocation"]
+    D --> D2["Service Discovery"]
+    D --> D3["Load Balancing"]
+    D1 --> E["Port Management<br/>Minimize Exhaustion"]
+    D2 --> E
+    D3 --> E
+    E --> F["Enterprise Deployment"]
     </div>
+</div>
 
-    <div class="misconception">
-        <strong>Misconception:</strong> GCP/Apple can fully replace Azure for enterprise IAM.<br>
-        <strong>Reality:</strong> Azure Entra ID is superior for unified RBAC across Microsoft ecosystems; use others for specific needs.
+<!-- Unified Enterprise Deployment -->
+<div class="section">
+    <h2>Unified Enterprise Deployment Architecture</h2>
+    <img src="public/Gemini_Generated_Image_Unified.png" alt="Unified Enterprise Deployment Architecture" width="100%" height="auto">
+    <div class="mermaid">
+graph TB
+    subgraph "Development Layer"
+        A1["Java/Spring"]
+        A2["Python/Flask"]
+        A3[".NET/Aspire"]
+        A4["Rust/Cargo"]
+    end
+    
+    subgraph "Build & Container Layer"
+        B1["Build System<br/>Maven/Gradle/CMake"]
+        B2["Containerization<br/>Docker"]
+    end
+    
+    subgraph "Registry Layer"
+        C1["Docker Hub"]
+        C2["JFrog"]
+        C3["OCR"]
+    end
+    
+    subgraph "Cloud Providers"
+        D1["AWS"]
+        D2["Azure"]
+        D3["GCP"]
+        D4["OCI"]
+    end
+    
+    subgraph "Orchestration Layer"
+        E1["Kubernetes"]
+        E2["Service Mesh"]
+        E3["Config Management"]
+    end
+    
+    subgraph "Specialized Domains"
+        F1["ROS 2<br/>Robotics"]
+        F2["Quantum Q#<br/>AI Integration"]
+    end
+    
+    A1 --> B1
+    A2 --> B1
+    A3 --> B1
+    A4 --> B1
+    B1 --> B2
+    B2 --> C1
+    B2 --> C2
+    B2 --> C3
+    C1 --> D1
+    C1 --> D2
+    C2 --> D3
+    C3 --> D4
+    D1 --> E1
+    D2 --> E1
+    D3 --> E1
+    D4 --> E1
+    E1 --> E2
+    E2 --> E3
+    E3 --> F1
+    E3 --> F2
     </div>
-
-    <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ccc; color: #666;">
-        <p><small>For implementation support and detailed technical documentation, refer to the official vendor guides: <a href="https://docs.microsoft.com/en-us/azure/">Azure Docs</a>, <a href="https://cloud.google.com/docs">GCP Docs</a>, and <a href="https://support.apple.com/business">Apple Business Support</a>.</small></p>
-    </footer>
-
-</body>
-</html>
-
+</div>
+            

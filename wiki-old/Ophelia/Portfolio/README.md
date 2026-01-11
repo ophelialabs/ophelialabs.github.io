@@ -18,7 +18,7 @@ Following the Challenger shuttle disaster in 1986, President Reagan announced th
 
 ## Taurus
 
- - [Microcosm](https://smad.com/mission-engineering/)
+ - [Microcosm](https://smad.com/mission-engineering/) (NOT to be confused with microcombs! ha)
  - [Design for a Low-Cost K-Band Communication Satellite Constellation](https://apps.dtic.mil/sti/pdfs/AD1114445.pdf)
  - [Workflows, User Interfaces, and Algorithms for Operations of Autonomous Spacecraft](https://ai.jpl.nasa.gov/public/documents/papers/rossi-vaquero-et-al-IEEE2023.pdf)
  - [Autonomous Management and Control of Multi-Spacecraft Operations Leveraging Atmospheric Forces](https://hanspeterschaub.info/Papers/grads/AndrewHarris.pdf)

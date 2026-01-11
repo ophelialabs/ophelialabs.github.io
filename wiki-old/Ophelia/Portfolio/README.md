@@ -1,6 +1,6 @@
 # Prominent U.S. Launch Vehicles
 **Curate an updated list**
-**Cite: https://ocw.mit.edu/courses/16-851-satellite-engineering-fall-2003/pages/projects/
+ - Cite: [MIT](https://ocw.mit.edu/courses/16-851-satellite-engineering-fall-2003/pages/projects/)
 
  - [Home](https://github.com/ophelialabs/ophelialabs.github.io/tree/main/wiki-old/Ophelia/Portfolio)
  - [Objectve-C](https://en.wikipedia.org/wiki/Objective-C#Dynamic_typing)

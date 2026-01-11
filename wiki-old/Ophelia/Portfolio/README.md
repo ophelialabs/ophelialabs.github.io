@@ -1,5 +1,5 @@
 # Prominent U.S. Launch Vehicles
-**Curate an updated list**
+**Some information may be outdated, but given the lifespan of a mission...**
  - Cite: [MIT](https://ocw.mit.edu/courses/16-851-satellite-engineering-fall-2003/pages/projects/)
  - [Objectve-C](https://en.wikipedia.org/wiki/Objective-C#Dynamic_typing)
 

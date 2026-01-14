@@ -1,0 +1,218 @@
+<div class="content-section">
+    <h1>🚀 Quantum Computing Research</h1>
+    <p class="lead">Enterprise-grade quantum computing framework integrating quantum algorithms, machine learning, and IoT edge computing with specialized implementations for medical imaging, robotics control, and advanced optimization.</p>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#capabilities">Capabilities</a></li>
+            <li><a href="#architecture">Architecture</a></li>
+            <li><a href="#quick-start">Quick Start</a></li>
+            <li><a href="#applications">Applications</a></li>
+        </ul>
+    </nav>
+
+    <!-- Project Overview -->
+    <section id="overview" class="section">
+        <h2>Project Overview</h2>
+        <p>This Quantum IoT platform provides a comprehensive suite of tools for:</p>
+        <ul>
+            <li><strong>Quantum Algorithm Implementation:</strong> Grover's search, Shor's factorization, Quantum Fourier Transform</li>
+            <li><strong>Hybrid Machine Learning:</strong> Quantum neural networks, quantum kernels, variational algorithms</li>
+            <li><strong>Optimization:</strong> QAOA and VQE implementations</li>
+            <li><strong>Specialized Applications:</strong> Medical diagnostics/imaging and robotics control</li>
+            <li><strong>Inference & Language Models:</strong> Quantum transformers with attention mechanisms</li>
+            <li><strong>Generative Models:</strong> QGAN and quantum autoencoders</li>
+        </ul>
+    </section>
+
+    <!-- Key Capabilities -->
+    <section id="capabilities" class="section">
+        <h2>Key Capabilities</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Component</th>
+                    <th>Purpose</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Core Algorithms</td>
+                    <td>Foundational quantum computing</td>
+                    <td><span class="badge success">Production-ready</span></td>
+                </tr>
+                <tr>
+                    <td>ML Integration</td>
+                    <td>Quantum-classical hybrid learning</td>
+                    <td><span class="badge warning">Beta</span></td>
+                </tr>
+                <tr>
+                    <td>Optimization</td>
+                    <td>QAOA/VQE implementations</td>
+                    <td><span class="badge warning">Beta</span></td>
+                </tr>
+                <tr>
+                    <td>Specialized Domains</td>
+                    <td>Medical & Robotics applications</td>
+                    <td><span class="badge info">Development</span></td>
+                </tr>
+                <tr>
+                    <td>LLM Integration</td>
+                    <td>Quantum inference pipelines</td>
+                    <td><span class="badge secondary">Experimental</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Architecture -->
+    <section id="architecture" class="section">
+        <h2>Architecture & System Design</h2>
+        
+        <h3>System Data Flow</h3>
+        <pre class="mermaid">
+graph LR
+    A["📥 Input Layer<br/>Data Sources<br/>Configuration"] 
+    B["⚛️ Quantum Core<br/>Algorithms & Optimization"]
+    C["🤖 ML Integration<br/>QNN, Kernels, Training"]
+    D["🎯 Applications<br/>Medical, Robotics, Opt"]
+    E["📤 Output Layer<br/>Results & Inference"]
+    
+    A --> B
+    A --> C
+    B --> C
+    C --> D
+    D --> E
+    
+    style A fill:#0d4d7a,stroke:#00bfff,color:#fff
+    style B fill:#0d7a0d,stroke:#00ff00,color:#fff
+    style C fill:#4d0d7a,stroke:#ff00ff,color:#fff
+    style D fill:#7a4d0d,stroke:#ffaa00,color:#fff
+    style E fill:#0d7a4d,stroke:#00ffaa,color:#fff
+        </pre>
+
+        <h3>Project Structure</h3>
+        <div class="grid-container">
+            <div class="card">
+                <h4>📁 Core Modules</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li>✓ <strong>Quantum/</strong> - Core algorithms (Grover, QFT, Shor)</li>
+                    <li>✓ <strong>Optimization/</strong> - QAOA, VQE implementations</li>
+                    <li>✓ <strong>Utils/</strong> - Custom gates & measurements</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h4>🤖 Machine Learning</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li>✓ <strong>QuantumNeuralNetworks/</strong> - QNN architectures</li>
+                    <li>✓ <strong>QuantumKernels/</strong> - Kernel methods</li>
+                    <li>✓ <strong>Training/</strong> - Optimization algorithms</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h4>🧠 Advanced Features</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li>✓ <strong>LLM/</strong> - Quantum transformers & inference</li>
+                    <li>✓ <strong>Specializations/</strong> - Medical & robotics domains</li>
+                    <li>✓ <strong>Classical/</strong> - Preprocessing/postprocessing</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h4>📚 Support Structure</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li>✓ <strong>Tests/</strong> - Automated test suites</li>
+                    <li>✓ <strong>Config/</strong> - Configuration files</li>
+                    <li>✓ <strong>Examples/</strong> - Sample implementations</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3>Component Interactions</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Module</th>
+                    <th>Purpose</th>
+                    <th>Key Components</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Quantum Core</strong></td>
+                    <td>Fundamental quantum operations</td>
+                    <td>Algorithms, Optimization, Utils</td>
+                </tr>
+                <tr>
+                    <td><strong>ML Pipeline</strong></td>
+                    <td>Hybrid quantum-classical ML</td>
+                    <td>QNN, Kernels, Classifiers, Training</td>
+                </tr>
+                <tr>
+                    <td><strong>LLM Integration</strong></td>
+                    <td>Language model quantum ops</td>
+                    <td>Quantum Transformers, Inference</td>
+                </tr>
+                <tr>
+                    <td><strong>Specializations</strong></td>
+                    <td>Domain-specific applications</td>
+                    <td>Medical Imaging, Robotics Control</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Quick Start -->
+    <section id="quick-start" class="section">
+        <h2>Quick Start</h2>
+        
+        <h3>Prerequisites</h3>
+        <ul>
+            <li>Q# SDK (latest version)</li>
+            <li>.NET 6.0 or higher</li>
+            <li>Azure Quantum account</li>
+            <li>Quantum Database Server</li>
+        </ul>
+
+        <h3>Setup</h3>
+        <pre><code># Clone and navigate to project
+cd qsharpIoT
+
+# Build the project
+dotnet build QuantumProject.csproj
+
+# Configure Quantum Database connection
+cp Config/quantum-db.json.template Config/quantum-db.json
+
+# Run tests
+dotnet test Tests/
+
+# Execute examples
+dotnet run -- Examples/GroverDemo.qs</code></pre>
+    </section>
+
+    <!-- Applications -->
+    <section id="applications" class="section">
+        <h2>Applications</h2>
+        <div class="grid-container">
+            <div class="card">
+                <h3>Medical Imaging</h3>
+                <p>Advanced quantum algorithms for enhanced diagnostic imaging, pattern recognition in medical data, and predictive health analytics using quantum-classical hybrid approaches.</p>
+            </div>
+            <div class="card">
+                <h3>Robotics Control</h3>
+                <p>Quantum-optimized control systems for complex robotic tasks, trajectory optimization, and real-time decision making using quantum advantage.</p>
+            </div>
+            <div class="card">
+                <h3>Optimization Problems</h3>
+                <p>Solving complex optimization challenges in logistics, finance, and resource allocation using QAOA and other quantum optimization algorithms.</p>
+            </div>
+            <div class="card">
+                <h3>Machine Learning</h3>
+                <p>Accelerated machine learning pipelines leveraging quantum machine learning techniques for classification, clustering, and pattern recognition.</p>
+            </div>
+        </div>
+    </section>
+</div>

@@ -1,391 +1,732 @@
-@page "/Networks"
-@using System.Net.Http
-@inject IJSRuntime JS
-@implements IAsyncDisposable
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Networks - 3D Google Maps Globe</title>
+    <script>
+        (g => {
+            var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window;
+            b = b[c] || (b[c] = {});
+            var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => {
+                await (a = m.createElement("script"));
+                e.set("libraries", [...r] + "");
+                for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]);
+                e.set("callback", c + ".maps." + q);
+                a.src = `https://maps.${c}apis.com/maps/api/js?` + e;
+                d[q] = f;
+                a.onerror = () => h = n(Error(p + " could not load."));
+                a.nonce = m.querySelector("script[nonce]")?.nonce || "";
+                m.head.append(a)
+            }));
+            d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n))
+        })({
+            key: "AIzaSyDK7BXtZz4ypjq0yr-7FrrAcl3oCoPpxK8",
+            v: "alpha"
+        });
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<PageTitle>Quantum Network Visualization</PageTitle>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #0f172a;
+            color: #e2e8f0;
+            padding: 20px;
+        }
 
-<link rel="stylesheet" href="/css/networks.css" />
+        .container {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 24px;
+            background-color: #0f172a;
+            border-radius: 8px;
+        }
 
-<div class="networks-container">
-    <!-- Header -->
-    <div class="networks-header">
-        <h1>🌐 Quantum Networks & Connectivity</h1>
-        <p class="subtitle">Real-time visualization of quantum computing networks and entanglement links</p>
-        <a href="https://ieeexplore.ieee.org/document/10299662" target="_blank" rel="noopener noreferrer" class="reference-link">
-            📄 Read our latest research paper on Quantum Network Visualization  
-        </a>
-    </div>
+        .header {
+            margin-bottom: 24px;
+        }
 
-    <!-- Controls -->
-    <div class="networks-controls">
-        <button class="control-btn @(viewMode == "globe" ? "active" : "")" @onclick="@((e) => SwitchView("globe"))">
-            🌍 3D Globe View
-        </button>
-        <button class="control-btn @(viewMode == "network" ? "active" : "")" @onclick="@((e) => SwitchView("network"))">
-            🔗 Network Topology
-        </button>
-        <button class="control-btn @(viewMode == "details" ? "active" : "")" @onclick="@((e) => SwitchView("details"))">
-            📊 Network Details
-        </button>
-        <div class="status-indicator">
-            <span class="status-dot @(isOnline ? "online" : "offline")"></span>
-            <span>Network Status: @(isOnline ? "ACTIVE" : "OFFLINE")</span>
+        .header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            color: #9ca3af;
+        }
+
+        .content-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 320px;
+            gap: 24px;
+        }
+
+        #map {
+            width: 100%;
+            height: 600px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .panel {
+            background-color: #1e293b;
+            border-radius: 8px;
+            padding: 16px;
+            border: 1px solid #334155;
+        }
+
+        .panel h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        .stat-item {
+            margin-bottom: 12px;
+        }
+
+        .stat-label {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: 700;
+            margin-top: 4px;
+        }
+
+        .stat-value.green {
+            color: #4ade80;
+        }
+
+        .stat-value.yellow {
+            color: #facc15;
+        }
+
+        .stat-value.blue {
+            color: #60a5fa;
+        }
+
+        .node-list {
+            max-height: 280px;
+            overflow-y: auto;
+        }
+
+        .node-item {
+            width: 100%;
+            text-align: left;
+            padding: 8px;
+            border-radius: 4px;
+            border: none;
+            background-color: #0f172a;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            color: #d1d5db;
+            margin-bottom: 4px;
+            font-size: 12px;
+        }
+
+        .node-item:hover {
+            background-color: #334155;
+        }
+
+        .node-item.active {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        .node-details {
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px solid #334155;
+        }
+
+        .node-details h4 {
+            font-weight: 600;
+            color: white;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .detail-item {
+            margin-bottom: 4px;
+            font-size: 12px;
+            color: #d1d5db;
+        }
+
+        .detail-label {
+            color: #9ca3af;
+        }
+
+        .info-window {
+            background-color: #1e293b;
+            color: #e2e8f0;
+            padding: 12px;
+            border-radius: 4px;
+            border: 1px solid #334155;
+        }
+
+        .info-window h4 {
+            margin: 0 0 8px 0;
+            font-size: 14px;
+            color: #ffffff;
+        }
+
+        .info-window p {
+            margin: 4px 0;
+            font-size: 12px;
+        }
+
+        @media (max-width: 1024px) {
+            .content-wrapper {
+                grid-template-columns: 1fr;
+            }
+
+            #map {
+                height: 500px;
+            }
+
+            .sidebar {
+                max-height: auto;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 12px;
+            }
+
+            #map {
+                height: 400px;
+            }
+
+            .sidebar {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        button:active {
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌍 Quantum Networks</h1>
+            <p>Interactive network visualization with switchable views</p>
+            <div style="margin-top: 12px; display: flex; gap: 8px;">
+                <button id="view2dBtn" style="padding: 8px 16px; background-color: #2563eb; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: 500; transition: background-color 0.2s;" onclick="switchTo2DMap()">📋 2D Map View</button>
+                <button id="view3dBtn" style="padding: 8px 16px; background-color: #64748b; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: 500; transition: background-color 0.2s;" onclick="switchTo3DGlobe()">🌐 3D Globe View</button>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div id="map"></div>
+            <div class="sidebar">
+                <div class="panel">
+                    <h3>Network Stats</h3>
+                    <div class="stat-item">
+                        <p class="stat-label">Total Nodes</p>
+                        <p class="stat-value green" id="totalNodes">0</p>
+                    </div>
+                    <div class="stat-item">
+                        <p class="stat-label">Active</p>
+                        <p class="stat-value green" id="activeCount">0</p>
+                    </div>
+                    <div class="stat-item">
+                        <p class="stat-label">Connecting</p>
+                        <p class="stat-value yellow" id="connectingCount">0</p>
+                    </div>
+                    <div class="stat-item">
+                        <p class="stat-label">Total Capacity</p>
+                        <p class="stat-value blue" id="totalCapacity">0 Q</p>
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <h3>Nodes</h3>
+                    <div class="node-list" id="nodesList"></div>
+                </div>
+
+                <div class="panel" id="detailsPanel" style="display: none;">
+                    <h3>Node Details</h3>
+                    <div id="nodeDetails"></div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- Loading State -->
-    @if (isLoading)
-    {
-        <div class="loading-container">
-            <div class="spinner"></div>
-            <p>Loading quantum network data...</p>
-        </div>
-    }
-    else
-    {
-        <!-- 3D Globe View -->
-        @if (viewMode == "globe")
-        {
-            <div class="view-container globe-view">
-                <div id="globe-canvas" class="globe-canvas"></div>
-                <div class="globe-info">
-                    <h3>Quantum Hub: @(currentNode?.Name ?? "Chattanooga QNet")</h3>
-                    <div class="node-status">
-                        <p><strong>Status:</strong> @(networkState?.NodeStatus ?? "Active")</p>
-                        <p><strong>Entanglement Rate:</strong> @(networkState?.EntanglementRate ?? "N/A")</p>
-                        <p><strong>Fidelity:</strong> @(networkState?.Fidelity.ToString("P2") ?? "N/A")</p>
-                        <p><strong>QKD Rate:</strong> @(networkState?.QkdRate ?? "N/A")</p>
-                    </div>
+    <script>
+        const NETWORK_NODES = [
+  // North America
+  {
+    id: 1,
+    name: 'Chattanooga Hub',
+    latitude: 35.0456,
+    longitude: -85.2672,
+    status: '🟢 Active',
+    capacity: 250,
+    region: 'North America'
+  },
+  {
+    id: 2,
+    name: 'Oak Ridge Node',
+    latitude: 35.9181,
+    longitude: -84.2679,
+    status: '🟢 Active',
+    capacity: 180,
+    region: 'North America'
+  },
+  {
+    id: 3,
+    name: 'Atlanta Center',
+    latitude: 33.7490,
+    longitude: -84.3880,
+    status: '🟢 Active',
+    capacity: 300,
+    region: 'North America'
+  },
+  {
+    id: 4,
+    name: 'Washington Node',
+    latitude: 38.9072,
+    longitude: -77.0369,
+    status: '🟡 Connecting',
+    capacity: 120,
+    region: 'North America'
+  },
+  {
+    id: 5,
+    name: 'Boston Labs',
+    latitude: 42.3601,
+    longitude: -71.0589,
+    status: '🟢 Active',
+    capacity: 220,
+    region: 'North America'
+  },
+  {
+    id: 6,
+    name: 'Toronto Quantum Center',
+    latitude: 43.6629,
+    longitude: -79.3957,
+    status: '🟢 Active',
+    capacity: 190,
+    region: 'North America'
+  },
+  {
+    id: 7,
+    name: 'San Francisco Node',
+    latitude: 37.7749,
+    longitude: -122.4194,
+    status: '🟢 Active',
+    capacity: 280,
+    region: 'North America'
+  },
+  {
+    id: 8,
+    name: 'Los Angeles Terminal',
+    latitude: 34.0522,
+    longitude: -118.2437,
+    status: '🟢 Active',
+    capacity: 260,
+    region: 'North America'
+  },
+  // Europe
+  {
+    id: 9,
+    name: 'London Hub',
+    latitude: 51.5074,
+    longitude: -0.1278,
+    status: '🟢 Active',
+    capacity: 310,
+    region: 'Europe'
+  },
+  {
+    id: 10,
+    name: 'Berlin Facility',
+    latitude: 52.5200,
+    longitude: 13.4050,
+    status: '🟢 Active',
+    capacity: 240,
+    region: 'Europe'
+  },
+  {
+    id: 11,
+    name: 'Paris Research Lab',
+    latitude: 48.8566,
+    longitude: 2.3522,
+    status: '🟢 Active',
+    capacity: 270,
+    region: 'Europe'
+  },
+  {
+    id: 12,
+    name: 'Amsterdam Center',
+    latitude: 52.3676,
+    longitude: 4.9041,
+    status: '🟡 Connecting',
+    capacity: 150,
+    region: 'Europe'
+  },
+  {
+    id: 13,
+    name: 'Stockholm Node',
+    latitude: 59.3293,
+    longitude: 18.0686,
+    status: '🟢 Active',
+    capacity: 200,
+    region: 'Europe'
+  },
+  {
+    id: 14,
+    name: 'Geneva Hub',
+    latitude: 46.2044,
+    longitude: 6.1432,
+    status: '🟢 Active',
+    capacity: 230,
+    region: 'Europe'
+  },
+  // Asia
+  {
+    id: 15,
+    name: 'Tokyo Quantum Center',
+    latitude: 35.6762,
+    longitude: 139.6503,
+    status: '🟢 Active',
+    capacity: 320,
+    region: 'Asia'
+  },
+  {
+    id: 16,
+    name: 'Singapore Node',
+    latitude: 1.3521,
+    longitude: 103.8198,
+    status: '🟢 Active',
+    capacity: 290,
+    region: 'Asia'
+  },
+  {
+    id: 17,
+    name: 'Shanghai Facility',
+    latitude: 31.2304,
+    longitude: 121.4737,
+    status: '🟢 Active',
+    capacity: 300,
+    region: 'Asia'
+  },
+  {
+    id: 18,
+    name: 'Hong Kong Hub',
+    latitude: 22.3193,
+    longitude: 114.1694,
+    status: '🟡 Connecting',
+    capacity: 170,
+    region: 'Asia'
+  },
+  {
+    id: 19,
+    name: 'Mumbai Terminal',
+    latitude: 19.0760,
+    longitude: 72.8777,
+    status: '🟢 Active',
+    capacity: 210,
+    region: 'Asia'
+  },
+  {
+    id: 20,
+    name: 'Seoul Research Institute',
+    latitude: 37.5665,
+    longitude: 126.9780,
+    status: '🟢 Active',
+    capacity: 250,
+    region: 'Asia'
+  },
+  // Australia
+  {
+    id: 21,
+    name: 'Sydney Center',
+    latitude: -33.8688,
+    longitude: 151.2093,
+    status: '🟢 Active',
+    capacity: 220,
+    region: 'Australia'
+  },
+  {
+    id: 22,
+    name: 'Melbourne Node',
+    latitude: -37.8136,
+    longitude: 144.9631,
+    status: '🟡 Connecting',
+    capacity: 160,
+    region: 'Australia'
+  },
+  // South America
+  {
+    id: 23,
+    name: 'São Paulo Hub',
+    latitude: -23.5505,
+    longitude: -46.6333,
+    status: '🟢 Active',
+    capacity: 200,
+    region: 'South America'
+  },
+  {
+    id: 24,
+    name: 'Buenos Aires Node',
+    latitude: -34.6037,
+    longitude: -58.3816,
+    status: '🟡 Connecting',
+    capacity: 140,
+    region: 'South America'
+  },
+];
+
+        // Application State
+        let map;
+        let markers = {};
+        let infoWindows = {};
+        let focusedNode = null;
+        let currentView = '2d'; // '2d' or '3d'
+
+        // DOM Elements
+        const totalNodesEl = document.getElementById('totalNodes');
+        const activeCountEl = document.getElementById('activeCount');
+        const connectingCountEl = document.getElementById('connectingCount');
+        const totalCapacityEl = document.getElementById('totalCapacity');
+        const nodesListEl = document.getElementById('nodesList');
+        const nodeDetailsEl = document.getElementById('nodeDetails');
+        const detailsPanel = document.getElementById('detailsPanel');
+
+        // Initialize Google Map
+        async function initMap() {
+            currentView = '2d';
+            updateViewButtons();
+            const { Map } = await google.maps.importLibrary('maps');
+            
+            map = new Map(document.getElementById('map'), {
+                zoom: 2,
+                center: { lat: 20, lng: 0 },
+                mapTypeId: 'satellite',
+                fullscreenControl: true,
+                mapTypeControl: true,
+                streetViewControl: false,
+            });
+
+            // Add markers for each node
+            NETWORK_NODES.forEach(node => {
+                const isActive = node.status.includes('Active');
+                const icon = {
+                    path: google.maps.SymbolPath.CIRCLE,
+                    scale: 8,
+                    fillColor: isActive ? '#10b981' : '#f59e0b',
+                    fillOpacity: 1,
+                    strokeColor: '#ffffff',
+                    strokeWeight: 2,
+                };
+
+                const marker = new google.maps.Marker({
+                    position: { lat: node.latitude, lng: node.longitude },
+                    map: map,
+                    icon: icon,
+                    title: node.name,
+                });
+
+                const infoWindow = new google.maps.InfoWindow({
+                    content: createInfoWindowContent(node),
+                });
+
+                marker.addListener('click', () => {
+                    // Close all info windows
+                    Object.values(infoWindows).forEach(iw => iw.close());
+                    
+                    // Open selected info window
+                    infoWindow.open(map, marker);
+                    
+                    // Update focused node
+                    setFocusedNode(node);
+                });
+
+                markers[node.id] = marker;
+                infoWindows[node.id] = infoWindow;
+            });
+
+            updateStats();
+            initializeNodesList();
+        }
+
+        // Create info window content
+        function createInfoWindowContent(node) {
+            return `
+                <div class="info-window">
+                    <h4>${node.name}</h4>
+                    <p><span class="detail-label">Status:</span> ${node.status}</p>
+                    <p><span class="detail-label">Region:</span> ${node.region}</p>
+                    <p><span class="detail-label">Capacity:</span> ${node.capacity} Q</p>
+                    <p><span class="detail-label">Lat/Lon:</span> ${node.latitude.toFixed(4)}, ${node.longitude.toFixed(4)}</p>
                 </div>
-            </div>
+            `;
         }
 
-        <!-- Network Topology View -->
-        @if (viewMode == "network")
-        {
-            <div class="view-container topology-view">
-                <div class="topology-grid">
-                    <div class="topology-center">
-                        <div class="node central-node">
-                            <div class="node-icon">⚛️</div>
-                            <div class="node-label">Chattanooga<br/>Quantum Hub</div>
+        // Set focused node
+        function setFocusedNode(node) {
+            focusedNode = node;
+            updateUI();
+        }
+
+        // Initialize nodes list
+        function initializeNodesList() {
+            nodesListEl.innerHTML = NETWORK_NODES.map(node => `
+                <button class="node-item ${focusedNode?.id === node.id ? 'active' : ''}" data-id="${node.id}">
+                    <strong>${node.name}</strong><br>
+                    <small>${node.region} • ${node.status}</small>
+                </button>
+            `).join('');
+
+            document.querySelectorAll('.node-item').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const nodeId = parseInt(btn.getAttribute('data-id'));
+                    const node = NETWORK_NODES.find(n => n.id === nodeId);
+                    setFocusedNode(node);
+                    
+                    // Pan to node
+                    map.panTo({ lat: node.latitude, lng: node.longitude });
+                    map.setZoom(4);
+                    
+                    // Open info window
+                    Object.values(infoWindows).forEach(iw => iw.close());
+                    infoWindows[node.id].open(map, markers[node.id]);
+                });
+            });
+        }
+
+        // Update UI
+        function updateUI() {
+            initializeNodesList();
+            updateStats();
+            updateNodeDetails();
+        }
+
+        // Update statistics
+        function updateStats() {
+            totalNodesEl.textContent = NETWORK_NODES.length;
+            activeCountEl.textContent = NETWORK_NODES.filter(n => n.status.includes('Active')).length;
+            connectingCountEl.textContent = NETWORK_NODES.filter(n => n.status.includes('Connecting')).length;
+            totalCapacityEl.textContent = NETWORK_NODES.reduce((sum, n) => sum + n.capacity, 0) + ' Q';
+        }
+
+        // Update node details
+        function updateNodeDetails() {
+            if (focusedNode) {
+                detailsPanel.style.display = 'block';
+                nodeDetailsEl.innerHTML = `
+                    <div class="node-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Name:</span> ${focusedNode.name}
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Status:</span> ${focusedNode.status}
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Region:</span> ${focusedNode.region}
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Capacity:</span> ${focusedNode.capacity} Q
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Lat/Lon:</span> ${focusedNode.latitude.toFixed(4)}, ${focusedNode.longitude.toFixed(4)}
                         </div>
                     </div>
-
-                    <!-- Connected Nodes -->
-                    <div class="connections">
-                        @foreach (var link in quantumLinks)
-                        {
-                            <div class="connection-line" style="--angle: @(link.Index * 90)deg;"></div>
-                            <div class="remote-node" style="--angle: @(link.Index * 90)deg;">
-                                <div class="node">
-                                    <div class="node-icon">🔗</div>
-                                    <div class="node-label">@link.Target?.Name</div>
-                                    <div class="link-status @link.Status.ToLower()">@link.Status</div>
-                                    <div class="link-type">@link.Type</div>
-                                </div>
-                            </div>
-                        }
-                    </div>
-                </div>
-            </div>
+                `;
+            } else {
+                detailsPanel.style.display = 'none';
+                nodeDetailsEl.innerHTML = '';
+            }
         }
 
-        <!-- Network Details View -->
-        @if (viewMode == "details")
-        {
-            <div class="view-container details-view">
-                <div class="details-grid">
-                    <!-- Central Hub Details -->
-                    <div class="detail-card hub-card">
-                        <h3>Central Hub - Chattanooga QNet</h3>
-                        <div class="card-content">
-                            <div class="capability-list">
-                                <h4>Capabilities</h4>
-                                <ul>
-                                    <li>✓ Quantum Key Distribution</li>
-                                    <li>✓ Entanglement Distribution</li>
-                                    <li>✓ Quantum Memory Storage</li>
-                                </ul>
-                            </div>
-                            <div class="connection-list">
-                                <h4>Active Connections</h4>
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <th>Type</th>
-                                            <th>Capacity</th>
-                                            <th>Range</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Fiber</td>
-                                            <td>100 quantum bits/sec</td>
-                                            <td>100km</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Satellite</td>
-                                            <td>10 quantum bits/sec</td>
-                                            <td>GEO orbit</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Network Statistics -->
-                    <div class="detail-card stats-card">
-                        <h3>Network Statistics</h3>
-                        <div class="stats-grid">
-                            <div class="stat-item">
-                                <span class="stat-label">Node Status</span>
-                                <span class="stat-value">@(networkState?.NodeStatus ?? "N/A")</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-label">Entanglement Rate</span>
-                                <span class="stat-value">@(networkState?.EntanglementRate ?? "N/A")</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-label">Network Fidelity</span>
-                                <span class="stat-value">@(networkState?.Fidelity.ToString("P2") ?? "N/A")</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-label">QKD Transfer Rate</span>
-                                <span class="stat-value">@(networkState?.QkdRate ?? "N/A")</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-label">Active Links</span>
-                                <span class="stat-value">@(quantumLinks?.Count ?? 0)</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-label">Last Updated</span>
-                                <span class="stat-value">@lastUpdateTime.ToString("HH:mm:ss")</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Connected Nodes Details -->
-                    @foreach (var link in quantumLinks)
-                    {
-                        <div class="detail-card node-card">
-                            <h3>@(link.Target?.Name ?? "Unknown Node")</h3>
-                            <div class="card-content">
-                                <p><strong>Location:</strong> @(link.Target?.Lat.ToString("F4") ?? "N/A"), @(link.Target?.Lng.ToString("F4") ?? "N/A")</p>
-                                <p><strong>Connection Type:</strong> <span class="connection-type">@link.Type.ToUpper()</span></p>
-                                <p><strong>Status:</strong> <span class="status-badge @link.Status.ToLower()">@link.Status</span></p>
-                                <p><strong>Network Speed:</strong> High-speed quantum entanglement channel</p>
-                            </div>
-                        </div>
-                    }
-                </div>
-            </div>
-        }
-    }
-
-    <!-- Action Buttons -->
-    <div class="action-buttons">
-        <button class="action-btn refresh-btn" @onclick="RefreshNetworkData">🔄 Refresh Data</button>
-        <button class="action-btn export-btn" @onclick="ExportNetworkData">📥 Export Report</button>
-    </div>
-</div>
-
-<!-- Three.js Library for 3D Globe -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="/js/quantum-globe.js"></script>
-
-@code {
-    private string viewMode = "globe";
-    private bool isLoading = true;
-    private bool isOnline = true;
-    private DateTime lastUpdateTime = DateTime.Now;
-
-    private QuantumNodeDto? currentNode;
-    private QuantumNetworkStateDto? networkState;
-    private List<QuantumLinkDto> quantumLinks = new();
-
-    protected override async Task OnInitializedAsync()
-    {
-        await LoadNetworkData();
-    }
-
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender && viewMode == "globe")
-        {
-            await InitializeGlobe();
-        }
-    }
-
-    private async Task LoadNetworkData()
-    {
-        isLoading = true;
-        try
-        {
-            // Load quantum network data from API
-            quantumLinks = new List<QuantumLinkDto>
-            {
-                new QuantumLinkDto
-                {
-                    Index = 0,
-                    Source = new LocationDto { Lat = 35.0456, Lng = -85.3097, Name = "Chattanooga QNet" },
-                    Target = new LocationDto { Lat = 35.9606, Lng = -83.9207, Name = "Oak Ridge" },
-                    Type = "fiber",
-                    Status = "active"
-                },
-                new QuantumLinkDto
-                {
-                    Index = 1,
-                    Source = new LocationDto { Lat = 35.0456, Lng = -85.3097, Name = "Chattanooga QNet" },
-                    Target = new LocationDto { Lat = 33.7490, Lng = -84.3880, Name = "Atlanta" },
-                    Type = "fiber",
-                    Status = "active"
-                },
-                new QuantumLinkDto
-                {
-                    Index = 2,
-                    Source = new LocationDto { Lat = 35.0456, Lng = -85.3097, Name = "Chattanooga QNet" },
-                    Target = new LocationDto { Lat = 36.1627, Lng = -86.7816, Name = "Nashville" },
-                    Type = "satellite",
-                    Status = "inactive"
-                }
-            };
-
-            currentNode = new QuantumNodeDto
-            {
-                Name = "Chattanooga QNet",
-                Lat = 35.0456,
-                Lng = -85.3097,
-                Type = "QUANTUM_HUB",
-                Capabilities = new CapabilitiesDto
-                {
-                    QuantumKeyDistribution = true,
-                    EntanglementDistribution = true,
-                    QuantumMemory = true
-                }
-            };
-
-            networkState = new QuantumNetworkStateDto
-            {
-                NodeStatus = "active",
-                EntanglementRate = "1000 pairs/second",
-                Fidelity = 0.98,
-                QkdRate = "100 kbps"
-            };
-
-            lastUpdateTime = DateTime.Now;
-            isOnline = true;
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error loading network data: {ex.Message}");
-            isOnline = false;
-        }
-        finally
-        {
-            isLoading = false;
-        }
-    }
-
-    private async Task InitializeGlobe()
-    {
-        try
-        {
-            // Ensure DOM element exists
-            await Task.Delay(50);
-            await JS.InvokeVoidAsync("initializeQuantumGlobe", quantumLinks);
-            Console.WriteLine("Globe initialization called successfully");
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error initializing globe: {ex.Message}");
-        }
-    }
-
-    private async Task SwitchView(string mode)
-    {
-        // Dispose previous globe if switching away
-        if (viewMode == "globe" && mode != "globe")
-        {
-            await JS.InvokeVoidAsync("disposeQuantumGlobe");
+        // Switch to 2D map view
+        function switchTo2DMap() {
+            if (currentView === '2d') return;
+            currentView = '2d';
+            updateViewButtons();
+            
+            // Reset map tilt and heading to 0 for flat 2D view
+            map.setTilt(0);
+            if (map.getHeading) map.setHeading(0);
+            
+            // Change to a standard map type
+            map.setMapTypeId('satellite');
         }
 
-        viewMode = mode;
-        StateHasChanged();
-        
-        if (mode == "globe")
-        {
-            // Small delay to ensure DOM is updated
-            await Task.Delay(100);
-            await InitializeGlobe();
+        // Switch to 3D globe view
+        function switchTo3DGlobe() {
+            if (currentView === '3d') return;
+            currentView = '3d';
+            updateViewButtons();
+            
+            // Enable 3D globe view with tilt and heading
+            map.setMapTypeId('satellite');
+            map.setTilt(45);
+            if (map.setHeading) map.setHeading(45);
         }
-    }
 
-    private async Task RefreshNetworkData()
-    {
-        await LoadNetworkData();
-        StateHasChanged();
-    }
-
-    private void ExportNetworkData()
-    {
-        // Export network data as JSON or CSV
-        Console.WriteLine("Exporting network data...");
-    }
-
-    async ValueTask IAsyncDisposable.DisposeAsync()
-    {
-        try
-        {
-            await JS.InvokeVoidAsync("disposeQuantumGlobe");
+        // Update button styles based on current view
+        function updateViewButtons() {
+            const btn2d = document.getElementById('view2dBtn');
+            const btn3d = document.getElementById('view3dBtn');
+            
+            if (currentView === '2d') {
+                btn2d.style.backgroundColor = '#2563eb';
+                btn3d.style.backgroundColor = '#64748b';
+            } else {
+                btn2d.style.backgroundColor = '#64748b';
+                btn3d.style.backgroundColor = '#2563eb';
+            }
         }
-        catch
-        {
-            // Ignore errors during disposal
-        }
-        await Task.CompletedTask;
-    }
 
-    // DTOs
-    public class QuantumNodeDto
-    {
-        public string Name { get; set; } = "";
-        public double Lat { get; set; }
-        public double Lng { get; set; }
-        public string Type { get; set; } = "";
-        public CapabilitiesDto? Capabilities { get; set; }
-    }
-
-    public class CapabilitiesDto
-    {
-        public bool QuantumKeyDistribution { get; set; }
-        public bool EntanglementDistribution { get; set; }
-        public bool QuantumMemory { get; set; }
-    }
-
-    public class QuantumNetworkStateDto
-    {
-        public string NodeStatus { get; set; } = "";
-        public string EntanglementRate { get; set; } = "";
-        public double Fidelity { get; set; }
-        public string QkdRate { get; set; } = "";
-    }
-
-    public class QuantumLinkDto
-    {
-        public int Index { get; set; }
-        public LocationDto? Source { get; set; }
-        public LocationDto? Target { get; set; }
-        public string Type { get; set; } = "";
-        public string Status { get; set; } = "";
-    }
-
-    public class LocationDto
-    {
-        public double Lat { get; set; }
-        public double Lng { get; set; }
-        public string Name { get; set; } = "";
-    }
-}
+        // Initialize map when page loads
+        window.addEventListener('load', initMap);
+    </script>
+</body>
+</html>

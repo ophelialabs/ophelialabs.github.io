@@ -1,5 +1,5 @@
 ![banner](Gemini_Gen_RoadMap.png)
-**IF using Cockpit Image Builder(Linux), an image can NOT be created on an alternate architecture. ie - Building IBM Image on an 86_64(AMD/INTEL)**
+**IF using [Cockpit Image Builder](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/system_design_guide/composing_a_customized_rhel_system_image)(Linux), an image can NOT be created on an alternate architecture. ie - Building IBM Image on an 86_64(AMD/INTEL)**
 
 1. VM & Environment Setup
 To achieve a "Shared Directory" and "Separate by Account" workflow, consider the following architecture:

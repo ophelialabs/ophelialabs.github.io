@@ -401,6 +401,24 @@
                 </div>
 
                 <div class="panel">
+                    <h3>Network Hop Legend</h3>
+                    <div class="marker-legend">
+                        <div class="legend-item">
+                            <div style="width: 20px; height: 2px; background-color: #10b981; border-radius: 1px;"></div>
+                            <span>1-Hop (Direct)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div style="width: 20px; height: 2px; background-color: #f59e0b; border-radius: 1px; opacity: 0.7; background-image: repeating-linear-gradient(90deg, #f59e0b 0px, #f59e0b 5px, transparent 5px, transparent 10px);"></div>
+                            <span>2-Hop (Dashed)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div style="width: 20px; height: 2px; background-color: #ef4444; border-radius: 1px; opacity: 0.5; background-image: repeating-linear-gradient(90deg, #ef4444 0px, #ef4444 2px, transparent 2px, transparent 6px);"></div>
+                            <span>3-Hop (Dotted)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel">
                     <h3>Nodes</h3>
                     <div class="node-list" id="nodesList"></div>
                 </div>
@@ -1349,8 +1367,159 @@
             polylines = [];
         }
 
-        // Draw communication lines for a selected node
+        // Build network graph based on proximity and type priorities
+        function buildNetworkGraph(maxDistanceKm = 8000) {
+            const graph = {};
+            
+            // Initialize graph
+            NETWORK_NODES.forEach(node => {
+                graph[node.id] = [];
+            });
+
+            // Create connections based on distance and prioritization
+            NETWORK_NODES.forEach(node => {
+                const connections = NETWORK_NODES
+                    .filter(n => n.id !== node.id)
+                    .map(n => ({
+                        id: n.id,
+                        node: n,
+                        distance: calculateDistance(
+                            node.latitude, node.longitude,
+                            n.latitude, n.longitude
+                        ),
+                        priority: n.type === 'teleport' ? 3 : 
+                                 (n.type === 'ground-station' || n.type === 'array') ? 2 : 1
+                    }))
+                    .filter(c => c.distance <= maxDistanceKm)
+                    .sort((a, b) => {
+                        if (b.priority !== a.priority) return b.priority - a.priority;
+                        return a.distance - b.distance;
+                    })
+                    .slice(0, 8); // Each node connects to up to 8 nearest priority nodes
+
+                connections.forEach(c => {
+                    graph[node.id].push(c.id);
+                });
+            });
+
+            return graph;
+        }
+
+        // BFS to find shortest path distances
+        function findHopDistances(startNodeId, graph, maxHops = 3) {
+            const distances = {};
+            const queue = [];
+
+            NETWORK_NODES.forEach(node => {
+                distances[node.id] = Infinity;
+            });
+
+            distances[startNodeId] = 0;
+            queue.push(startNodeId);
+
+            let head = 0;
+            while (head < queue.length) {
+                const currentId = queue[head];
+                head++;
+
+                if (distances[currentId] >= maxHops) continue;
+
+                graph[currentId].forEach(neighborId => {
+                    if (distances[neighborId] > distances[currentId] + 1) {
+                        distances[neighborId] = distances[currentId] + 1;
+                        queue.push(neighborId);
+                    }
+                });
+            }
+
+            return distances;
+        }
+
+        // Draw communication lines with hop-distance layering
         function drawCommunicationLines(selectedNode) {
+            clearCommunicationLines();
+
+            // Build the network graph
+            const graph = buildNetworkGraph();
+
+            // Find hop distances from selected node
+            const hopDistances = findHopDistances(selectedNode.id, graph);
+
+            // Define styles for each hop
+            const hopStyles = {
+                1: { color: '#10b981', opacity: 1.0, weight: 2.5, dash: null, label: '1-Hop' },
+                2: { color: '#f59e0b', opacity: 0.7, weight: 2, dash: [5, 5], label: '2-Hop' },
+                3: { color: '#ef4444', opacity: 0.5, weight: 1.5, dash: [2, 4], label: '3-Hop' }
+            };
+
+            // Draw polylines for all reachable nodes within 3 hops
+            NETWORK_NODES.forEach(targetNode => {
+                if (targetNode.id === selectedNode.id) return;
+
+                const hop = hopDistances[targetNode.id];
+                if (!hop || hop === Infinity || hop > 3) return;
+
+                const style = hopStyles[hop];
+
+                const polyline = new google.maps.Polyline({
+                    path: [
+                        { lat: selectedNode.latitude, lng: selectedNode.longitude },
+                        { lat: targetNode.latitude, lng: targetNode.longitude }
+                    ],
+                    geodesic: true,
+                    strokeColor: style.color,
+                    strokeOpacity: style.opacity,
+                    strokeWeight: style.weight,
+                    strokeDasharray: style.dash,
+                    map: map,
+                    title: `${hop}-hop to ${targetNode.name}`
+                });
+
+                polylines.push(polyline);
+            });
+
+            // Update sidebar with hop statistics
+            updateHopStatistics(selectedNode, hopDistances);
+        }
+
+        // Update statistics showing reachability
+        function updateHopStatistics(selectedNode, hopDistances) {
+            const hop1 = Object.values(hopDistances).filter(d => d === 1).length;
+            const hop2 = Object.values(hopDistances).filter(d => d === 2).length;
+            const hop3 = Object.values(hopDistances).filter(d => d === 3).length;
+            const unreachable = Object.values(hopDistances).filter(d => d === Infinity).length;
+
+            const stats = document.createElement('div');
+            stats.style.cssText = 'font-size: 11px; margin-top: 12px; padding-top: 12px; border-top: 1px solid #334155;';
+            stats.innerHTML = `
+                <div style="margin-bottom: 8px;"><strong>Network Reach:</strong></div>
+                <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 4px;">
+                    <div style="width: 12px; height: 12px; background-color: #10b981; border-radius: 2px;"></div>
+                    <span>1-Hop: <strong>${hop1}</strong></span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 4px;">
+                    <div style="width: 12px; height: 12px; background-color: #f59e0b; border-radius: 2px; opacity: 0.7;"></div>
+                    <span>2-Hop: <strong>${hop2}</strong></span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 6px;">
+                    <div style="width: 12px; height: 12px; background-color: #ef4444; border-radius: 2px; opacity: 0.5;"></div>
+                    <span>3-Hop: <strong>${hop3}</strong></span>
+                </div>
+            `;
+
+            // Add to details panel if it exists
+            const detailsContent = document.querySelector('.node-details');
+            const existingStats = detailsContent?.querySelector('[style*="Network Reach"]')?.parentElement;
+            if (existingStats) {
+                existingStats.remove();
+            }
+            if (detailsContent) {
+                detailsContent.appendChild(stats);
+            }
+        }
+
+        // Draw communication lines with hop-distance layering
+        function drawCommunicationLinesLegacy(selectedNode) {
             clearCommunicationLines();
 
             // Find the 5 nearest nodes, prioritizing teleport stations and ground stations

@@ -306,9 +306,32 @@
             font-weight: bold;
         }
 
+        .legend-icon.teleport {
+            background-color: #ec4899;
+            border: 3px solid #fbbf24;
+            font-size: 9px;
+            color: white;
+            font-weight: bold;
+        }
+
         .legend-icon.connecting {
             background-color: #f59e0b;
             border: 2px solid #ffffff;
+        }
+
+        /* Communication line styles */
+        .communication-line {
+            stroke: #3b82f6;
+            stroke-width: 2;
+            stroke-dasharray: 5, 5;
+            opacity: 0.6;
+            fill: none;
+        }
+
+        .communication-line.active {
+            stroke: #10b981;
+            opacity: 0.8;
+            stroke-dasharray: 0;
         }
     </style>
 </head>
@@ -364,10 +387,17 @@
                             <span>Array</span>
                         </div>
                         <div class="legend-item">
+                            <div class="legend-icon teleport">⚡</div>
+                            <span>Teleport Station</span>
+                        </div>
+                        <div class="legend-item">
                             <div class="legend-icon connecting"></div>
                             <span>Connecting</span>
                         </div>
                     </div>
+                    <p style="font-size: 11px; color: #9ca3af; margin-top: 12px; font-style: italic;">
+                        💡 Click any marker to see communication links
+                    </p>
                 </div>
 
                 <div class="panel">
@@ -961,6 +991,213 @@
     type: 'array',
     description: 'Russian radio observation array'
   },
+  // Major Quantum Teleportation & Research Stations
+  {
+    id: 56,
+    name: 'Fermilab Quantum Hub',
+    latitude: 41.8411,
+    longitude: -88.2563,
+    status: '🟢 Active',
+    capacity: 380,
+    region: 'North America',
+    type: 'teleport',
+    description: 'Quantum teleportation research facility'
+  },
+  {
+    id: 57,
+    name: 'Brookhaven National Lab',
+    latitude: 40.8681,
+    longitude: -72.8860,
+    status: '🟢 Active',
+    capacity: 370,
+    region: 'North America',
+    type: 'teleport',
+    description: 'Quantum networking research hub'
+  },
+  {
+    id: 58,
+    name: 'Los Alamos Quantum Center',
+    latitude: 35.8810,
+    longitude: -106.3055,
+    status: '🟢 Active',
+    capacity: 390,
+    region: 'North America',
+    type: 'teleport',
+    description: 'Quantum information science facility'
+  },
+  {
+    id: 59,
+    name: 'Lawrence Livermore Node',
+    latitude: 37.6879,
+    longitude: -121.7233,
+    status: '🟡 Connecting',
+    capacity: 340,
+    region: 'North America',
+    type: 'node'
+  },
+  {
+    id: 60,
+    name: 'MIT Quantum Network',
+    latitude: 42.3601,
+    longitude: -71.0947,
+    status: '🟢 Active',
+    capacity: 350,
+    region: 'North America',
+    type: 'teleport',
+    description: 'Quantum internet research facility'
+  },
+  {
+    id: 61,
+    name: 'Caltech Quantum Hub',
+    latitude: 34.1377,
+    longitude: -118.1253,
+    status: '🟢 Active',
+    capacity: 360,
+    region: 'North America',
+    type: 'teleport',
+    description: 'Quantum teleportation lab'
+  },
+  {
+    id: 62,
+    name: 'Delft Quantum Internet Alliance',
+    latitude: 52.0016,
+    longitude: 4.3561,
+    status: '🟢 Active',
+    capacity: 380,
+    region: 'Europe',
+    type: 'teleport',
+    description: 'European quantum internet hub'
+  },
+  {
+    id: 63,
+    name: 'Vienna Quantum Center',
+    latitude: 48.2082,
+    longitude: 16.3738,
+    status: '🟢 Active',
+    capacity: 370,
+    region: 'Europe',
+    type: 'teleport',
+    description: 'Quantum research teleportation node'
+  },
+  {
+    id: 64,
+    name: 'Barcelona Supercomputing Center',
+    latitude: 41.3851,
+    longitude: 2.1734,
+    status: '🟡 Connecting',
+    capacity: 320,
+    region: 'Europe',
+    type: 'node'
+  },
+  {
+    id: 65,
+    name: 'CERN Quantum Network',
+    latitude: 46.2318,
+    longitude: 6.0581,
+    status: '🟢 Active',
+    capacity: 400,
+    region: 'Europe',
+    type: 'teleport',
+    description: 'Particle physics quantum facility'
+  },
+  {
+    id: 66,
+    name: 'Max Planck Institute',
+    latitude: 48.0728,
+    longitude: 11.5062,
+    status: '🟢 Active',
+    capacity: 375,
+    region: 'Europe',
+    type: 'teleport',
+    description: 'Quantum optics research station'
+  },
+  {
+    id: 67,
+    name: 'Hefei Quantum Lab',
+    latitude: 31.8206,
+    longitude: 117.2272,
+    status: '🟢 Active',
+    capacity: 400,
+    region: 'Asia',
+    type: 'teleport',
+    description: 'Chinese quantum teleportation facility'
+  },
+  {
+    id: 68,
+    name: 'Tsinghua Quantum Institute',
+    latitude: 40.0034,
+    longitude: 116.3186,
+    status: '🟢 Active',
+    capacity: 390,
+    region: 'Asia',
+    type: 'teleport',
+    description: 'Quantum network research center'
+  },
+  {
+    id: 69,
+    name: 'University of Tokyo Quantum Hub',
+    latitude: 35.6758,
+    longitude: 139.7671,
+    status: '🟢 Active',
+    capacity: 360,
+    region: 'Asia',
+    type: 'teleport',
+    description: 'Quantum teleportation research'
+  },
+  {
+    id: 70,
+    name: 'University of Hong Kong Node',
+    latitude: 22.3026,
+    longitude: 114.1843,
+    status: '🟡 Connecting',
+    capacity: 300,
+    region: 'Asia',
+    type: 'node'
+  },
+  {
+    id: 71,
+    name: 'University of Melbourne Quantum Lab',
+    latitude: -37.8008,
+    longitude: 144.9628,
+    status: '🟢 Active',
+    capacity: 350,
+    region: 'Australia',
+    type: 'teleport',
+    description: 'Quantum network testbed facility'
+  },
+  {
+    id: 72,
+    name: 'Quantum Communications Infrastructure',
+    latitude: -33.8688,
+    longitude: 151.2093,
+    status: '🟢 Active',
+    capacity: 370,
+    region: 'Australia',
+    type: 'teleport',
+    description: 'Australia-Asia quantum link'
+  },
+  {
+    id: 73,
+    name: 'Brazilian Quantum Network',
+    latitude: -23.5505,
+    longitude: -46.6333,
+    status: '🟡 Connecting',
+    capacity: 310,
+    region: 'South America',
+    type: 'teleport',
+    description: 'South American quantum hub'
+  },
+  {
+    id: 74,
+    name: 'Quantum Internet Node Africa',
+    latitude: -33.9249,
+    longitude: 18.6299,
+    status: '🟢 Active',
+    capacity: 360,
+    region: 'Africa',
+    type: 'teleport',
+    description: 'Africa-Europe quantum gateway'
+  },
 ];
 
         // Application State
@@ -969,6 +1206,7 @@
         let infoWindows = {};
         let focusedNode = null;
         let currentView = '2d'; // '2d' or '3d'
+        let polylines = []; // Store communication lines
 
         // DOM Elements
         const totalNodesEl = document.getElementById('totalNodes');
@@ -984,6 +1222,15 @@
             const isActive = node.status.includes('Active');
             
             switch(node.type) {
+                case 'teleport':
+                    return {
+                        path: google.maps.SymbolPath.CIRCLE,
+                        scale: 12,
+                        fillColor: '#ec4899',
+                        fillOpacity: 1,
+                        strokeColor: '#fbbf24',
+                        strokeWeight: 3,
+                    };
                 case 'ground-station':
                     return {
                         path: google.maps.SymbolPath.CIRCLE,
@@ -1065,7 +1312,8 @@
 
         // Create info window content
         function createInfoWindowContent(node) {
-            const typeLabel = node.type === 'ground-station' ? '🛰️ Ground Station' : 
+            const typeLabel = node.type === 'teleport' ? '⚡ Teleport Station' :
+                            node.type === 'ground-station' ? '🛰️ Ground Station' : 
                             node.type === 'array' ? '📡 Array' : 
                             '🔵 Network Node';
             const description = node.description ? `<p><span class="detail-label">Type:</span> ${node.description}</p>` : '';
@@ -1083,9 +1331,73 @@
             `;
         }
 
+        // Calculate distance between two points (in km)
+        function calculateDistance(lat1, lon1, lat2, lon2) {
+            const R = 6371; // Earth's radius in km
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+            const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                Math.sin(dLon / 2) * Math.sin(dLon / 2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            return R * c;
+        }
+
+        // Clear all communication lines
+        function clearCommunicationLines() {
+            polylines.forEach(polyline => polyline.setMap(null));
+            polylines = [];
+        }
+
+        // Draw communication lines for a selected node
+        function drawCommunicationLines(selectedNode) {
+            clearCommunicationLines();
+
+            // Find the 5 nearest nodes, prioritizing teleport stations and ground stations
+            const distances = NETWORK_NODES
+                .filter(n => n.id !== selectedNode.id)
+                .map(node => ({
+                    node: node,
+                    distance: calculateDistance(
+                        selectedNode.latitude, selectedNode.longitude,
+                        node.latitude, node.longitude
+                    ),
+                    // Priority score: teleport=3, ground-station=2, array=2, node=1
+                    priority: node.type === 'teleport' ? 3 : 
+                             (node.type === 'ground-station' || node.type === 'array') ? 2 : 1
+                }))
+                .sort((a, b) => {
+                    // Sort by priority first (descending), then by distance (ascending)
+                    if (b.priority !== a.priority) return b.priority - a.priority;
+                    return a.distance - b.distance;
+                })
+                .slice(0, 5);
+
+            // Draw polylines to the nearest/prioritized nodes
+            distances.forEach(item => {
+                const polyline = new google.maps.Polyline({
+                    path: [
+                        { lat: selectedNode.latitude, lng: selectedNode.longitude },
+                        { lat: item.node.latitude, lng: item.node.longitude }
+                    ],
+                    geodesic: true,
+                    strokeColor: item.node.type === 'teleport' ? '#ec4899' : 
+                                item.node.type === 'ground-station' ? '#f59e0b' :
+                                item.node.type === 'array' ? '#8b5cf6' : '#10b981',
+                    strokeOpacity: 0.7,
+                    strokeWeight: 2,
+                    map: map
+                });
+                polylines.push(polyline);
+            });
+        }
+
         // Set focused node
         function setFocusedNode(node) {
             focusedNode = node;
+            if (map) {
+                drawCommunicationLines(node);
+            }
             updateUI();
         }
 
@@ -1133,7 +1445,8 @@
         // Update node details
         function updateNodeDetails() {
             if (focusedNode) {
-                const typeLabel = focusedNode.type === 'ground-station' ? '🛰️ Ground Station' : 
+                const typeLabel = focusedNode.type === 'teleport' ? '⚡ Teleport Station' :
+                                focusedNode.type === 'ground-station' ? '🛰️ Ground Station' : 
                                 focusedNode.type === 'array' ? '📡 Array' : 
                                 '🔵 Network Node';
                 const description = focusedNode.description ? `

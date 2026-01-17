@@ -9,6 +9,7 @@
     <meta property="og:title" content="Ophelia Labs - Research & Infrastructure">
     <meta property="og:description" content="Comprehensive platform for quantum computing research, enterprise infrastructure, and technical resources.">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
         mermaid.initialize({ 
@@ -43,6 +44,7 @@
         <div id="universities" class="page"></div>
         <div id="journals" class="page"></div>
         <div id="publications" class="page"></div>
+        <div id="geofence" class="page"></div>
         
         <!-- Admin Section -->
         <div id="dashboard" class="page"></div>
@@ -63,6 +65,7 @@
             'universities': 'content/resources/universities.html',
             'journals': 'content/resources/journals.html',
             'publications': 'content/resources/publications.html',
+            'geofence': 'content/resources/geofence.md',
             'dashboard': 'content/admin/dashboard.html',
             'users-management': 'content/admin/users-management.html',
             'settings': 'content/admin/settings.html'
@@ -93,13 +96,22 @@
                 return Promise.reject('Element not found');
             }
 
-            return fetch(PAGES[pageId])
+            const filePath = PAGES[pageId];
+            const isMarkdown = filePath.endsWith('.md');
+
+            return fetch(filePath)
                 .then(response => {
                     if (!response.ok) throw new Error(`HTTP ${response.status}`);
                     return response.text();
                 })
-                .then(html => {
-                    pageElement.innerHTML = html;
+                .then(content => {
+                    if (isMarkdown) {
+                        // Convert markdown to HTML
+                        const html = marked.parse(content);
+                        pageElement.innerHTML = `<div class="content-section">${html}</div>`;
+                    } else {
+                        pageElement.innerHTML = content;
+                    }
                     loadedPages.add(pageId);
                     
                     // Render Mermaid diagrams after content is loaded

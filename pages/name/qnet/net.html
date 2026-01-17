@@ -374,26 +374,31 @@
                 <div class="panel">
                     <h3>Marker Legend</h3>
                     <div class="marker-legend">
-                        <div class="legend-item">
+                        <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; cursor: pointer;">
+                            <input type="checkbox" id="toggle-node" class="marker-toggle" data-type="node" checked style="cursor: pointer;">
                             <div class="legend-icon node"></div>
                             <span>Network Node</span>
-                        </div>
-                        <div class="legend-item">
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; cursor: pointer;">
+                            <input type="checkbox" id="toggle-ground-station" class="marker-toggle" data-type="ground-station" checked style="cursor: pointer;">
                             <div class="legend-icon ground-station">GS</div>
                             <span>Ground Station</span>
-                        </div>
-                        <div class="legend-item">
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; cursor: pointer;">
+                            <input type="checkbox" id="toggle-array" class="marker-toggle" data-type="array" checked style="cursor: pointer;">
                             <div class="legend-icon array">AR</div>
                             <span>Array</span>
-                        </div>
-                        <div class="legend-item">
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; cursor: pointer;">
+                            <input type="checkbox" id="toggle-teleport" class="marker-toggle" data-type="teleport" checked style="cursor: pointer;">
                             <div class="legend-icon teleport">⚡</div>
                             <span>Teleport Station</span>
-                        </div>
-                        <div class="legend-item">
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                            <input type="checkbox" id="toggle-connecting" class="marker-toggle" data-type="connecting" checked style="cursor: pointer;">
                             <div class="legend-icon connecting"></div>
                             <span>Connecting</span>
-                        </div>
+                        </label>
                     </div>
                     <p style="font-size: 11px; color: #9ca3af; margin-top: 12px; font-style: italic;">
                         💡 Click any marker to see communication links
@@ -1251,6 +1256,13 @@
         let focusedNode = null;
         let currentView = '2d'; // '2d' or '3d'
         let polylines = []; // Store communication lines
+        let visibleMarkerTypes = {
+            node: true,
+            'ground-station': true,
+            array: true,
+            teleport: true,
+            connecting: true
+        }; // Track which marker types are visible
 
         // DOM Elements
         const totalNodesEl = document.getElementById('totalNodes');
@@ -1352,6 +1364,7 @@
 
             updateStats();
             initializeNodesList();
+            initializeMarkerToggles();
         }
 
         // Create info window content
@@ -1377,16 +1390,38 @@
             `;
         }
 
-        // Calculate distance between two points (in km)
-        function calculateDistance(lat1, lon1, lat2, lon2) {
-            const R = 6371; // Earth's radius in km
-            const dLat = (lat2 - lat1) * Math.PI / 180;
-            const dLon = (lon2 - lon1) * Math.PI / 180;
-            const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-                Math.sin(dLon / 2) * Math.sin(dLon / 2);
-            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-            return R * c;
+        // Toggle marker visibility by type
+        function toggleMarkerType(type, visible) {
+            visibleMarkerTypes[type] = visible;
+            
+            // Update all markers of this type
+            NETWORK_NODES.forEach(node => {
+                if (node.type === type) {
+                    const marker = markers[node.id];
+                    if (marker) {
+                        marker.setVisible(visible);
+                    }
+                }
+            });
+        }
+
+        // Get marker type based on status (for connecting status)
+        function getMarkerType(node) {
+            if (node.type === 'connecting' || node.status.includes('Connecting')) {
+                return 'connecting';
+            }
+            return node.type;
+        }
+
+        // Initialize marker toggle listeners
+        function initializeMarkerToggles() {
+            document.querySelectorAll('.marker-toggle').forEach(toggle => {
+                toggle.addEventListener('change', (e) => {
+                    const type = e.target.getAttribute('data-type');
+                    const visible = e.target.checked;
+                    toggleMarkerType(type, visible);
+                });
+            });
         }
 
         // Clear all communication lines
@@ -1544,6 +1579,18 @@
             if (detailsContent) {
                 detailsContent.appendChild(stats);
             }
+        }
+
+        // Calculate distance between two coordinates using Haversine formula
+        function calculateDistance(lat1, lon1, lat2, lon2) {
+            const R = 6371; // Earth's radius in km
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+            const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                Math.sin(dLon / 2) * Math.sin(dLon / 2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            return R * c;
         }
 
         // Draw communication lines with hop-distance layering

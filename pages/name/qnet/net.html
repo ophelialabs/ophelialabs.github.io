@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quantum Networks - 3D Google Maps Globe</title>
-    <script src="https://cdn.babylonjs.com/babylon.js"></script>
-    <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
     <script>
         (g => {
             var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window;
@@ -125,27 +123,6 @@
 
         .stat-value.blue {
             color: #60a5fa;
-        }
-
-        /* Babylon.js Canvas */
-        #babylonCanvas {
-            width: 100%;
-            height: 600px;
-            border-radius: 8px;
-            border: 1px solid #334155;
-            display: none;
-        }
-
-        #babylonCanvas.active {
-            display: block;
-        }
-
-        #map.active {
-            display: block;
-        }
-
-        #map {
-            display: none;
         }
 
         .node-list {
@@ -373,7 +350,6 @@
 
         <div class="content-wrapper">
             <div id="map"></div>
-            <canvas id="babylonCanvas"></canvas>
             <div class="sidebar">
                 <div class="panel">
                     <h3>Network Stats</h3>
@@ -1469,44 +1445,38 @@
             // Find hop distances from selected node
             const hopDistances = findHopDistances(selectedNode.id, graph);
 
-            // If in 3D mode, draw 3D lines
-            if (currentView === '3d' && babylonScene) {
-                drawCommunicationLines3D(selectedNode);
-            } else {
-                // Draw 2D polylines for Google Maps
-                // Define styles for each hop
-                const hopStyles = {
-                    1: { color: '#10b981', opacity: 1.0, weight: 2.5, dash: null, label: '1-Hop' },
-                    2: { color: '#f59e0b', opacity: 0.7, weight: 2, dash: [5, 5], label: '2-Hop' },
-                    3: { color: '#ef4444', opacity: 0.5, weight: 1.5, dash: [2, 4], label: '3-Hop' }
-                };
+            // Define styles for each hop
+            const hopStyles = {
+                1: { color: '#10b981', opacity: 1.0, weight: 2.5, dash: null, label: '1-Hop' },
+                2: { color: '#f59e0b', opacity: 0.7, weight: 2, dash: [5, 5], label: '2-Hop' },
+                3: { color: '#ef4444', opacity: 0.5, weight: 1.5, dash: [2, 4], label: '3-Hop' }
+            };
 
-                // Draw polylines for all reachable nodes within 3 hops
-                NETWORK_NODES.forEach(targetNode => {
-                    if (targetNode.id === selectedNode.id) return;
+            // Draw polylines for all reachable nodes within 3 hops
+            NETWORK_NODES.forEach(targetNode => {
+                if (targetNode.id === selectedNode.id) return;
 
-                    const hop = hopDistances[targetNode.id];
-                    if (!hop || hop === Infinity || hop > 3) return;
+                const hop = hopDistances[targetNode.id];
+                if (!hop || hop === Infinity || hop > 3) return;
 
-                    const style = hopStyles[hop];
+                const style = hopStyles[hop];
 
-                    const polyline = new google.maps.Polyline({
-                        path: [
-                            { lat: selectedNode.latitude, lng: selectedNode.longitude },
-                            { lat: targetNode.latitude, lng: targetNode.longitude }
-                        ],
-                        geodesic: true,
-                        strokeColor: style.color,
-                        strokeOpacity: style.opacity,
-                        strokeWeight: style.weight,
-                        strokeDasharray: style.dash,
-                        map: map,
-                        title: `${hop}-hop to ${targetNode.name}`
-                    });
-
-                    polylines.push(polyline);
+                const polyline = new google.maps.Polyline({
+                    path: [
+                        { lat: selectedNode.latitude, lng: selectedNode.longitude },
+                        { lat: targetNode.latitude, lng: targetNode.longitude }
+                    ],
+                    geodesic: true,
+                    strokeColor: style.color,
+                    strokeOpacity: style.opacity,
+                    strokeWeight: style.weight,
+                    strokeDasharray: style.dash,
+                    map: map,
+                    title: `${hop}-hop to ${targetNode.name}`
                 });
-            }
+
+                polylines.push(polyline);
+            });
 
             // Update sidebar with hop statistics
             updateHopStatistics(selectedNode, hopDistances);
@@ -1690,15 +1660,12 @@
             currentView = '2d';
             updateViewButtons();
             
-            // Switch to Google Maps
-            document.getElementById('map').classList.add('active');
-            document.getElementById('babylonCanvas').classList.remove('active');
+            // Reset map tilt and heading to 0 for flat 2D view
+            map.setTilt(0);
+            if (map.getHeading) map.setHeading(0);
             
-            if (map) {
-                map.setTilt(0);
-                if (map.getHeading) map.setHeading(0);
-                map.setMapTypeId('satellite');
-            }
+            // Change to a standard map type
+            map.setMapTypeId('satellite');
         }
 
         // Switch to 3D globe view
@@ -1707,16 +1674,10 @@
             currentView = '3d';
             updateViewButtons();
             
-            // Switch to Babylon.js
-            document.getElementById('map').classList.remove('active');
-            document.getElementById('babylonCanvas').classList.add('active');
-            
-            if (!babylonScene) {
-                initBabylonScene();
-            }
-            if (babylon3DEngine) {
-                babylon3DEngine.resize();
-            }
+            // Enable 3D globe view with tilt and heading
+            map.setMapTypeId('satellite');
+            map.setTilt(45);
+            if (map.setHeading) map.setHeading(45);
         }
 
         // Update button styles based on current view
@@ -1733,194 +1694,8 @@
             }
         }
 
-        // Babylon.js Scene Variables
-        let babylon3DEngine = null;
-        let babylonScene = null;
-        let babylon3DMarkers = {};
-        let babylon3DLines = [];
-
-        // Initialize Babylon.js Scene
-        function initBabylonScene() {
-            const canvas = document.getElementById('babylonCanvas');
-            babylon3DEngine = new BABYLON.Engine(canvas, true);
-            babylonScene = new BABYLON.Scene(babylon3DEngine);
-            babylonScene.clearColor = new BABYLON.Color3(0.06, 0.09, 0.17); // Dark background
-
-            // Create camera
-            const camera = new BABYLON.ArcRotateCamera(
-                'camera',
-                0,
-                0,
-                25,
-                BABYLON.Vector3.Zero(),
-                babylonScene
-            );
-            camera.attachControl(canvas, true);
-            camera.inertia = 0.7;
-            camera.angularSensibility = 1000;
-            camera.wheelPrecision = 20;
-
-            // Create lights
-            const light1 = new BABYLON.HemisphericLight('light1', new BABYLON.Vector3(1, 1, 1), babylonScene);
-            light1.intensity = 0.8;
-            const light2 = new BABYLON.PointLight('light2', new BABYLON.Vector3(-5, 10, 10), babylonScene);
-            light2.intensity = 0.6;
-
-            // Create Earth sphere
-            const earthMaterial = new BABYLON.StandardMaterial('earthMat', babylonScene);
-            earthMaterial.emissiveColor = new BABYLON.Color3(0.2, 0.3, 0.5);
-            const earth = BABYLON.MeshBuilder.CreateSphere('earth', { diameter: 20 }, babylonScene);
-            earth.material = earthMaterial;
-
-            // Create markers for each node
-            NETWORK_NODES.forEach((node, index) => {
-                const markerColor = getMarkerColor3D(node);
-                const markerSize = getMarkerSize3D(node);
-
-                // Convert lat/lon to 3D coordinates on sphere
-                const position = latLonTo3D(node.latitude, node.longitude, 10);
-
-                // Create marker sphere
-                const marker = BABYLON.MeshBuilder.CreateSphere(
-                    `marker_${node.id}`,
-                    { diameter: markerSize },
-                    babylonScene
-                );
-                marker.position = position;
-
-                const markerMat = new BABYLON.StandardMaterial(`markerMat_${node.id}`, babylonScene);
-                markerMat.emissiveColor = markerColor;
-                markerMat.specularColor = new BABYLON.Color3(1, 1, 1);
-                marker.material = markerMat;
-
-                // Add click/hover effect
-                marker.nodeData = node;
-                marker.actionManager = new BABYLON.ActionManager(babylonScene);
-                marker.actionManager.registerAction(
-                    new BABYLON.ExecuteCodeAction(
-                        BABYLON.ActionManager.OnPickTrigger,
-                        () => {
-                            setFocusedNode(node);
-                            highlightMarker3D(marker);
-                        }
-                    )
-                );
-
-                babylon3DMarkers[node.id] = marker;
-            });
-
-            // Draw communication lines
-            if (focusedNode) {
-                drawCommunicationLines3D(focusedNode);
-            }
-
-            // Render loop
-            babylon3DEngine.runRenderLoop(() => {
-                babylonScene.render();
-            });
-
-            // Handle resize
-            window.addEventListener('resize', () => {
-                babylon3DEngine.resize();
-            });
-        }
-
-        // Convert latitude/longitude to 3D coordinates on sphere
-        function latLonTo3D(lat, lon, radius) {
-            const latRad = lat * Math.PI / 180;
-            const lonRad = lon * Math.PI / 180;
-            return new BABYLON.Vector3(
-                radius * Math.cos(latRad) * Math.cos(lonRad),
-                radius * Math.sin(latRad),
-                radius * Math.cos(latRad) * Math.sin(lonRad)
-            );
-        }
-
-        // Get marker color for 3D
-        function getMarkerColor3D(node) {
-            switch(node.type) {
-                case 'teleport':
-                    return new BABYLON.Color3(0.92, 0.29, 0.62); // Pink (#ec4899)
-                case 'ground-station':
-                    return new BABYLON.Color3(0.96, 0.62, 0.04); // Orange (#f59e0b)
-                case 'array':
-                    return new BABYLON.Color3(0.55, 0.36, 0.96); // Purple (#8b5cf6)
-                default:
-                    return new BABYLON.Color3(0.04, 0.74, 0.50); // Green (#10b981)
-            }
-        }
-
-        // Get marker size for 3D
-        function getMarkerSize3D(node) {
-            switch(node.type) {
-                case 'teleport':
-                    return 0.8;
-                case 'ground-station':
-                    return 0.7;
-                case 'array':
-                    return 0.75;
-                default:
-                    return 0.6;
-            }
-        }
-
-        // Highlight selected marker
-        function highlightMarker3D(marker) {
-            Object.values(babylon3DMarkers).forEach(m => {
-                m.material.emissiveColor = getMarkerColor3D(m.nodeData);
-                m.scaling = new BABYLON.Vector3(1, 1, 1);
-            });
-            marker.scaling = new BABYLON.Vector3(1.5, 1.5, 1.5);
-            marker.material.specularColor = new BABYLON.Color3(1, 1, 0);
-        }
-
-        // Draw 3D communication lines
-        function drawCommunicationLines3D(selectedNode) {
-            babylon3DLines.forEach(line => line.dispose());
-            babylon3DLines = [];
-
-            const graph = buildNetworkGraph();
-            const hopDistances = findHopDistances(selectedNode.id, graph);
-
-            const hopStyles = {
-                1: { color: new BABYLON.Color3(0.04, 0.74, 0.50), opacity: 1.0 }, // Green
-                2: { color: new BABYLON.Color3(0.96, 0.62, 0.04), opacity: 0.7 }, // Orange
-                3: { color: new BABYLON.Color3(0.94, 0.27, 0.27), opacity: 0.5 }  // Red
-            };
-
-            NETWORK_NODES.forEach(targetNode => {
-                if (targetNode.id === selectedNode.id) return;
-
-                const hop = hopDistances[targetNode.id];
-                if (!hop || hop === Infinity || hop > 3) return;
-
-                const style = hopStyles[hop];
-                const startPos = latLonTo3D(selectedNode.latitude, selectedNode.longitude, 10);
-                const endPos = latLonTo3D(targetNode.latitude, targetNode.longitude, 10);
-
-                const line = BABYLON.MeshBuilder.CreateTube(
-                    `line_${selectedNode.id}_${targetNode.id}`,
-                    {
-                        path: [startPos, endPos],
-                        radius: 0.05,
-                        updatable: false
-                    },
-                    babylonScene
-                );
-
-                const lineMat = new BABYLON.StandardMaterial(`lineMat_${selectedNode.id}_${targetNode.id}`, babylonScene);
-                lineMat.emissiveColor = style.color;
-                lineMat.alpha = style.opacity;
-                line.material = lineMat;
-
-                babylon3DLines.push(line);
-            });
-        }
-
         // Initialize map when page loads
-        window.addEventListener('load', () => {
-            initMap();
-        });
+        window.addEventListener('load', initMap);
     </script>
 </body>
 </html>

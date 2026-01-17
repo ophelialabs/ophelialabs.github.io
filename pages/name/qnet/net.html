@@ -249,6 +249,67 @@
         button:active {
             transform: scale(0.98);
         }
+
+        /* Ground Station Marker Styles */
+        .marker-legend {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+
+        .marker-legend h4 {
+            font-size: 14px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+            font-size: 12px;
+            color: #d1d5db;
+        }
+
+        .legend-icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .legend-icon.node {
+            background-color: #10b981;
+            border: 2px solid #ffffff;
+        }
+
+        .legend-icon.ground-station {
+            background-color: #f59e0b;
+            border: 3px solid #dc2626;
+            font-size: 10px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .legend-icon.array {
+            background-color: #8b5cf6;
+            border: 3px solid #60a5fa;
+            font-size: 10px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .legend-icon.connecting {
+            background-color: #f59e0b;
+            border: 2px solid #ffffff;
+        }
     </style>
 </head>
 <body>
@@ -288,6 +349,28 @@
                 </div>
 
                 <div class="panel">
+                    <h3>Marker Legend</h3>
+                    <div class="marker-legend">
+                        <div class="legend-item">
+                            <div class="legend-icon node"></div>
+                            <span>Network Node</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-icon ground-station">GS</div>
+                            <span>Ground Station</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-icon array">AR</div>
+                            <span>Array</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-icon connecting"></div>
+                            <span>Connecting</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel">
                     <h3>Nodes</h3>
                     <div class="node-list" id="nodesList"></div>
                 </div>
@@ -310,7 +393,8 @@
     longitude: -85.2672,
     status: '🟢 Active',
     capacity: 250,
-    region: 'North America'
+    region: 'North America',
+    type: 'node'
   },
   {
     id: 2,
@@ -319,7 +403,8 @@
     longitude: -84.2679,
     status: '🟢 Active',
     capacity: 180,
-    region: 'North America'
+    region: 'North America',
+    type: 'node'
   },
   {
     id: 3,
@@ -328,7 +413,8 @@
     longitude: -84.3880,
     status: '🟢 Active',
     capacity: 300,
-    region: 'North America'
+    region: 'North America',
+    type: 'node'
   },
   {
     id: 4,
@@ -337,7 +423,8 @@
     longitude: -77.0369,
     status: '🟡 Connecting',
     capacity: 120,
-    region: 'North America'
+    region: 'North America',
+    type: 'node'
   },
   {
     id: 5,
@@ -346,7 +433,8 @@
     longitude: -71.0589,
     status: '🟢 Active',
     capacity: 220,
-    region: 'North America'
+    region: 'North America',
+    type: 'node'
   },
   {
     id: 6,
@@ -355,7 +443,8 @@
     longitude: -79.3957,
     status: '🟢 Active',
     capacity: 190,
-    region: 'North America'
+    region: 'North America',
+    type: 'node'
   },
   {
     id: 7,
@@ -364,7 +453,8 @@
     longitude: -122.4194,
     status: '🟢 Active',
     capacity: 280,
-    region: 'North America'
+    region: 'North America',
+    type: 'node'
   },
   {
     id: 8,
@@ -373,7 +463,30 @@
     longitude: -118.2437,
     status: '🟢 Active',
     capacity: 260,
-    region: 'North America'
+    region: 'North America',
+    type: 'node'
+  },
+  {
+    id: 25,
+    name: 'White Sands Ground Station',
+    latitude: 32.3890,
+    longitude: -106.4733,
+    status: '🟢 Active',
+    capacity: 350,
+    region: 'North America',
+    type: 'ground-station',
+    description: 'Primary satellite ground station facility'
+  },
+  {
+    id: 26,
+    name: 'Arecibo Observatory Array',
+    latitude: 18.3461,
+    longitude: -66.7528,
+    status: '🟢 Active',
+    capacity: 400,
+    region: 'North America',
+    type: 'array',
+    description: 'Radio telescope array'
   },
   // Europe
   {
@@ -383,7 +496,8 @@
     longitude: -0.1278,
     status: '🟢 Active',
     capacity: 310,
-    region: 'Europe'
+    region: 'Europe',
+    type: 'node'
   },
   {
     id: 10,
@@ -392,7 +506,8 @@
     longitude: 13.4050,
     status: '🟢 Active',
     capacity: 240,
-    region: 'Europe'
+    region: 'Europe',
+    type: 'node'
   },
   {
     id: 11,
@@ -401,7 +516,8 @@
     longitude: 2.3522,
     status: '🟢 Active',
     capacity: 270,
-    region: 'Europe'
+    region: 'Europe',
+    type: 'node'
   },
   {
     id: 12,
@@ -410,7 +526,8 @@
     longitude: 4.9041,
     status: '🟡 Connecting',
     capacity: 150,
-    region: 'Europe'
+    region: 'Europe',
+    type: 'node'
   },
   {
     id: 13,
@@ -419,7 +536,8 @@
     longitude: 18.0686,
     status: '🟢 Active',
     capacity: 200,
-    region: 'Europe'
+    region: 'Europe',
+    type: 'node'
   },
   {
     id: 14,
@@ -428,7 +546,30 @@
     longitude: 6.1432,
     status: '🟢 Active',
     capacity: 230,
-    region: 'Europe'
+    region: 'Europe',
+    type: 'node'
+  },
+  {
+    id: 27,
+    name: 'Westerbork Array',
+    latitude: 52.9159,
+    longitude: 6.6030,
+    status: '🟢 Active',
+    capacity: 380,
+    region: 'Europe',
+    type: 'array',
+    description: 'Radio synthesis telescope array'
+  },
+  {
+    id: 28,
+    name: 'Gilleleje Ground Station',
+    latitude: 55.9375,
+    longitude: 12.2800,
+    status: '🟢 Active',
+    capacity: 320,
+    region: 'Europe',
+    type: 'ground-station',
+    description: 'European ground station facility'
   },
   // Asia
   {
@@ -438,7 +579,8 @@
     longitude: 139.6503,
     status: '🟢 Active',
     capacity: 320,
-    region: 'Asia'
+    region: 'Asia',
+    type: 'node'
   },
   {
     id: 16,
@@ -447,7 +589,8 @@
     longitude: 103.8198,
     status: '🟢 Active',
     capacity: 290,
-    region: 'Asia'
+    region: 'Asia',
+    type: 'node'
   },
   {
     id: 17,
@@ -456,7 +599,8 @@
     longitude: 121.4737,
     status: '🟢 Active',
     capacity: 300,
-    region: 'Asia'
+    region: 'Asia',
+    type: 'node'
   },
   {
     id: 18,
@@ -465,7 +609,8 @@
     longitude: 114.1694,
     status: '🟡 Connecting',
     capacity: 170,
-    region: 'Asia'
+    region: 'Asia',
+    type: 'node'
   },
   {
     id: 19,
@@ -474,7 +619,8 @@
     longitude: 72.8777,
     status: '🟢 Active',
     capacity: 210,
-    region: 'Asia'
+    region: 'Asia',
+    type: 'node'
   },
   {
     id: 20,
@@ -483,7 +629,30 @@
     longitude: 126.9780,
     status: '🟢 Active',
     capacity: 250,
-    region: 'Asia'
+    region: 'Asia',
+    type: 'node'
+  },
+  {
+    id: 29,
+    name: 'Chandra X-ray Array',
+    latitude: 28.3949,
+    longitude: 83.8231,
+    status: '🟢 Active',
+    capacity: 390,
+    region: 'Asia',
+    type: 'array',
+    description: 'Space telescope array facility'
+  },
+  {
+    id: 30,
+    name: 'Hanoi Ground Station',
+    latitude: 21.0285,
+    longitude: 105.8542,
+    status: '🟢 Active',
+    capacity: 340,
+    region: 'Asia',
+    type: 'ground-station',
+    description: 'Asian-Pacific ground station facility'
   },
   // Australia
   {
@@ -493,7 +662,8 @@
     longitude: 151.2093,
     status: '🟢 Active',
     capacity: 220,
-    region: 'Australia'
+    region: 'Australia',
+    type: 'node'
   },
   {
     id: 22,
@@ -502,7 +672,19 @@
     longitude: 144.9631,
     status: '🟡 Connecting',
     capacity: 160,
-    region: 'Australia'
+    region: 'Australia',
+    type: 'node'
+  },
+  {
+    id: 31,
+    name: 'Australian Square Kilometre Array',
+    latitude: -26.6369,
+    longitude: 116.6363,
+    status: '🟢 Active',
+    capacity: 420,
+    region: 'Australia',
+    type: 'array',
+    description: 'SKA pathfinder radio telescope array'
   },
   // South America
   {
@@ -512,7 +694,8 @@
     longitude: -46.6333,
     status: '🟢 Active',
     capacity: 200,
-    region: 'South America'
+    region: 'South America',
+    type: 'node'
   },
   {
     id: 24,
@@ -521,7 +704,30 @@
     longitude: -58.3816,
     status: '🟡 Connecting',
     capacity: 140,
-    region: 'South America'
+    region: 'South America',
+    type: 'node'
+  },
+  {
+    id: 32,
+    name: 'Atacama Large Millimeter Array',
+    latitude: -23.0203,
+    longitude: -67.4891,
+    status: '🟢 Active',
+    capacity: 430,
+    region: 'South America',
+    type: 'array',
+    description: 'Millimeter/submillimeter observatory array'
+  },
+  {
+    id: 33,
+    name: 'Paranal Ground Station',
+    latitude: -24.6273,
+    longitude: -70.4045,
+    status: '🟢 Active',
+    capacity: 360,
+    region: 'South America',
+    type: 'ground-station',
+    description: 'Southern hemisphere ground station facility'
   },
 ];
 
@@ -541,6 +747,41 @@
         const nodeDetailsEl = document.getElementById('nodeDetails');
         const detailsPanel = document.getElementById('detailsPanel');
 
+        // Get marker icon based on node type
+        function getMarkerIcon(node) {
+            const isActive = node.status.includes('Active');
+            
+            switch(node.type) {
+                case 'ground-station':
+                    return {
+                        path: google.maps.SymbolPath.CIRCLE,
+                        scale: 10,
+                        fillColor: '#f59e0b',
+                        fillOpacity: 1,
+                        strokeColor: '#dc2626',
+                        strokeWeight: 3,
+                    };
+                case 'array':
+                    return {
+                        path: google.maps.SymbolPath.CIRCLE,
+                        scale: 11,
+                        fillColor: '#8b5cf6',
+                        fillOpacity: 1,
+                        strokeColor: '#60a5fa',
+                        strokeWeight: 3,
+                    };
+                default: // 'node'
+                    return {
+                        path: google.maps.SymbolPath.CIRCLE,
+                        scale: 8,
+                        fillColor: isActive ? '#10b981' : '#f59e0b',
+                        fillOpacity: 1,
+                        strokeColor: '#ffffff',
+                        strokeWeight: 2,
+                    };
+            }
+        }
+
         // Initialize Google Map
         async function initMap() {
             currentView = '2d';
@@ -558,15 +799,7 @@
 
             // Add markers for each node
             NETWORK_NODES.forEach(node => {
-                const isActive = node.status.includes('Active');
-                const icon = {
-                    path: google.maps.SymbolPath.CIRCLE,
-                    scale: 8,
-                    fillColor: isActive ? '#10b981' : '#f59e0b',
-                    fillOpacity: 1,
-                    strokeColor: '#ffffff',
-                    strokeWeight: 2,
-                };
+                const icon = getMarkerIcon(node);
 
                 const marker = new google.maps.Marker({
                     position: { lat: node.latitude, lng: node.longitude },
@@ -600,9 +833,16 @@
 
         // Create info window content
         function createInfoWindowContent(node) {
+            const typeLabel = node.type === 'ground-station' ? '🛰️ Ground Station' : 
+                            node.type === 'array' ? '📡 Array' : 
+                            '🔵 Network Node';
+            const description = node.description ? `<p><span class="detail-label">Type:</span> ${node.description}</p>` : '';
+            
             return `
                 <div class="info-window">
                     <h4>${node.name}</h4>
+                    <p><span class="detail-label">Marker:</span> ${typeLabel}</p>
+                    ${description}
                     <p><span class="detail-label">Status:</span> ${node.status}</p>
                     <p><span class="detail-label">Region:</span> ${node.region}</p>
                     <p><span class="detail-label">Capacity:</span> ${node.capacity} Q</p>
@@ -661,12 +901,25 @@
         // Update node details
         function updateNodeDetails() {
             if (focusedNode) {
+                const typeLabel = focusedNode.type === 'ground-station' ? '🛰️ Ground Station' : 
+                                focusedNode.type === 'array' ? '📡 Array' : 
+                                '🔵 Network Node';
+                const description = focusedNode.description ? `
+                        <div class="detail-item">
+                            <span class="detail-label">Type:</span> ${focusedNode.description}
+                        </div>
+                    ` : '';
+                
                 detailsPanel.style.display = 'block';
                 nodeDetailsEl.innerHTML = `
                     <div class="node-details">
                         <div class="detail-item">
                             <span class="detail-label">Name:</span> ${focusedNode.name}
                         </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Marker:</span> ${typeLabel}
+                        </div>
+                        ${description}
                         <div class="detail-item">
                             <span class="detail-label">Status:</span> ${focusedNode.status}
                         </div>

@@ -9,6 +9,7 @@
             <li><a href="#azure">Microsoft Azure</a></li>
             <li><a href="#gcp">Google Cloud Platform</a></li>
             <li><a href="#oracle">Oracle Cloud</a></li>
+            <li><a href="#ibm">IBM Cloud</a></li>
         </ul>
     </nav>
 
@@ -16,21 +17,120 @@
     <section id="aws" class="section">
         <h2>Amazon Web Services (AWS)</h2>
         
-        <h3>Key Services</h3>
+        <h3>Compute Services</h3>
         <ul>
-            <li><strong>EC2:</strong> Elastic Compute Cloud for virtual machines (12-month free tier)</li>
-            <li><strong>S3:</strong> Object storage for data lakes and backups</li>
-            <li><strong>RDS:</strong> Managed relational databases (PostgreSQL, MySQL, MariaDB, Oracle)</li>
-            <li><strong>DynamoDB:</strong> NoSQL database for high-performance applications</li>
+            <li><strong>EC2:</strong> Elastic Compute Cloud for virtual machines</li>
             <li><strong>Lambda:</strong> Serverless compute for event-driven workloads</li>
-            <li><strong>SageMaker:</strong> Managed machine learning platform</li>
-            <li><strong>ECS/EKS:</strong> Container orchestration (ECS proprietary, EKS for Kubernetes)</li>
+            <li><strong>ECS:</strong> Elastic Container Service</li>
+            <li><strong>EKS:</strong> Elastic Kubernetes Service</li>
+            <li><strong>Elastic Beanstalk:</strong> Platform as a Service</li>
+            <li><strong>Auto Scaling:</strong> Automatic capacity management</li>
+            <li><strong>Lightsail:</strong> Simplified cloud computing</li>
+            <li><strong>App Runner:</strong> Containerized web applications</li>
+            <li><strong>Batch:</strong> Batch computing</li>
+            <li><strong>Outposts:</strong> On-premises AWS infrastructure</li>
+            <li><strong>VMware Cloud on AWS:</strong> Hybrid cloud solution</li>
+            <li><strong>AWS Wavelength:</strong> Edge computing</li>
         </ul>
 
-        <h3>Quantum Computing</h3>
+        <h3>Storage Services</h3>
         <ul>
-            <li><strong>AWS Braket:</strong> Quantum computing service with access to multiple providers</li>
-            <li><strong>AWS Braket Simulator:</strong> Local quantum circuit simulation</li>
+            <li><strong>S3:</strong> Object storage for data lakes and backups</li>
+            <li><strong>EBS:</strong> Elastic Block Store for persistent volumes</li>
+            <li><strong>EFS:</strong> Elastic File System for shared storage</li>
+            <li><strong>Glacier:</strong> Long-term archival storage</li>
+            <li><strong>Storage Gateway:</strong> Hybrid storage integration</li>
+            <li><strong>AWS Backup:</strong> Centralized backup management</li>
+            <li><strong>AWS DataSync:</strong> Data transfer automation</li>
+            <li><strong>FSx for Windows:</strong> Windows file server</li>
+            <li><strong>FSx for Lustre:</strong> High-performance file system</li>
+            <li><strong>AWS Snow Family:</strong> Physical data transfer</li>
+        </ul>
+
+        <h3>Database Services</h3>
+        <ul>
+            <li><strong>RDS:</strong> Managed relational databases (PostgreSQL, MySQL, MariaDB, Oracle)</li>
+            <li><strong>DynamoDB:</strong> NoSQL database for high-performance applications</li>
+            <li><strong>ElastiCache:</strong> In-memory caching</li>
+            <li><strong>Aurora:</strong> High-performance managed database</li>
+            <li><strong>DocumentDB:</strong> MongoDB-compatible database</li>
+            <li><strong>Neptune:</strong> Graph database</li>
+            <li><strong>Amazon QLDB:</strong> Quantum Ledger Database</li>
+            <li><strong>Timestream:</strong> Time-series database</li>
+            <li><strong>Redshift:</strong> Data warehouse</li>
+            <li><strong>DMS:</strong> Database Migration Service</li>
+        </ul>
+
+        <h3>Analytics Services</h3>
+        <ul>
+            <li><strong>Redshift:</strong> Data warehouse analytics</li>
+            <li><strong>Athena:</strong> SQL queries on S3 data</li>
+            <li><strong>EMR:</strong> Elastic MapReduce for big data</li>
+            <li><strong>Kinesis Data Streams:</strong> Real-time data streaming</li>
+            <li><strong>Kinesis Data Firehose:</strong> Data delivery service</li>
+            <li><strong>Kinesis Video Streams:</strong> Video stream processing</li>
+            <li><strong>Glue:</strong> ETL and data catalog</li>
+            <li><strong>Lake Formation:</strong> Data lake management</li>
+            <li><strong>QuickSight:</strong> Business intelligence</li>
+            <li><strong>DataBrew:</strong> Data preparation</li>
+            <li><strong>Lookout for Vision:</strong> Computer vision anomalies</li>
+            <li><strong>SageMaker Data Wrangler:</strong> Data preparation for ML</li>
+        </ul>
+
+        <h3>AI/ML Services</h3>
+        <ul>
+            <li><strong>SageMaker:</strong> Managed machine learning platform</li>
+            <li><strong>SageMaker Studio:</strong> Integrated ML development environment</li>
+            <li><strong>SageMaker Pipelines:</strong> ML workflow automation</li>
+            <li><strong>SageMaker Feature Store:</strong> Feature management</li>
+            <li><strong>SageMaker Model Registry:</strong> Model versioning</li>
+            <li><strong>SageMaker Debugger:</strong> Model debugging</li>
+            <li><strong>SageMaker Monitoring:</strong> Model monitoring</li>
+            <li><strong>Rekognition:</strong> Computer vision API</li>
+            <li><strong>Comprehend:</strong> Natural language processing</li>
+            <li><strong>Polly:</strong> Text-to-speech</li>
+            <li><strong>Lex:</strong> Conversational AI</li>
+            <li><strong>Translate:</strong> Machine translation</li>
+            <li><strong>Forecast:</strong> Time-series forecasting</li>
+            <li><strong>Lookout for Metrics:</strong> Anomaly detection</li>
+            <li><strong>Lookout for Equipment:</strong> Predictive maintenance</li>
+            <li><strong>Personalize:</strong> Personalization engine</li>
+            <li><strong>Textract:</strong> Document text extraction</li>
+            <li><strong>Contact Lens for Amazon Connect:</strong> Call analytics</li>
+        </ul>
+
+        <h3>Networking Services</h3>
+        <ul>
+            <li><strong>VPC:</strong> Virtual Private Cloud</li>
+            <li><strong>CloudFront:</strong> Content delivery network</li>
+            <li><strong>Route 53:</strong> DNS and domain management</li>
+            <li><strong>ELB:</strong> Elastic Load Balancing</li>
+            <li><strong>Application Load Balancer:</strong> Layer 7 load balancing</li>
+            <li><strong>Network Load Balancer:</strong> Ultra-high performance load balancing</li>
+            <li><strong>Direct Connect:</strong> Dedicated network connection</li>
+            <li><strong>VPN:</strong> Virtual private network</li>
+            <li><strong>PrivateLink:</strong> Private endpoint services</li>
+            <li><strong>VPC Peering:</strong> VPC-to-VPC connectivity</li>
+            <li><strong>AWS Shield:</strong> DDoS protection</li>
+            <li><strong>AWS WAF:</strong> Web application firewall</li>
+            <li><strong>AWS Firewall Manager:</strong> Centralized firewall management</li>
+            <li><strong>CloudWatch:</strong> Monitoring and observability</li>
+            <li><strong>VPC Flow Logs:</strong> Network traffic logging</li>
+            <li><strong>Transit Gateway:</strong> Network hub</li>
+            <li><strong>App Mesh:</strong> Service mesh</li>
+        </ul>
+
+        <h3>Data Integration Services</h3>
+        <ul>
+            <li><strong>AWS DMS:</strong> Database migration service</li>
+            <li><strong>AWS Glue:</strong> ETL and data catalog</li>
+            <li><strong>AWS DataSync:</strong> Data transfer automation</li>
+            <li><strong>AWS Transfer Family:</strong> File transfer services</li>
+            <li><strong>AWS DataBrew:</strong> Data preparation</li>
+            <li><strong>Amazon Kinesis:</strong> Real-time data streaming</li>
+            <li><strong>Amazon MQ:</strong> Managed message broker</li>
+            <li><strong>Amazon AppFlow:</strong> Integration platform</li>
+            <li><strong>AWS Ground Station:</strong> Satellite communication</li>
         </ul>
 
         <h3>Setup & Access</h3>
@@ -46,31 +146,116 @@
     <section id="azure" class="section">
         <h2>Microsoft Azure</h2>
         
-        <h3>Key Services</h3>
+        <h3>Compute Services</h3>
         <ul>
             <li><strong>Virtual Machines:</strong> Scalable computing with Windows/Linux</li>
             <li><strong>App Service:</strong> Managed platform for web and API applications</li>
+            <li><strong>Azure Functions:</strong> Serverless compute</li>
+            <li><strong>Container Instances:</strong> Containerized workloads without orchestration</li>
+            <li><strong>Kubernetes Service (AKS):</strong> Managed Kubernetes</li>
+            <li><strong>Batch:</strong> Large-scale parallel computing</li>
+            <li><strong>VM Scale Sets:</strong> Auto-scaling VM groups</li>
+            <li><strong>Service Fabric:</strong> Microservices platform</li>
+            <li><strong>Azure Container Apps:</strong> Serverless containers</li>
+            <li><strong>Dedicated Hosts:</strong> Physical server isolation</li>
+            <li><strong>Azure VMware Solution:</strong> VMware workloads on Azure</li>
+            <li><strong>Azure Spot Virtual Machines:</strong> Discounted compute</li>
+        </ul>
+
+        <h3>Storage Services</h3>
+        <ul>
+            <li><strong>Blob Storage:</strong> Unstructured data storage</li>
+            <li><strong>Disk Storage:</strong> Persistent block storage</li>
+            <li><strong>File Share:</strong> SMB file sharing</li>
+            <li><strong>Table Storage:</strong> NoSQL key-value store</li>
+            <li><strong>Archive Storage:</strong> Long-term data archival</li>
+            <li><strong>Data Lake Storage:</strong> Big data analytics storage</li>
+            <li><strong>Managed Disks:</strong> Managed block storage</li>
+            <li><strong>Ultra Disks:</strong> High-performance block storage</li>
+            <li><strong>NetApp Files:</strong> Enterprise file sharing</li>
+        </ul>
+
+        <h3>Database Services</h3>
+        <ul>
             <li><strong>SQL Database:</strong> Managed SQL Server implementation</li>
             <li><strong>Cosmos DB:</strong> Globally distributed NoSQL database</li>
-            <li><strong>Azure Functions:</strong> Serverless compute</li>
+            <li><strong>Database for MySQL:</strong> Managed MySQL</li>
+            <li><strong>Database for PostgreSQL:</strong> Managed PostgreSQL</li>
+            <li><strong>Database for MariaDB:</strong> Managed MariaDB</li>
+            <li><strong>HorizonDB:</strong> Time-series database</li>
+            <li><strong>Redis Cache:</strong> In-memory caching</li>
+            <li><strong>Azure SQL Managed Instance:</strong> SQL Server compatibility</li>
+            <li><strong>Azure SQL Edge:</strong> Edge computing SQL</li>
+            <li><strong>Azure Database Migration Service:</strong> Database migration</li>
+        </ul>
+
+        <h3>Analytics Services</h3>
+        <ul>
+            <li><strong>Synapse Analytics:</strong> Data warehouse and analytics</li>
+            <li><strong>Data Factory:</strong> ETL and data integration</li>
+            <li><strong>Stream Analytics:</strong> Real-time data processing</li>
+            <li><strong>Databricks:</strong> Apache Spark platform</li>
+            <li><strong>HDInsight:</strong> Managed Hadoop and Spark</li>
+            <li><strong>Data Lake Analytics:</strong> Big data analytics on demand</li>
+            <li><strong>Power BI:</strong> Business intelligence and visualization</li>
+            <li><strong>Azure Analysis Services:</strong> Semantic data modeling</li>
+            <li><strong>Data Share:</strong> Secure data sharing</li>
+            <li><strong>Purview:</strong> Data governance and discovery</li>
+        </ul>
+
+        <h3>AI/ML Services</h3>
+        <ul>
             <li><strong>Azure Machine Learning:</strong> Integrated ML platform</li>
-            <li><strong>Azure Kubernetes Service (AKS):</strong> Managed Kubernetes</li>
-            <li><strong>Azure Quantum:</strong> Quantum computing service</li>
+            <li><strong>Azure AI Services:</strong> Cognitive AI services suite</li>
+            <li><strong>Cognitive Services:</strong> Pre-built AI APIs</li>
+            <li><strong>Azure OpenAI:</strong> OpenAI API integration</li>
+            <li><strong>Bot Service:</strong> Intelligent bot creation</li>
+            <li><strong>Form Recognizer:</strong> Document understanding</li>
+            <li><strong>Azure Search:</strong> Search and indexing</li>
+            <li><strong>Computer Vision:</strong> Image analysis</li>
+            <li><strong>Language Understanding:</strong> NLU service</li>
+            <li><strong>Speech Services:</strong> Speech recognition and synthesis</li>
+            <li><strong>Translator:</strong> Machine translation</li>
+            <li><strong>Anomaly Detector:</strong> Anomaly detection API</li>
+            <li><strong>Content Moderator:</strong> Text and image moderation</li>
+            <li><strong>Personalizer:</strong> Personalization service</li>
+        </ul>
+
+        <h3>Networking Services</h3>
+        <ul>
+            <li><strong>Virtual Network:</strong> Private network infrastructure</li>
+            <li><strong>Load Balancer:</strong> Layer 4 load balancing</li>
+            <li><strong>Application Gateway:</strong> Layer 7 load balancing</li>
+            <li><strong>Content Delivery Network:</strong> CDN service</li>
+            <li><strong>Traffic Manager:</strong> DNS-based load balancing</li>
+            <li><strong>ExpressRoute:</strong> Dedicated network connection</li>
+            <li><strong>VPN Gateway:</strong> VPN connectivity</li>
+            <li><strong>Bastion:</strong> Secure RDP/SSH access</li>
+            <li><strong>Firewall:</strong> Network firewall</li>
+            <li><strong>DDoS Protection:</strong> DDoS mitigation</li>
+            <li><strong>Network Watcher:</strong> Network monitoring</li>
+            <li><strong>Front Door:</strong> Global load balancing</li>
+            <li><strong>Private Link:</strong> Private endpoint services</li>
+            <li><strong>Virtual WAN:</strong> Global network connectivity</li>
+        </ul>
+
+        <h3>Data Integration Services</h3>
+        <ul>
+            <li><strong>Data Factory:</strong> Cloud data integration</li>
+            <li><strong>Synapse Link:</strong> Real-time analytics</li>
+            <li><strong>Data Share:</strong> Secure data sharing</li>
+            <li><strong>Purview:</strong> Data governance</li>
+            <li><strong>Stream Analytics:</strong> Real-time streaming</li>
+            <li><strong>Event Hubs:</strong> Event ingestion service</li>
+            <li><strong>Service Bus:</strong> Messaging service</li>
+            <li><strong>Planetary Computer:</strong> Geospatial data</li>
         </ul>
 
         <h3>Quantum Computing</h3>
         <ul>
             <li><strong>Azure Quantum:</strong> Cloud quantum computing with multiple backends</li>
             <li><strong>Q# Integration:</strong> Native Q# programming language support</li>
-            <li><strong>IonQ, Rigetti, Quantinuum:</strong> Provider ecosystem access</li>
-        </ul>
-
-        <h3>Authentication & Access Control</h3>
-        <ul>
-            <li><strong>Entra ID (formerly Azure AD):</strong> Identity and access management</li>
-            <li>Configure IAM roles (Owner, Editor, Viewer, Custom)</li>
-            <li>Enable Multi-Factor Authentication (MFA)</li>
-            <li>Set up billing alerts and cost management</li>
+            <li><strong>Provider Ecosystem:</strong> IonQ, Rigetti, Quantinuum access</li>
         </ul>
 
         <h3>Setup & Credits</h3>
@@ -85,16 +270,130 @@
     <section id="gcp" class="section">
         <h2>Google Cloud Platform (GCP)</h2>
         
-        <h3>Key Services</h3>
+        <h3>Compute Services</h3>
         <ul>
-            <li><strong>Compute Engine:</strong> Virtual machines with flexible configuration</li>
+            <li><strong>Cloud Functions:</strong> Serverless functions</li>
+            <li><strong>App Engine:</strong> Platform as a Service</li>
             <li><strong>Cloud Run:</strong> Serverless containers</li>
-            <li><strong>App Engine:</strong> Platform as a service for web applications</li>
-            <li><strong>Cloud SQL:</strong> Managed SQL databases</li>
-            <li><strong>Firestore/Datastore:</strong> NoSQL document databases</li>
-            <li><strong>BigQuery:</strong> Data warehouse for analytics</li>
             <li><strong>Google Kubernetes Engine (GKE):</strong> Managed Kubernetes</li>
+            <li><strong>Compute Engine:</strong> Virtual machines with flexible configuration</li>
+            <li><strong>Bare Metal Solution:</strong> Physical servers</li>
+            <li><strong>Preemptible VMs:</strong> Discounted compute instances</li>
+            <li><strong>Shielded VMs:</strong> Secure VM instances</li>
+            <li><strong>Sole-tenant Nodes:</strong> Dedicated physical nodes</li>
+            <li><strong>VMware Engine:</strong> VMware workloads on GCP</li>
+        </ul>
+
+        <h3>Storage Services</h3>
+        <ul>
+            <li><strong>Cloud Filestore:</strong> Managed NFS file storage</li>
+            <li><strong>Cloud Storage:</strong> Object storage</li>
+            <li><strong>Persistent Disk:</strong> Block storage for VMs</li>
+            <li><strong>Local SSD:</strong> High-performance local storage</li>
+        </ul>
+
+        <h3>Database Services</h3>
+        <ul>
+            <li><strong>Cloud Bigtable:</strong> NoSQL wide-column database</li>
+            <li><strong>Cloud Firestore:</strong> NoSQL document database</li>
+            <li><strong>Cloud Memorystore:</strong> Managed Redis and Memcached</li>
+            <li><strong>Cloud Spanner:</strong> Globally distributed relational database</li>
+            <li><strong>Cloud SQL:</strong> Managed SQL databases</li>
+            <li><strong>Database Migration Service:</strong> Database migration</li>
+            <li><strong>Cloud SQL Insights:</strong> Database performance insights</li>
+        </ul>
+
+        <h3>Analytics Services</h3>
+        <ul>
+            <li><strong>BigQuery:</strong> Data warehouse for analytics</li>
+            <li><strong>BigQuery BI Engine:</strong> In-memory analysis</li>
+            <li><strong>BigQuery ML:</strong> ML within BigQuery</li>
+            <li><strong>BigQuery GIS:</strong> Geospatial analysis</li>
+            <li><strong>BigQuery Data Transfer Service:</strong> Automated data transfers</li>
+            <li><strong>Cloud Composer:</strong> Managed Apache Airflow</li>
+            <li><strong>Cloud Data Fusion:</strong> Managed data integration</li>
+            <li><strong>Dataflow:</strong> Stream and batch processing</li>
+            <li><strong>Dataprep by Trifacta:</strong> Data preparation</li>
+            <li><strong>Dataproc:</strong> Managed Spark and Hadoop</li>
+            <li><strong>Datastream:</strong> Change data capture</li>
+            <li><strong>Pub/Sub:</strong> Event streaming service</li>
+            <li><strong>Data Catalog:</strong> Data discovery and metadata</li>
+            <li><strong>Google Data Studio:</strong> Data visualization</li>
+            <li><strong>Looker:</strong> Business intelligence platform</li>
+            <li><strong>Public Datasets:</strong> Free public data</li>
+            <li><strong>Google Earth Engine:</strong> Geospatial analysis platform</li>
+        </ul>
+
+        <h3>AI/ML Services</h3>
+        <ul>
             <li><strong>Vertex AI:</strong> Unified machine learning platform</li>
+            <li><strong>AutoML:</strong> Automated machine learning</li>
+            <li><strong>Vertex AI Data Labeling:</strong> Data annotation service</li>
+            <li><strong>Deep Learning VM Images:</strong> Pre-configured VMs</li>
+            <li><strong>Vertex AI Workbench:</strong> ML development environment</li>
+            <li><strong>Deep Learning Containers:</strong> Container images for ML</li>
+            <li><strong>Vertex AI Matching Engine:</strong> Vector similarity search</li>
+            <li><strong>Vertex AI Pipelines:</strong> ML workflow orchestration</li>
+            <li><strong>Vertex AI Predictions:</strong> Model serving</li>
+            <li><strong>Vertex AI Training:</strong> Distributed training</li>
+            <li><strong>Vertex AI Edge Manager:</strong> Edge device management</li>
+            <li><strong>Vertex Explainable AI:</strong> Model interpretability</li>
+            <li><strong>Vertex AI Feature Store:</strong> Feature management</li>
+            <li><strong>Vertex ML Metadata:</strong> ML metadata tracking</li>
+            <li><strong>Vertex AI Model Monitoring:</strong> Model performance monitoring</li>
+            <li><strong>Vertex AI Tensorboard:</strong> Experiment tracking</li>
+            <li><strong>Vertex AI Vizier:</strong> Hyperparameter optimization</li>
+            <li><strong>Speech-to-Text:</strong> Speech recognition API</li>
+            <li><strong>Talent Solutions:</strong> Job search API</li>
+            <li><strong>Text-to-Speech:</strong> Text-to-speech API</li>
+            <li><strong>Cloud TPU:</strong> Tensor processing units</li>
+            <li><strong>Cloud Translation:</strong> Machine translation API</li>
+            <li><strong>Cloud Video Intelligence API:</strong> Video analysis</li>
+            <li><strong>Cloud Vision:</strong> Image analysis API</li>
+            <li><strong>Contact Center AI:</strong> Customer service AI</li>
+            <li><strong>Dialogflow:</strong> Conversational AI</li>
+            <li><strong>Document AI:</strong> Document intelligence</li>
+            <li><strong>Recommendations AI:</strong> Recommendation engine</li>
+            <li><strong>Vision Product Search:</strong> Visual search</li>
+        </ul>
+
+        <h3>Networking Services</h3>
+        <ul>
+            <li><strong>Carrier Peering:</strong> Direct carrier connection</li>
+            <li><strong>Direct Peering:</strong> Direct peering connection</li>
+            <li><strong>Dedicated Interconnect:</strong> Dedicated network connection</li>
+            <li><strong>Partner Interconnect:</strong> Partner-provided connection</li>
+            <li><strong>Google Cloud Armor:</strong> DDoS and WAF protection</li>
+            <li><strong>Cloud CDN:</strong> Content delivery network</li>
+            <li><strong>Cloud DNS:</strong> Managed DNS service</li>
+            <li><strong>Cloud Load Balancing:</strong> Load balancing</li>
+            <li><strong>Cloud NAT:</strong> Network address translation</li>
+            <li><strong>Cloud Router:</strong> Dynamic routing</li>
+            <li><strong>Cloud VPN:</strong> VPN connectivity</li>
+            <li><strong>Network Service Tiers:</strong> Traffic routing optimization</li>
+            <li><strong>Network Telemetry:</strong> Network monitoring</li>
+            <li><strong>Traffic Director:</strong> Global load balancing</li>
+            <li><strong>Anthos Service Mesh:</strong> Service mesh</li>
+            <li><strong>Virtual Private Cloud:</strong> VPC networking</li>
+            <li><strong>Cloud Domains:</strong> Domain registration</li>
+            <li><strong>VPC Service Controls:</strong> Security perimeter</li>
+            <li><strong>Network Intelligence Center:</strong> Network diagnostics</li>
+            <li><strong>Service Directory:</strong> Service discovery</li>
+            <li><strong>Private Service Connect:</strong> Private connectivity</li>
+            <li><strong>Network Connectivity Center:</strong> Network hub</li>
+            <li><strong>Packet Mirroring:</strong> Network traffic mirroring</li>
+            <li><strong>Cloud IDS:</strong> Intrusion detection</li>
+        </ul>
+
+        <h3>Data Integration Services</h3>
+        <ul>
+            <li><strong>Dataflow:</strong> Stream and batch processing</li>
+            <li><strong>Cloud Data Transfer:</strong> Data transfer service</li>
+            <li><strong>Database Migration Service:</strong> Database migration</li>
+            <li><strong>Datastream:</strong> Change data capture</li>
+            <li><strong>Pub/Sub:</strong> Event messaging</li>
+            <li><strong>Cloud Composer:</strong> Workflow orchestration</li>
+            <li><strong>Cloud Data Fusion:</strong> Data integration</li>
         </ul>
 
         <h3>Setup & Credits</h3>
@@ -109,14 +408,85 @@
     <section id="oracle" class="section">
         <h2>Oracle Cloud Infrastructure (OCI)</h2>
         
-        <h3>Key Services</h3>
+        <h3>Compute Services</h3>
         <ul>
-            <li><strong>Compute:</strong> Virtual machines and bare metal instances</li>
-            <li><strong>Database Cloud Service:</strong> Managed Oracle Database</li>
-            <li><strong>Object Storage:</strong> S3-compatible object storage</li>
-            <li><strong>Container Engine:</strong> Managed Kubernetes</li>
-            <li><strong>MySQL Database Service:</strong> Managed MySQL</li>
-            <li><strong>PostgreSQL Database Service:</strong> Managed PostgreSQL</li>
+            <li><strong>Compute Instances:</strong> Virtual machines</li>
+            <li><strong>Container Engine (OKE):</strong> Managed Kubernetes</li>
+            <li><strong>Functions:</strong> Serverless functions</li>
+            <li><strong>Bare Metal:</strong> Physical servers</li>
+            <li><strong>VM Database Systems:</strong> Database VMs</li>
+            <li><strong>Dedicated VM Hosts:</strong> Dedicated compute</li>
+            <li><strong>GPU Instances:</strong> GPU-accelerated compute</li>
+            <li><strong>Exadata Cloud Service:</strong> High-performance database service</li>
+        </ul>
+
+        <h3>Storage Services</h3>
+        <ul>
+            <li><strong>Object Storage:</strong> Scalable object storage</li>
+            <li><strong>Block Storage:</strong> High-performance block volumes</li>
+            <li><strong>File Storage:</strong> NFS file storage</li>
+            <li><strong>Archive Storage:</strong> Long-term data archival</li>
+            <li><strong>Data Transfer Service:</strong> Physical data transfer</li>
+            <li><strong>Storage Gateway:</strong> Hybrid storage</li>
+        </ul>
+
+        <h3>Database Services</h3>
+        <ul>
+            <li><strong>Autonomous Database:</strong> Fully managed database</li>
+            <li><strong>Autonomous Transaction Processing:</strong> OLTP database</li>
+            <li><strong>Autonomous Data Warehouse:</strong> OLAP database</li>
+            <li><strong>MySQL Database:</strong> Managed MySQL</li>
+            <li><strong>PostgreSQL Database:</strong> Managed PostgreSQL</li>
+            <li><strong>Data Warehouse:</strong> Enterprise data warehouse</li>
+            <li><strong>NoSQL Database:</strong> Managed NoSQL</li>
+            <li><strong>Database Migration:</strong> Database migration service</li>
+        </ul>
+
+        <h3>Analytics Services</h3>
+        <ul>
+            <li><strong>Big Data Service:</strong> Managed Hadoop and Spark</li>
+            <li><strong>Data Integration:</strong> ETL and data integration</li>
+            <li><strong>Streaming:</strong> Real-time data streaming</li>
+            <li><strong>Data Lake:</strong> Data lake infrastructure</li>
+            <li><strong>Analytics Cloud:</strong> Cloud analytics</li>
+            <li><strong>Hadoop Distribution:</strong> Managed Hadoop</li>
+            <li><strong>Spark Cluster:</strong> Spark clusters</li>
+        </ul>
+
+        <h3>AI/ML Services</h3>
+        <ul>
+            <li><strong>Generative AI Service:</strong> Generative AI models</li>
+            <li><strong>Data Science:</strong> Data science platform</li>
+            <li><strong>Machine Learning:</strong> ML service</li>
+            <li><strong>Vision AI:</strong> Computer vision</li>
+            <li><strong>Language Processing:</strong> NLP service</li>
+            <li><strong>Digital Assistant:</strong> Chatbot platform</li>
+            <li><strong>Anomaly Detection:</strong> Anomaly detection</li>
+        </ul>
+
+        <h3>Data Integration Services</h3>
+        <ul>
+            <li><strong>GoldenGate:</strong> Real-time data replication</li>
+            <li><strong>GoldenGate for Big Data:</strong> Streaming to big data</li>
+            <li><strong>Data Pump:</strong> Data migration tool</li>
+            <li><strong>Data Integration Platform:</strong> Cloud-native integration</li>
+            <li><strong>Dataflow:</strong> Visual data integration</li>
+            <li><strong>Event Streaming:</strong> Event streaming service</li>
+            <li><strong>Service Connector Hub:</strong> Streaming to services</li>
+        </ul>
+
+        <h3>Networking Services</h3>
+        <ul>
+            <li><strong>Virtual Cloud Network:</strong> VPC networking</li>
+            <li><strong>Internet Gateway:</strong> Internet connectivity</li>
+            <li><strong>NAT Gateway:</strong> Network address translation</li>
+            <li><strong>Load Balancer:</strong> Layer 4 load balancing</li>
+            <li><strong>Network Load Balancer:</strong> Network load balancing</li>
+            <li><strong>Content Delivery Network:</strong> CDN service</li>
+            <li><strong>DRG:</strong> Dynamic Routing Gateway</li>
+            <li><strong>FastConnect:</strong> Dedicated connection</li>
+            <li><strong>VPN Connect:</strong> VPN service</li>
+            <li><strong>Service Gateway:</strong> Private service access</li>
         </ul>
 
         <h3>Setup & Credits</h3>
@@ -127,6 +497,99 @@
         </ul>
     </section>
 
+    <!-- IBM Cloud Section -->
+    <section id="ibm" class="section">
+        <h2>IBM Cloud</h2>
+        
+        <h3>Compute Services</h3>
+        <ul>
+            <li><strong>Virtual Servers:</strong> On-demand virtual machines</li>
+            <li><strong>Kubernetes Service (IKS):</strong> Managed Kubernetes clusters</li>
+            <li><strong>Cloud Foundry:</strong> Platform as a service</li>
+            <li><strong>Functions (OpenWhisk):</strong> Serverless computing</li>
+            <li><strong>Bare Metal Servers:</strong> Physical servers</li>
+            <li><strong>Power Systems Virtual Servers:</strong> Power-based VMs</li>
+            <li><strong>GPU Services:</strong> GPU acceleration</li>
+        </ul>
+
+        <h3>Storage Services</h3>
+        <ul>
+            <li><strong>Cloud Object Storage:</strong> Highly available object storage</li>
+            <li><strong>Block Storage:</strong> Persistent block volumes</li>
+            <li><strong>File Storage:</strong> NFS file shares</li>
+            <li><strong>Backup & Restore:</strong> Backup service</li>
+            <li><strong>Snapshots:</strong> Block storage snapshots</li>
+            <li><strong>Tencent COS Integration:</strong> Multi-cloud storage</li>
+        </ul>
+
+        <h3>Database Services</h3>
+        <ul>
+            <li><strong>Db2 on Cloud:</strong> Managed Db2 relational database</li>
+            <li><strong>PostgreSQL:</strong> Managed PostgreSQL</li>
+            <li><strong>MySQL:</strong> Managed MySQL</li>
+            <li><strong>MongoDB:</strong> Managed MongoDB</li>
+            <li><strong>Redis:</strong> Managed Redis cache</li>
+            <li><strong>Elasticsearch:</strong> Managed Elasticsearch</li>
+            <li><strong>Data Virtualization:</strong> Federated database access</li>
+            <li><strong>Databases for Enterprise:</strong> Enterprise database platform</li>
+        </ul>
+
+        <h3>Analytics Services</h3>
+        <ul>
+            <li><strong>Analytics Engine:</strong> Managed Apache Spark</li>
+            <li><strong>Data Engine:</strong> Data processing</li>
+            <li><strong>Real-Time Analytics:</strong> Streaming analytics</li>
+            <li><strong>Data Warehouse:</strong> Cloud data warehouse</li>
+            <li><strong>Watson Studio:</strong> Data science platform</li>
+            <li><strong>Streaming Analytics:</strong> Real-time event streaming</li>
+        </ul>
+
+        <h3>AI/ML Services</h3>
+        <ul>
+            <li><strong>Watson Machine Learning:</strong> ML service</li>
+            <li><strong>Watson Natural Language Understanding:</strong> NLP service</li>
+            <li><strong>Watson Visual Recognition:</strong> Computer vision</li>
+            <li><strong>Watson Assistant:</strong> Chatbot platform</li>
+            <li><strong>Watson Tone Analyzer:</strong> Sentiment analysis</li>
+            <li><strong>Data Science Experience (DSX):</strong> Collaborative data science</li>
+            <li><strong>Quantum Computing Services:</strong> Quantum computing access</li>
+        </ul>
+
+        <h3>Data Integration Services</h3>
+        <ul>
+            <li><strong>Data Integration Tool:</strong> ETL and integration</li>
+            <li><strong>Event Streams:</strong> Apache Kafka managed service</li>
+            <li><strong>MQ (Message Queue):</strong> Enterprise messaging</li>
+            <li><strong>API Gateway:</strong> API management</li>
+            <li><strong>Integration Cloud:</strong> iPaaS integration platform</li>
+        </ul>
+
+        <h3>Networking Services</h3>
+        <ul>
+            <li><strong>Virtual Private Cloud:</strong> VPC networking</li>
+            <li><strong>Content Delivery Network:</strong> CDN service</li>
+            <li><strong>Direct Link:</strong> Dedicated network connection</li>
+            <li><strong>Load Balancer:</strong> Network load balancing</li>
+            <li><strong>VPN Gateway:</strong> VPN connectivity</li>
+            <li><strong>Gateway Appliance:</strong> Virtual network gateway</li>
+            <li><strong>DNS Services:</strong> Domain name services</li>
+        </ul>
+
+        <h3>Quantum & Emerging Tech</h3>
+        <ul>
+            <li><strong>IBM Quantum:</strong> Quantum computing platform</li>
+            <li><strong>Quantum Composer:</strong> Quantum circuit design</li>
+            <li><strong>Quantum Qiskit Runtime:</strong> Quantum execution engine</li>
+        </ul>
+
+        <h3>Setup & Credits</h3>
+        <ul>
+            <li>Free tier: Limited free resources for development</li>
+            <li>Pay-as-you-go: Flexible pricing model</li>
+            <li>Quantum computing: Free quantum processor access through IBM Quantum</li>
+        </ul>
+    </section>
+
     <!-- Summary Section -->
     <section class="section">
         <h2>Multi-Cloud Strategy</h2>
@@ -134,11 +597,27 @@
             <p><strong>Recommended Approach:</strong></p>
             <ul>
                 <li>Leverage free trials/credits for evaluation (6+ months total)</li>
-                <li>Use AWS for broad service ecosystem and maturity</li>
-                <li>Use Azure for Microsoft ecosystem integration and Quantum</li>
-                <li>Use GCP for data analytics and machine learning</li>
-                <li>Implement cloud-agnostic architectures with Kubernetes</li>
-                <li>Use Infrastructure as Code (Terraform) for portability</li>
+                <li>Use AWS for broad service ecosystem, maturity, and established best practices</li>
+                <li>Use Azure for Microsoft ecosystem integration and quantum computing (Azure Quantum)</li>
+                <li>Use GCP for data analytics, machine learning, and BigQuery</li>
+                <li>Use Oracle Cloud for enterprise database workloads and Exadata performance</li>
+                <li>Use IBM Cloud for quantum computing access (IBM Quantum), Watson AI services, and enterprise integration</li>
+                <li>Implement cloud-agnostic architectures with Kubernetes (EKS, AKS, GKE, OKE, IKS)</li>
+                <li>Use Infrastructure as Code (Terraform, CloudFormation) for portability across clouds</li>
+                <li>Leverage multi-cloud orchestration platforms for unified management</li>
+            </ul>
+        </div>
+        
+        <div class="subsection">
+            <p><strong>Service Selection Guide:</strong></p>
+            <ul>
+                <li><strong>Compute Workloads:</strong> All 5 providers offer strong compute options; choose based on existing infrastructure</li>
+                <li><strong>Database & Analytics:</strong> GCP excels (BigQuery), Azure strong (Synapse), AWS comprehensive, Oracle for enterprise</li>
+                <li><strong>AI/ML:</strong> GCP (Vertex AI, TPUs), Azure (ML, Cognitive Services), AWS (SageMaker), IBM (Watson, Quantum)</li>
+                <li><strong>Quantum Computing:</strong> Azure Quantum, IBM Quantum, AWS Braket (limited), Others via partnerships</li>
+                <li><strong>Enterprise Integration:</strong> IBM Cloud for enterprise middleware, Azure for Microsoft stacks, AWS for scale</li>
+                <li><strong>Cost Optimization:</strong> AWS reserved instances, Azure hybrid benefits, GCP sustained use discounts</li>
+                <li><strong>Data Governance:</strong> All provide encryption and compliance; consider regional data residency requirements</li>
             </ul>
         </div>
     </section>

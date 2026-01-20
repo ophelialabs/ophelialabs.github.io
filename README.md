@@ -1,3 +1,10 @@
+*Enterprise Linux:*
+ - D > F
+*Ubuntu:*
+ - IntelliJ
+ - DataGrip
+ - GoLand (ONLY 30 DAYS)
+ 
  - [Thinking ahead and creating reusable code (generic constraints)](https://www.youtube.com/watch?v=0qtwYT4n2CM)
  - [.NET 2026](https://www.youtube.com/watch?v=WYBZTraXlXQ)
 

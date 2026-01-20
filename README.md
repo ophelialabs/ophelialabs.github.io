@@ -1,6 +1,6 @@
-*Enterprise Linux:*
+### Enterprise Linux:
  - D > F
-*Ubuntu:*
+### Ubuntu:
  - IntelliJ
  - DataGrip
  - GoLand (ONLY 30 DAYS)

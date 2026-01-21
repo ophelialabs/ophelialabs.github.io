@@ -3,9 +3,11 @@
 ### Ubuntu:
  - IntelliJ
  - DataGrip
+ - sqlite
+     - sql, kql, jql
  - GoLand (ONLY 30 DAYS)
-### SQLite
- - sql, kql, jql
+     - envoy, haproxy
+ - JFrog Artifactory
 
  ### YT
  - [Thinking ahead and creating reusable code (generic constraints)](https://www.youtube.com/watch?v=0qtwYT4n2CM)

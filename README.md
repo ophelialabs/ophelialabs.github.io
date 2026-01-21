@@ -10,6 +10,8 @@
  - JFrog Artifactory [Tour](https://jfrog.com/start/)
  - *Planning on using outlook for gitlab(salesforce) and gmail for jfrog*
  - **NOTE: Gmail integration**
+ - [Possum](https://github.com/target/POSSUM)
+ - MyTime [Hardware](https://hardware.mytime.com/)
 
  ### YT
  - [Thinking ahead and creating reusable code (generic constraints)](https://www.youtube.com/watch?v=0qtwYT4n2CM)

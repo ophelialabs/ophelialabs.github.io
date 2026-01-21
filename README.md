@@ -21,6 +21,7 @@ curl -fsSL https://install.julialang.org | sh
 ```
  - select continue
 ```
+julia
 import Pkg; Pkg.add("Pluto")
 import Pluto
 Pluto.run()

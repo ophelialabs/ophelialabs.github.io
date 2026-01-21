@@ -8,7 +8,7 @@
  - GoLand (ONLY 30 DAYS)
      - envoy, haproxy
  - JFrog Artifactory [Tour](https://jfrog.com/start/)
- - *Planning on using gmail for jfrog and outlook for gitlab(salesforce)*
+ - *Planning on using outlook for gitlab(salesforce) and gmail for jfrog*
  - **NOTE: Gmail integration**
 
  ### YT

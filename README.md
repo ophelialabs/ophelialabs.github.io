@@ -1,6 +1,6 @@
 ### Email 
- - outlook(2)
- - gmail (2)
+ - outlook(2), Edge
+ - gmail (2), Chrome
  - some will allow icloud (ID which ones)
  - best way to set this up for seperation of concerns, duties and shared responsibilities (AZ DevOps, GitLab, JFrog, IBM Artifactory, Github)?
 

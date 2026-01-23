@@ -1,3 +1,9 @@
+### Email 
+ - outlook(2)
+ - gmail (2)
+ - some will allow icloud (ID which ones)
+ - best way to set this up for seperation of concerns, duties and shared responsibilities (AZ DevOps, GitLab, JFrog, IBM Artifactory, Github)?
+
 ### Enterprise Linux:
  - D > F
 ### Ubuntu:

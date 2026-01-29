@@ -1,3 +1,4 @@
+[](https://vimeo.com/270203066)
 [Crispr](https://innovativegenomics.org/crisprpedia/crispr-in-nature/)
 Restriction-modification (R-M) and CRISPR-Cas are bacterial immune systems used by prokaryotes to defend against foreign DNA, such as phages and plasmids, by targeting and cleaving specific DNA sequences. While R-M acts as innate immunity using restriction enzymes and methylation, CRISPR-Cas provides adaptive immunity by storing snippets of prior invaders to guide future immune responses.
 [img](https://innovativegenomics.org/wp-content/uploads/2024/10/Defense-systems-1536x989.png)

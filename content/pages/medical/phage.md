@@ -1,6 +1,6 @@
 Restriction-modification (R-M) and CRISPR-Cas are bacterial immune systems defending against foreign DNA, such as phages, by targeting and cleaving specific DNA sequences. While R-M acts as innate immunity using restriction enzymes and methylation, CRISPR-Cas provides adaptive immunity by storing snippets of prior invaders to guide future immune responses. 
 Restriction-Modification (R-M) Systems
-[!banner](https://innovativegenomics.org/wp-content/uploads/2024/10/Defense-systems-1536x989.png)
+[banner!](https://innovativegenomics.org/wp-content/uploads/2024/10/Defense-systems-1536x989.png)
 Mechanism: Consists of a restriction enzyme (REase) that cuts foreign DNA at specific recognition sites and a methyltransferase (MTase) that modifies (methylates) the host's own DNA to prevent self-cleavage.
 Function: Acts as a rapid, innate, and generally sequence-specific barrier to foreign DNA.
 Limitation: It cannot adapt to new pathogens and can be bypassed by phages through DNA modification (e.g., glycosylation). 

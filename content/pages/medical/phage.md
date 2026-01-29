@@ -1,4 +1,13 @@
 [](https://vimeo.com/270203066)
+*Electron microscopy (EM) beam damage on bacteriophages occurs rapidly*, often within seconds to minutes, due to high-energy electrons breaking molecular bonds in non-conductive, hydrated biological samples. 
+ - Severe damage (15-40% mass loss) can occur within 30 seconds of exposure, though with negative staining, some structures may remain identifiable for up to 4 minutes. 
+ - Key Considerations for Beam Damage and Time Limits:
+ - Irradiation Damage: The electron beam rapidly breaks molecular bonds, altering the structure of the phage (e.g., tail contraction, DNA release).
+ - Exposure Time: While significant damage happens in 30 seconds, structural integrity for observation can be maintained for short periods; one study found, with negative staining, that the shape of specimens did not change significantly within 1-4 seconds of exposure.
+ - Sample Preservation: Using negative stains helps, but to avoid damage entirely, cryo-electron microscopy (cryo-TEM) is required to freeze the sample, preventing the high vacuum from immediately destroying the sample.
+ - Optimal Imaging Time: For identification, researchers typically aim to capture images as quickly as possible to minimize structural alterations, often within the first minute of beam exposure. 
+ - To minimize damage, it is critical to use lower beam intensities and rapid, low-dose imaging techniques. 
+
 [Crispr](https://innovativegenomics.org/crisprpedia/crispr-in-nature/)
 Restriction-modification (R-M) and CRISPR-Cas are bacterial immune systems used by prokaryotes to defend against foreign DNA, such as phages and plasmids, by targeting and cleaving specific DNA sequences. While R-M acts as innate immunity using restriction enzymes and methylation, CRISPR-Cas provides adaptive immunity by storing snippets of prior invaders to guide future immune responses.
 [img](https://innovativegenomics.org/wp-content/uploads/2024/10/Defense-systems-1536x989.png)

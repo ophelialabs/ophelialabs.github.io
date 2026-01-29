@@ -39,8 +39,8 @@ Recent research highlights that these systems are not just independent hurdles b
  - Long-term Protection: While phages can escape R-M through genome methylation, CRISPR-Cas can use these newly acquired spacers to extinguish "R-M-escapees," providing robust, long-term immunity.
  - Evolutionary Pressure: Coexistence reduces the frequency of "escape" mutants that must overcome both defenses simultaneously.
 
-CRISPR in Nature - Innovative Genomics Institute (IGI)
-CRISPR in Nature - Innovative Genomics Institute (IGI)
+[](https://share.google/G1BjusX9XPYdn1u5D)
+[](https://share.google/Po7mEjkQS5W5SiBL2)
 
 ### Common Design Principles
 Despite their mechanical differences, both systems exhibit similar expression dynamics optimized for host safety:

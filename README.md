@@ -34,3 +34,11 @@ import Pkg; Pkg.add("Pluto")
 import Pluto
 Pluto.run()
 ```
+
+[![Helmholtz Cage](https://www.youtube.com/watch?v=kHobC1dock0)]
+[Design, Applications and Impact](https://www.pnisensor.com/helmholtz-coil-design-applications-and-impact/)
+[![Amy and Neo](https://www.youtube.com/watch?v=IWGOpuca7cs)]
+*Not for "free energy" or "alternative propulsion"*
+[![Alice and Bob](https://www.youtube.com/watch?v=_F5PzgQxu9Y)]
+
+

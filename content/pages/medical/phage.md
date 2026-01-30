@@ -141,6 +141,8 @@ Propagate in dcm- Host: Use an E. coli strain like INV110 or ER2796 to ensure no
 Always confirm that the specific strain you are working with indeed has the expected restriction-modification system activity before beginning your experiments.
 
 
+### Resources
+ - [Innovative Genomics](https://innovativegenomics.org/crisprpedia/crispr-in-nature/)
+ - [Bacteriophage We See You](https://scfh.ru/en/papers/bacteriophage-we-see-you/)
+ - [Cryo Tem](https://www.gatan.com/cryo-tem-molecules-frozen-time)
 
-  
- - 

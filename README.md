@@ -10,5 +10,5 @@
  - deployment platforms 
 
  ### *I personally believe that it is not about knowing everything, BUT knowing where to find the information*
-  - I have to set this up correctly so that tools and information can be easily accessed. 
+  - I have to set this up correctly so that tools and information can be easily searched for and accessed. 
   - File sharing: what to put in dropbox, onedrive and sharepoint for the future

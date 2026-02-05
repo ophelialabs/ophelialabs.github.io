@@ -1,6 +1,8 @@
 # 📐 Mathematics Cheatsheet
 
 > A comprehensive reference guide for trigonometry, algebra, linear equations, and discrete mathematics.
+- [html](https://ophelialabs.github.io/restructured/content/resources/mat-cs/mat-cs.html)
+- [jl](https://ophelialabs.github.io/restructured/content/resources/mat-cs/mat-cs.jl)
 
 ---
 

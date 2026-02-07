@@ -554,3 +554,327 @@ For your GKE-based Hyrax client, you should implement a "Successive Ping" strate
 Init Container (Layer 3): nc to ensure the Hyrax server is reachable.
 Init Container (Layer 2): s3api head-bucket to ensure the GKE-to-AWS identity federation is active.
 App Start (Layer 1): Python discovery ping to get the OAuth2 token endpoint.
+
+This script is designed to be used as a Kubernetes Readiness or Liveness probe. It follows a "Fail-Fast" logic, moving from basic network connectivity (Layer 3) to identity/storage validation (Layer 2) and finally to application metadata (Layer 7).
+Multi-Layer Health-Check Script (healthcheck.sh)
+bash
+#!/bin/bash
+
+# Configuration - Loaded from environment variables (set in K8s Deployment)
+HYRAX_HOST=${HYRAX_HOST:-"hyrax-server.org"}
+HYRAX_URL="https://${HYRAX_HOST}/opendap/test_data.h5"
+S3_BUCKET=${S3_BUCKET_NAME}
+TOKEN_DISCOVERY_URL="https://${AUTH_SERVER_BASE}/.well-known/openid-configuration"
+
+echo "--- Starting Multi-Layer Health Check ---"
+
+# --- LAYER 3: Network Ping (Socket Check) ---
+# Verifies the server is reachable on port 443 without needing SSL/Auth yet.
+nc -zv -w 2 "$HYRAX_HOST" 443 > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo "[L3 SUCCESS] Network connectivity to $HYRAX_HOST established."
+else
+    echo "[L3 FAILURE] Cannot reach $HYRAX_HOST on port 443."
+    exit 1
+fi
+
+# --- LAYER 2: Identity & Storage Ping (S3 Head-Bucket) ---
+# Verifies that GKE Workload Identity / AWS IAM Role is working.
+if [ -n "$S3_BUCKET" ]; then
+    aws s3api head-bucket --bucket "$S3_BUCKET" > /dev/null 2>&1
+    if [ $? -eq 0 ]; then
+        echo "[L2 SUCCESS] S3 Bucket '$S3_BUCKET' is accessible via Federated Identity."
+    else
+        echo "[L2 FAILURE] Access denied or Bucket not found: $S3_BUCKET."
+        exit 1
+    fi
+fi
+
+# --- LAYER 1: Protocol Discovery Ping ---
+# Verifies the Auth server is online and OIDC is discoverable.
+HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" "$TOKEN_DISCOVERY_URL")
+if [ "$HTTP_CODE" -eq 200 ]; then
+    echo "[L1 SUCCESS] OAuth2 Discovery endpoint is responsive."
+else
+    echo "[L1 FAILURE] Auth server returned HTTP $HTTP_CODE."
+    exit 1
+fi
+
+# --- LAYER 7: Application/Semantic Ping ---
+# Verifies Hyrax is up and the HDF5 handler can serve metadata.
+# We append '.das' to check the Dataset Attribute Structure without downloading data.
+HYRAX_PING=$(curl -s -I "${HYRAX_URL}.das" | grep "HTTP" | awk '{print $2}')
+if [ "$HYRAX_PING" -eq 200 ] || [ "$HYRAX_PING" -eq 401 ]; then
+    # 401 is actually a "Success" for a health check because it means 
+    # the server is alive and correctly challenging us for our OAuth token.
+    echo "[L7 SUCCESS] Hyrax HDF5 Handler is operational (Response: $HYRAX_PING)."
+else
+    echo "[L7 FAILURE] Hyrax server returned unexpected code: $HYRAX_PING."
+    exit 1
+fi
+
+echo "--- All Layers Healthy ---"
+exit 0
+Use code with caution.
+
+Kubernetes Implementation
+To use this script in your GKE/AWS/Azure cluster, you must first ensure the container image includes curl, nc (netcat), and the aws-cli.
+1. Add the Script to your Deployment
+You can mount this script via a ConfigMap to avoid rebuilding your image.
+yaml
+spec:
+  containers:
+  - name: hyrax-client
+    image: your-app-image:latest
+    readinessProbe:
+      exec:
+        command:
+        - /bin/bash
+        - /scripts/healthcheck.sh
+      initialDelaySeconds: 10
+      periodSeconds: 30
+      timeoutSeconds: 5
+    volumeMounts:
+    - name: healthcheck-script
+      mountPath: /scripts
+  volumes:
+  - name: healthcheck-script
+    configMap:
+      name: hyrax-health-cfg
+      defaultMode: 0755 # Ensure it is executable
+Use code with caution.
+
+Comparison of Layer Benefits in this Script
+Layer 3 (nc): Prevents the script from hanging on a dead socket. It fails fast if the VPN or Load Balancer is down.
+Layer 2 (aws s3api): This is unique to cloud-native HDF5. It confirms that your GKE identity federation is correctly configured before the app starts processing data.
+Layer 7 (curl -I): By checking for a 200 or 401, you verify the Hyrax HDF5 Handler is active. If you get a 500 here, it means the server is up but the specific HDF5 library is crashing or misconfigured.
+
+To run your multi-layer health-check script in any cloud environment, you need a Docker image that pre-installs the AWS CLI, Azure CLI, and Google Cloud CLI (including gsutil). 
+The following Dockerfile uses Ubuntu as a base because it provides the most stable environment for installing all three CLIs simultaneously, as Alpine often requires complex manual compilation for the AWS CLI v2. 
+The Multi-Cloud Dockerfile
+dockerfile
+# Use Ubuntu for maximum compatibility with all three cloud CLIs
+FROM ubuntu:22.04
+
+# Prevent interactive prompts during installation
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install core dependencies
+RUN apt-get update && apt-get install -y \
+    curl \
+    unzip \
+    ca-certificates \
+    gnupg \
+    lsb-release \
+    netcat \
+    python3 \
+    python3-pip \
+    && rm -rf /var/lib/apt/lists/*
+
+# 1. Install AWS CLI v2
+RUN curl "https://awscli.amazonaws.com" -o "awscliv2.zip" \
+    && unzip awscliv2.zip \
+    && ./aws/install \
+    && rm -rf awscliv2.zip ./aws
+
+# 2. Install Google Cloud CLI (gcloud + gsutil)
+RUN echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list \
+    && curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key --keyring /usr/share/keyrings/cloud.google.gpg add - \
+    && apt-get update && apt-get install -y google-cloud-cli \
+    && rm -rf /var/lib/apt/lists/*
+
+# 3. Install Azure CLI
+RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash
+
+# Create a directory for your scripts
+WORKDIR /scripts
+
+# Copy your healthcheck script into the image
+COPY healthcheck.sh /scripts/healthcheck.sh
+RUN chmod +x /scripts/healthcheck.sh
+
+# Default command runs the health check
+CMD ["/scripts/healthcheck.sh"]
+Use code with caution.
+
+Deployment Instructions
+Build and Push:
+bash
+docker build -t your-registry/multi-cloud-ping:latest .
+docker push your-registry/multi-cloud-ping:latest
+Use code with caution.
+
+Environment Configuration:
+Ensure your Kubernetes deployment includes the necessary environment variables (S3_BUCKET_NAME, GCS_BUCKET_NAME, or AZURE_CONTAINER_NAME) so the script knows which "Layer 2" check to perform.
+Identity Mapping:
+AWS: Use IAM Roles for Service Accounts (IRSA).
+GCP: Use Workload Identity.
+Azure: Use Workload ID. 
+
+The "Alpine Problem" Explained
+Most standard Linux distributions (Ubuntu, Debian, CentOS) use glibc (GNU C Library). Alpine Linux uses musl libc to keep its footprint small.
+The Conflict: The AWS CLI v2 is distributed as a pre-compiled binary linked specifically against glibc.
+The Result: If you simply download and run the AWS CLI v2 on Alpine, it will fail with a "file not found" error, even if the file is right there, because the dynamic linker cannot find glibc.
+The Fixes: You either have to install a "glibc compatibility layer" (which can be unstable) or compile the entire toolchain from source against musl.
+Dockerfile: Multi-Cloud Alpine Base
+This Dockerfile bypasses the pre-compiled binary issue by using the Python package manager (pip) to install the CLIs. Since these tools are largely written in Python, pip compiles the necessary C-extensions locally against Alpine’s musl library during the build process.
+dockerfile
+FROM alpine:3.19
+
+# 1. Install System Dependencies & Build Tools
+# We need build-base (gcc, make, etc.) and libffi-dev to compile C-extensions
+RUN apk add --no-cache \
+    python3 \
+    py3-pip \
+    bash \
+    curl \
+    util-linux \
+    netcat-openbsd \
+    build-base \
+    python3-dev \
+    libffi-dev \
+    openssl-dev \
+    ca-certificates
+
+# 2. Manual Compilation / Installation via PIP
+# Installing via pip ensures the binaries are linked against Alpine's musl libc
+RUN pip3 install --upgrade pip && \
+    pip3 install --no-cache-dir \
+    awscli \
+    gsutil \
+    azure-cli
+
+# 3. Final Cleanup
+# Removing build-base saves ~100MB of space
+RUN apk del build-base python3-dev libffi-dev openssl-dev
+
+WORKDIR /scripts
+COPY healthcheck.sh /scripts/healthcheck.sh
+RUN chmod +x /scripts/healthcheck.sh
+
+CMD ["/bin/bash", "/scripts/healthcheck.sh"]
+Use code with caution.
+
+Steps to Complete Manual Compilation (If PIP Fails)
+If you require the exact AWS CLI v2 features not present in the pip version (which is technically v1 or a modified wrapper), you must perform a manual "glibc-emulation" build. Here are the steps:
+Install glibc compatibility: You must download and install the .apk packages for glibc maintained by the community (e.g., sgerrand/alpine-pkg-glibc).
+Download the AWS Source: Download the awscliv2 source zip from Amazon.
+Bootstrap Python: AWS CLI v2 uses its own bundled Python. On Alpine, you must force it to use the system Python by setting PYTHON_INSTALL_LAYOUT=deb or similar flags.
+Relink Binaries: After installation, you often have to manually symlink the shared libraries:
+ln -s /usr/include/locale.h /usr/include/xlocale.h
+Verify via ldd: Run ldd /usr/local/bin/aws. If you see "Error relocating..." or "Not found," the compilation did not correctly link to the musl libraries.
+Summary of Size Comparison
+Ubuntu Base: ~600MB - 800MB (Stable, easy, heavy).
+Alpine Base: ~250MB - 350MB (Small, fast, requires the compilation steps above).
+
+To make the official AWS CLI v2 binary work on Alpine, you must install a glibc compatibility layer. This allows the pre-compiled binary (built for GNU-based systems like Ubuntu) to run on Alpine's musl-based system.
+The glibc Compatibility Commands
+Add these commands to your Alpine Dockerfile. This uses the widely accepted sgerrand glibc packages to provide the missing libraries.
+dockerfile
+FROM alpine:3.19
+
+# 1. Configuration variables for glibc version
+ENV GLIBC_VER=2.35-r1
+
+# 2. Install glibc compatibility layer
+RUN apk add --no-cache curl binutils && \
+    curl -sLO https://alpine-pkgs.sgerrand.com && \
+    mv sgerrand.rsa.pub /etc/apk/keys/sgerrand.rsa.pub && \
+    curl -sLO https://github.com{GLIBC_VER}/glibc-${GLIBC_VER}.apk && \
+    curl -sLO https://github.com{GLIBC_VER}/glibc-bin-${GLIBC_VER}.apk && \
+    apk add --no-cache \
+        glibc-${GLIBC_VER}.apk \
+        glibc-bin-${GLIBC_VER}.apk && \
+    # Clean up
+    rm glibc-${GLIBC_VER}.apk glibc-bin-${GLIBC_VER}.apk /etc/apk/keys/sgerrand.rsa.pub
+
+# 3. Install AWS CLI v2 using the official binary
+RUN curl "https://awscli.amazonaws.com" -o "awscliv2.zip" && \
+    unzip awscliv2.zip && \
+    ./aws/install && \
+    rm -rf awscliv2.zip ./aws
+
+# 4. Verify installation
+RUN aws --version
+Use code with caution.
+
+Critical Steps for Manual Success
+Public Key Management: You must download and move the sgerrand.rsa.pub key to /etc/apk/keys/ first. Without this, apk will refuse to install the glibc packages because they are unsigned relative to the official Alpine repositories.
+The "Double Package" requirement: You need both glibc (the core libraries) and glibc-bin (the configuration tools like ldconfig).
+DNS Fix (Optional but Recommended): Sometimes the glibc environment on Alpine has trouble resolving internal Kubernetes DNS. If your "pings" fail, you may need to symlink the library:
+ln -s /lib/libz.so.1 /usr/glibc-compat/lib/libz.so.1
+Why this is the "Layer 0" of Docker Pinging
+Think of this as Layer 0 (The Runtime Layer). Before you can perform a Layer 3 (Network) or Layer 2 (Identity) ping, your execution environment must be compatible with the cloud provider's official tools. This glibc workaround bridges that gap for Alpine.
+
+this Alpine Dockerfile integrates the glibc compatibility layer for the official AWS CLI v2 with native installations for GCP (gcloud/gsutil) and Azure CLI. 
+Integrated Multi-Cloud Alpine Dockerfile
+This image leverages Python-based installers for Azure and Google Cloud, which are natively compatible with Alpine's musl library, while maintaining the specialized glibc layer required for AWS. 
+It combines the glibc compatibility layer (for the official AWS CLI v2), the Google Cloud SDK (for gsutil), and the Azure CLI, all wrapped in a lightweight Alpine base.
+
+The Multi-Cloud Alpine "Power-Image"
+dockerfile
+FROM alpine:3.19
+
+# 1. Environment Variables
+ENV GLIBC_VER=2.35-r1
+ENV DEBIAN_FRONTEND=noninteractive
+
+# 2. Install Core Alpine Dependencies
+# Note: bash and libstdc++ are required for the GCS and Azure CLI runtimes
+RUN apk add --no-cache \
+    curl \
+    binutils \
+    bash \
+    python3 \
+    py3-pip \
+    py3-setuptools \
+    ca-certificates \
+    libstdc++ \
+    util-linux \
+    netcat-openbsd
+
+# 3. Layer 0: Install glibc Compatibility (The "Alpine Problem" Fix)
+RUN curl -sLO https://alpine-pkgs.sgerrand.com && \
+    mv sgerrand.rsa.pub /etc/apk/keys/sgerrand.rsa.pub && \
+    curl -sLO https://github.com{GLIBC_VER}/glibc-${GLIBC_VER}.apk && \
+    curl -sLO https://github.com{GLIBC_VER}/glibc-bin-${GLIBC_VER}.apk && \
+    apk add --no-cache glibc-${GLIBC_VER}.apk glibc-bin-${GLIBC_VER}.apk && \
+    rm glibc-${GLIBC_VER}.apk glibc-bin-${GLIBC_VER}.apk
+
+# 4. Install AWS CLI v2 (Official Binary)
+RUN curl "https://awscli.amazonaws.com" -o "awscliv2.zip" && \
+    unzip awscliv2.zip && \
+    ./aws/install && \
+    rm -rf awscliv2.zip ./aws
+
+# 5. Install Google Cloud SDK (gcloud + gsutil)
+# We use the script-based install because Alpine isn't a standard apt/yum target
+RUN curl -sSL https://sdk.cloud.google.com | bash -s -- --disable-prompts --install-dir=/opt
+ENV PATH $PATH:/opt/google-cloud-sdk/bin
+
+# 6. Install Azure CLI
+# On Alpine, the most reliable way to install Azure CLI is via pip3 to ensure 
+# C-extensions are compiled against musl/glibc-compat properly
+RUN apk add --no-cache --virtual .build-deps gcc musl-dev python3-dev libffi-dev openssl-dev make && \
+    pip3 install --no-cache-dir --upgrade pip && \
+    pip3 install --no-cache-dir azure-cli && \
+    apk del .build-deps
+
+# 7. Final Prep
+WORKDIR /scripts
+COPY healthcheck.sh /scripts/healthcheck.sh
+RUN chmod +x /scripts/healthcheck.sh
+
+# Verify all "Pinging" tools are present
+RUN aws --version && gsutil version && az --version
+
+CMD ["/bin/bash", "/scripts/healthcheck.sh"]
+Use code with caution.
+
+Why this works across AZ/AWS/GKE
+The AWS Part: Uses the official aws-install binary, made possible by the glibc layers added in Step 3.
+The GCP Part: Installed to /opt/google-cloud-sdk. We manually update the PATH so your health-check script can find gsutil immediately.
+The Azure Part: Uses a "virtual build-dep" strategy. We install the heavy compilers (gcc, make) only long enough to compile the Azure CLI's Python dependencies, then immediately delete them to keep the image slim.
+The Ping Logic: Includes netcat-openbsd, which is the most robust version of nc for Layer 3 connectivity pings.
+Final Deployment Check
+When you run this in GKE, ensure your K8s Service Account is annotated for Workload Identity. The gsutil and az commands in the script will automatically pick up the federated token provided by the GKE metadata server.

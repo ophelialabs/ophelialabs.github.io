@@ -7,7 +7,7 @@
 - If using Mac Isaac Sim <a href="https://docs.isaacsim.omniverse.nvidia.com/latest/installation/manual_livestream_clients.html" target="_blank" rel="noopener noreferrer">WebRTC Streaming Client</a> is best method. Page is currently undergoing development (6/24/25)
 - Ubuntu Noble (24.04 LTS) is the ONLY officially supported distro that will run Ros2 and Gazebo 
 - 86-64 arch is most straightforward path for simulators due to Nvidia GPUs needed for Isaac Sim and Isaac Lab
-- If running an Ubuntu server img, during <a href="https://ubuntu.com/desktop/flavors" target="_blank" rel="noopener noreferrer">desktop</a> install, it is possible to setup Desktop Flavours so that can be cycled through
+- If running an Ubuntu server img, during <a href="https://ubuntu.com/desktop/flavors" target="_blank" rel="noopener noreferrer">desktop</a> install, it is possible to setup Desktop Flavours so that they can be cycled through
 - Ubuntu already includes Py and Pip
 
 ---

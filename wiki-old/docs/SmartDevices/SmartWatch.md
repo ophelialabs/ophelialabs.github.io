@@ -9,4 +9,4 @@
 - [Fiber-based Sensor](https://www.nature.com/articles/s41528-025-00465-w)
 - Proprietary BLE
 - Build companion app
-*Note that when a magnetic force is applied, the watch will expectedly stop functioning. How to seperate or encase?*
+-*Note that when a magnetic force is applied, the watch will expectedly stop functioning. How to seperate or encase?*

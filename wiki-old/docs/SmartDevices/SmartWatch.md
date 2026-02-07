@@ -10,3 +10,6 @@
 - Proprietary BLE
 - Build companion app
 - *Note that when a magnetic force is applied, the watch will expectedly stop functioning. How to seperate or encase?*
+- If using a textile MEG in the form of a wristband, when a sufficient change in magnetism is applied, it will undoubtedly effect dipoles and/or thermal energy generation. How can it be used to work together collectively?  Using momentum (swinging of arm) to power device?
+- Adding sensors (electrophysiological, chemical, temp)
+- Using MEGs MI layer

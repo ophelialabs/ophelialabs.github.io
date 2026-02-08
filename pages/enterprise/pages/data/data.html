@@ -878,3 +878,5 @@ The Azure Part: Uses a "virtual build-dep" strategy. We install the heavy compil
 The Ping Logic: Includes netcat-openbsd, which is the most robust version of nc for Layer 3 connectivity pings.
 Final Deployment Check
 When you run this in GKE, ensure your K8s Service Account is annotated for Workload Identity. The gsutil and az commands in the script will automatically pick up the federated token provided by the GKE metadata server.
+
+refine the healthcheck script's Layer 7 ping to handle specific HDF5-chunk-size validations for performance benchmarking

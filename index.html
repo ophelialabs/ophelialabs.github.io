@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="layout/sidebar.css">
+    <link rel="stylesheet" href="assets/layout/sidebar.css">
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
         mermaid.initialize({ 
@@ -41,7 +41,7 @@
         <div id="python" class="page"></div>
     </main>
     
-    <script src="scripts.js"></script>
+    <script src="assets/js/scripts.js"></script>
     <script>
         // Load navbar HTML into the div
         fetch('layout/navbar.html')
@@ -65,22 +65,22 @@
         // Load page content dynamically
         document.addEventListener('DOMContentLoaded', function() {
             const pages = {
-                'home': 'pages/Pipeline/index.html',
-                'pipeline': 'pages/Pipeline/index.html',
-                'pipeline2': 'pages/Pipeline/index2.html',
+                'home': 'pages/enterprise/pipeline/index.html',
+                'pipeline': 'pages/enterprise/pipeline/index.html',
+                'pipeline2': 'pages/enterprise/pipeline/index2.html',
                 'qsharp': 'pages/name/QSharp.html',
-                'RnR': 'pages/name/resources-and-references.html',
-                'hdf5': 'pages/data/hdf5.html',
-                'data': 'pages/data/data.html',
-                'datalakehouse': 'pages/data/bigdata/datalakehouse.html',
-                'bigdatalinks': 'pages/data/bigdata/links.html',
-                'tools-list': 'pages/name/tools-list.html',
+                'RnR': 'pages/learn/resources.html',
+                'hdf5': 'pages/enterprise/data/hdf5.html',
+                'data': 'pages/enterprise/data/data.html',
+                'datalakehouse': 'pages/enterprise/data/bigdata/datalakehouse.html',
+                'bigdatalinks': 'pages/enterprise/data/bigdata/links.html',
+                'tools-list': 'pages/learn/tools-list.html',
                 'dashboard-overview': 'pages/dashboard/overview.html',
                 'users-list': 'pages/users/users-list.html',
                 'settings-general': 'pages/settings/settings-general.html',
-                'journals': 'wiki-old/rss/iframe.html',
-                'universities': 'wiki-old/uni/iframe.html',
-                'python': 'pages/python.html'
+                'journals': 'pages/legacy/wiki-old/rss/iframe.html',
+                'universities': 'pages/legacy/wiki-old/uni/iframe.html',
+                'python': 'pages/learn/python.html'
             };
 
             const loadedPages = new Set();

@@ -127,7 +127,7 @@
         }
 
         function navigateToPage(hash) {
-            const pageId = (hash.substring(1) || 'quantum-computing').toLowerCase();
+            const pageId = (hash.substring(1) || 'home').toLowerCase();
             
             if (!PAGES.hasOwnProperty(pageId)) {
                 console.warn('Invalid page ID:', pageId);

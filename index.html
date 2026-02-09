@@ -45,6 +45,11 @@
         <div id="journals" class="page"></div>
         <div id="universities" class="page"></div>
         <div id="python" class="page"></div>
+
+        <!-- Added page containers for new markdown pages -->
+        <div id="physics-passive" class="page"></div>
+        <div id="optical" class="page"></div>
+        <div id="q-control" class="page"></div>
     </main>
 <script src="assets/js/app.js"></script>
     <script>
@@ -70,7 +75,12 @@
                 'geofence': 'pages/enterprise/pages/geo/index.md',
                 'journals': 'pages/learn/resources/journals.html',
                 'universities': 'pages/learn/resources/universities.html',
-                'python': 'pages/learn/python.html'
+                'python': 'pages/learn/python.html',
+
+                // New page entries
+                'physics-passive': 'pages/learn/Departments/Physics/passive.md',
+                'optical': 'pages/quantum/content/infrastructure/qnet/Q_Control/optical.md',
+                'q-control': 'pages/quantum/content/infrastructure/qnet/Q_Control/README.md'
         };
 
         const loadedPages = new Set();

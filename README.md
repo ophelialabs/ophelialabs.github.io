@@ -1,3 +1,9 @@
+### Edit
+- pages/legacy/site-old/temp/Globe/Sat/Q_Control/optical.md
+- pages/legacy/site-old/temp/Globe/Sat/Q_Control/README.md
+- pages/learn/Departments/Physics/passive.md
+
+
 ### Email 
  - outlook(2), Edge
  - gmail (2), Chrome

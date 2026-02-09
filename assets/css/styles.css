@@ -579,6 +579,13 @@ code {
     margin: 20px 0;
 }
 
+.platform-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
 .card {
     background-color: #0d0d0d;
     border: 1px solid #333;
@@ -604,6 +611,50 @@ code {
     margin: 0;
     font-size: 14px;
     line-height: 1.6;
+}
+
+.platform-card {
+    background-color: #0d0d0d;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.platform-card:hover {
+    border-color: #00bfff;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.3);
+}
+
+.platform-card h3 {
+    margin-top: 0;
+    color: #00bfff;
+    margin-bottom: 15px;
+}
+
+.platform-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.platform-card li {
+    padding: 8px 0;
+    border-bottom: 1px solid #1a1a1a;
+    color: #ccc;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.platform-card li:hover {
+    color: #00bfff;
+    padding-left: 8px;
+    text-shadow: 0 0 5px rgba(0, 191, 255, 0.5);
+}
+
+.platform-card li:last-child {
+    border-bottom: none;
 }
 
 /* Statistics */

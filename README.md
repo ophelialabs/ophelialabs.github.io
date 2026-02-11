@@ -3,6 +3,11 @@
 - pages/legacy/site-old/temp/Globe/Sat/Q_Control/README.md
 - pages/learn/Departments/Physics/passive.md
 
+### Place
+- [Statistics for Applications](https://ocw.mit.edu/courses/18-443-statistics-for-applications-spring-2015/pages/syllabus/)
+- [Intro to Probability and Statistics](https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/pages/syllabus/)
+- [High-Dimensional Statistics](https://ocw.mit.edu/courses/18-s997-high-dimensional-statistics-spring-2015/)
+
 
 ### Email 
  - outlook(2), Edge

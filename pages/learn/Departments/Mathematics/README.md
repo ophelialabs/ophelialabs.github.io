@@ -1,3 +1,3 @@
 - [ON GENERALIZED FIDUCIAL INFERENCE](https://hannig.cloudapps.unc.edu/publications/Hannig2009.pdf)
-- [ON GENERALIZED FIDUCIAL INFERENCE](https://cdr.lib.unc.edu/downloads/h415p9988?locale=en)
+- [GENERALIZED FIDUCIAL INFERENCE for mixed linear models](https://cdr.lib.unc.edu/downloads/h415p9988?locale=en)
 - [Mathlets](https://mathlets.org/mathlets/)

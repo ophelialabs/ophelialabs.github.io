@@ -1,3 +1,11 @@
+### Dir
+- [Nasa](https://www.nasa.gov/)
+- [Code](https://code.nasa.gov/)
+- [Distributed Active Archive Centers (DAACs)](https://www.earthdata.nasa.gov/centers)
+- [Vertex](https://search.asf.alaska.edu/#/)
+
+---
+
 ## Data Format
 
 The system uses **HDF5** as its data format, which is the standard for various missions including:
@@ -14,6 +22,7 @@ Learn more: [NASA Earthdata HDF5 Standards](https://www.earthdata.nasa.gov/about
 
 ### Geospatial & Data APIs
 
+- [STScI - Mast(Mikulski)](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html)
 - [ArcGIS (.NET)](https://developers.arcgis.com/net/install-and-set-up/)
 - [ArcGIS Product Overview](https://www.esri.com/en-us/arcgis/products/develop-with-arcgis/overview)
 - [CKAN API Docs](https://docs.ckan.org/en/2.11/api/index.html)
@@ -55,25 +64,10 @@ Learn more: [NASA Earthdata HDF5 Standards](https://www.earthdata.nasa.gov/about
 - [LST Paper (arXiv)](https://arxiv.org/html/2310.01464v4)
 - [Atlas Embedding Table](https://apple.github.io/embedding-atlas/table.html)
 
-### CoPilot and Training
-
-- [Learn MCP Server](https://learn.microsoft.com/en-us/training/support/mcp)
-- [Learn MCP Server Catalog API](https://learn.microsoft.com/en-us/training/support/catalog-api-developer-reference)
-- [CopilotKit Agent Apps Guide](https://dev.to/copilotkit/heres-how-to-build-fullstack-agent-apps-gemini-copilotkit-langgraph-15jb)
-
-### Quantum & Algorithms
-
-- [Grover's Algorithm (Azure Quantum)](https://learn.microsoft.com/en-us/azure/quantum/concepts-grovers)
-
 ### Satellite & Communications
 
 - [Globalstar](https://www.globalstar.com/en-us)
 - [Iridium](https://www.iridium.com/)
-
-### IoT & Neurotech
-
-- [OpenBCI](https://openbci.com/)
-- [Neurosky](https://store.neurosky.com/)
 
 ### Other
 

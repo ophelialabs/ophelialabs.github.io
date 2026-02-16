@@ -1,6 +1,6 @@
 ### Edit
 - [Dashboard](https://ophelialabs.github.io/pages/legacy/site-old/Components/Pages/dashboard.html)
-- [API](https://ophelialabs.github.io/pages/legacy/wiki-old/Globe/Nasa/pages/index.md)
+- [API](https://github.com/ophelialabs/ophelialabs.github.io/blob/main/pages/legacy/wiki-old/Globe/Nasa/pages/index.md)
 
 ### Place
 - [Statistics for Applications](https://ocw.mit.edu/courses/18-443-statistics-for-applications-spring-2015/pages/syllabus/)

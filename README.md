@@ -1,5 +1,5 @@
 # Copy and paste master all you want
-- No Lie how else would I know so much, osmmosis?
+- No Lie how else would I know so much, osmosis?
 
 ### Edit
 - [Dashboard](https://ophelialabs.github.io/pages/legacy/site-old/Components/Pages/dashboard.html)

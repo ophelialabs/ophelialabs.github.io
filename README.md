@@ -1,5 +1,5 @@
 # Copy and paste master all you want
-- No Lie
+- No Lie how else would I know so much
 
 ### Edit
 - [Dashboard](https://ophelialabs.github.io/pages/legacy/site-old/Components/Pages/dashboard.html)

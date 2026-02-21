@@ -1,0 +1,3 @@
+[Data Lake Analytics](ttps://azure.microsoft.com/en-us/products/data-lake-analytics/)
+[Apache Iceberg](https://www.ibm.com/think/topics/apache-iceberg)
+[IBM Big Data Analytics](https://www.ibm.com/think/topics/big-data-analytics)

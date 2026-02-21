@@ -17,7 +17,7 @@
        emulates using the Trusted Platform Module (TPM) on your computer, allowing for secure, two-factor authentication.
 ### Steps (Using Command Prompt - Admin):
   1. Run the following command:
-```
+```bash
 tmpvscmgr.exe create /name testVSC /pin promp /adminkey random /generate
 ```
 - This creates a card named "TestVSC", prompts for a PIN, and generates the file system.

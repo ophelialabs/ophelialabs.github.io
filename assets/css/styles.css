@@ -204,7 +204,24 @@ main {
     color: #00bfff;
 }
 
-/* Table Styles */
+/* Sub-subsection Styles */
+.sub-subsection {
+    margin: 15px 0;
+    padding-left: 15px;
+    border-left: 3px solid #00bfff;
+}
+
+.sub-subsection h5 {
+    color: #00bfff;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.sub-subsection .platform-grid {
+    margin: 10px 0;
+}
 table {
     width: 100%;
     border-collapse: collapse;

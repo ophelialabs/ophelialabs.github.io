@@ -134,7 +134,7 @@ $ sudo rpm -Uvh minikube-latest.x86_64.rpm
 ---
 
 ## CLIs
-Azure Cloud (AZ)
+[Azure Cloud (AZ)](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?view=azure-cli-latest&pivots=dnf)
 ```bash
 ```
 Google Cloud Platform (GCP)

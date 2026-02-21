@@ -6,6 +6,24 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Keep all links white */
+a {
+    color: white;
+    text-decoration: inherit;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;

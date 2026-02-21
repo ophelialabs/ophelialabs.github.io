@@ -341,13 +341,14 @@ code {
 /* Platform Grid Styles */
 .nav-table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 12px;
     margin: 20px 0;
     background-color: transparent;
 }
 
 .nav-table td {
-    padding: 12px;
+    padding: 0;
     border: none;
     background-color: transparent;
 }
@@ -356,17 +357,19 @@ code {
     display: block;
     color: #00bfff;
     text-decoration: none;
-    padding: 10px;
-    border-left: 3px solid #00bfff;
-    padding-left: 12px;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #0d0d0d;
     transition: all 0.3s ease;
     font-weight: 500;
 }
 
 .nav-table a:hover {
-    color: #00ff00;
-    border-left-color: #00ff00;
-    padding-left: 14px;
+    color: #00bfff;
+    border-color: #00bfff;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.3);
 }
 
 .architecture-diagram {

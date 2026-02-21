@@ -1,6 +1,3 @@
-# Copy and paste master all you want
-- No Lie how else would I know so much, osmosis?
-
 ### Edit
 - [Dashboard](https://ophelialabs.github.io/pages/legacy/site-old/Components/Pages/dashboard.html)
 - [API](https://github.com/ophelialabs/ophelialabs.github.io/blob/main/pages/legacy/wiki-old/Globe/Nasa/pages/index.md)

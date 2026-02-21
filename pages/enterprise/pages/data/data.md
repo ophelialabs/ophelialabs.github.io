@@ -1,3 +1,7 @@
+- [Data Lake Analytics](https://azure.microsoft.com/en-us/products/data-lake-analytics/)
+- [Apache Iceberg](https://www.ibm.com/think/topics/apache-iceberg)
+- [IBM Big Data Analytics](https://www.ibm.com/think/topics/big-data-analytics)
+
 Scientific data formats like NetCDF, HDF5, and ASDF provide structured ways to store, organize, and share massive datasets. While NetCDF-4 is actually built on top of HDF5, ASDF represents a newer, YAML-based approach to the same problem. 
 Key Data Formats Comparison
 NetCDF (Network Common Data Form)

@@ -4,7 +4,7 @@
 ![banner](BMI.png)
  - [Julia](https://julialang.org/)
  - DNN light stimulation.
- - *How can I see what they see?*
+ - [*How can I see what they see?*](README2.md)
 
  ---
 

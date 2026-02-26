@@ -19,7 +19,7 @@
 
 ---
 ##CLEANUP
-- [Emerging fiber-based neural interfaces with conductive composites](https://pubs.rsc.org/en/content/articlelanding/2025/mh/d4mh01854k)
+- [Emerging fiber-based neural interfaces with conductive composites](https://pubs.rsc.org/en/content/articlehtml/2025/mh/d4mh01854k)
 - [Advances and perspectives in fiber-based electronic devices for next-generation soft systems](https://www.nature.com/articles/s41528-025-00465-w#Sec10)
 - [Advanced Materials](https://advanced.onlinelibrary.wiley.com/journal/15214095)
 - [Capacitive Soft Strain Sensors via Multicore–Shell Fiber Printing](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.201500072)

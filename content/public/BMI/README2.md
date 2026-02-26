@@ -20,8 +20,19 @@ Allows the BCI to access the left hemisphere's lang and motor processing centers
    -
    -
    -
+3. Load the Neural Data
+   - NeuroAnalyzer.jl:
+   - NeroFormats.jl:
+   - ManifoldEEG.jl
+   - Preprocessing: Images.jl
+4. Visual Reconstruction (The "Decoding" Step)
+   - Latent Rep:
+   - Deep Learning:
+5. Vis
+   - ImageView.jl
 ### Summary of Key Factors
    -
    -
    -
-   
+### Pro-Tip:
+DABI, DANDI use Julia's HTTP and JSON pkg's to pull datasets directly into env for real-time decoding.

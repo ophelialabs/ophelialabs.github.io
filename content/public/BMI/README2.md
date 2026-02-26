@@ -4,7 +4,7 @@ due to a combination of mechanical friction, foreign body reactions, and localiz
 Why these specific areas are PRONE to irritation:
 
 1. Behind the Ear: Pressure and Allergic Reaction
-   The are behind the ear is often used for mounting external components of BCIs (similar to behind-the-ear hearing aids) or as an exit point for wires (percutaneous pedestals)
+   The are behind the ear is often used for mounting components
    - Faster Signal Transmission:
    - Decoding Accuracy:
    - Ground Electrode Placement:

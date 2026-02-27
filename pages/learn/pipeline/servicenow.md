@@ -159,3 +159,23 @@ Prepare the Excel: Include only the Email (to match the user) and the New Job ID
 Run the Flow: Use Flow Designer to read the Excel row.
 Update Record: Use the Update Record action. In the "Advanced" settings of the flow step, ensure you are not triggering sub-flows or notifications.
 Critical Note: If your Jira/Confluence provisioning relies on the Job ID as a unique identifier, changing it will break the link to their Atlassian account unless you also update the ID in the Atlassian Admin Directory.
+
+To deliver live instructions via internal .txt files and coordinate your team for the handoff, you should utilize ServiceNow’s Knowledge Management for the user and Visual Task Boards (VTB) for your teammates.
+1. Directing Users to Internal .txt Files
+Since you want "live updates," the best practice is to host the file content within a ServiceNow Knowledge Base (KB). This ensures they don't have to download a new file every time you update instructions.
+The "Live Link" Method: Create a Knowledge Article and paste the .txt content into the Article Body.
+Hosting the Physical File: If you must use a .txt file, upload it to an internal SharePoint or OneDrive folder. In ServiceNow, use the Content Library to create a "Quick Link" banner on the user’s portal that points directly to that file URL.
+Dynamic Redirection: Use the Sidebar chat to send the user the direct path to the file as soon as they reach a specific onboarding milestone.
+2. Prompts for Teammates (Preparation Guide)
+To ensure your team is ready for the user’s "live" progress, use these prompts to assign specific preparation tasks:
+To the IT/System Admin:
+"User [Name] is currently on Step 2 of the ServiceNow/Jira onboarding. Please verify that their Atlassian SSO is synced with the new Job ID and ensure no automated manager notifications are active for this profile."
+To the Hardware/Access Team:
+"The user is reviewing the internal access instructions. Please prepare the Secure Token and confirm that the Excel Spoke has successfully bypassed the supervisor alert for their hardware allocation."
+To the Training/Peer Mentor:
+"User is following the live .txt guide for ServiceNow navigation. Stand by to join a Sidebar discussion to troubleshoot their first login once the status changes to 'Awaiting Peer Review'."
+3. Tracking Progress via Visual Task Boards (VTB)
+To manage this without sending emails, create a Visual Task Board (VTB) for your team:
+Lanes: Create lanes for "User Reading Instructions," "Internal Prep," and "Ready for Live Access."
+Move Cards: As you update the .txt file or the user completes a step, move their "Card" to the next lane.
+Real-Time Alerts: Teammates can subscribe to the board to get a browser "ping" the moment you move the user to their stage.

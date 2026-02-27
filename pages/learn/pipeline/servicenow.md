@@ -2,7 +2,7 @@
 - **Seriously!**
 
 - What I could probably do is Login, change my late times **cough cough** (PLEASE NOTE, I am only joking), approve or deny business processes (such as an employees request to end employment) and also note, after parsing this walk-through, you should know that upon completion, if an employee requests to end their employment, multiple **users** will have to approve.
-- Also, if no-one has yet approved their part in the process, it can be withdrawn. Pro-Tip: The process still has to work its way down the pipeline. Excel
+- Also, if no-one has yet approved their part in the process, it can be withdrawn. Pro-Tip: The process still has to work its way down the pipeline. Excel (If you can catch it fast enough!)
 ---
 To request access to Confluence or Jira through ServiceNow, you typically use your organization's internal ServiceNow Service Catalog. While specific forms vary by company, the general process involves these steps: 
 For Standard Users (Requesting Individual Access)

@@ -1,3 +1,6 @@
+**Ensure this process is documented and sanctioned by your IT or Security leadership.**
+**Seriously!**
+
 To request access to Confluence or Jira through ServiceNow, you typically use your organization's internal ServiceNow Service Catalog. While specific forms vary by company, the general process involves these steps: 
 For Standard Users (Requesting Individual Access)
 Search the Catalog: Log in to your ServiceNow instance and search for "Confluence Access," "Jira Access," or "Software Access" in the Service Catalog.

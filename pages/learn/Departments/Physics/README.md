@@ -1,11 +1,10 @@
 ## Garfield and Geant
-Garfield++ is a C++ toolkit primarily used for simulating particle detector response in gases and semiconductors, focusing on electron transport, avalanche, and signal formation. It can model the ionization and charge collection process, including the generation of photons from gas excitation, which might be relevant in optical readout scenarios, such as in GEM detectors.
+Garfield++ is a C++ toolkit primarily used for simulating particle detector response in gases and semiconductors, focusing on electron transport, avalanche, and signal formation. It can model the ionization and charge collection process, including the generation of photons from gas excitation, which might be relevant in optical readout scenarios, such as in GEM detectors. Geant4 handles the large-scale muon transport through a target (like a cargo container or a building), while Garfield provides a detailed "microscopic" simulation of the detector's internal response
 
 ## Capabilities and Applications
 - Detector Simulation: Garfield++ simulates movement of electrons and ions in gaseous (e.g., drift chambers, GEMs, Micromegas) and semiconductor detectors.
 - Signal Generation: It calculates induced signals, taking into account detector geometry, electric fields, and electronic readout.
 - Integration: it interfaces with tools like Heed for ionization, Magboltz for transport properties, and Degrad.
-- Integration with Geant4: Geant4 handles the large-scale muon transport through a target (like a cargo container or a building), while Garfield provides a detailed "microscopic" simulation of the detector's internal response
 - Optical Readout: It can simulate the scintillation light produced during electron multiplication in gas-based detectors, which might be detected using optical methods.
 
 **Homodyne Detection:**
@@ -42,7 +41,21 @@ While the Singapore-linked projects often focus on applied technology, Fermilab'
 - Non-Destructive Imaging: Thes trackers use naturally occuring cosmic-ray muons to "see" through dense shielding, such as concrete or lead, to detect hidden materials (such as nuclear) or structural flaws.
 - Algorithms: 
     1. Tomographic reconstruction algoriths (e.g., Point-Of-Closest-Approach)
-    2. Charged Lepton Flavor Violations
+
+## Charged Lepton Flavor Violations (CLFV) 
+The physical processes where one type of charged lepton (electron, muon, or tau) transforms into another without the emission of their corresponding neutrinos. Because the the Standard Model predicts CLFV rates to be negligible (branching rations < 10^-50), any observation would be unambigous evidence of New Physics.
+
+## CLFV Primary Search Channels
+Experimental searches focus on rare decays where the initial and final states differ in flavor:
+- Muon Decays:
+- Tau Decays:
+- Heavy State Transitions: Searches also occur in Z boson decays () and top quark decays ()
+
+## CLFV Major Experiments
+    - Mu3e: Searching for the decay at the Paul Scherrer institute
+    - Meg-II: Aiming for unprecented sensitivity in 
+    - Mu2e & COMET: Dedicated to detecting the conversion of a muon into an electron in the field of a nucleus
+    - Belle II: Primarily investigating LFV in tau leptons and mesons.
 
 ## Specific Gas Mixtures
 For gas-based trackers (like those used in the Mu2e straw tubes or GEM-based tomography), the choice of gas is critical for timing and resolution. 

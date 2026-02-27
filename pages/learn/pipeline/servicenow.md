@@ -22,7 +22,6 @@ Submit an automation request from Service Catalog. Create an automation request 
 Set up the Jira spoke for Jira Cloud - ServiceNow
 Procedure * Log in to Atlassian Start as an admin. * Go to your account profile photo and select Account Settings. * Go to Securit...
 
-needing a sponsor, amount of money, how you can benefit company
 To secure sponsorship for a ServiceNow, Jira, or Confluence project, you must present a business case that aligns with executive goals, defines a clear budget, and quantifies the return on investment.
 1. Identifying a Sponsor
 For enterprise tool integrations or implementations, you should target an executive whose performance metrics are directly impacted by operational efficiency.

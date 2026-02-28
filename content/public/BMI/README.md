@@ -1,5 +1,3 @@
-![banner](00_Gemini_Gen.png)
-![banner](03_Gemini_Generated_Image_BMI-CTSS.png)
 ![banner](BMI.png)
  - Julia [link](https://julialang.org/)
  - *How can I see what they see?* [link](README2.md)

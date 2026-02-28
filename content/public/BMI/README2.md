@@ -1,5 +1,4 @@
-Based on the principles of neural implants and wearable electronics, a Field-Effect Device (FED) or similar brain-machine interface (BMI) can cause irritation
-due to a combination of mechanical friction, foreign body reactions, and localized skin sensitivity.
+Based on the principles of minimally-invasive fiber-based neural interfaces (FED/BMI), irritation can be caused due to a combination of mechanical friction, foreign body reactions, and localized skin sensitivity (injection site).
 
 Why these specific areas are PRONE to irritation:
 

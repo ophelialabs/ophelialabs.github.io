@@ -1,6 +1,6 @@
 ![banner](BMI.png)
  - Julia [link](https://julialang.org/)
- - *How can I see what they see?* [link](README2.md)
+ - *How can I see what they see?* [link](ophelialabs/ophelialabs.github.io/content/public/BMI/README2.md)
  - *Seeing behind the curtain!* [link](curtain.md)
 
  ---

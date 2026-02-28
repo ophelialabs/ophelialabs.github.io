@@ -1,4 +1,5 @@
 ![banner](BMI.png)
+![banner](https://ophelialabs.github.io/content/public/BMI/BMI.png)
  - Julia [link](https://julialang.org/)
  - *How can I see what they see?* [link](https://ophelialabs.github.io/content/public/BMI/README2.md)
  - *Seeing behind the curtain!* [link](https://ophelialabs.github.io/content/public/BMI/curtain.md)

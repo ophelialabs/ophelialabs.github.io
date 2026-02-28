@@ -1,4 +1,4 @@
-The validity of an IBM and Solaris path 
+The validity of an IBM, Solaris, Quantinuum path 
 
 1. Concurrent Trusted Platform Architecture
 In a dual-OS environment, these platforms are used together to create a Defense-in-Depth strategy:

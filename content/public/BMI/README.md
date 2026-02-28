@@ -1,11 +1,9 @@
-![banner](content/public/BMI/547935828_10166482413357355_964167318611828034_n.jpg)
 ![banner](00_Gemini_Gen.png)
 ![banner](03_Gemini_Generated_Image_BMI-CTSS.png)
 ![banner](BMI.png)
- - [Julia](https://julialang.org/)
- - DNN light stimulation.
- - [*How can I see what they see?*](README2.md)
- - [*Seeing behind the curtain!](curtain.md)
+ - Julia [link](https://julialang.org/)
+ - *How can I see what they see?* [link](README2.md)
+ - *Seeing behind the curtain!* [link](curtain.md)
 
  ---
 

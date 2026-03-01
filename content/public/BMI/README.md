@@ -3,6 +3,7 @@
  - Julia [link](https://julialang.org/)
  - *How can I see what they see?* [link](https://ophelialabs.github.io/content/public/BMI/README2.md)
  - *Seeing behind the curtain!* [link](https://ophelialabs.github.io/content/public/BMI/curtain.md)
+ - [Emerging fiber-based neural interfaces with conductive composites](https://pubs.rsc.org/en/content/articlehtml/2025/mh/d4mh01854k)
  - [TOGS](https://aerospace.honeywell.com/us/en/products-and-services/products/emerging-technologies/space/space-communications/optical-and-quantum-ground-station#specs-tab)
  - [QEYSSAT](https://uwaterloo.ca/institute-for-quantum-computing/research/qeyssat)
  - [QKDSAT](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/QKDSat_Secure_communication_via_quantum_cryptography)
@@ -22,7 +23,7 @@
 
 ---
 ##CLEANUP
-- [Emerging fiber-based neural interfaces with conductive composites](https://pubs.rsc.org/en/content/articlehtml/2025/mh/d4mh01854k)
+
 - [Advances and perspectives in fiber-based electronic devices for next-generation soft systems](https://www.nature.com/articles/s41528-025-00465-w#Sec10)
 - [Advanced Materials](https://advanced.onlinelibrary.wiley.com/journal/15214095)
 - [Capacitive Soft Strain Sensors via Multicore–Shell Fiber Printing](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.201500072)

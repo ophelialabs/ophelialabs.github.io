@@ -2,7 +2,7 @@
 **OWL/WISE/CENTRALSHARE**
 
 ## Important Directories
-- `/`, `/home`, `/tmp`, `/var`, `/var/tmp`, `/var/log`, `/var/log/audit`, `/boot`
+- DS: `/`, `/home`, `/tmp`, `/var`, `/var/tmp`, `/var/log`, `/var/log/audit`, `/boot`
 - Import Policies
 - [docs](https://techdocs.broadcom.com/us/en/vmware-cis/vcf/stig/9-0/vcf-stig-documentation/docs-tutorials-cloud-foundation-9x-product-vcf-application-audit9-app-audit9-app.html)
 -[SAF CLI](https://github.com/mitre/saf/releases)

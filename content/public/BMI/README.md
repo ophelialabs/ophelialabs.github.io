@@ -13,7 +13,7 @@
  ---
 
  - Main focus is integrating into [QNET](https://arxiv.org/html/2508.03806v1)
- - [Messaging](https://ophelialabs.github.io/wiki-old/docs/enterprise/iot/messageprotocols.html)
+ - [Messaging]([https://ophelialabs.github.io/wiki-old/docs/enterprise/iot/messageprotocols.html](https://github.com/ophelialabs/ophelialabs.github.io/blob/main/pages/enterprise/pages/iot/messageprotocols.html))
  - [HyperSpectral imaging with microcombs](https://arxiv.org/abs/2508.18219)
 
 ---

@@ -1,7 +1,8 @@
 ![banner](BMI.png)
 [*CoOp Behavior*](https://www.science.org/doi/10.1126/science.adw8151)
 ---
- - Julia [link](https://julialang.org/)
+ - [Data Acquisition](ophelialabs/ophelialabs.github.io/pages/quantum/README2.md)
+ - [Julia](https://julialang.org/)
  - [*How can I see what they see?*](https://ophelialabs.github.io/content/public/BMI/README2.md)
  - [*Seeing behind the curtain!*](https://ophelialabs.github.io/content/public/BMI/curtain.md)
  - [Emerging fiber-based neural interfaces with conductive composites](https://pubs.rsc.org/en/content/articlehtml/2025/mh/d4mh01854k)

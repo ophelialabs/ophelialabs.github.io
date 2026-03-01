@@ -1,35 +1,23 @@
 ![banner](BMI.png)
-![banner](https://ophelialabs.github.io/content/public/BMI/BMI.png)
+[*CoOp Behavior*](https://www.science.org/doi/10.1126/science.adw8151)
+---
  - Julia [link](https://julialang.org/)
- - *How can I see what they see?* [link](https://ophelialabs.github.io/content/public/BMI/README2.md)
- - *Seeing behind the curtain!* [link](https://ophelialabs.github.io/content/public/BMI/curtain.md)
+ - [*How can I see what they see?*](https://ophelialabs.github.io/content/public/BMI/README2.md)
+ - [*Seeing behind the curtain!*](https://ophelialabs.github.io/content/public/BMI/curtain.md)
  - [Emerging fiber-based neural interfaces with conductive composites](https://pubs.rsc.org/en/content/articlehtml/2025/mh/d4mh01854k)
- - [TOGS](https://aerospace.honeywell.com/us/en/products-and-services/products/emerging-technologies/space/space-communications/optical-and-quantum-ground-station#specs-tab)
- - [QEYSSAT](https://uwaterloo.ca/institute-for-quantum-computing/research/qeyssat)
- - [QKDSAT](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/QKDSat_Secure_communication_via_quantum_cryptography)
+ - [TOGS](https://aerospace.honeywell.com/us/en/products-and-services/products/emerging-technologies/space/space-communications/optical-and-quantum-ground-station#specs-tab) / [QEYSSAT](https://uwaterloo.ca/institute-for-quantum-computing/research/qeyssat) / [QKDSAT](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/QKDSat_Secure_communication_via_quantum_cryptography)
 - Terminals receive and use entangled pairs but don't generate them
 - Teleport stations handle multiple terminals and have quantum entanglement generation capabilities
 - [Homodyne](https://ophelialabs.github.io/#optical)
  ---
 
- - [CoOp Behavior](https://www.science.org/doi/10.1126/science.adw8151)
  - Create open and close COM channels for collaboration
  - Main focus is integrating into [QNET](https://arxiv.org/html/2508.03806v1)
  - [Messaging](https://ophelialabs.github.io/wiki-old/docs/enterprise/iot/messageprotocols.html)
-
-![banner](Gemini_Gen_meh.png)
- - [HyperSpectral](https://arxiv.org/abs/2508.18219)
+ - [HyperSpectral imaging with microcombs](https://arxiv.org/abs/2508.18219)
  - **Must do better with image, re-representation of (Radio)Spectrometry and formation of bubble in a real-world setting horrible**
 
 ---
-##CLEANUP
-
-- [Advances and perspectives in fiber-based electronic devices for next-generation soft systems](https://www.nature.com/articles/s41528-025-00465-w#Sec10)
-- [Advanced Materials](https://advanced.onlinelibrary.wiley.com/journal/15214095)
-- [Capacitive Soft Strain Sensors via Multicore–Shell Fiber Printing](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.201500072)
-- [Optical Noninvasive Brain–Computer Interface Development: Challenges and Opportunities](https://secwww.jhuapl.edu/techdigest/content/techdigest/pdf/V35-N04/35-04-Blodgett.pdf)
-- [In Vivo Evaluation of Thermally Drawn BiodegradableOptical Fibers as Brain Implants](https://onlinelibrary.wiley.com/doi/epdf/10.1002/jbm.b.35549)
-
 
 # Comprehensive platforms
 ---
@@ -50,5 +38,9 @@
 # Other resources
 - [NITRC (Neuroimaging Informatics Tools and Resources Clearinghouse)](https://www.nitrc.org/): A resource for finding a wide range of neuroimaging software applications and other tools.
 - [BrainStat](https://brainstat.readthedocs.io/en/master/): A toolbox designed for statistical analysis of neuroimaging data that can be used with both Python and MATLAB.
-
 - [Bostonpiezooptics](https://www.bostonpiezooptics.com/optical-components): A resource for Optical Components
+- [Advances and perspectives in fiber-based electronic devices for next-generation soft systems](https://www.nature.com/articles/s41528-025-00465-w#Sec10)
+- [Advanced Materials](https://advanced.onlinelibrary.wiley.com/journal/15214095)
+- [Capacitive Soft Strain Sensors via Multicore–Shell Fiber Printing](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.201500072)
+- [Optical Noninvasive Brain–Computer Interface Development: Challenges and Opportunities](https://secwww.jhuapl.edu/techdigest/content/techdigest/pdf/V35-N04/35-04-Blodgett.pdf)
+- [In Vivo Evaluation of Thermally Drawn BiodegradableOptical Fibers as Brain Implants](https://onlinelibrary.wiley.com/doi/epdf/10.1002/jbm.b.35549)

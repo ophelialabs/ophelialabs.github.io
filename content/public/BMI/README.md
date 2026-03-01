@@ -3,7 +3,7 @@
 
 ---
 
-- [Data Acquisition](ophelialabs/ophelialabs.github.io/pages/quantum/README2.md) / [Julia](https://julialang.org/)
+- [Data Acquisition](https://ophelialabs.github.io/pages/quantum/README2.md) / [Julia](https://julialang.org/)
 - [*How can I see what they see?*](https://ophelialabs.github.io/content/public/BMI/README2.md)
 - [*Seeing behind the curtain!*](https://ophelialabs.github.io/content/public/BMI/curtain.md)
 - [TOGS](https://aerospace.honeywell.com/us/en/products-and-services/products/emerging-technologies/space/space-communications/optical-and-quantum-ground-station#specs-tab) / [QEYSSAT](https://uwaterloo.ca/institute-for-quantum-computing/research/qeyssat) / [QKDSAT](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/QKDSat_Secure_communication_via_quantum_cryptography)

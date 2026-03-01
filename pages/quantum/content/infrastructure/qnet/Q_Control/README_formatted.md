@@ -126,7 +126,7 @@ The mission incorporates a primary station and several collaborative sites to en
 
 - **Primary OQGS**: To be located at the Canadian Space Agency (CSA) headquarters in St-Hubert (Longueuil), Quebec, with deployment completion targeted for late 2025.
 - **Science Operation Centre (SOC)**: Managed by the University of Waterloo (IQC), which also hosts its own quantum ground station for research and mission support.
-- **Transportable Option**: Honeywell has also developed a Transportable Optical Ground Station (TOGS) designed to be compatible with QEYSSat, featuring a larger 61 cm receiver and ruggedized for Canadian winters.
+- **Transportable Option**: Honeywell has also developed a [Transportable Optical Ground Station](https://aerospace.honeywell.com/us/en/products-and-services/products/emerging-technologies/space/space-communications/optical-and-quantum-ground-station#specs-tab) (TOGS) designed to be compatible with QEYSSat, featuring a larger 61 cm receiver and ruggedized for Canadian winters.
 
 ### Key Mission Functions
 

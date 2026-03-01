@@ -12,6 +12,7 @@
 - [DX Spectrum](https://techdocs.broadcom.com/us/en/ca-enterprise-software/it-operations-management/spectrum/22-2.html)
 - [OneClick](https://techdocs.broadcom.com/us/en/ca-enterprise-software/it-operations-management/spectrum/25-4/getting-started/client-applications-overview/oneclick-console.html)
 - [Hypori](https://www.hypori.com/)
+- [Hypori & AVD](Hypori_AVD.MD)
 - Smart
   1. Windows
        emulates using the Trusted Platform Module (TPM) on your computer, allowing for secure, two-factor authentication.

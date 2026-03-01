@@ -11,11 +11,9 @@
 - [Homodyne](https://ophelialabs.github.io/#optical)
  ---
 
- - Create open and close COM channels for collaboration
  - Main focus is integrating into [QNET](https://arxiv.org/html/2508.03806v1)
  - [Messaging](https://ophelialabs.github.io/wiki-old/docs/enterprise/iot/messageprotocols.html)
  - [HyperSpectral imaging with microcombs](https://arxiv.org/abs/2508.18219)
- - **Must do better with image, re-representation of (Radio)Spectrometry and formation of bubble in a real-world setting horrible**
 
 ---
 

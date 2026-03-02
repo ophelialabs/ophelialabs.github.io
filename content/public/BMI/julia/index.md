@@ -120,3 +120,10 @@ public record JuliaResponse(WeatherForecast[] Forecast);
 
 ## Create a Dockerfile 
 For the Julia service so it works in a deployed Aspire environment
+
+## C++ (Dlib): 
+Requires significant boilerplate. To use Dlib in .NET, you must write a C++/CLI wrapper or extern "C" exports, handle manual memory management, and deal with complex build chains (CMake/MSVC) inside your .NET solution.
+
+### Memory Safety & Stability
+- Julia (Service-Based): Because Julia runs as a separate process in Aspire, if the Julia code crashes (e.g., an out-of-memory error during a heavy calculation), your .NET web server stays alive. They are decoupled.
+- C++ (Dlib/P-Invoke): Dlib runs inside the same process as your .NET code. A memory leak or a segmentation fault in the C++ layer will take down your entire .NET AppDomain/Worker Process.

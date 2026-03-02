@@ -1,3 +1,7 @@
+# ALERT!! LEAKAGE DETECTED!
+
+---
+
 In the context of brain-machine interfaces (BMIs), Field Emission Display (FED) technology and green light excitation are specialized components used for high-precision visual stimulation and optogenetic control.
 
 1. FED-Based Visual Stimulation 

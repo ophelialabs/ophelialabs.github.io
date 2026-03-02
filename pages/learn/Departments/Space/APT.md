@@ -5,6 +5,11 @@ To run the Astronomer's Proposal Tool (APT) on Linux, you typically use the prov
 ## Important Notes
 - Version Specifics: Some versions are specific to certain observatories (e.g., Roman vs. HST/JWST). Ensure the INSTALLER_URL in the script matches the specific mission version you need from the [STScI Download Page](https://www.stsci.edu/scientific-community/software/astronomers-proposal-tool-apt).
 - Dependencies: Ensure curl is installed on your system (sudo apt install curl) so the script can fetch the installer.
+- On modern versions of Ubuntu/Gnome, right-click the new icon on your desktop and select "Allow Launching" to activate it.**
+
+## Summary of Key Components
+- **Terminal=true**: This ensures a terminal window opens so you can see the update progress before the main GUI appears.
+- **Categories**: Adding Science;Astronomy; helps the system categorize the app in your application menu if you copy the file to ~/.local/share/applications/.
 
 ### 1. Install Script
 After downloading the installer from the [STSci Linux APT page](https://www.stsci.edu/scientific-community/software/astronomers-proposal-tool-apt/linux), open a terminal and run the install shell script
@@ -221,10 +226,6 @@ Terminal=true
 Categories=Science;Astronomy;
 ```
 
-**Important: On modern versions of Ubuntu/Gnome, right-click the new icon on your desktop and select "Allow Launching" to activate it.**
 
-## Summary of Key Components
-- **Terminal=true**: This ensures a terminal window opens so you can see the update progress before the main GUI appears.
-- **Categories**: Adding Science;Astronomy; helps the system categorize the app in your application menu if you copy the file to ~/.local/share/applications/.
 
 

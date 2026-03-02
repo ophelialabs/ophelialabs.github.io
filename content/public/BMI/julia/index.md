@@ -127,3 +127,24 @@ Requires significant boilerplate. To use Dlib in .NET, you must write a C++/CLI 
 ### Memory Safety & Stability
 - Julia (Service-Based): Because Julia runs as a separate process in Aspire, if the Julia code crashes (e.g., an out-of-memory error during a heavy calculation), your .NET web server stays alive. They are decoupled.
 - C++ (Dlib/P-Invoke): Dlib runs inside the same process as your .NET code. A memory leak or a segmentation fault in the C++ layer will take down your entire .NET AppDomain/Worker Process.
+
+3. Comparison Table
+Feature	Julia (Microservice)	C++ (Dlib P-Invoke)
+Interop	JSON/gRPC (High-level)	P-Invoke/C-API (Low-level)
+Complexity	Low (Standard HTTP calls)	High (Data marshalling/Pointers)
+Performance	High (JIT Compiled)	Ultra-High (Native)
+Cold Start	Slower (Julia JIT overhead)	Instant
+Tooling	Aspire Dashboard (Logs/Traces)	Native Debugger required
+
+### Why the "Aspire + Julia" approach is winning
+Modern architecture favors "sidecars" or "microservices". By using Aspire to orchestrate Julia:
+1. You can scale the Julia service independently (e.g., give the Julia container more RAM/CPU than the Web UI).
+2. You get Observability: Aspire shows you the execution time of your Julia endpoints automatically in the dashboard.
+3. Library Support: Julia's DifferentialEquations.jl or Flux.jl (ML) are often more modern and easier to use than Dlib’s specialized C++ templates.
+
+## Summary
+- Use Julia if you want to write complex logic quickly and keep your .NET code "clean."
+- Use C++/Dlib if you are building a high-frequency trading engine or a real-time embedded vision system where every microsecond counts.
+
+## Apache Arrow
+

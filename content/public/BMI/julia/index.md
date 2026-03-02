@@ -1,5 +1,5 @@
 Integrating Julia into a .NET Aspire Starter full-stack template involves using Aspire's orchestration to manage Julia as an external service or embedding it via interoperability.
-**Note: Don't forget Visual Studios sln file to maintain project integrity**
+**SLN**: If you are delegating to a team member who doesn't have the full repo, ensure they have the Directory.Build.props and Directory.Packages.props files in their parent directory, otherwise the build will lose its shared configuration.
 
 1. Model Julia as an Aspire Resource
 The most scalable way to integrate Julia is to treat it as a separate service (e.g., a Julia-based API using Genie.jl or Oxygen.jl) orchestrated by the AppHost.

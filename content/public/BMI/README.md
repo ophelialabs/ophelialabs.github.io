@@ -3,6 +3,7 @@
 
 ---
 
+- Itinerary
 - [Data Acquisition](https://github.com/ophelialabs/ophelialabs.github.io/blob/main/pages/quantum/README2.md) / [Julia](https://julialang.org/)
 - [*How can I see what they see?*](https://ophelialabs.github.io/content/public/BMI/README2.md)
 - [*Seeing behind the curtain!*](https://ophelialabs.github.io/content/public/BMI/curtain.md)

@@ -184,7 +184,7 @@ chmod +x ~/APT/apt_manager.sh
 # Again, replace with cat
 nano ~/Desktop/APT.desktop
 
-# Paste the following (replace [your-user] with your actual username):
+# Paste the following (replace [your-user] with your actual username which you can find by typing whoami in the terminal.)*:
 ini
 [Desktop Entry]
 Version=1.0
@@ -260,7 +260,6 @@ sed -i "s/\[your-user\]/$USER/g" ~/Desktop/APT.desktop
 # 6. Refresh Gnome Desktop Shell
 update-desktop-database ~/.local/share/applications/
 ```
-*(Replace YOUR_USER with your actual username, which you can find by typing whoami in the terminal.)*
 
 **The final .desktop file**
 ```

@@ -213,6 +213,55 @@ Icon=/home/[your-user]/APT/apt_icon.png
 cp ~/Desktop/APT.desktop ~/.local/share/applications/
 ```
 
+This updated script now verifies the presence of the icon and retrieves it from the STScI Media assets if it's missing.
+1. Updated apt_manager.sh
+Update your ~/APT/apt_manager.sh with this code:
+```
+#!/bin/bash
+# Configuration
+APT_DIR="$HOME/APT"
+ICON_PATH="$APT_DIR/apt_icon.png"
+ICON_URL="https://upload.wikimedia.org"
+INSTALLER_URL="https://apst.stsci.edu"
+INSTALLER_NAME="install-linux-apt.sh"
+
+mkdir -p "$APT_DIR"
+cd "$APT_DIR"
+
+# 1. ICON CHECK
+if [ ! -f "$ICON_PATH" ]; then
+    echo "Icon missing. Downloading from STScI assets..."
+    curl -s -L -o "$ICON_PATH" "$ICON_URL"
+fi
+
+# 2. UPDATE CHECK
+echo "Checking for APT updates..."
+curl -s -O $INSTALLER_URL
+if [ ! -f "APT" ] || ! cmp -s "$INSTALLER_NAME" "last_installer.sh"; then
+    echo "New version found. Installing..."
+    sh "$INSTALLER_NAME" -q -dir "$APT_DIR"
+    mv "$INSTALLER_NAME" "last_installer.sh"
+else
+    echo "APT is up to date."
+    rm "$INSTALLER_NAME"
+fi
+
+# 3. LAUNCH
+echo "Launching APT..."
+./APT "$@"
+
+# 4. Verify the Desktop Entry
+Ensure your ~/Desktop/APT.desktop file points to that specific path:
+Icon=/home/YOUR_USER/APT/apt_icon.png
+
+# 5. update the placeholder in your desktop file with your current Linux username
+sed -i "s/\[your-user\]/$USER/g" ~/Desktop/APT.desktop
+
+# 6. Refresh Gnome Desktop Shell
+update-desktop-database ~/.local/share/applications/
+```
+*(Replace YOUR_USER with your actual username, which you can find by typing whoami in the terminal.)*
+
 **The final .desktop file**
 ```
 [Desktop Entry]
@@ -225,7 +274,6 @@ Icon=/home/[your-user]/APT/apt_icon.png
 Terminal=true
 Categories=Science;Astronomy;
 ```
-
 
 
 

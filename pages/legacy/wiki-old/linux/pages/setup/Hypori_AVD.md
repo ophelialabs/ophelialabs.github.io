@@ -37,3 +37,4 @@ https://client.wvd.azure.us/arm/webclient/index.html
 – Step 6b: Login to AVD using your A365/M365 account username.
 – Step 7b: Select the correct CAC certificate and enter your PIN.
 – Step 8b: Select the server closest to you; East or West.
+

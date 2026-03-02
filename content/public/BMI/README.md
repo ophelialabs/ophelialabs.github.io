@@ -14,7 +14,7 @@
 
  ---
 
- - Main focus is integrating into [QNET](https://arxiv.org/html/2508.03806v1)
+ - Main focus is integrating into [.NET, Blazor]() / [QNET](https://arxiv.org/html/2508.03806v1)
  - [NQI]() / [NQCO]() / []
  - [Messaging](https://ophelialabs.github.io/pages/enterprise/pages/iot/messageprotocols.html)
  - [HyperSpectral imaging with microcombs](https://arxiv.org/abs/2508.18219)

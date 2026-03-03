@@ -8,7 +8,7 @@ Flexible graphene-based fiber interfaces allow for high-precision, bidirectional
 - Optogenetic Integration: Because graphene is transparent across a broad spectrum, these fiber interfaces can simultaneously perform optical stimulation (via the blue spectrum) and electrical recording, allowing researchers to map functional brain responses in real-time. 
 
 2. Blue Spectrum: Benefits & Cons **Place**
-The blue spectrum is the high-energy "engine" of modern displays and optogenetic interfaces. 
+The blue spectrum is the high-energy "engine" of modern optogenetic interfaces. 
 
 Feature 	Benefits	Cons
 Performance	Triggers quantum dots efficiently; enables extreme peak brightness (up to 10,000 nits).	High-energy blue light causes faster material degradation in organic and quantum dot layers.

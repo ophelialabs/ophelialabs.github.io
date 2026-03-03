@@ -9,7 +9,7 @@
 ---
 
 - [Setup](https://ophelialabs.github.io/#pipeline2) Account or [ServiceNow](https://ophelialabs.github.io/pages/learn/pipeline/servicenow.md)
-- IF using [IT Catalog](https://support.servicenow.com/kb?id=kb_home), be prepared to need a sponsor and answer: How can you benefit company?
+- IF using [IT Catalog](https://support.servicenow.com/kb?id=kb_home), be prepared to [need a sponsor and answer](https://share.google/aimode/ai3Hxr0U0rcrdD1xb): How can you benefit company?
 - [Power Platform](https://www.microsoft.com/en-us/power-platform) (*[Pages](https://www.microsoft.com/en-us/power-platform/products/power-pages) / [Teams](https://www.microsoft.com/en-us/microsoft-teams/log-in)*) / [MS DataVerse](https://www.microsoft.com/en-us/power-platform/dataverse) (Internal Research - [Dataverse](https://dataverse.org/), [Wiley](https://www.wiley.com/en-us/), [Elsevier](https://www.elsevier.com/), [Dryad](https://datadryad.org/about#our-partners) / Visual Studio
 - Viva ([Engage](https://www.microsoft.com/en-us/microsoft-viva/engage) / Yammer) / VS Code (Viva Connections) to deploy custom [SharePoint Framework solutions](https://www.youtube.com/watch?v=GXfnIZJZDzk) / [CPK](https://cloud.copilotkit.ai/sign-up) ([MAF](https://docs.copilotkit.ai/microsoft-agent-framework) / [Strands](https://docs.copilotkit.ai/aws-strands))
 - .env is now in [Studio](https://www.microsoft.com/en-us/microsoft-365-copilot/microsoft-copilot-studio)>Topics>Variables also in Power Apps>[Solutions](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/solutions-overview)>[AZ Key Vault](https://azure.microsoft.com/en-us/products/key-vault) or [Wizard](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/kit-setup-wizard)

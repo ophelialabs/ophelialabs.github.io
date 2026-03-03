@@ -43,7 +43,7 @@ Modern ground station monitoring platforms, such as those within the Honeywell e
 
 - **Unified Control Hub**: They act as a centralized "cockpit" to monitor telemetry, link health, and payload status across multiple sites.
 - **Automated Failsafes**: The software continuously monitors Quality of Service (QoS) metrics and environmental sensors (such as wind and humidity). If parameters exceed safe limits, it triggers automated shutdowns of the telescope dome.
-- **Mission Orchestration**: These platforms allow for advanced "Beyond Visual Line of Sight" (BVLOS) operations, providing real-time situational awareness and the ability to manage multiple tracking assets simultaneously.
+- **Mission Orchestration**: These [platforms](https://aerospace.honeywell.com/us/en/pages/sff-uav-satcom) allow for advanced "Beyond Visual Line of Sight" (BVLOS) operations, providing real-time situational awareness and the ability to manage multiple tracking assets simultaneously.
 - **Diagnostic Logs**: Extensive logging modules systematically archive performance data (QBER, tracking jitter) for post-pass scientific analysis by the Science Operation Centre (SOC).
 
 ## U-space Integration and Regulatory Standards

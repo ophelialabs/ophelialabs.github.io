@@ -6,5 +6,5 @@ Combining Qiskit for quantum modeling, Magnetoelastic MI (Magneto-Impedance) lay
 - Graphene Nanosheet Fibers: Graphene serves as the structural and conductive backbone. Its high electrical conductivity, mechanical flexibility, and exceptional biocompatibility make it an ideal material for "soft" neural probes that minimize tissue damage and inflammatory responses.
 - Qiskit's Role: IBM's Qiskit is used to simulate and optimize the quantum-level interactions within these materials. Specifically:
 - Quantum Sensing: Modeling the spin dynamics and magnetoreception properties to enhance the sensitivity of the MI layer.
-- Material Discovery: Using Qiskit Machine Learning to predict the electrochemical and mechanical properties of new graphene-nanosheet composites.
-- Signal Processing: Implementing quantum algorithms to decode complex neural signals from the high-dimensional data captured by the fiber interface.
+1. Material Discovery: Using Qiskit Machine Learning to predict the electrochemical and mechanical properties of new graphene-nanosheet composites.
+2. Signal Processing: Implementing quantum algorithms to decode complex neural signals from the high-dimensional data captured by the fiber interface.

@@ -38,8 +38,8 @@ Why these specific areas are PRONE to irritation:
 DABI, DANDI use Julia's HTTP and JSON pkg's to pull datasets directly into env for real-time decoding.
 
 # Data Arrival
-o automate documentation generation based on new data (like MRI files or images), you need a Data-Driven CI/CD Pipeline. Instead of triggering the build only when code changes, you trigger it when data is updated or uploaded.
-Here is the architectural flow for an automated imaging documentation pipeline:
+To automate documentation generation based on new data (like MRI files or images), you need a Data-Driven CI/CD Pipeline. Instead of triggering the build only when code changes, you trigger it when data is updated or uploaded.
+- Here is the architectural flow for an automated imaging documentation pipeline:
 ---
 ## 1. The Trigger
 You need a way to signal the pipeline that new MRI data is ready.

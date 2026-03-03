@@ -1,5 +1,5 @@
 #### *Based on the principles of minimally-invasive fiber-based neural interfaces (FED/BMI), irritation can be caused due to a combination of mechanical friction, foreign body reactions, and localized skin sensitivity* **(injection site)**.
-**Note:** When bi-directional communication is implemented, THINK Freud(Controlled Studies), and self-analyze. What is being provoked and stay **centered**
+**Note:** When bi-directional communication is implemented, THINK Freud (Controlled Studies), and self-analyze. What is being provoked and stay **centered**
 
 Why these specific areas are PRONE to irritation:
 

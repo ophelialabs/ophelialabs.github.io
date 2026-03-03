@@ -169,3 +169,5 @@ FPGA-Based Decoders: Using Field Programmable Gate Arrays (FPGAs), the system ca
 Hardware-Intrinsic Encryption: Some advanced sensors use bias-voltage control as a physical security key. The hardware itself encrypts the recorded image/signal at the device level, making the data unreadable to anyone who does not have the precisely defined dynamic voltage protocol. 
 3. Spatial and Reference Filters
 Common Median Referencing (CMR): This hardware-level technique removes interference common to all electrodes (like muscle movements or power line noise) by referencing each channel to the median of the group. This isolates the unique local signals of interest, making the data harder to de-anonymize through broad pattern matching. 
+
+**Note:** When bi-directional communication is implemented, THINK Freud (Controlled Studies), and self-analyze. What is being provoked and stay **centered**

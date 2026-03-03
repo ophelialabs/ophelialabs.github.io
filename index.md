@@ -1,5 +1,5 @@
 ## Enterprise Architecture Pipeline Deployment Strategies
-**Vision Statement**: Mise en place
+**Statement**: Mise en place
 1. Read the recipe thoroughly;
 2. Gather all tools & ingredients;
 3. Prepare ingredients (wash, chop, measure);

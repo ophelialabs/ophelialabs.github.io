@@ -5,6 +5,7 @@
 3. Prepare ingredients (wash, chop, measure);
 4. Organize your workstation with everything in its logical spot;
 5. Prepare equipment, like preheating ovens or setting out pans, before starting to cook to ensure efficiency and focus.
+6. Don't get Lost in the Sauce
 
 ---
 

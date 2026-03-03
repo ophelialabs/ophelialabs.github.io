@@ -25,6 +25,6 @@ Impedance Matching: Silver nanoparticles injected into the dermal/sub-dermal lay
 - The MI Layer: An external wearable (like a "Neural Patch") sits over the injection site. The Magneto-Impedance effect in the patch detects the filtered, amplified signals passing through the Ag-enhanced tissue.
 
 ### Risks & Technical Constraints
-- Argyria & Biocompatibility: Localized silver must be encapsulated (e.g., in a biocompatible polymer) to prevent permanent skin discoloration or systemic toxicity.
+- Argyria & Biocompatibility: Localized silver must be encapsulated (e.g., in a biocompatible [polymer](https://pubs.rsc.org/en/content/articlehtml/2025/mh/d4mh01854k)) to prevent permanent skin discoloration or systemic toxicity.
 - Signal Interference: Over-injection can lead to "signal blurring," where the Ag cluster acts as an antenna for ambient electronic noise (EMI) rather than just neural data.
 

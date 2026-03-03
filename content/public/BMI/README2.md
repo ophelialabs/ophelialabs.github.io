@@ -1,4 +1,4 @@
-Based on the principles of minimally-invasive fiber-based neural interfaces (FED/BMI), irritation can be caused due to a combination of mechanical friction, foreign body reactions, and localized skin sensitivity (injection site).
+#### *Based on the principles of minimally-invasive fiber-based neural interfaces (FED/BMI), irritation can be caused due to a combination of mechanical friction, foreign body reactions, and localized skin sensitivity* **(injection site)**.
 
 Why these specific areas are PRONE to irritation:
 
@@ -13,8 +13,9 @@ Why these specific areas are PRONE to irritation:
    - Positioning (E,J,H):
    - Sprial Config:
    - A2, M2, cEEGrid Layout:
-Why the Right Ear Map is Unique
-Allows the BCI to access the left hemisphere's lang and motor processing centers more efficiently. Less noise than cross-head
+
+**Why the Right Ear Map is Unique**:
+- Allows the BCI to access the left hemisphere's lang and motor processing centers more efficiently. Less noise than cross-head
 2. Apex (Top of the Head): Surgical Site and Material Mismatch
    -
    -

@@ -21,6 +21,7 @@ Solaris Compliance Framework: Uses the compliance command to run assessments aga
 4. [DNN](https://share.google/aimode/htnmnGF4ww03lLnSE)
 ### 5. Disruption
 *Keeping the neodymium magnetic force applied*
+1. Side Effects: 
 
 ---
 

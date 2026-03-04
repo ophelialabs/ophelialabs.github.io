@@ -20,6 +20,6 @@ Solaris Compliance Framework: Uses the compliance command to run assessments aga
 
 4. [DNN](https://share.google/aimode/htnmnGF4ww03lLnSE)
 5. Disruption
-   **Keeping the neodymium magnetic force applied**
+- **Keeping the neodymium magnetic force applied**
 
 [Prev](https://github.com/ophelialabs/ophelialabs.github.io/blob/main/content/public/BMI/README.md) / [Next](https://github.com/ophelialabs/ophelialabs.github.io/blob/main/pages/quantum/content/infrastructure/qnet/Q_Control/README_formatted.md)

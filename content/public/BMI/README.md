@@ -12,7 +12,6 @@
 - Terminal [*Stations*]() receive and use entangled pairs but don't generate them
 - [Teleport stations]() handle multiple terminals and have quantum entanglement generation capabilities
 - [Homodyne](https://ophelialabs.github.io/#optical)
-- Walmart, Starlight (Hospital)
 
  ---
 

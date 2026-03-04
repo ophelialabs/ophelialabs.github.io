@@ -22,7 +22,7 @@ Solaris Compliance Framework: Uses the compliance command to run assessments aga
 ### 5. Disruption
 *Keeping the neodymium magnetic force applied*
 1. Side Effects:
-- Neurological & Vestibular Disturbance: You may experience vertigo, dizziness, or a metallic taste (due to stimulation of the chorda tympani nerve). Long-term exposure to strong static fields in this specific location can also lead to chronic headaches or "magnetic phosphenes" (visual flashes) if the field reaches the peripheral visual pathways.
+- Neurological & Vestibular Disturbance: You may experience **vertigo, dizziness, or a metallic taste** (due to stimulation of the chorda tympani nerve). Long-term exposure to strong static fields in this specific location can also lead to chronic headaches or "magnetic phosphenes" (visual flashes) if the field reaches the peripheral visual pathways.
 - Thermal Accumulation: This may cause inductive heating of the Ag-injected site. Even a 1-2°C rise in localized tissue temperature can trigger an inflammatory response that "fouls" the graphene fiber interface with scar tissue (gliosis).
 - Magnetophoretic Migration: This shifts the "conductive bridge" away from the **graphene fiber terminals**, causing your neural interface to **lose** its calibration or **"drift"** as the Ag-site physically deforms.
 

@@ -18,4 +18,6 @@ Compliance Tools:
 IBM Guardium Quantum Safe: Scans the entire hybrid environment to build a "Cryptography Bill of Materials" (CBOM), identifying vulnerable legacy algorithms (like RSA-2048) that must be replaced to maintain compliance.
 Solaris Compliance Framework: Uses the compliance command to run assessments against specific security benchmarks (like PCI-DSS or custom PQC-ready profiles) and generate audit-ready reports.
 
+[DNN](https://share.google/aimode/eSOypPlqhIPXvpmW7)
+
 [Prev](https://github.com/ophelialabs/ophelialabs.github.io/blob/main/content/public/BMI/README.md) / [Next](https://github.com/ophelialabs/ophelialabs.github.io/blob/main/pages/quantum/content/infrastructure/qnet/Q_Control/README_formatted.md)

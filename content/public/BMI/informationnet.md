@@ -12,7 +12,7 @@ Ambient Operation: Ensure stable operation across wide temperature (25°C to 100
 
 3. Integration with Neural Interfaces
 Multifunctional Probes: Integrate MEG fibers into thermally drawn polymer-based fibers that already carry microfluidic channels, electrodes, and light sources.
-3D Brain Mapping: Use helix scaffolding to deploy these fiber arrays for simultaneous recording and stimulation across distant deep-brain regions.
+3D Brain Mapping: Use helix scaffolding to deploy these fiber arrays for **simultaneous recording and stimulation** across distant deep-brain regions.
 Biocompatibility: Select eco-friendly components to minimize foreign body reactions and ensure long-term tissue integration. 
 
 4. Implementation and Application

@@ -12,6 +12,7 @@
 - Terminal [*Stations*]() receive and use entangled pairs but don't generate them
 - [Teleport stations]() handle multiple terminals and have quantum entanglement generation capabilities
 - [Homodyne](https://ophelialabs.github.io/#optical)
+- [Cooking with Crisco]()
 - [Walmart](https://share.google/aimode/a8AOBqrberZQk7ojF) / [Starlight](content/public/BMI/informationnet.md)
 
  ---

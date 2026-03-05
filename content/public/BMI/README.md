@@ -13,7 +13,7 @@
 - [Teleport stations]() handle multiple terminals and have quantum entanglement generation capabilities
 - [Homodyne](https://ophelialabs.github.io/#optical)
 - [Walmart](https://share.google/aimode/a8AOBqrberZQk7ojF) / [Starlight](content/public/BMI/informationnet.md)
-- [Cooking with Crisco]()
+- [Cooking with Crisco](), **Whoever said let this man cook, I appreciate you more than you know!**
 
  ---
 

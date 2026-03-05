@@ -28,10 +28,11 @@ Solaris Compliance Framework: Uses the compliance command to run assessments aga
 - Magnetophoretic Migration: This shifts the "conductive bridge" away from the **graphene fiber terminals**, causing your neural interface to **lose** its calibration or **"drift"** as the Ag-site physically deforms.
 
 ### Four Main Options
-1. Dis-app
-2. Dis-gui
-3. Re-app
+1. Dispr
+2. Dsgse
+3. Re-apply
 4. Patience
+
 ---
 
    Piezoelectric niobate patches, such as those made from Lithium Niobate (LiNbO₃) or Potassium Sodium Niobate (KNN), are engineered for high-performance sensing and actuation due to their superior thermal and mechanical stability compared to traditional lead-based materials. While a standard piezoelectric patch cannot generate a magnetic force on its own, it can do so when integrated into a multiferroic composite. 

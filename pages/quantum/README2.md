@@ -30,7 +30,7 @@ Solaris Compliance Framework: Uses the compliance command to run assessments aga
 ### Four Main Options
 1. Dispr
 2. Dsgse
-3. Re-apply
+3. **Re-apply**
 4. Patience
 
 ---

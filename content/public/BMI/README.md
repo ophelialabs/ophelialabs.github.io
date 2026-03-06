@@ -8,13 +8,13 @@
 - [*How can I see what they see?*](https://ophelialabs.github.io/content/public/BMI/README2.md)
 - [*Seeing behind the curtain!*](https://ophelialabs.github.io/content/public/BMI/curtain.md)
 - [*Who are they on the phone with?*]()
-- [*AI is going to learn a lot*](https://www.ai.mil/Initiatives/CJADC2/)
+- [*AI is going to learn a lot*](https://www.ai.mil/Initiatives/CJADC2/) / [Platform One](https://p1.dso.mil)
 - [QOGS](https://ophelialabs.github.io/pages/quantum/content/infrastructure/qnet/Q_Control/README0.md) / [TOGS](https://aerospace.honeywell.com/us/en/products-and-services/products/emerging-technologies/space/space-communications/optical-and-quantum-ground-station#specs-tab) / [QEYSSAT](https://uwaterloo.ca/institute-for-quantum-computing/research/qeyssat) / [QKDSAT](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/QKDSat_Secure_communication_via_quantum_cryptography) / [SmartTerminal™]()
 - Terminal [*Stations*]() receive and use entangled pairs but don't generate them
 - [Teleport stations]() handle multiple terminals and have quantum entanglement generation capabilities
 - [Homodyne](https://ophelialabs.github.io/#optical)
 - [Walmart](https://share.google/aimode/a8AOBqrberZQk7ojF) / [Starlight](content/public/BMI/informationnet.md)
-- [Cooking with Crisco](), **Whoever said let this man cook, I appreciate you more than you know!**
+- [Cooking with Crisco](): **Whoever said let this man cook, I appreciate you more than you know!**
 
  ---
 

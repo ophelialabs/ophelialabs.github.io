@@ -5,7 +5,7 @@
 
 - Itinerary (Formulate a plan moving forward that is beneficial to both parties)
 - [Data Acquisition](https://github.com/ophelialabs/ophelialabs.github.io/blob/main/pages/quantum/README2.md) / [Julia](https://julialang.org/) / [.NET, Blazor]() / [QNET](https://arxiv.org/html/2508.03806v1) / [DELERIA](https://newscenter.lbl.gov/2025/05/19/building-a-data-pipeline-to-accelerate-discovery/)
-- [*How can I see what they see?*](https://ophelialabs.github.io/content/public/BMI/README2.md)
+- [*How can I see what they see?*](https://ophelialabs.github.io/pipe/README2.md)
 - [*Seeing behind the curtain!*](https://ophelialabs.github.io/content/public/BMI/curtain.md)
 - [*Who are they on the phone with?*]()
 - [*AI is going to learn a lot*](https://www.ai.mil/Initiatives/CJADC2/) / [Platform One](https://p1.dso.mil)

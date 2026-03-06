@@ -15,6 +15,8 @@ Impedance Matching: Silver nanoparticles injected into the dermal/sub-dermal lay
 ## Magnetic Forces
 If applying a neodymium magnet cuases the interface to lose calibration, what would that mean for an EMP? Assumedly, the Ag cluster may be disrupted, and bi-directional communication should still operate functionally. Would this cause **immediate** Vertigo and disturbance?
 
+- How to setup for team and reduce *chatter*?
+
 1. Side Effects:
 - Neurological & Vestibular Disturbance: You may experience **vertigo, dizziness, or a metallic taste** (due to stimulation of the chorda tympani nerve). Long-term exposure to strong static fields in this specific location can also lead to chronic headaches or "magnetic phosphenes" (visual flashes) if the field reaches the peripheral visual pathways.
 - Thermal Accumulation: This may cause inductive heating of the Ag-injected site. Even a 1-2°C rise in localized tissue temperature can trigger an inflammatory response that "fouls" the graphene fiber interface with scar tissue (gliosis).

@@ -16,6 +16,7 @@ Impedance Matching: Silver nanoparticles injected into the dermal/sub-dermal lay
 If applying a neodymium magnet cuases the interface to lose calibration, what would that mean for an EMP? Assumedly, the Ag cluster may be disrupted, and bi-directional communication should still operate functionally. Would this cause **immediate** Vertigo and disturbance?
 
 - How to setup for team and reduce *chatter*? Also, providing ways to differentiate between outside comm and *self-talk?*
+- Channels do not matter, you are the receiver. Using ID/tag is not always efficient or feasible
 
 1. Side Effects:
 - Neurological & Vestibular Disturbance: You may experience **vertigo, dizziness, or a metallic taste** (due to stimulation of the chorda tympani nerve). Long-term exposure to strong static fields in this specific location can also lead to chronic headaches or "magnetic phosphenes" (visual flashes) if the field reaches the peripheral visual pathways.

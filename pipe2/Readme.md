@@ -6,9 +6,9 @@ In the context of the Information Network, the combination of Solaris and Alpine
 
 1. Concurrent Trusted Platform Architecture
 In a dual-OS environment, these platforms are used together to create a Defense-in-Depth strategy:
-[IBM AIX (Secure Control Plane)](): Acts as the primary host for mission-critical databases (e.g., [Oracle Database on Power11]()) where it uses [vTPM 2.0](https://sourceforge.net/projects/ibmswtpm2/) and [PowerSC]() to perform real-time Quantum Safety Analysis scans.
-Oracle Solaris (Cryptographic Gateway): Often serves as the frontend or middleware layer, utilizing its Cryptographic Framework to provide KMIP (Key Management Interoperability Protocol) client support. This allows Solaris to securely pull quantum-safe keys from a central [IBM]() or [Oracle]() *key manager* and serve them to [AIX]() via PKCS #11. 
-    - Solaris: Historically integrated features from Trusted Solaris, a specialized OS developed in collaboration for intelligence-level security. It provides **RBAC** and Labeled Security, which are vital for meeting strict IN security benchmarks.
+    - [IBM AIX (Secure Control Plane)](): Acts as the primary host for mission-critical databases (e.g., [Oracle Database on Power11]()) where it uses [vTPM 2.0](https://sourceforge.net/projects/ibmswtpm2/) and [PowerSC]() to perform real-time Quantum Safety Analysis scans.
+    - Solaris (Cryptographic Gateway): Historically integrated features from Trusted Solaris, a specialized OS developed in collaboration for intelligence-level security. It provides **RBAC** and Labeled Security, which are vital for meeting strict IN security benchmarks.
+    Often serves as the frontend or middleware layer, utilizing its Cryptographic Framework to provide KMIP (Key Management Interoperability Protocol) client support. This allows Solaris to securely pull quantum-safe keys from a central [IBM]() or [Oracle]() *key manager* and serve them to [AIX]() via PKCS #11. 
     - Alpine Linux: Focused on minimizing the attack surface through a tiny footprint (approx. 5 MB base). It uses security-hardened components `musl libc` and `BusyBox`, which are easier to audit and contain fewer vulnerabilities than standard Linux libraries.
 
 2. Passing PKCS #11 Compliance 

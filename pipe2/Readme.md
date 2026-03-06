@@ -14,7 +14,7 @@ In a dual-OS environment, these platforms are used together to create a Defense-
 2. Passing PKCS #11 Compliance 
 Both systems implement PKCS #11 through a hardware-to-software "bridge":
     - Solaris Implementation: Uses the pkcs11_tpm and pkcs11_kmip providers. Applications call the standard PKCS #11 API, which Solaris then routes to the TPM or a remote KMIP-compliant server for signing and encryption, ensuring the actual keys never leave the hardware boundary.
-    - AIX Implementation: On Power10/11 hardware, AIX utilizes the [Crypto Express cards](https://www.ibm.com/docs/systems-hardware/zsystems/3931-A01?topic=features-crypto-express) or vTPM ([HSM](https://share.google/aimode/jTMJwImDBHdHlHh5X)) to provide PKCS #11 tokens. This architecture is designed to meet FIPS 140-2/3 requirements, which are the baseline for most PKCS #11 enterprise audits. 
+    - AIX Implementation: On Power10/11 hardware, AIX utilizes the [Crypto Express cards](https://www.ibm.com/docs/systems-hardware/zsystems/3931-A01?topic=features-crypto-express) or vTPM to provide [PKCS #11 tokens](https://share.google/aimode/jTMJwImDBHdHlHh5X). This architecture is designed to meet FIPS 140-2/3 requirements, which are the baseline for most PKCS #11 enterprise audits. 
 
 3. Meeting Quantum Compliance (CNSA 2.0 / PQC)
 The transition to quantum compliance is achieved through Crypto-Agility:

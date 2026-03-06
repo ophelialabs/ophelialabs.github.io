@@ -13,7 +13,7 @@ Impedance Matching: Silver nanoparticles injected into the dermal/sub-dermal lay
 - Signal Interference: Over-injection can lead to "signal blurring," where the Ag cluster acts as an **antenna** for *ambient electronic noise* (EMI) rather than just neural data. (The objective)
 
 ## Magnetic Forces
-If applying a neodymium magnet cuases the interface to lose calibration, what would that mean for an EMP? Assumedly, the Ag cluster may be disrupted, and bi-directional communication should still operate functionally. Would this cause **immediate** Vertigo and disturbance?
+If applying a neodymium magnet cuases the interface to lose calibration, what would that mean for an EMP? Assumedly, the Ag cluster may be disrupted, and bi-directional communication should still operate functionally (unless q-bits are dropped because of being falsely "observed"or network detects change?). Would this cause **immediate** Vertigo and disturbance?
 
 - How to setup for team and reduce *chatter*? Also, providing ways to differentiate between direct comm and *self-talk?*
 

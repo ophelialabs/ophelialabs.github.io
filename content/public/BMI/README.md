@@ -7,7 +7,7 @@
 - [Informatics](braininitiative.nih.gov)
 - [Data Acquisition](https://github.com/ophelialabs/ophelialabs.github.io/blob/main/pages/quantum/README2.md) / [QNET](https://arxiv.org/html/2508.03806v1) / [DELERIA](https://newscenter.lbl.gov/2025/05/19/building-a-data-pipeline-to-accelerate-discovery/)
 - [*How can I see what they see?*](https://ophelialabs.github.io/pipe/README2.md)
-- [*Seeing behind the curtain!*](https://ophelialabs.github.io/content/public/BMI/curtain.md)
+- [***Seeing behind the curtain!***](https://ophelialabs.github.io/content/public/BMI/curtain.md)
 - [*Who are they on the phone with?*]()
 - [*AI is going to learn a lot*](https://www.ai.mil/Initiatives/CJADC2/) / [Platform One](https://p1.dso.mil)
 - [QOGS](https://ophelialabs.github.io/pages/quantum/content/infrastructure/qnet/Q_Control/README0.md) / [TOGS](https://aerospace.honeywell.com/us/en/products-and-services/products/emerging-technologies/space/space-communications/optical-and-quantum-ground-station#specs-tab) / [QEYSSAT](https://uwaterloo.ca/institute-for-quantum-computing/research/qeyssat) / [QKDSAT](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/QKDSat_Secure_communication_via_quantum_cryptography) / [SmartTerminal™]()

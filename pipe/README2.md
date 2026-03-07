@@ -35,7 +35,7 @@ Why these specific areas are PRONE to irritation:
    -
    -
 ### Pro-Tip:
-DABI, DANDI use Julia's HTTP and JSON pkg's to pull datasets directly into env for real-time decoding.
+[DABI](https://dabi.loni.usc.edu/), [DANDI](https://registry.opendata.aws/dandiarchive/) use Julia's HTTP and JSON pkg's to pull datasets directly into environment for real-time decoding.
 
 # Data Arrival
 To automate documentation generation based on new data (like MRI files or images), you need a Data-Driven CI/CD Pipeline. Instead of triggering the build only when code changes, you trigger it when data is updated or uploaded.

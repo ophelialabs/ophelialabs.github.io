@@ -4,7 +4,7 @@
 ---
 
 - Itinerary (Formulate a plan moving forward that is beneficial to both parties)
-- [Informatics](braininitiative.nih.gov)
+- [Informatics](braininitiative.nih.gov) / [NQI](https://www.quantum.gov/wp-content/uploads/2022/04/NQI-Factsheet.pdf) / [NQCO](https://www.quantum.gov/nqco/) 
 - [Data Acquisition](https://github.com/ophelialabs/ophelialabs.github.io/blob/main/pages/quantum/README2.md) / [QNET](https://arxiv.org/html/2508.03806v1) / [DELERIA](https://newscenter.lbl.gov/2025/05/19/building-a-data-pipeline-to-accelerate-discovery/)
 - [*How can I see what they see?*](https://ophelialabs.github.io/pipe/README2.md)
 - [***Seeing behind the curtain!***](https://ophelialabs.github.io/content/public/BMI/curtain.md)
@@ -19,7 +19,6 @@
 
  ---
 
- - [NQI](https://www.quantum.gov/wp-content/uploads/2022/04/NQI-Factsheet.pdf) / [NQCO](https://www.quantum.gov/nqco/) 
  - [Messaging](https://ophelialabs.github.io/pages/enterprise/pages/iot/messageprotocols.html)
  - [HyperSpectral imaging with microcombs](https://arxiv.org/abs/2508.18219)
 

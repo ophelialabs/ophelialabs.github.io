@@ -16,7 +16,7 @@
 - [Homodyne](https://ophelialabs.github.io/#optical)
 - [Walmart / Starlight]((https://share.google/aimode/a8AOBqrberZQk7ojF))
 - *Cooking with Crisco*: Whoever said let this man cook, I appreciate you more than you know!
-- [*Hand it to me*](https://www.syglass.io/academy/v/tracing-basics-fn2tc)
+- [*Hand it off to me*](https://www.syglass.io/academy/v/tracing-basics-fn2tc)
 
  ---
 

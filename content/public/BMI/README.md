@@ -19,7 +19,7 @@
 
  ---
 
- - [NQI]() / [NQCO]() / []
+ - [NQI](https://www.quantum.gov/wp-content/uploads/2022/04/NQI-Factsheet.pdf) / [NQCO](https://www.quantum.gov/nqco/) 
  - [Messaging](https://ophelialabs.github.io/pages/enterprise/pages/iot/messageprotocols.html)
  - [HyperSpectral imaging with microcombs](https://arxiv.org/abs/2508.18219)
 

@@ -3,7 +3,7 @@
 
 ---
 
-- Itinerary (Formulate a plan moving forward that is beneficial to both parties)
+- Itinerary 
 - [Informatics](braininitiative.nih.gov) / [NQI](https://www.quantum.gov/wp-content/uploads/2022/04/NQI-Factsheet.pdf) / [NQCO](https://www.quantum.gov/nqco/) 
 - [Data Acquisition](https://github.com/ophelialabs/ophelialabs.github.io/blob/main/pages/quantum/README2.md) / [QNET](https://arxiv.org/html/2508.03806v1) / [DELERIA](https://newscenter.lbl.gov/2025/05/19/building-a-data-pipeline-to-accelerate-discovery/)
 - [*How can I see what they see?*](https://ophelialabs.github.io/pipe/README2.md)
@@ -15,7 +15,6 @@
 - [Teleport stations]() handle multiple terminals and have quantum entanglement generation capabilities
 - [Homodyne](https://ophelialabs.github.io/#optical)
 - [Walmart / Starlight]((https://share.google/aimode/a8AOBqrberZQk7ojF))
-- *Cooking with Crisco*: Whoever said let this man cook, I appreciate you more than you know!
 - [*Hand it off to me*](https://www.syglass.io/academy/v/tracing-basics-fn2tc)
 
  ---

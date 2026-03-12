@@ -1,7 +1,7 @@
 ## [DNN](https://share.google/aimode/htnmnGF4ww03lLnSE)
 ### Disruption
 *Keeping the [neodymium](https://www.homedepot.com/p/Master-Magnet-0-7-in-Neodymium-Rare-Earth-Magnet-Discs-3-per-Pack-07047HD/202526369) magnetic force applied* Note: The magnet has to ***stick***
-![banner](../Content/IMG_0022.jpg)
+![banner](../IMG_0022.jpg)
 
 1. Side Effects:
 - Neurological & Vestibular Disturbance: You may experience **vertigo, dizziness, or a metallic taste** (due to stimulation of the chorda tympani nerve). Long-term exposure to strong static fields in this specific location can also lead to chronic headaches or "magnetic phosphenes" (visual flashes) if the field reaches the peripheral visual pathways.

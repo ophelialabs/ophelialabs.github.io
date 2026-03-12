@@ -1,3 +1,7 @@
+[Home](https://ophelialabs.github.io/ophelialabs2/) | [Index](https://ophelialabs.github.io/ophelialabs2/Implant/) | [Index2](https://ophelialabs.github.io/ophelialabs2/Implant/index2.md) | [Index3](https://ophelialabs.github.io/ophelialabs2/Implant/index3.md)
+
+---
+
 ## [DNN](https://share.google/aimode/htnmnGF4ww03lLnSE)
 ### Disruption
 *Keeping the [neodymium](https://www.homedepot.com/p/Master-Magnet-0-7-in-Neodymium-Rare-Earth-Magnet-Discs-3-per-Pack-07047HD/202526369) magnetic force applied* Note: The magnet has to ***stick***

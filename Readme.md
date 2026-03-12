@@ -1,4 +1,4 @@
-  [Implant](./Implant/index.md) | [Informatics](./Informatics/index.md) | [Curtain](./Curtain/index.md) | [Comm](./Comm/index.md)
+  [Implant](Implant/index.md) | [Informatics](./Informatics/index.md) | [Curtain](./Curtain/index.md) | [Comm](./Comm/index.md)
 
 --- 
 

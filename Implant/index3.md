@@ -1,3 +1,7 @@
+[Home](https://ophelialabs.github.io/ophelialabs2/) | [Index](https://ophelialabs.github.io/ophelialabs2/Implant/) | [Index2](https://ophelialabs.github.io/ophelialabs2/Implant/index2.md) | [Index3](https://ophelialabs.github.io/ophelialabs2/Implant/index3.md)
+
+---
+
 ## Manufacturing
 Combining Qiskit for quantum modeling, Magnetoelastic MI (Magneto-Impedance) layers for sensing, and graphene-based nanosheet fibers ([**Apex**](^1)) creates a highly advanced framework for next-generation neural interfaces.
 

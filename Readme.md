@@ -1,4 +1,4 @@
-  [Implant](https://github.com/ophelialabs/ophelialabs2/blob/main/Implant/Index.md) | [Informatics](./Informatics/index.md) | [Curtain](./Curtain/index.md) | [Comm](./Comm/index.md)
+  [Implant](https://github.com/ophelialabs/ophelialabs2/blob/main/Implant/Index.md) | [Informatics](https://github.com/ophelialabs/ophelialabs2/blob/main/Informatics/Index.md) | [Curtain](https://github.com/ophelialabs/ophelialabs2/blob/main/Curtain/index.md) | [Comm](https://github.com/ophelialabs/ophelialabs2/blob/main/Comm/index.md)
 
 --- 
 

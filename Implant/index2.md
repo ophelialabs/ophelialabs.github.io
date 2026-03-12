@@ -1,3 +1,7 @@
+[Home](https://ophelialabs.github.io/ophelialabs2/) | [Index](https://ophelialabs.github.io/ophelialabs2/Implant/) | [Index2](https://ophelialabs.github.io/ophelialabs2/Implant/index2.md) | [Index3](https://ophelialabs.github.io/ophelialabs2/Implant/index3.md)
+
+---
+
 #### *Based on the principles of minimally-invasive fiber-based neural interfaces (FED/BMI), irritation can be caused due to a combination of mechanical friction, foreign body reactions, and localized skin sensitivity* **(injection site)**.
 
 Why these specific areas are PRONE to irritation:

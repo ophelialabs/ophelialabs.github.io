@@ -2,10 +2,10 @@
 
 --- 
 
-![banner](../ophelialabs.github.io-2-/docs/src/Content/BMI.pngContent/BMI.png)
+![banner](../ophelialabs.github.io-2-/docs/src/Content/BMI.png)
 [*CoOp Behavior*](https://www.science.org/doi/10.1126/science.adw8151) / [*Emerging fiber-based neural interfaces*](https://www.nature.com/articles/s41528-025-00465-w#Sec14)
 
-![banner](../ophelialabs.github.io-2-/docs/src/Content/IMG_0022.jpg/Content/IMG_0022.jpg)
+![banner](../ophelialabs.github.io-2-/docs/src/Content/IMG_0022.jpg)
 [Retroauricular](https://pubs.rsc.org/image/article/2025/MH/d4mh01854k/d4mh01854k-f1_hi-res.gif)
 
 ### Itinerary 

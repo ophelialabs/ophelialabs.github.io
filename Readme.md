@@ -1,4 +1,4 @@
-  [Implant](#implant) | [Informatics](#informatics) | [Curtain](#curtain) | [Comm](#comm) | [Wtf?](#wtf)
+  [Implant](#implant) | [Informatics](#informatics) | [Curtain](#curtain) | [Comm](#comm) 
 
 --- 
 

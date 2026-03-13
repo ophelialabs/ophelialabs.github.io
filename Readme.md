@@ -16,6 +16,7 @@
 
 ## Emphasis
 - The following section is *VERBATIM*
+
 ### Itinerary
 - [*How can I see what they see?*](#implant-index3)
 - [***Seeing behind the curtain!***](#curtain)

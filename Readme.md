@@ -18,12 +18,12 @@
 ---
 
 ### Verbatim (I guess Osmosis)
-- [*How can I see what they see?*](#implant-index3)
+- [*How can I see what the (Target) sees?*](#implant-index3)
 - [***Seeing behind the curtain!***](#curtain)
 - [*Who are they on the phone with?*](#comm)
 - [*Hand it off to me*](https://www.syglass.io/academy/v/tracing-basics-fn2tc)
 - [*AI is going to learn a lot*](https://www.ai.mil/Initiatives/CJADC2/)
-- [*What is the (Targets) Itinerary and the Exit Strategy?*](#)
+- [*What is the (Target)'s Itinerary and what is our Exit Strategy?*](#)
 
 ---
 

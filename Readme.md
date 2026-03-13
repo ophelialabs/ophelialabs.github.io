@@ -19,6 +19,9 @@
 - [***Seeing behind the curtain!***](https://ophelialabs.github.io/content/public/BMI/curtain.md)
 - [*Who are they on the phone with?*]()
 - [*Hand it off to me*](https://www.syglass.io/academy/v/tracing-basics-fn2tc)
+
+---
+
 - [Walmart / Starlight](https://share.google/aimode/a8AOBqrberZQk7ojF)
 - **Cooking with Crisco**: A place for everything, and everything in its place!
 

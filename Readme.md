@@ -18,6 +18,7 @@
 ---
 
 ### Verbatim (I guess Osmosis)
+- [*Appreciate the opportunity to work with older technology*]() Onboarding
 - [*How can I see what the (Target) sees?*](#implant-index3)
 - [***Seeing behind the curtain!***](#curtain)
 - [*Who are they on the phone with?*](#comm)

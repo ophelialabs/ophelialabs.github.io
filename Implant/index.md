@@ -2,6 +2,10 @@
 
 ---
 
+**Note:** When bi-directional communication is implemented, THINK Freud (Controlled Studies), and self-analyze. What is being provoked and stay **centered**
+
+---
+
 (Cleaning up && combining, planning best path forward)
 ## [DNN](https://share.google/aimode/htnmnGF4ww03lLnSE)
 ### Disruption

@@ -1,8 +1,8 @@
-  [Implant](#implant) | [Informatics](#informatics) | [Curtain](#curtain) | [Comm](#comm) 
+  [Implant](#implant) | [Informatics](#informatics) | [Curtain](#curtain) | [Comm](#comm)
 
 --- 
 
-  [Journals](https://ophelialabs.github.io/journals.html) | [AAU+](https://ophelialabs.github.io/AAU+.html) | [AI](https://www.ai.mil/Initiatives/CJADC2/)
+  [Journals](https://ophelialabs.github.io/journals.html) | [AAU+](https://ophelialabs.github.io/AAU+.html) | [AI](https://www.ai.mil/Initiatives/CJADC2/) | [NET](https://ophelialabs.github.io/net.html)
 
   ---
 

@@ -90,7 +90,7 @@ on:
 ```
 
 ## 2. The Integration: ImageView.jl to Static Image
-*ImageView.jl is designed for interactive GUI use*. For documentation (Documenter.jl), you must convert these views into static exports (PNG/SVG) or interactive notebooks.
+ImageView.jl is designed for **Interactive** GUI use. For documentation (Documenter.jl), you must convert these views into static exports (PNG/SVG) or interactive notebooks.
 - For Static Docs: Use FileIO.jl or Images.jl to save the MRI slice as a .png during the build process and reference it in your markdown.
 - For Interactive Docs: Use a Pluto Notebook that loads the MRI data and uses WGLMakie.jl or Hyperscript.jl to create a web-based slice viewer.
 

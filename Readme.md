@@ -4,6 +4,8 @@
 
   [Journals](https://ophelialabs.github.io/journals.html) | [AAU+](https://ophelialabs.github.io/AAU+.html)
 
+  ---
+
 <div style="text-align: left;">
   <img src="Content/BMI.png" alt="Centered image" width="600" height="400">
 </div>

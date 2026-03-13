@@ -1,6 +1,6 @@
 # Index to host most immportant functions. Plan for future growth (scalability).
 
-[Home](#) | [Index](#implant) | [Index2](#implant-index2) | [Index3](#implant-index3) | [Harvest](#harvest) 
+[Home](#) | [Index](#implant) | [Implant2](#implant-index2) | [Implant3](#implant-index3) | [Harvest](#harvest) 
 
 ---
 

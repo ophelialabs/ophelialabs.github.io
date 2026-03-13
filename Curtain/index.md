@@ -7,7 +7,8 @@
 - **IMMEDIATE ACTION MUST BE TAKEN!**
 - Watch out for who controls the curtain and for manipulation/deep neural stimulation
 - **DO *NOT* TRUST WHAT YOU SEE!, [Stealth]() will most definitely be applied**
-- Compromising someone in the middle of the night and implanting them in their sleep. How do I bring ***YOU*** out into the light?
+- Compromising someone in the middle of the night and implanting them in their **sleep**. How do I bring ***YOU*** out into the light?
+- 
 
 ---
 
@@ -153,7 +154,7 @@ In bidirectional neural interfaces, "closing the curtain" refers to the protocol
 Encryption at the neural-digital boundary is necessary to ensure that only authorized "intents" are transmitted, leaving raw brain activity private. 
 
 - Differential Privacy (DP): This is the "gold standard" for real-time neural streams. It works by injecting "calibrated noise" (controlled by a parameter called epsilon) into the neural data before it leaves the user's device. This makes it mathematically impossible for an outside observer or even the machine to reconstruct a user's private visual states from the transmitted signal.
-- Quantum Key Distribution (QKD): To secure the physical link, QKD uses photons to generate unbreakable encryption keys. Any attempt by an eavesdropper to measure the photons (e.g., to "peak" at the neural data) inherently alters their state, immediately alerting the system to a breach and "closing the curtain" automatically.
+- **Quantum Key Distribution (QKD): To secure the physical link, QKD uses photons to generate unbreakable encryption keys. Any attempt by an eavesdropper to measure the photons (e.g., to "peak" at the neural data) inherently alters their state, immediately alerting the system to a breach and "closing the curtain" automatically.**
 - Homomorphic Encryption: Although computationally intensive, this allows the BCI to process neural data while it is still encrypted. The machine can calculate a "command" (like moving a cursor) without ever actually "seeing" the raw brainwave patterns. 
 
 ## 2. Measuring "Neural Leakage"

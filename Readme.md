@@ -17,7 +17,7 @@
 
 ---
 
-### Verbatim (I guess Osmosis)
+### Verbatim (I guess Osmosis) or when you already have Shareholder access, apparently thanks to ServiceNow and not a setup policy error on ADV Auto's side
 - [*Appreciate the opportunity to work with older technology*]() Onboarding
 - [*How can I see what the (Target) sees?*](#implant-index3)
 - [***Seeing behind the curtain!***](#curtain)

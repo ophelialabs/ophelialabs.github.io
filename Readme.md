@@ -14,7 +14,7 @@
 
 [Retroauricular](#implant-index2)
 
-### Verbatim
+### Verbatim (I guess Osmosis)
 - [*How can I see what they see?*](#implant-index3)
 - [***Seeing behind the curtain!***](#curtain)
 - [*Who are they on the phone with?*](#comm)

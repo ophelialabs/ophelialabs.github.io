@@ -2,10 +2,16 @@
 
 --- 
 
-![banner](Content/BMI.png)
+<div style="text-align: left;">
+  <img src="Content/BMI.png" alt="Centered image" width="600" height="400">
+</div>
+
 [*CoOp Behavior*](https://www.science.org/doi/10.1126/science.adw8151) / [*Emerging fiber-based neural interfaces*](https://www.nature.com/articles/s41528-025-00465-w#Sec14)
 
-![banner](Content/IMG_0022.jpg)
+<div style="text-align: left;">
+  <img src="Content/IMG_0022.jpg" alt="Centered image" width="600" height="400">
+</div>
+
 [Retroauricular](https://pubs.rsc.org/image/article/2025/MH/d4mh01854k/d4mh01854k-f1_hi-res.gif)
 
 ### Itinerary 

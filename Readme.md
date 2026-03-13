@@ -2,7 +2,7 @@
 
 --- 
 
-  [Journals](#journals) | [AAU+](https://ophelialabs.github.io/AAU+.html) | [AI](https://www.ai.mil/Initiatives/CJADC2/) | [NET](https://ophelialabs.github.io/net.html) | [Dashboard](https://ophelialabs.github.io/net2.html)
+  [Journals](#journals) | [AAU+](https://ophelialabs.github.io/AAU+.html) | [AI](https://www.ai.mil/Initiatives/CJADC2/) | [NET](https://ophelialabs.github.io/net.html) | [Dashboard](https://ophelialabs.github.io/Dashboard/index.html)
 
   ---
 

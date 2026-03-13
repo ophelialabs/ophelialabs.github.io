@@ -49,7 +49,7 @@ To automate documentation generation based on new data (like MRI files or images
 ## 1. The Trigger
 You need a way to signal the pipeline that new MRI data is ready.
 - GitHub/GitLab Actions: If the data is small enough to stay in Git (unlikely for MRI), a simple git push triggers the build.
-- Webhooks (Recommended): If you store data in S3, Google Cloud Storage, or a local server, you can configure a Webhook to ping GitHub Actions or your CI server whenever a new file is uploaded to a specific folder.
+- Webhooks (Recommended): If you store data in *S3*(Pro-Tip), Google Cloud Storage, or a local server, you can configure a Webhook to ping GitHub Actions or your CI server whenever a new file is uploaded to a specific folder.
 - Scheduled Runs (Cron): If you gather data daily, set the pipeline to run every night at 2:00 AM:
 ```
 yaml
@@ -109,7 +109,7 @@ jobs:
 ## 4. Handling Large Imaging Data
 MRI files are often too large for GitHub. To keep your documentation fast:
 1. Downsample: Have your process_mri.jl script generate low-resolution thumbnails or specific 2D slices for the main documentation pages.
-2. External Storage: Host the full NIfTI/DICOM files on a cloud provider and have the documentation link to them.
+2. External Storage: Host the full [NIfTI](https://share.google/aimode/ELAapxUXNR8SR0jzd)/[DICOM](https://share.google/aimode/UpljuchjOGqqShgSC) files on a cloud provider and have the documentation link to them.
 3. Artifacts.jl: Use Julia's Artifact system to manage the data. You can host the data anywhere, and Julia will automatically download, hash-verify, and cache it during the documentation build.
 
 ## Summary

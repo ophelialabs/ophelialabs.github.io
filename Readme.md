@@ -1,9 +1,3 @@
----
-
-  [Implant](#implant) | [Informatics](#informatics) | [Curtain](#curtain) | [Comm](#comm)
-
---- 
-
   [Journals](#journals) | [AAU+](https://ophelialabs.github.io/AAU+.html) | [AI](https://www.ai.mil/Initiatives/CJADC2/) | [Dashboard](https://ophelialabs.github.io/Dashboard/index.html)
 
   ---

@@ -2,6 +2,8 @@
 
 ---
 
+
+
 ## Manufacturing
 Combining Qiskit for quantum modeling, Magnetoelastic MI (Magneto-Impedance) layers for sensing, and graphene-based nanosheet fibers ([**Apex**](^1)) creates a highly advanced framework for next-generation neural interfaces.
 

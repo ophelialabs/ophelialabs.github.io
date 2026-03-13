@@ -1,4 +1,4 @@
-[Home](#) | [Index](#comm) | [Index2](#comm-index2) | [Index3](#comm-index3)
+[Home](#) | [Index](#comm) | [Index2](#comm-index2) | [Index3](#comm-index3) | [Geo](#geo) | [Hybrid](#hybrid) | [SIEM](#siem)
 
 ---
 

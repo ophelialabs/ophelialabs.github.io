@@ -38,3 +38,4 @@
 7. [In Vivo Evaluation of Thermally Drawn BiodegradableOptical Fibers as Brain Implants](https://onlinelibrary.wiley.com/doi/epdf/10.1002/jbm.b.35549)
 8. [Emerging fiber-based neural interfaces with conductive composites](https://pubs.rsc.org/en/content/articlehtml/2025/mh/d4mh01854k)
 9. [HyperSpectral imaging with microcombs](https://arxiv.org/abs/2508.18219)
+10. [18^th Annual](https://star.spaceops.org/2025/user_manudownload.php?doc=510__1kjy24iu.pdf)

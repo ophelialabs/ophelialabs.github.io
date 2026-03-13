@@ -1,4 +1,4 @@
-[Index2](#wtf-index2)
+[Index2](#harvest-index2)
 
 A strategic plan to provide energy using Moisture-driven Electric Generators (MEG) in fiber-based neural interfaces focuses on harvesting ambient energy to power implantable or wearable bioelectronics. Recent breakthroughs, such as the first MEG-synapse self-powered device, demonstrate the feasibility of using moisture-driven fibers as autonomous power sources for neural systems. 
 

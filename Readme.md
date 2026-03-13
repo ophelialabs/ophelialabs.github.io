@@ -13,6 +13,9 @@
 </div>
 
 [Retroauricular](#implant-index2)
+**Note:** When bi-directional communication is implemented, THINK Freud (Controlled Studies), and self-analyze. What is being provoked and stay **centered**
+
+---
 
 ### Verbatim (I guess Osmosis)
 - [*How can I see what they see?*](#implant-index3)

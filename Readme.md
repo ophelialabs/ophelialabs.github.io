@@ -1,4 +1,4 @@
-  [Journals](#journals) | [AAU+](https://ophelialabs.github.io/AAU+/index.html) | [AI](https://www.ai.mil/Initiatives/CJADC2/) | [Dashboard](https://ophelialabs.github.io/Dashboard/index.html)
+  [Journals](https://ophelialabs.github.io/journals.html) | [AAU+](#aau+) | [AI](https://www.ai.mil/Initiatives/CJADC2/) | [Dashboard](https://ophelialabs.github.io/Dashboard/index.html)
 
   ---
 

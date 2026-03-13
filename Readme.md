@@ -36,13 +36,13 @@
 
 # Resources & Citations
 1. Optical Quantum Ground Station for QEYSSat: Operations Planning Activities
-- [NITRC (Neuroimaging Informatics Tools and Resources Clearinghouse)](https://www.nitrc.org/): A resource for finding a wide range of neuroimaging software applications and other tools.
-- [BrainStat](https://brainstat.readthedocs.io/en/master/): A toolbox designed for statistical analysis of neuroimaging data that can be used with both Python and MATLAB.
-- [Bostonpiezooptics](https://www.bostonpiezooptics.com/optical-components): A resource for Optical Components
-- [Advances and perspectives in fiber-based electronic devices for next-generation soft systems](https://www.nature.com/articles/s41528-025-00465-w#Sec10)
-- [Advanced Materials](https://advanced.onlinelibrary.wiley.com/journal/15214095)
-- [Capacitive Soft Strain Sensors via Multicore–Shell Fiber Printing](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.201500072)
-- [Optical Noninvasive Brain–Computer Interface Development: Challenges and Opportunities](https://secwww.jhuapl.edu/techdigest/content/techdigest/pdf/V35-N04/35-04-Blodgett.pdf)
-- [In Vivo Evaluation of Thermally Drawn BiodegradableOptical Fibers as Brain Implants](https://onlinelibrary.wiley.com/doi/epdf/10.1002/jbm.b.35549)
-- [Emerging fiber-based neural interfaces with conductive composites](https://pubs.rsc.org/en/content/articlehtml/2025/mh/d4mh01854k)
-- [HyperSpectral imaging with microcombs](https://arxiv.org/abs/2508.18219)
+2. [NITRC (Neuroimaging Informatics Tools and Resources Clearinghouse)](https://www.nitrc.org/): A resource for finding a wide range of neuroimaging software applications and other tools.
+3. [BrainStat](https://brainstat.readthedocs.io/en/master/): A toolbox designed for statistical analysis of neuroimaging data that can be used with both Python and MATLAB.
+4. [Bostonpiezooptics](https://www.bostonpiezooptics.com/optical-components): A resource for Optical Components
+5. [Advances and perspectives in fiber-based electronic devices for next-generation soft systems](https://www.nature.com/articles/s41528-025-00465-w#Sec10)
+6. [Advanced Materials](https://advanced.onlinelibrary.wiley.com/journal/15214095)
+7. [Capacitive Soft Strain Sensors via Multicore–Shell Fiber Printing](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.201500072)
+8. [Optical Noninvasive Brain–Computer Interface Development: Challenges and Opportunities](https://secwww.jhuapl.edu/techdigest/content/techdigest/pdf/V35-N04/35-04-Blodgett.pdf)
+9. [In Vivo Evaluation of Thermally Drawn BiodegradableOptical Fibers as Brain Implants](https://onlinelibrary.wiley.com/doi/epdf/10.1002/jbm.b.35549)
+10. [Emerging fiber-based neural interfaces with conductive composites](https://pubs.rsc.org/en/content/articlehtml/2025/mh/d4mh01854k)
+11. [HyperSpectral imaging with microcombs](https://arxiv.org/abs/2508.18219)

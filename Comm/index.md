@@ -1,3 +1,7 @@
+[Home](#) | [Index](#comm) | [Index2](#comm-index2) | [Index3](#comm-index3)
+
+---
+
 - [NQI](https://www.quantum.gov/wp-content/uploads/2022/04/NQI-Factsheet.pdf) / [NQCO](https://www.quantum.gov/nqco/) 
 - [QOGS](https://ophelialabs.github.io/pages/quantum/content/infrastructure/qnet/Q_Control/README0.md) / [TOGS](https://aerospace.honeywell.com/us/en/products-and-services/products/emerging-technologies/space/space-communications/optical-and-quantum-ground-station#specs-tab) / [QEYSSAT](https://uwaterloo.ca/institute-for-quantum-computing/research/qeyssat) / [QKDSAT](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/QKDSat_Secure_communication_via_quantum_cryptography) / [SmartTerminal™]() [[^1]](https://star.spaceops.org/2025/user_manudownload.php?doc=510__1kjy24iu.pdf)
 - Terminal [*Stations*](): receive and use entangled pairs but don't generate them

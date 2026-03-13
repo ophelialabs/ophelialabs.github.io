@@ -1,3 +1,7 @@
+[Home](#) | [Index](#curtain) | [Index2](#curtain-index2) | [Index3](#curtain-index3)
+
+---
+
 # ALERT! ALERT! ALERT! ALERT! 
 - **LEAKAGE DETECTED!!**
 - **IMMEDIATE ACTION MUST BE TAKEN!**

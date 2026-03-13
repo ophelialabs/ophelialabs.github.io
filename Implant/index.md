@@ -1,4 +1,4 @@
-[Home](https://ophelialabs.github.io/ophelialabs2/) | [Index](https://ophelialabs.github.io/ophelialabs2/Implant/) | [Index2](https://ophelialabs.github.io/ophelialabs2/Implant/index2.md) | [Index3](https://ophelialabs.github.io/ophelialabs2/Implant/index3.md)
+[Home](#) | [Index](#implant) | [Index2](#implant-index2) | [Index3](#implant-index3)
 
 ---
 

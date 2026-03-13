@@ -14,7 +14,7 @@
 
 [Retroauricular](https://pubs.rsc.org/image/article/2025/MH/d4mh01854k/d4mh01854k-f1_hi-res.gif)
 
-### Itinerary 
+### Itinerary (Verbatim)
 - [*How can I see what they see?*](https://ophelialabs.github.io/pipe/README2.md)
 - [***Seeing behind the curtain!***](https://ophelialabs.github.io/content/public/BMI/curtain.md)
 - [*Who are they on the phone with?*]()

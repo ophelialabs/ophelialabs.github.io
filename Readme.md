@@ -15,7 +15,7 @@
 [Retroauricular](#implant-index2)
 
 ### Itinerary (Verbatim)
-- [*How can I see what they see?*](https://ophelialabs.github.io/pipe/README2.md)
+- [*How can I see what they see?*](#implant-index3)
 - [***Seeing behind the curtain!***](#curtain)
 - [*Who are they on the phone with?*](#comm)
 - [*Hand it off to me*](https://www.syglass.io/academy/v/tracing-basics-fn2tc)

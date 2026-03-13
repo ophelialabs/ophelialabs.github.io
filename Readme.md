@@ -14,17 +14,13 @@
 
 [Retroauricular](#implant-index2)
 
-## Emphasis
-- The following section is *VERBATIM*
-- Stay Centered
-
-### Itinerary
+### Verbatim
 - [*How can I see what they see?*](#implant-index3)
 - [***Seeing behind the curtain!***](#curtain)
 - [*Who are they on the phone with?*](#comm)
 - [*Hand it off to me*](https://www.syglass.io/academy/v/tracing-basics-fn2tc)
 - [*AI is going to learn a lot*](https://www.ai.mil/Initiatives/CJADC2/)
-- [*What is the Exit Strategy?*](#)
+- [*What is their Itinerary and the Exit Strategy?*](#)
 
 ---
 

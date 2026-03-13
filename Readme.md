@@ -26,6 +26,7 @@
 
 - [Walmart / Starlight](https://share.google/aimode/a8AOBqrberZQk7ojF)
 - **Cooking with Crisco**: A place for everything, and everything in its place!
+- Canary deployments ?= ?arch + ?yr (rules of 3?)
 
 ---
 

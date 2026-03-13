@@ -13,8 +13,7 @@
 </div>
 
 [Retroauricular](#implant-index2)
-**Note:** When bi-directional communication is implemented, THINK Freud (Controlled Studies), and self-analyze. What is being provoked and stay **centered**
-[Walmart / Starlight](https://share.google/aimode/a8AOBqrberZQk7ojF)
+**Note:** When bi-directional communication is implemented, THINK Freud (Controlled Studies), and self-analyze. What is being provoked and stay **centered**. Compromising someone in the middle of the night and implanting them in their sleep. How do I bring ***YOU*** out into the light?
 
 ---
 
@@ -28,6 +27,7 @@
 
 ---
 
+- [Walmart / Starlight](https://share.google/aimode/a8AOBqrberZQk7ojF)
 - **Cooking with Crisco**: A place for everything, and everything in its place!
 - Canary deployments ?= ?arch + ?yr (rules of 3?)
 

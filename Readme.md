@@ -14,7 +14,9 @@
 
 [Retroauricular](#implant-index2)
 
-### Itinerary (Verbatim)
+## Emphasis
+- The following section is *VERBATIM*
+### Itinerary
 - [*How can I see what they see?*](#implant-index3)
 - [***Seeing behind the curtain!***](#curtain)
 - [*Who are they on the phone with?*](#comm)

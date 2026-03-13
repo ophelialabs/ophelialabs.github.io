@@ -16,6 +16,7 @@
 
 ## Emphasis
 - The following section is *VERBATIM*
+- Stay Centered
 
 ### Itinerary
 - [*How can I see what they see?*](#implant-index3)
@@ -23,6 +24,7 @@
 - [*Who are they on the phone with?*](#comm)
 - [*Hand it off to me*](https://www.syglass.io/academy/v/tracing-basics-fn2tc)
 - [*AI is going to learn a lot*](https://www.ai.mil/Initiatives/CJADC2/)
+- [Exit Strategy]()
 
 ---
 

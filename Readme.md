@@ -12,7 +12,7 @@
   <img src="Content/IMG_0022.jpg" alt="Centered image" width="600" height="400">
 </div>
 
-[Retroauricular](#implant-index3)
+[Retroauricular](#implant-index2)
 
 ### Itinerary (Verbatim)
 - [*How can I see what they see?*](https://ophelialabs.github.io/pipe/README2.md)

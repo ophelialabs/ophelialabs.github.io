@@ -1,3 +1,7 @@
+[Home](#) | [Index](#comm) | [Index2](#comm-index2) | [Index3](#comm-index3)
+
+---
+
 ## Data Acquisition
 IBM>Solaris(legacy)-Enterprise Linux>
 

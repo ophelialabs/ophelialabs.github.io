@@ -1,3 +1,7 @@
+[Home](#) | [Index](#comm) | [Index2](#comm-index2) | [Index3](#comm-index3)
+
+---
+
 # Homodyne Detection — Practical Overview
 
 ## What it is

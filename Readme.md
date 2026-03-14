@@ -31,6 +31,10 @@
 
 ---
 
+<div style="text-align: left;">
+  <img src="Content/03_Gemini_Generated_Image_BMI-CTSS.png" alt="Centered image" width="600" height="400">
+</div>
+
 ### Verbatim (I guess Osmosis right) 
 - [*How can I see what the (Target) sees?*](#implant-index3)
 - [***Seeing behind the curtain!***](#curtain)

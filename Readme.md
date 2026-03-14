@@ -20,12 +20,12 @@
 ### When you already have Shareholder access, apparently thanks to Salesforce and not a setup error on ADV Auto's side
 - [*Appreciate the opportunity to work with older technology*](https://share.google/aimode/mxkbRlTQw23gqb3eF): Onboarding
 - [Walmart / Starlight](https://share.google/aimode/a8AOBqrberZQk7ojF)
-- Canary deployments ?= ?arch + ?yr (rules of 3?)
 - [Power Pages](https://www.microsoft.com/en-us/power-platform/products/power-pages): functions as a secure portal for structured data exchange, often used when an organization needs to bridge the gap between internal teams and external stakeholders like vendors or partners.
 - [Power Automate](https://learn.microsoft.com/en-us/power-automate/): More than 400 pre-built connectors allow the platform to talk to services like Microsoft 365, Dynamics 365, Salesforce, and Google Drive.
 - [Azure AI Foundry](#): This is your "Command Center." Use Prompt Flow to visualize the handoff between your Master Agent and specialized workers.
 - [CopilotKit & ADK](#): Use the ADK (Agent Development Kit) to bridge your backend logic with your frontend.
 - [AWS Strands](#): If you are working in the AWS ecosystem, Strands provides an "Agentic Loop" pattern (ReAct) that allows agents to reason and act autonomously within your VPC.
+- [Entra](https://learn.microsoft.com/en-us/entra/identity/) (MyA) | [Platform One](https://p1.dso.mil) | [AI](https://www.ai.mil/Initiatives/CJADC2/) | [GRETA](https://sc24.supercomputing.org/wp-content/uploads/2024/11/nre001.pdf) | [CSDAP](https://csdap.earthdata.nasa.gov/) | [QNET](https://arxiv.org/html/2508.03806v1)
 - **Cooking with Crisco**: A place for everything, and everything in its place!
 
 ---

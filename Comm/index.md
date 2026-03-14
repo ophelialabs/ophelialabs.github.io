@@ -2,7 +2,7 @@
 
 ---
 
-[AI](https://www.ai.mil/Initiatives/CJADC2/) | [Platform One](https://p1.dso.mil) | [GRETA](https://sc24.supercomputing.org/wp-content/uploads/2024/11/nre001.pdf) | [CSDAP](https://csdap.earthdata.nasa.gov/) | [QNET](https://arxiv.org/html/2508.03806v1)
+[Platform One](https://p1.dso.mil) | [AI](https://www.ai.mil/Initiatives/CJADC2/) | [GRETA](https://sc24.supercomputing.org/wp-content/uploads/2024/11/nre001.pdf) | [CSDAP](https://csdap.earthdata.nasa.gov/) | [QNET](https://arxiv.org/html/2508.03806v1)
 
 [NQI](https://www.quantum.gov/wp-content/uploads/2022/04/NQI-Factsheet.pdf) | [NQCO](https://www.quantum.gov/nqco/) | [QEYSSAT](https://uwaterloo.ca/institute-for-quantum-computing/research/qeyssat) | [QKDSAT](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/QKDSat_Secure_communication_via_quantum_cryptography) | [TOGS](https://aerospace.honeywell.com/us/en/products-and-services/products/emerging-technologies/space/space-communications/optical-and-quantum-ground-station#specs-tab) | [SmartTerminal™]()  
 

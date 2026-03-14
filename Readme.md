@@ -13,7 +13,7 @@
 </div>
 
 [Retroauricular](#implant-index2)
-**Note:** When bi-directional communication is implemented, THINK Freud (Controlled Studies), and self-analyze. What is being provoked and stay **centered**. Also, think Pavlov. Compromising someone in the middle of the night and implanting them in their sleep. How do I bring ***YOU*** out into the light?
+**Note:** When bi-directional communication is implemented, THINK Freud (Controlled Studies), and self-analyze. What is being provoked and stay **centered**. Compromising someone in the middle of the night and implanting them in their sleep. How do I bring ***YOU*** out into the light?
 
 ---
 

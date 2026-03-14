@@ -39,8 +39,8 @@
 - [*How can I see what he/she sees?*](#implant-index3)
 - [***Seeing behind the curtain!***](#curtain)
 - [*Who are they on the phone with?*](#comm)
-- [*Hand it off to me*](https://www.syglass.io/academy/v/tracing-basics-fn2tc)
 - [*What is his/her Itinerary? And what's the 'Exit Strategy?'*](#)
+- [*Hand it off to me*](https://www.syglass.io/academy/v/tracing-basics-fn2tc)
 
 ---
 

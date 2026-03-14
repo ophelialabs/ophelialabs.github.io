@@ -17,8 +17,8 @@
 
 ---
 
-### [Verbatim (I guess Osmosis), or when you already have Shareholder access, apparently thanks to Salesforce and not a setup policy error on ADV Auto's side]()
-- [*Appreciate the opportunity to work with older technology*]() Onboarding
+### [Verbatim (I guess Osmosis), or when you already have Shareholder access, apparently thanks to Salesforce and not a setup error on ADV Auto's side]()
+- [*Appreciate the opportunity to work with older technology*](#): Onboarding
 - [*How can I see what the (Target) sees?*](#implant-index3)
 - [***Seeing behind the curtain!***](#curtain)
 - [*Who are they on the phone with?*](#comm)

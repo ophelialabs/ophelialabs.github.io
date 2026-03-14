@@ -17,18 +17,7 @@
 
 ---
 
-### Verbatim (I guess Osmosis right) 
-- [*Appreciate the opportunity to work with older technology*](#): Onboarding
-- [*How can I see what the (Target) sees?*](#implant-index3)
-- [***Seeing behind the curtain!***](#curtain)
-- [*Who are they on the phone with?*](#comm)
-- [*Hand it off to me*](https://www.syglass.io/academy/v/tracing-basics-fn2tc)
-- [*AI is going to learn a lot*](https://www.ai.mil/Initiatives/CJADC2/)
-- [*What is the (Target)'s Itinerary and what is 'Our' Exit Strategy?*](#)
-
----
-
-### Or when you already have Shareholder access, apparently thanks to Salesforce and not a setup error on ADV Auto's side
+### When you already have Shareholder access, apparently thanks to Salesforce and not a setup error on ADV Auto's side
 - [Walmart / Starlight](https://share.google/aimode/a8AOBqrberZQk7ojF)
 - **Cooking with Crisco**: A place for everything, and everything in its place!
 - Canary deployments ?= ?arch + ?yr (rules of 3?)
@@ -38,6 +27,17 @@
 - Azure AI Foundry: This is your "Command Center." Use Prompt Flow to visualize the handoff between your Master Agent and specialized workers.
 - CopilotKit & ADK: Use the ADK (Agent Development Kit) to bridge your backend logic with your frontend.
 - AWS Strands: If you are working in the AWS ecosystem, Strands provides an "Agentic Loop" pattern (ReAct) that allows agents to reason and act autonomously within your VPC.
+
+---
+
+### Verbatim (I guess Osmosis right) 
+- [*Appreciate the opportunity to work with older technology*](#): Onboarding
+- [*How can I see what the (Target) sees?*](#implant-index3)
+- [***Seeing behind the curtain!***](#curtain)
+- [*Who are they on the phone with?*](#comm)
+- [*Hand it off to me*](https://www.syglass.io/academy/v/tracing-basics-fn2tc)
+- [*AI is going to learn a lot*](https://www.ai.mil/Initiatives/CJADC2/)
+- [*What is the (Target)'s Itinerary and what is 'Our' Exit Strategy?*](#)
 
 ---
 

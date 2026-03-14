@@ -2,15 +2,12 @@
 
 ---
 
-[AI](https://www.ai.mil/Initiatives/CJADC2/) | [Platform One](https://p1.dso.mil) | [GRETA](https://sc24.supercomputing.org/wp-content/uploads/2024/11/nre001.pdf) | [Socrates](https://www.eoportal.org/satellite-missions/socrates) | [DAACs](https://www.earthdata.nasa.gov/centers) | [Vertex](https://search.asf.alaska.edu/#/) | [CSDAP](https://csdap.earthdata.nasa.gov/) | [AstroView](https://outerspace.stsci.edu/spaces/MASTDOCS/pages/94962998/AstroView)
+[AI](https://www.ai.mil/Initiatives/CJADC2/) | [Platform One](https://p1.dso.mil) | [GRETA](https://sc24.supercomputing.org/wp-content/uploads/2024/11/nre001.pdf) | [Socrates](https://www.eoportal.org/satellite-missions/socrates) 
 
----
+[NQI](https://www.quantum.gov/wp-content/uploads/2022/04/NQI-Factsheet.pdf) | [NQCO](https://www.quantum.gov/nqco/) | [TOGS](https://aerospace.honeywell.com/us/en/products-and-services/products/emerging-technologies/space/space-communications/optical-and-quantum-ground-station#specs-tab) | [QEYSSAT](https://uwaterloo.ca/institute-for-quantum-computing/research/qeyssat) | [QKDSAT](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/QKDSat_Secure_communication_via_quantum_cryptography) | [SmartTerminal™]() | [QNET](https://arxiv.org/html/2508.03806v1) 
 
-[NQI](https://www.quantum.gov/wp-content/uploads/2022/04/NQI-Factsheet.pdf) | [NQCO](https://www.quantum.gov/nqco/) | [QOGS](https://ophelialabs.github.io/pages/quantum/content/infrastructure/qnet/Q_Control/README0.md) | [TOGS](https://aerospace.honeywell.com/us/en/products-and-services/products/emerging-technologies/space/space-communications/optical-and-quantum-ground-station#specs-tab) | [QEYSSAT](https://uwaterloo.ca/institute-for-quantum-computing/research/qeyssat) | [QKDSAT](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/QKDSat_Secure_communication_via_quantum_cryptography) | [SmartTerminal™]() | [QNET](https://arxiv.org/html/2508.03806v1) | [Messaging](https://ophelialabs.github.io/pages/enterprise/pages/iot/messageprotocols.html)
+[Nasa](https://www.nasa.gov/) | [Code](https://code.nasa.gov/) | [Hyrax]() | [Dryad](https://datadryad.org/about#our-partners) | [Dataverse](https://dataverse.org/installations) | [DAACs](https://www.earthdata.nasa.gov/centers) | [Vertex](https://search.asf.alaska.edu/#/) | [CSDAP](https://csdap.earthdata.nasa.gov/) | [AstroView](https://outerspace.stsci.edu/spaces/MASTDOCS/pages/94962998/AstroView)
 
----
-
-[Nasa](https://www.nasa.gov/) | [Code](https://code.nasa.gov/) | [Hyrax]() | [Dryad](https://datadryad.org/about#our-partners) | [Dataverse](https://dataverse.org/installations)
 
 # Q_Control (Quantum Control)
 

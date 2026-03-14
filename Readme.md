@@ -31,6 +31,9 @@
 - [Walmart / Starlight](https://share.google/aimode/a8AOBqrberZQk7ojF)
 - **Cooking with Crisco**: A place for everything, and everything in its place!
 - Canary deployments ?= ?arch + ?yr (rules of 3?)
+- Azure AI Foundry: This is your "Command Center." Use Prompt Flow to visualize the handoff between your Master Agent and specialized workers.
+- CopilotKit & ADK: Use the ADK (Agent Development Kit) to bridge your backend logic (Spring Boot) with your frontend (React).
+- AWS Strands: If you are working in the AWS ecosystem, Strands provides an "Agentic Loop" pattern (ReAct) that allows agents to reason and act autonomously within your VPC.
 
 ---
 

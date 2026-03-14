@@ -26,7 +26,7 @@ A strategic plan to provide energy using Moisture-driven Electric Generators (ME
 
 Integrating Moisture-driven Electric Generators (MEG) with Quantum Networks (Q-NET) enables a hybrid system where bio-harvested energy powers the local nodes required for secure, long-distance quantum communication. While Q-NETs typically transport information via entangled photons, the MEG fiber acts as the autonomous "power plant" for the interface's active components. 
 
-1. Powering Q-NET Nodes via MEG Fibers
+1. Powering [Q-NET Nodes](https://arxiv.org/html/2508.03806v1) via MEG Fibers
     - On-Chip Energy Supply: MEG fibers generate stable voltage (up to 0.8 V) directly from ambient or physiological moisture.
     - Active Component Support: This energy can power the Optically Pumped Magnetometers (OPMs) and lasers used in real-time MEG-based neural interfacing.
     - Autonomous Operation: By harvesting 24/7 from moisture, these fibers eliminate the need for bulky batteries in wearable or implantable quantum biosensing nodes. 

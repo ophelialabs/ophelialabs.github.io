@@ -35,11 +35,11 @@
 </div>
 
 ### Verbatim (I guess Osmosis right) 
-- ***[AI](https://www.ai.mil/Initiatives/CJADC2/) is going to learn a lot***
-- ***How can I [see what he/she sees?](#implant-index3)***
-- ***Seeing behind [The Curtain](#curtain)***
-- ***What is his/her Itinerary? And what's the ['Exit Strategy'](#)***
-- ***Who are they on the ["phone"](#comm) with?***
+- [***AI***](https://www.ai.mil/Initiatives/CJADC2/) is going to learn a lot
+- How can I [***see what he/she sees?***](#implant-index3)
+- Seeing behind [***The Curtain***](#curtain)
+- What is his/her Itinerary? And what's the [***'Exit Strategy'***](#)
+- Who are they on the [***"phone"***](#comm) with?
 - [***Hand it off to me***](https://www.syglass.io/academy/v/tracing-basics-fn2tc)
 
 ---

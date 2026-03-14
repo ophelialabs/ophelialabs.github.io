@@ -1,4 +1,4 @@
-[Home](#) | [Index](#comm) | [Index2](#comm-index2) | [Index3](#comm-index3)
+[DX NetOps](#comm) | [QCon](#comm-index1) | [IBM](#comm-index2) | [Homodyne](#comm-index3)
 
 ---
 

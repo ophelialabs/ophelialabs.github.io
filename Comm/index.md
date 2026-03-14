@@ -1,4 +1,4 @@
-[QCon](#comm-index1) | [IBM](#comm-index2) | [Homodyne](#comm-index3)
+[DX NetOps](#comm) | [QCon](#comm-index1) | [IBM](#comm-index2) | [Homodyne](#comm-index3)
 
 # Broadcom DX NetOps: 
 ## Executive Overview

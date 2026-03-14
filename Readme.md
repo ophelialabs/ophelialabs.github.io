@@ -25,8 +25,7 @@
 - [Azure AI Foundry](#): This is your "Command Center." Use Prompt Flow to visualize the handoff between your Master Agent and specialized workers.
 - [CopilotKit & ADK](#): Use the ADK (Agent Development Kit) to bridge your backend logic with your frontend.
 - [AWS Strands](#): If you are working in the AWS ecosystem, Strands provides an "Agentic Loop" pattern (ReAct) that allows agents to reason and act autonomously within your VPC.
-- [Entra](https://learn.microsoft.com/en-us/entra/identity/) | [Platform One](https://p1.dso.mil) | [AI](https://www.ai.mil/Initiatives/CJADC2/)
-- [DELERIA](https://www.ornl.gov/news/novel-data-streaming-software-chases-light-speed-accelerator-supercomputer) | [LLE](https://www.lle.rochester.edu/publications/lle-in-focus/powering-discovery-through-academic-partnerships/) | [CSDAP](https://csdap.earthdata.nasa.gov/) | [QCon](#comm-index1)
+- [AI](https://www.ai.mil/Initiatives/CJADC2/) | [DELERIA](https://www.ornl.gov/news/novel-data-streaming-software-chases-light-speed-accelerator-supercomputer) | [LLE](https://www.lle.rochester.edu/publications/lle-in-focus/powering-discovery-through-academic-partnerships/) | [CSDAP](https://csdap.earthdata.nasa.gov/) | [QCon](#comm-index1)
 - **Cooking with Crisco**: A place for everything, and everything in its place!
 
 ---

@@ -18,6 +18,7 @@
 ---
 
 ### When you already have Shareholder access, apparently thanks to Salesforce and not a setup error on ADV Auto's side
+- [*Appreciate the opportunity to work with older technology*](https://share.google/aimode/mxkbRlTQw23gqb3eF): Onboarding
 - [Walmart / Starlight](https://share.google/aimode/a8AOBqrberZQk7ojF)
 - Canary deployments ?= ?arch + ?yr (rules of 3?)
 - [Power Platform](https://www.prodwaregroup.com/our-solutions/microsoft-power-platform/)
@@ -31,7 +32,6 @@
 ---
 
 ### Verbatim (I guess Osmosis right) 
-- [*Appreciate the opportunity to work with older technology*](https://share.google/aimode/mxkbRlTQw23gqb3eF): Onboarding
 - [*How can I see what the (Target) sees?*](#implant-index3)
 - [***Seeing behind the curtain!***](#curtain)
 - [*Who are they on the phone with?*](#comm)

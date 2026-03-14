@@ -2,7 +2,7 @@
 
 # Broadcom DX NetOps: 
 ## Executive Overview
-[Quantum Network](https://ophelialabs.github.io/Dashboard/index.htnl) Monitoring & Intelligence
+[Quantum Network](https://ophelialabs.github.io/Dashboard/index.html) Monitoring & Intelligence
 
 Broadcom DX NetOps is strategically applied to the quantum network to add enterprise-grade monitoring, predictive analytics, and intelligent service management. This document outlines comprehensive implementation strategies for quantum network operations.
 

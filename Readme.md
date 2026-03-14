@@ -26,7 +26,7 @@
 - [CopilotKit & ADK](#): Use the ADK (Agent Development Kit) to bridge your backend logic with your frontend.
 - [AWS Strands](#): If you are working in the AWS ecosystem, Strands provides an "Agentic Loop" pattern (ReAct) that allows agents to reason and act autonomously within your VPC.
 - [Entra](https://learn.microsoft.com/en-us/entra/identity/) | [Platform One](https://p1.dso.mil) | [AI](https://www.ai.mil/Initiatives/CJADC2/) | [QNET](https://arxiv.org/html/2508.03806v1)
-- [GRETA](https://sc24.supercomputing.org/wp-content/uploads/2024/11/nre001.pdf) | [DELERIA]() | [SciStream](https://www.anl.gov/dsl/scistream) | [CSDAP](https://csdap.earthdata.nasa.gov/) | [QCon](#comm-index1)
+- [GRETA](https://sc24.supercomputing.org/wp-content/uploads/2024/11/nre001.pdf) | [DELERIA](https://www.ornl.gov/news/novel-data-streaming-software-chases-light-speed-accelerator-supercomputer) | [SciStream](https://www.anl.gov/dsl/scistream) | [CSDAP](https://csdap.earthdata.nasa.gov/) | [QCon](#comm-index1)
 - **Cooking with Crisco**: A place for everything, and everything in its place!
 
 ---

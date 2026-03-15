@@ -9,7 +9,6 @@
 - Watch out for who controls the curtain and for manipulation
 - ***DO NOT TRUST* WHAT YOU SEE! *Opsin Stimulation* and *Perception Influence* will most definitely be applied**
 
-
 ---
 
 In the context of brain-machine interfaces (BMIs), Field Emission Display (FED) technology and green light excitation are specialized components used for high-precision visual stimulation and optogenetic control.

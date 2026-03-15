@@ -5,8 +5,10 @@
 # ALERT! ALERT! ALERT! ALERT! 
 - **LEAKAGE DETECTED!!**
 - **IMMEDIATE ACTION MUST BE TAKEN!**
+- **Method used to collect experiences Detected!** Think about the following research
 - Watch out for who controls the curtain and for manipulation
 - **DO *NOT* TRUST WHAT YOU SEE!, Opsin stimulation and perception influence will most definitely be applied**
+
 
 ---
 

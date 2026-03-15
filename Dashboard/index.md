@@ -1,12 +1,12 @@
-[DX NetOps](#comm) | [QCon](#comm-index1) | [IBM](#comm-index2) | [Homodyne](#comm-index3)
-
 # Broadcom DX NetOps: 
 ## Executive Overview
-[Quantum Network](https://ophelialabs.github.io/Dashboard/index.html) Monitoring & Intelligence
+Quantum Network Monitoring & Intelligence
 
 Broadcom DX NetOps is strategically applied to the quantum network to add enterprise-grade monitoring, predictive analytics, and intelligent service management. This document outlines comprehensive implementation strategies for quantum network operations.
 
 ---
+
+[Dashboard](https://ophelialabs.github.io/Dashboard/index.html) | [Net](https://ophelialabs.github.io/Dashboard/net.html) | [Net1](https://ophelialabs.github.io/Dashboard/net2.html)
 
 ## 1. Real-Time Network Monitoring & Observability
 
@@ -362,4 +362,5 @@ Broadcom DX NetOps transforms the quantum network from a **static map** into a *
 4. **Guides investment** with data-driven recommendations
 5. **Supports operations** with intelligent dashboards
 
-The Cairo Hub case study exemplifies the impact: a single facility failing would isolate 18 facilities serving 850M+ people—**predictive monitoring prevents this disaster**.
+The Cairo Hub case study exemplifies the impact: a single facility failing would isolate 18 facilities serving 850M+ people
+— **predictive monitoring prevents this disaster**.

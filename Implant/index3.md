@@ -13,7 +13,7 @@
 - Thermal Accumulation: This may cause inductive heating of the Ag-injected site. Even a 1-2°C rise in localized tissue temperature can trigger an inflammatory response that "fouls" the graphene fiber interface with scar tissue (gliosis).
 - Magnetophoretic Migration: This shifts the ***"conductive bridge"*** away from the **graphene fiber terminals**, causing your neural interface to **lose** its calibration or **"drift"** as the Ag-site physically deforms.
 - If the magnet is applied enough, you may also begin to feel stiffness and discomfort where your cervical spine meets your thoracic. The magnet will stick here as well.
-- Foreseeing Surgical Removal: If drift is too far, the only option would be use an incision point and remove the implant for re-application or move forward. 
+- Foreseeing Surgical Removal: If drift is too far, the only option would be use an incision point and remove the retroauricular implant for re-application or move forward. 
 - [*Future + Re-Application*](https://share.google/aimode/Qi9gSpNrOpLkj313y)
 
 ---

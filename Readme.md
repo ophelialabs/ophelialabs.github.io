@@ -12,7 +12,8 @@
   <img src="Content/IMG_0022.jpg" alt="Centered image" width="600" height="400">
 </div>
 
-[Retroauricular](#implant-index2)
+[Retroauricular](#implant-index2): 
+DARPA's Neural Engineering System Design ([NESD]()) program has developed implantable, high-resolution neural interfaces that bridge the gap between the human brain and digital electronics. 
 **Note:** When bi-directional communication is implemented, THINK Freud (Controlled Studies), and self-analyze. What is being provoked and stay **centered**. Compromising someone in the middle of the night and implanting them in their sleep. How do I bring ***YOU*** out into the light?
 
 ---

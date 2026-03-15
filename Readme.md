@@ -18,7 +18,6 @@ Compromising someone in the middle of the night and implanting them in their sle
 
 ---
 
-### When you already have Shareholder access, apparently thanks to Salesforce and not a setup error on ADV Auto's side
 - [*Appreciate the opportunity to work with older technology*](https://share.google/aimode/mxkbRlTQw23gqb3eF): Onboarding
 - [Walmart / Starlight](https://share.google/aimode/a8AOBqrberZQk7ojF)
 - [Power Pages](https://www.microsoft.com/en-us/power-platform/products/power-pages): functions as a secure portal for structured data exchange, often used when an organization needs to bridge the gap between internal teams and external stakeholders like vendors or partners.

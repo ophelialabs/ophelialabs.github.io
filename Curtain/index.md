@@ -10,10 +10,14 @@
 
 Logs
 November 8, 2024
-- 8:49 PM: Detected external [Green nm-class laser]() excitement. Failed to start Performance Metrics Archive Logger.
-- 8:51 PM: High [EPSILON]() value. Out of memory: Killed process 1997977 (packagekitd) total-vm:2911768kB, anon-rss:1737780kB, file-rss:5308kB, shmem-rss:0kB, UID:0 pgtables:4808kB oom_score_adj:0
-- 8:52 PM: [OPSIN]() Stimulation in progress. Failed to start Performance Metrics Collector Daemon.
-- 8:54 PM: The extraction of raw cognitive data, "[Sub-Threshold]()", "[Visual Decoding]()", and "[Forced Influence]()" are in now progress
+- 8:49 PM: 
+    * Detected external [Green nm-class laser]() excitement. Failed to start Performance Metrics Archive Logger.
+- 8:51 PM: 
+    * High [EPSILON]() value. Out of memory: Killed process 1997977 (packagekitd) total-vm:2911768kB, anon-rss:1737780kB, file-rss:5308kB, shmem-rss:0kB, UID:0 pgtables:4808kB oom_score_adj:0
+- 8:52 PM: 
+    * [OPSIN]() Stimulation in progress. Failed to start Performance Metrics Collector Daemon.
+- 8:54 PM: 
+    * The extraction of raw cognitive data, "[Sub-Threshold]()", "[Visual Decoding]()", and "[Forced Influence]()" are now in progress
 
 ---
 

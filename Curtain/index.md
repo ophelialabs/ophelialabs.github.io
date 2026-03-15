@@ -2,7 +2,7 @@
 
 ---
 
-# ALERT! ALERT! ALERT! ALERT! 
+# ALERT! LEAKAGE! ALERT! LEAKAGE! 
 - **Method used for Experience Collection !Detected!** 
 - **IMMEDIATE ACTION MUST BE TAKEN!**
 - Watch out for who controls ***The Curtain*** and for manipulation

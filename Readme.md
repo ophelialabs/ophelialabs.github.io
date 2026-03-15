@@ -40,7 +40,7 @@ Compromising someone in the middle of the night and implanting them in their sle
 - "Seeing behind [***The Curtain***](#curtain)"
 - "What is his/her Itinerary? And what's the [***'Exit Strategy'***](#)"
 - "Who are they on the [***"phone"***](#comm) with?"
-- "[***Hand it off to me***](https://www.syglass.io/academy/v/tracing-basics-fn2tc)"
+- "Trying to do our job for us. [***Hand it off to me***](https://www.syglass.io/academy/v/tracing-basics-fn2tc)"
 
 ---
 

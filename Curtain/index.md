@@ -3,9 +3,8 @@
 ---
 
 # ALERT! ALERT! ALERT! ALERT! 
-- **LEAKAGE DETECTED!!**
-- **IMMEDIATE ACTION MUST BE TAKEN!**
 - **Method used for Experience Collection !Detected!** 
+- **IMMEDIATE ACTION MUST BE TAKEN!**
 - Watch out for who controls ***The Curtain*** and for manipulation
 - ***DO NOT TRUST* WHAT YOU SEE! *Opsin Stimulation* and *Perception Influence* will most definitely be applied**
 

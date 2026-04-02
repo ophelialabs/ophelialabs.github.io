@@ -35,6 +35,7 @@ Implanting them in their ***[SLEEP](#implant-index2)***. Note: Flashing light an
 6. "Who are they on the ***[phone](#comm)*** with?"
 7. "Trying to do our job for us. ***[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)***"
 8. "[Lets make it deep.](#harvest-index3)" / [Self-Healing](https://www.science.org/doi/10.1126/sciadv.adx4359)
+   * Bi-direction will now become "dulled"
 
 ---
 

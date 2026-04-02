@@ -43,7 +43,7 @@ Implanting them in their ***[SLEEP](#implant-index2)***. Note: Flashing light an
 10. 03/25/26: "I would like to reduce their amount of access"
 ![](./assets/IMG_0036.PNG)
 **Note**: The Screen Saver will be a mix of the two with an orangish gradient (outside of the logo) that fills the rest of the screen
-  * Where is `MY` **[companion]()**!?
+  * Where is **`MY`** **[companion]()**!?
 
 ---
 

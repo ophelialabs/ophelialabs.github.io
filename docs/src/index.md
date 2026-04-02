@@ -1,6 +1,7 @@
 <div>
   <img src="assets/BMI.png" width="600" height="400">
 </div>
+![Centered image](./assets/BMI.png)
 
 [*CoOp Behavior*](https://www.science.org/doi/10.1126/science.adw8151) / [*Emerging fiber-based neural interfaces*](https://www.nature.com/articles/s41528-025-00465-w#Sec14)
 
@@ -14,6 +15,7 @@
 
 ---
 
+![](assets/IMG_0022.jpg)
 <div style="text-align: right;">
   <img src="content/IMG_0022.jpg" alt="Centered image" width="600" height="400">
 </div>

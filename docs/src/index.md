@@ -1,16 +1,22 @@
-![](assets/BMI.png)
+<div>
+  <img src="content/BMI.png" width="600" height="400">
+</div>
 
 [*CoOp Behavior*](https://www.science.org/doi/10.1126/science.adw8151) / [*Emerging fiber-based neural interfaces*](https://www.nature.com/articles/s41528-025-00465-w#Sec14)
 
 ---
 
-![](assets/Screenshot%20from%202026-03-18%2008-14-12.png)
+<div style="text-align: left;">
+  <img src="content/Screenshot from 2026-03-18 08-14-12.png" alt="Centered image" width="600" height="400">
+</div>
 
 - The [APT/***ALADIN***](https://share.google/aimode/OmNbSNjjehPcgIKFG) combination is the visual and logic "engine" 
 
 ---
 
-![](assets/IMG_0022.jpg)
+<div style="text-align: right;">
+  <img src="content/IMG_0022.jpg" alt="Centered image" width="600" height="400">
+</div>
 
 DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed implantable, high-resolution [neural interfaces](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k).
 Implanting them in their ***[SLEEP](#implant-index2)***. Note: Flashing light and mirrors to aid in camera detection. Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored Hearing Systems or Behind The Ear Hearing Aids.
@@ -23,9 +29,17 @@ Implanting them in their ***[SLEEP](#implant-index2)***. Note: Flashing light an
 5. "What is his/her Itinerary? And what is the ***[Exit Strategy](#)***"
 
 ## SPLIT
-![](assets/IMG_0027.jpg)
-![](assets/image1.jpeg)
-![](assets/Adobe%20Express%20-%20Video.gif)
+<div style="text-align: left;">
+  <img src="content/IMG_0027.jpg" alt="Centered image" width="600" height="400">
+</div>
+
+<div style="text-align: center;">
+  <img src="content/image1.jpeg" alt="Centered image" width="600" height="400">
+</div>
+
+<div style="text-align: right;">
+  <img src="content/Adobe Express - Video.gif" alt="Centered image" width="600" height="400">
+</div>
 
 **Note**: The complete absence of the [*Neodymium*](https://en.wikipedia.org/wiki/Neodymium_magnet) magnetic pole attraction next to the aluminum ***WATCH***
 

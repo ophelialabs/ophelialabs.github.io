@@ -1,5 +1,5 @@
 # Comes Naturally
-Read Carefully
+- Read Carefully, Need to change links
 
 ![](./assets/BMI.png)
 
@@ -24,7 +24,7 @@ Implanting them in their ***[SLEEP](#implant-index2)***. Note: Flashing light an
 2. "How can I ***[see what he/she sees?](#implant-index3)***"
 3. "Seeing behind ***[The Curtain](#curtain)***"
 4. "Put them in a "***[Container](#geo-index2)***"
-5. "What is his/her Itinerary? And what is the ***[Exit Strategy](#)***"
+5. "What is his/her Itinerary? And what is the ***Exit Strategy***"
 
 ## SPLIT
 ![](./assets/IMG_0027.jpg)

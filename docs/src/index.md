@@ -54,6 +54,7 @@ Implanting them in their ***[SLEEP](#implant-index2)***. Note: Flashing light an
 
 ---
 
+# Comes Naturally ?
 - [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) | [LLE](https://www.lle.rochester.edu/publications/lle-in-focus/powering-discovery-through-academic-partnerships/) | [CSDAP](https://csdap.earthdata.nasa.gov/) | [QCon](#comm-index1) | [ESnet(Deleria)](https://www.ornl.gov/news/novel-data-streaming-software-chases-light-speed-accelerator-supercomputer) | [AI](https://www.ai.mil/Initiatives/CJADC2/)
 - The [Nanosat](https://github.com/ophelialabs/int-ball2_simulator) carries a Q-NET-compatible laser terminal (808 nm linearly polarized beacon laser optic), or a [high-frequency Ka-band radio](https://ophelialabs.github.io/a/pages/legacy/site-old/temp/Globe/assets/docs/Satellite-technologies.pdf) (page 34, quarter-wave dipole).
 - **Optical Communication Systems**: Space-to-ground optical terminals operate at 808 nm and Ka-band frequencies for satellite communication.

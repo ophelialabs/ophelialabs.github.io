@@ -10,6 +10,7 @@
 
 ---
 
+![](https://pubs.rsc.org/image/article/2025/mh/d4mh01854k/d4mh01854k-f1_hi-res.gif)
 ![](./assets/IMG_0022.jpg)
 <div style="text-align: right;">
   <img src="content/IMG_0022.jpg" alt="Centered image" width="600" height="400">

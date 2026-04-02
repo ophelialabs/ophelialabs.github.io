@@ -12,9 +12,6 @@
 
 ![](https://pubs.rsc.org/image/article/2025/mh/d4mh01854k/d4mh01854k-f1_hi-res.gif)
 ![](./assets/IMG_0022.jpg)
-<div style="text-align: right;">
-  <img src="content/IMG_0022.jpg" alt="Centered image" width="600" height="400">
-</div>
 
 DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed implantable, high-resolution [neural interfaces](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k).
 Implanting them in their ***[SLEEP](#implant-index2)***. Note: Flashing light and mirrors to aid in camera detection. Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored Hearing Systems or Behind The Ear Hearing Aids.

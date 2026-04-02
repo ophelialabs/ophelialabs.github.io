@@ -16,8 +16,7 @@
 ![](https://pubs.rsc.org/image/article/2025/mh/d4mh01854k/d4mh01854k-f1_hi-res.gif)
 ![](./assets/IMG_0022.jpg)
 
-DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed implantable, high-resolution [neural interfaces](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k).
-Implanting them in their ***[SLEEP](#implant-index2)***. Note: **FLASHING LIGHT AND MIRRORS** to aid in camera detection. Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored Hearing Systems or Behind The Ear Hearing Aids.
+**NOTE: FLASHING LIGHT AND MIRRORS TO AID IN CAMERA DETECTION. Implanting them in their ***[SLEEP](#implant-index2)***. DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed implantable, high-resolution [neural interfaces](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored Hearing Systems or Behind The Ear Hearing Aids.
 
 ## Verbatim (Note: The Order of Operations)
 1. "***[AI](https://www.ai.mil/Initiatives/CJADC2/)*** is going to learn a lot"

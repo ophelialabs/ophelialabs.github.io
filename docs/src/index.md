@@ -28,7 +28,6 @@ Implanting them in their ***[SLEEP](#implant-index2)***. Note: Flashing light an
 ## SPLIT
 ![](./assets/IMG_0027.jpg)
 ![](./assets/image1.jpeg)
-![](./assets/Adobe%20Express%20-%20Video.gif)
 
 **Note**: The complete absence of the [*Neodymium*](https://en.wikipedia.org/wiki/Neodymium_magnet) magnetic pole attraction next to the aluminum ***WATCH***
 

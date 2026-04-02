@@ -1,16 +1,16 @@
-![](content/BMI.png)
+![](assets/BMI.png)
 
 [*CoOp Behavior*](https://www.science.org/doi/10.1126/science.adw8151) / [*Emerging fiber-based neural interfaces*](https://www.nature.com/articles/s41528-025-00465-w#Sec14)
 
 ---
 
-![](content/Screenshot%20from%202026-03-18%2008-14-12.png)
+![](assets/Screenshot%20from%202026-03-18%2008-14-12.png)
 
 - The [APT/***ALADIN***](https://share.google/aimode/OmNbSNjjehPcgIKFG) combination is the visual and logic "engine" 
 
 ---
 
-![](content/IMG_0022.jpg)
+![](assets/IMG_0022.jpg)
 
 DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed implantable, high-resolution [neural interfaces](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k).
 Implanting them in their ***[SLEEP](#implant-index2)***. Note: Flashing light and mirrors to aid in camera detection. Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored Hearing Systems or Behind The Ear Hearing Aids.
@@ -23,9 +23,9 @@ Implanting them in their ***[SLEEP](#implant-index2)***. Note: Flashing light an
 5. "What is his/her Itinerary? And what is the ***[Exit Strategy](#)***"
 
 ## SPLIT
-![](content/IMG_0027.jpg)
-![](content/image1.jpeg)
-![](content/Adobe%20Express%20-%20Video.gif)
+![](assets/IMG_0027.jpg)
+![](assets/image1.jpeg)
+![](assets/Adobe%20Express%20-%20Video.gif)
 
 **Note**: The complete absence of the [*Neodymium*](https://en.wikipedia.org/wiki/Neodymium_magnet) magnetic pole attraction next to the aluminum ***WATCH***
 

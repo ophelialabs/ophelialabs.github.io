@@ -1,5 +1,5 @@
 <div>
-  <img src="content/BMI.png" width="600" height="400">
+  <img src="assets/BMI.png" width="600" height="400">
 </div>
 
 [*CoOp Behavior*](https://www.science.org/doi/10.1126/science.adw8151) / [*Emerging fiber-based neural interfaces*](https://www.nature.com/articles/s41528-025-00465-w#Sec14)

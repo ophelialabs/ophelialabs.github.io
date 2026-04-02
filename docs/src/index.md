@@ -1,5 +1,5 @@
 # Comes Naturally right?
-- Read Carefully, Need to change links, check [companion](https://share.google/aimode/wRjK9mBnjBANLHI3M)
+- Read Carefully, Need to change links, check [COMPANION](https://share.google/aimode/wRjK9mBnjBANLHI3M)!
 
 ![](./assets/BMI.png)
 

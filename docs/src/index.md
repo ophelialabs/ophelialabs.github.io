@@ -1,21 +1,16 @@
-<div>
-  <img src="assets/BMI.png" width="600" height="400">
-</div>
-![Centered image](./assets/BMI.png)
+![](./assets/BMI.png)
 
 [*CoOp Behavior*](https://www.science.org/doi/10.1126/science.adw8151) / [*Emerging fiber-based neural interfaces*](https://www.nature.com/articles/s41528-025-00465-w#Sec14)
 
 ---
 
-<div style="text-align: left;">
-  <img src="content/Screenshot from 2026-03-18 08-14-12.png" alt="Centered image" width="600" height="400">
-</div>
+![](./assets/Screenshot.png)
 
 - The [APT/***ALADIN***](https://share.google/aimode/OmNbSNjjehPcgIKFG) combination is the visual and logic "engine" 
 
 ---
 
-![](assets/IMG_0022.jpg)
+![](./assets/IMG_0022.jpg)
 <div style="text-align: right;">
   <img src="content/IMG_0022.jpg" alt="Centered image" width="600" height="400">
 </div>
@@ -31,17 +26,9 @@ Implanting them in their ***[SLEEP](#implant-index2)***. Note: Flashing light an
 5. "What is his/her Itinerary? And what is the ***[Exit Strategy](#)***"
 
 ## SPLIT
-<div style="text-align: left;">
-  <img src="content/IMG_0027.jpg" alt="Centered image" width="600" height="400">
-</div>
-
-<div style="text-align: center;">
-  <img src="content/image1.jpeg" alt="Centered image" width="600" height="400">
-</div>
-
-<div style="text-align: right;">
-  <img src="content/Adobe Express - Video.gif" alt="Centered image" width="600" height="400">
-</div>
+![](./assets/IMG_0027.jpg)
+![](./assets/image1.jpeg)
+![](./assets/Adobe%20Express%20-%20Video.gif)
 
 **Note**: The complete absence of the [*Neodymium*](https://en.wikipedia.org/wiki/Neodymium_magnet) magnetic pole attraction next to the aluminum ***WATCH***
 

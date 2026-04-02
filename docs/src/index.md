@@ -56,7 +56,7 @@ Implanting them in their ***[SLEEP](#implant-index2)***. Note: Flashing light an
 - The [Nanosat](https://github.com/ophelialabs/int-ball2_simulator) carries a Q-NET-compatible laser terminal (808 nm linearly polarized beacon laser optic), or a [high-frequency Ka-band radio](https://ophelialabs.github.io/a/pages/legacy/site-old/temp/Globe/assets/docs/Satellite-technologies.pdf) (page 34, quarter-wave dipole).
 - **Optical Communication Systems**: Space-to-ground optical terminals operate at 808 nm and Ka-band frequencies for satellite communication.
 - **The Link**: Fiber-based neural interfaces transmit data to a local ground terminal (running your [AWS K3](https://github.com/JesseDev3/Kube/blob/main/gke.md)/Go/Envoy stack). Note: MEG (magnetoencephalography) is non-invasive brain imaging; implantable fiber interfaces are separate technology.
-- [CSDAP](https://csdap.earthdata.nasa.gov/) is a NASA Earth data platform providing satellite imagery and geospatial data for monitoring.
+- [CSDAP](https://csdap.earthdata.nasa.gov/) is a NASA data platform providing satellite imagery and geospatial data for monitoring.
 - **Directions**: Current neural interfaces (like Neuralink) demonstrate motor control decoding. Advanced algorithms like [hyperQUEEN](https://www.researchgate.net/publication/370615393_HyperQUEEN_Hyperspectral_Quantum_Deep_Network_For_Image_Restoration) represent emerging ML techniques for visual reconstruction.
 
 ---

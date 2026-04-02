@@ -45,8 +45,8 @@ Implanting them in their ***[SLEEP](#implant-index2)***. Note: Flashing light an
 **Note**: The Screen Saver will be a mix of the two with an orangish gradient (outside of the logo) that fills the rest of the screen
 
 # THIS
-  * Where is **`MY`** **[companion](https://share.google/aimode/wRjK9mBnjBANLHI3M)**!?
-
+  * Where is **`MY`** [companion](https://share.google/aimode/wRjK9mBnjBANLHI3M)**!?
+!! THIS
 ---
 
 ## Two sides to every **coin**: 

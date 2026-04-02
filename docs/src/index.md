@@ -43,6 +43,7 @@ Implanting them in their ***[SLEEP](#implant-index2)***. Note: Flashing light an
 9. 02/22/26: "They're about to get control over this"
 
 10. 03/25/26: "I would like to reduce their amount of access"
+![]()![]()
 **Note**: The Screen Saver will be a mix of the two
   * Where is my **[companion]()**!?
 

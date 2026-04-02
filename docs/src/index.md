@@ -6,7 +6,7 @@
 
 ![](./assets/Screenshot.png)
 
-- The [APT/***ALADIN***](https://share.google/aimode/OmNbSNjjehPcgIKFG) combination is the visual and logic "engine" 
+- The [APT/ALADIN](https://share.google/aimode/OmNbSNjjehPcgIKFG) "front-facing" combination is the visual and logic engine
 
 ---
 

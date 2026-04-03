@@ -1,6 +1,6 @@
 # Read Carefully, Need to change links, check [COMPANION](https://share.google/aimode/GT8QVoCJNxMhWmDjX)!
-   * [q](https://ophelialabs.github.io/a/pages/legacy/wiki-old/Ophelia/pipeline/tabs/qsharp/qsharp.html)
-   
+   * [q](https://ophelialabs.github.io/a/pages/legacy/wiki-old/Ophelia/pipeline/tabs/qsharp/qsharp.html) / [iot](https://github.com/jlabclouds/qsharpIoT/tree/main)
+
 ![](./assets/BMI.png)
 
 [*CoOp Behavior*](https://www.science.org/doi/10.1126/science.adw8151) / [*Emerging fiber-based neural interfaces*](https://www.nature.com/articles/s41528-025-00465-w#Sec14)

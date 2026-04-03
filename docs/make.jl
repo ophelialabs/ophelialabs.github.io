@@ -66,8 +66,7 @@ makedocs(
             "Sensing" => "robotics/sensing.md",
         ],
         "Algorithms" => [
-            "hyperQUEEN" => "algorithms/hyperqueen.md",
-            "Algorithm2" => "api/algorithm2.md",
+            "hyperQUEEN" => "algorithms/hyperqueen.md"
         ],
     ],
     

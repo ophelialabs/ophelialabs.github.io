@@ -1,5 +1,6 @@
 # Read Carefully, Need to change links, check [COMPANION](https://share.google/aimode/GT8QVoCJNxMhWmDjX)!
-
+   * [q](https://ophelialabs.github.io/a/pages/legacy/wiki-old/Ophelia/pipeline/tabs/qsharp/qsharp.html)
+   
 ![](./assets/BMI.png)
 
 [*CoOp Behavior*](https://www.science.org/doi/10.1126/science.adw8151) / [*Emerging fiber-based neural interfaces*](https://www.nature.com/articles/s41528-025-00465-w#Sec14)
@@ -28,9 +29,6 @@
 ![](./assets/IMG_0027.jpg)
 ![](./assets/image1.jpeg)
 
-**Note**: The complete absence of the [*Neodymium*](https://en.wikipedia.org/wiki/Neodymium_magnet) magnetic pole attraction next to the aluminum ***WATCH***
-
-
 6. "Who are they on the ***[phone](#comm)*** with?"
 7. "Trying to do our job for us. ***[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)***"
 8. "[Lets make it deep.](#harvest-index3)" / [Self-Healing](https://www.science.org/doi/10.1126/sciadv.adx4359)
@@ -51,7 +49,7 @@
 ---
 
 ## Two sides to every **coin**: 
-10. The [***PATCH***](#Implant-index3)
+11. The [***PATCH***](#Implant-index3)
 
 ---
 
@@ -63,15 +61,6 @@
 - **Directions**: Current neural interfaces (like Neuralink) demonstrate motor control decoding. Advanced algorithms like [hyperQUEEN](https://www.researchgate.net/publication/370615393_HyperQUEEN_Hyperspectral_Quantum_Deep_Network_For_Image_Restoration) represent emerging ML techniques for visual reconstruction.
 
 ---
-
-### Training
- - [ASE](https://ase-lib.org/examples_generated/tutorials/ase_database.html) / [MatSCI](https://matsci.org/) / [SciX](https://scixplorer.org/) ([YT](https://www.youtube.com/watch?v=7ELEYN5L49U)) 
- - [Generic Constraints](https://www.youtube.com/watch?v=0qtwYT4n2CM) / [.NET 2026](https://www.youtube.com/watch?v=WYBZTraXlXQ)
- - [How to Code in Quantum Machine Learning for Medical Applications](https://www.youtube.com/watch?v=tqVgZ8Av6BE)
-    * [ChemicalQDevice](https://github.com/kevinkawchak/LLMs-Pharmaceutical/tree/main) ([YT](https://www.youtube.com/@chemicalqdevice))
- - [Materials Project Seminars](https://www.youtube.com/c/MaterialsProject/playlists)
-    * [ATAT](https://axelvandewalle.github.io/www-avdw/atat/), [Elk Code](https://elk.sourceforge.io/), [ABINIT](https://www.abinit.org/)/[VASP](https://vasp.at), [NOMAD](https://nomad-lab.eu/), [GPAW](https://gpaw.readthedocs.io/), [Icet](https://gitlab.com/materials-modeling/icet-examples/-/tree/master/tutorials?ref_type=heads) > [Together](https://share.google/aimode/addbPfeCCFVL7ojYL)
- - [Springer Training](https://www.springernature.com/gp/librarians/tools-services/learn/tutorials-training-sessions/databases)
 
 # Citations
 1. Optical Quantum Ground Station for QEYSSat: Operations Planning Activities

@@ -51,6 +51,24 @@ makedocs(
             "Tutorial" => "guide/tutorial.md",
             "Advanced Usage" => "guide/advanced.md",
         ],
+        "Medical" => [
+            "Overview" => "medical/index.md",
+            "Diagnostics" => "medical/diagnostics.md",
+            "Imaging" => "medical/imaging.md",
+        ],
+        "Networking" => [
+            "Overview" => "networking/index.md",
+            "Protocols" => "networking/protocols.md",
+        ],
+        "Robotics" => [
+            "Overview" => "robotics/index.md",
+            "Control" => "robotics/control.md",
+            "Sensing" => "robotics/sensing.md",
+        ],
+        "Algorithms" => [
+            "hyperQUEEN" => "algorithms/hyperqueen.md",
+            "Algorithm2" => "api/algorithm2.md",
+        ],
     ],
     
     # HTML format configuration for GitHub Pages compatibility

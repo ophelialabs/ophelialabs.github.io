@@ -1,6 +1,6 @@
-#### *Based on the principles of minimally-invasive fiber-based neural interfaces (FED/BMI), irritation can be caused due to a combination of mechanical friction, foreign body reactions, and localized skin sensitivity* **(injection site)**.
+*Based on the principles of minimally-invasive fiber-based neural interfaces (FED/BMI), irritation can be caused due to a combination of mechanical friction, foreign body reactions, and localized skin sensitivity* **(injection site)**.
 
-Why these specific areas are PRONE to irritation:
+## Why these specific areas are PRONE to irritation:
 
 1. Behind the Ear: Pressure and Allergic Reaction
    The are behind the ear is often used for mounting components
@@ -190,11 +190,9 @@ makedocs(
 ## Greta
 The Gamma Ray Energy Tracking Array (GRETA) is a high-resolution spherical spectrometer designed to study the structure and properties of atomic nuclei by "tracking" individual gamma-ray interactions. 
 
-Currently transitioning from its predecessor, GRETINA (which covered only 1
- or one-quarter of a sphere), GRETA is a full 4
- array that will be installed at the Facility for Rare Isotope Beams (FRIB) in 2026. 
+Currently transitioning from its predecessor, GRETINA (which covered only 1 or one-quarter of a sphere), GRETA is a full 4 array that will be installed at the Facility for Rare Isotope Beams (FRIB) in 2026. 
 
-Core Technology & Design
+## Core Technology & Design
 - Detector Composition: The array consists of 120 hyper-pure germanium (HPGe) crystals arranged in 30 "quad" modules.
 - Segmentation: Each crystal is segmented into 36 separate electrical elements. This allows the detector to identify the exact 3D position (within 1–2 mm) and energy of every interaction as a gamma ray scatters through the germanium.
 - Cryogenic Cooling: To maintain high resolution and minimize thermal noise, the crystals must be kept at roughly -315°F (80 Kelvin) using liquid nitrogen.

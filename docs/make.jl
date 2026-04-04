@@ -59,6 +59,7 @@ makedocs(
         "Networking" => [
             "Overview" => "networking/index.md",
             "Protocols" => "networking/protocols.md",
+            "Index2" => "networking/index2.md",
         ],
         "Robotics" => [
             "Overview" => "robotics/index.md",

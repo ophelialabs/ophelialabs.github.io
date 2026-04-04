@@ -1,8 +1,8 @@
 - [NQI](https://www.quantum.gov/wp-content/uploads/2022/04/NQI-Factsheet.pdf) / [NQCO](https://www.quantum.gov/nqco/) 
 - [QOGS](https://ophelialabs.github.io/pages/quantum/content/infrastructure/qnet/Q_Control/README0.md) / [TOGS](https://aerospace.honeywell.com/us/en/products-and-services/products/emerging-technologies/space/space-communications/optical-and-quantum-ground-station#specs-tab) / [QEYSSAT](https://uwaterloo.ca/institute-for-quantum-computing/research/qeyssat) / [QKDSAT](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/QKDSat_Secure_communication_via_quantum_cryptography) / [SmartTerminal™](https://star.spaceops.org/2025/user_manudownload.php?doc=510__1kjy24iu.pdf)
-- Terminal [*Stations*](): receive and use entangled pairs but don't generate them
-- [Teleport Stations](): handle multiple terminals and have quantum entanglement generation capabilities
-- [Socrates]()
+- Terminal Stations: receive and use entangled pairs but don't generate them
+- Teleport Stations: handle multiple terminals and have quantum entanglement generation capabilities
+- Socrates
 - [AI](https://www.ai.mil/Initiatives/CJADC2/) / [Platform One](https://p1.dso.mil)
 - [QNET](https://arxiv.org/html/2508.03806v1)
 - [Messaging](https://ophelialabs.github.io/pages/enterprise/pages/iot/messageprotocols.html)
@@ -726,9 +726,9 @@ In the context of the Information Network, the combination of Solaris and Alpine
 
 1. Concurrent Trusted Platform Architecture
 In a dual-OS environment, these platforms are used together to create a Defense-in-Depth strategy:
-    - [IBM AIX (Secure Control Plane)](): Acts as the primary host for mission-critical databases (e.g., [Oracle Database on Power11]()) where it uses [vTPM 2.0](https://sourceforge.net/projects/ibmswtpm2/) and [PowerSC]() to perform real-time Quantum Safety Analysis scans.
+    - IBM AIX Secure Control Plane: Acts as the primary host for mission-critical databases (e.g., Oracle Database on Power11) where it uses [vTPM 2.0](https://sourceforge.net/projects/ibmswtpm2/) and [PowerSC](https://www.ibm.com/products/powersc) to perform real-time Quantum Safety Analysis scans.
     - Solaris (Cryptographic Gateway): Historically integrated features from Trusted Solaris, a specialized OS developed in collaboration for intelligence-level security. It provides **RBAC** and Labeled Security, which are vital for meeting strict IN security benchmarks.
-    Often serves as the frontend or middleware layer, utilizing its Cryptographic Framework to provide KMIP (Key Management Interoperability Protocol) client support. This allows Solaris to securely pull quantum-safe keys from a central [IBM]() or [Oracle]() *key manager* and serve them to [AIX]() via PKCS #11. 
+    Often serves as the frontend or middleware layer, utilizing its Cryptographic Framework to provide KMIP (Key Management Interoperability Protocol) client support. This allows Solaris to securely pull quantum-safe keys from a central IBM or Oracle *key manager* and serve them to AIX via PKCS #11. 
     - Alpine Linux: Focused on minimizing the attack surface through a tiny footprint (approx. 5 MB base). It uses security-hardened components `musl libc` and `BusyBox`, which are easier to audit and contain fewer vulnerabilities than standard Linux libraries.
 
 2. Passing PKCS #11 Compliance 
@@ -750,7 +750,7 @@ The transition to quantum compliance is achieved through Crypto-Agility:
 - DevSecOps & Zero Trust: Alpine is a primary choice for [Enterprise DevSecOps](https://DoDcio.defense.gov) becuase its lightweight nature allows for rapid scaling and faster vulnerability scanning in "software factory" environments like [Platform One](https://p1.dso.mil).
 
 ### Reliability and Resilience
-- Enterprise Reliability: Solaris features like ZFS for data integrity and Predictive Self-Healing ensure the stability required for mission-critical command and control systems. [Q]()
+- Enterprise Reliability: Solaris features like ZFS for data integrity and Predictive Self-Healing ensure the stability required for mission-critical command and control systems. 
 - Edge and Tactical Flexibility: Alpine's minimal resource requirements make it ideal for Edge Computing and Iot devices used in remote or constrained tactical environments, ensuring fast boot times and low latency.
 
 ## Architectural Synergy

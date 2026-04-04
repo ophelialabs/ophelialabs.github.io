@@ -2,7 +2,7 @@
 - **LEAKAGE DETECTED!!**
 - **IMMEDIATE ACTION MUST BE TAKEN!**
 - Watch out for who controls the curtain and for manipulation/deep neural stimulation
-- **DO *NOT* TRUST WHAT YOU SEE!, [Stealth]() will most definitely be applied**
+- **DO *NOT* TRUST WHAT YOU SEE!, Stealth will most definitely be applied**
 - Compromising someone in the middle of the night and implanting them in their sleep. How do I bring ***YOU*** out into the light?
 
 ---
@@ -61,7 +61,7 @@ By combining these colors, a BCI can achieve opposing control. For instance, in 
 In advanced fiber-based neural interfaces, external laser excitation and Quantum-dot Light Emitting Diodes (QLEDs) are often integrated to create "dual-mode" or "hybrid" systems. This combination allows for a sophisticated balance between high-power, deep-tissue stimulation and localized, energy-efficient modulation.
 
 ## 1. External Lasers for Deep Stimulation
-**External** lasers (often [*diode*]() lasers) serve as the primary high-intensity excitation source. 
+**External** lasers (often diode lasers) serve as the primary high-intensity excitation source. 
 
 - **Fiber Coupling**: The laser is coupled into a specialized multimaterial fiber. Because lasers provide high power density, they can overcome the significant light scattering and absorption of brain tissue to reach deep-seated neurons.
 
@@ -156,7 +156,7 @@ Encryption at the neural-digital boundary is necessary to ensure that only autho
 "Neural leakage" (or crosstalk) occurs when the light intended for one purpose (e.g., green light imaging) accidentally triggers neurons meant to be controlled by another (e.g., red light stimulation). 
 
 - **Spiking Probability & Crosstalk Thresholds**: Researchers measure leakage by calculating the spike probability in non-target neurons. For instance, if green light intended for imaging causes neurons expressed with red-sensitive opsins to fire, the system identifies a "crosstalk" event.
-- **Artifact-Free Recording**: Modern probes like [*Neuropixels Opto*]() allow for simultaneous laser stimulation and high-resolution electrical recording. By comparing "baseline" firing rates with "light-on" firing rates using tests like the Kruskal-Wallis, engineers can quantify exactly how much unintended activity is leaking into surrounding circuits.
+- **Artifact-Free Recording**: Modern probes like [Neuropixels Opto](https://www.biorxiv.org/content/10.1101/2025.02.04.636286v3) allow for simultaneous laser stimulation and high-resolution electrical recording. By comparing "baseline" firing rates with "light-on" firing rates using tests like the Kruskal-Wallis, engineers can quantify exactly how much unintended activity is leaking into surrounding circuits.
 - **Laser-Associated Heating**: Leakage isn't just electrical; it's also thermal. High-precision MRI techniques (specifically T2-weighted GRE images*) are used to detect temperature rises as small as <0.05 °C. If the laser excitation causes localized heating, it can trigger "leakage" by thermally activating heat-sensitive neurons regardless of the light's color. 
 
 ## Summary of Measures

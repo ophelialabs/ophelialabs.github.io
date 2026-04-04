@@ -1,8 +1,6 @@
-# Read Carefully, Need to change links, check [COMPANION](https://share.google/aimode/GT8QVoCJNxMhWmDjX)!
-
 ![](./assets/BMI.png)
 
-[*CoOp Behavior*](https://www.science.org/doi/10.1126/science.adw8151) / [*Emerging fiber-based neural interfaces*](https://www.nature.com/articles/s41528-025-00465-w#Sec14) / [iot](https://github.com/jlabclouds/qsharpIoT/tree/main)
+ [iot](https://github.com/jlabclouds/qsharpIoT/tree/main) / [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) / [2](https://share.google/aimode/wRjK9mBnjBANLHI3M)
 
 ---
 
@@ -15,7 +13,7 @@
 ![](https://pubs.rsc.org/image/article/2025/mh/d4mh01854k/d4mh01854k-f1_hi-res.gif)
 ![](./assets/IMG_0022.jpg)
 
-**NOTE: *FLASHING LIGHT AND MIRRORS TO AID IN CAMERA DETECTION*.** This is important, and watch for Attic Access! ***(Call my bluff)*** Implanting them in their ***SLEEP***. DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed implantable, high-resolution [neural interfaces](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored Hearing Systems or Behind The Ear Hearing Aids.
+**NOTE**: *FLASHING LIGHT AND MIRRORS TO AID IN CAMERA DETECTION*. DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed implantable, high-resolution [neural interfaces](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored Hearing Systems or Behind The Ear Hearing Aids.
 
 ## Verbatim (Note: The Order of Operations)
 1. "***[AI](https://www.ai.mil/Initiatives/CJADC2/)*** is going to learn a lot"
@@ -42,9 +40,6 @@
 ![](./assets/IMG_0036.PNG)
 **Note**: The Screen Saver will be a mix of the two with an orangish gradient (outside of the logo) that fills the rest of the screen
 
-# THIS
-!! Where is **`MY`** [companion](https://share.google/aimode/wRjK9mBnjBANLHI3M)**!?
-
 ---
 
 ## Two sides to every **coin**: 
@@ -62,6 +57,8 @@
 ---
 
 # Citations
+1. [*CoOp Behavior*](https://www.science.org/doi/10.1126/science.adw8151) 
+2. [*Emerging fiber-based neural interfaces*](https://www.nature.com/articles/s41528-025-00465-w#Sec14)
 1. Optical Quantum Ground Station for QEYSSat: Operations Planning Activities
 2. [Bostonpiezooptics](https://www.bostonpiezooptics.com/optical-components): A resource for Optical Components
 3. [Advances and perspectives in fiber-based electronic devices for next-generation soft systems](https://www.nature.com/articles/s41528-025-00465-w#Sec10)

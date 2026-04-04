@@ -1,4 +1,4 @@
-placeholder## Overview: Redundancy and Monitoring
+## Overview: Redundancy and Monitoring
 
 The Optical Quantum Ground Station (OQGS) for Canada's Quantum EncrYption and Science Satellite (QEYSSat) mission is a specialized facility designed to demonstrate ground-to-space Quantum Key Distribution (QKD). Developed primarily by Honeywell Aerospace and the Institute for Quantum Computing (IQC) at the University of Waterloo, the station acts as the transmitter in the quantum link, sending encoded photons to the satellite in Low Earth Orbit (LEO).
 

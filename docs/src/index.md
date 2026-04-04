@@ -27,12 +27,6 @@
 
 ---
 
-## Privileges
-![](./assets/IMG_0036.PNG)
-**Note**: The Screen Saver will be a mix of the two with an orangish gradient (outside of the logo) that fills the rest of the screen
-
----
-
 ## Two sides to every **coin**: 
 11. The [***PATCH***](#Implant-index3)
 

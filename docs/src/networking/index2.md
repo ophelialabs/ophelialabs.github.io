@@ -1,4 +1,38 @@
-placeholder## Overview: Redundancy and Monitoring
+- [NQI](https://www.quantum.gov/wp-content/uploads/2022/04/NQI-Factsheet.pdf) / [NQCO](https://www.quantum.gov/nqco/) 
+- [QOGS](https://ophelialabs.github.io/pages/quantum/content/infrastructure/qnet/Q_Control/README0.md) / [TOGS](https://aerospace.honeywell.com/us/en/products-and-services/products/emerging-technologies/space/space-communications/optical-and-quantum-ground-station#specs-tab) / [QEYSSAT](https://uwaterloo.ca/institute-for-quantum-computing/research/qeyssat) / [QKDSAT](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/QKDSat_Secure_communication_via_quantum_cryptography) / [SmartTerminal™](https://star.spaceops.org/2025/user_manudownload.php?doc=510__1kjy24iu.pdf)
+- Terminal [*Stations*](): receive and use entangled pairs but don't generate them
+- [Teleport Stations](): handle multiple terminals and have quantum entanglement generation capabilities
+- [Socrates]()
+- [AI](https://www.ai.mil/Initiatives/CJADC2/) / [Platform One](https://p1.dso.mil)
+- [QNET](https://arxiv.org/html/2508.03806v1)
+- [Messaging](https://ophelialabs.github.io/pages/enterprise/pages/iot/messageprotocols.html)
+
+# Q_Control (Quantum Control)
+
+The Optical Quantum Ground Station (OQGS) for Canada's Quantum EncrYption and Science Satellite (QEYSSat) mission is a specialized facility designed to demonstrate ground-to-space Quantum Key Distribution (QKD). Developed primarily by Honeywell Aerospace and the Institute for Quantum Computing (IQC) at the University of Waterloo, the station acts as the transmitter in the quantum link, sending encoded photons to the satellite in Low Earth Orbit (LEO).
+
+## Table of Contents
+
+1. [Overview: Redundancy and Monitoring](#overview-redundancy-and-monitoring)
+2. [U-space Integration and Regulatory Standards](#u-space-integration-and-regulatory-standards)
+3. [BVLOS Safety Frameworks](#bvlos-safety-frameworks)
+4. [Core Infrastructure and Hardware](#core-infrastructure-and-hardware)
+5. [Hardware Breakdown](#hardware-breakdown)
+6. [Polarization Compensation and Software Management](#polarization-compensation-and-software-management)
+7. [Science Operation Centre (SOC)](#science-operation-centre-soc)
+8. [Bell Test and Atmospheric Modeling](#bell-test-and-atmospheric-modeling)
+9. [Optical Alignment and Time-Tagging](#optical-alignment-and-time-tagging)
+10. [QEYSSat Mission Timeline](#qeyssat-mission-timeline)
+11. [Post-Quantum Key Distribution and Encryption](#post-quantum-key-distribution-and-encryption)
+12. [Corporate Network Integration](#corporate-network-integration)
+13. [ETSI GS QKD 014 Integration Example](#etsi-gs-qkd-014-integration-example)
+14. [Quantinuum Integration](#quantinuum-integration)
+15. [Q-State Network](#q-state-network)
+16. [QKDSat Mission](#qkdsat-mission)
+17. [Honeywell Aerospace](#honeywell-aerospace)
+18. [Automation and Materials](#automation-and-materials)
+
+## Overview: Redundancy and Monitoring
 
 The Optical Quantum Ground Station (OQGS) for Canada's Quantum EncrYption and Science Satellite (QEYSSat) mission is a specialized facility designed to demonstrate ground-to-space Quantum Key Distribution (QKD). Developed primarily by Honeywell Aerospace and the Institute for Quantum Computing (IQC) at the University of Waterloo, the station acts as the transmitter in the quantum link, sending encoded photons to the satellite in Low Earth Orbit (LEO).
 
@@ -682,3 +716,44 @@ The Science Operation Centre continuously evaluates new materials for future mis
 - **2D Materials for Quantum Optics**: Graphene and hexagonal boron nitride for integrated photonics
 - **Quantum Repeater Materials**: Rare-earth ion doped crystals for long-distance entanglement distribution
 - **Cryogenic Materials**: Technologies for space-based quantum computers aboard future missions
+
+
+## Data Acquisition
+IBM>Solaris(legacy)-Enterprise Linux>
+
+### The validity of an IBM, Solaris and Quantinuum path 
+In the context of the Information Network, the combination of Solaris and Alpine Linux creates a high-performance, security-focused hybrid architecture that addresses both legacy infrastructure needs and modern, cloud-native requirements
+
+1. Concurrent Trusted Platform Architecture
+In a dual-OS environment, these platforms are used together to create a Defense-in-Depth strategy:
+    - [IBM AIX (Secure Control Plane)](): Acts as the primary host for mission-critical databases (e.g., [Oracle Database on Power11]()) where it uses [vTPM 2.0](https://sourceforge.net/projects/ibmswtpm2/) and [PowerSC]() to perform real-time Quantum Safety Analysis scans.
+    - Solaris (Cryptographic Gateway): Historically integrated features from Trusted Solaris, a specialized OS developed in collaboration for intelligence-level security. It provides **RBAC** and Labeled Security, which are vital for meeting strict IN security benchmarks.
+    Often serves as the frontend or middleware layer, utilizing its Cryptographic Framework to provide KMIP (Key Management Interoperability Protocol) client support. This allows Solaris to securely pull quantum-safe keys from a central [IBM]() or [Oracle]() *key manager* and serve them to [AIX]() via PKCS #11. 
+    - Alpine Linux: Focused on minimizing the attack surface through a tiny footprint (approx. 5 MB base). It uses security-hardened components `musl libc` and `BusyBox`, which are easier to audit and contain fewer vulnerabilities than standard Linux libraries.
+
+2. Passing PKCS #11 Compliance 
+Both systems implement PKCS #11 through a hardware-to-software "bridge":
+    - Solaris Implementation: Uses the pkcs11_tpm and pkcs11_kmip providers. Applications call the standard PKCS #11 API, which Solaris then routes to the TPM or a remote KMIP-compliant server for signing and encryption, ensuring the actual keys never leave the hardware boundary.
+    - AIX Implementation: On Power10/11 hardware, AIX utilizes the [Crypto Express cards](https://www.ibm.com/docs/systems-hardware/zsystems/3931-A01?topic=features-crypto-express) or vTPM to provide [PKCS #11 tokens](https://share.google/aimode/jTMJwImDBHdHlHh5X). This architecture is designed to meet FIPS 140-2/3 requirements, which are the baseline for most PKCS #11 enterprise audits. 
+
+3. Meeting Quantum Compliance (CNSA 2.0 / PQC)
+The transition to quantum compliance is achieved through Crypto-Agility:
+    - IBM Power11 Quantum-Safe Boot: AIX on Power11 features a Quantum-Safe Root of Trust that verifies firmware and OS signatures using NIST-standard algorithms like CRYSTALS-Dilithium. This ensures the platform is trusted even before the OS loads.
+    - Hybrid Algorithmic Support: Both platforms are moving toward hybrid key exchange (e.g., combining classical X25519 with quantum-safe ML-KEM). This allows them to pass modern regulations (like the US National Security Agency's CNSA 2.0) that require a transition to PQC by 2030–2035.
+
+### Compliance Tools:
+- IBM Guardium Quantum Safe: Scans the entire hybrid environment to build a "Cryptography Bill of Materials" (CBOM), identifying vulnerable legacy algorithms (like RSA-2048) that must be replaced to maintain compliance.
+- Solaris Compliance Framework: Uses the compliance command to run assessments against specific security benchmarks (like PCI-DSS or custom PQC-ready profiles) and generate audit-ready reports.
+
+### Operational Readiness & Compliance:
+- IN APL (Phased out) Alignment: Solaris has a long history of certification for the IN [Approved Products List (APL)](https://aplits.disa.mil). It offers built-in Compliance Assessment tools that map system controls directly to security benchmarks.
+- DevSecOps & Zero Trust: Alpine is a primary choice for [Enterprise DevSecOps](https://DoDcio.defense.gov) becuase its lightweight nature allows for rapid scaling and faster vulnerability scanning in "software factory" environments like [Platform One](https://p1.dso.mil).
+
+### Reliability and Resilience
+- Enterprise Reliability: Solaris features like ZFS for data integrity and Predictive Self-Healing ensure the stability required for mission-critical command and control systems. [Q]()
+- Edge and Tactical Flexibility: Alpine's minimal resource requirements make it ideal for Edge Computing and Iot devices used in remote or constrained tactical environments, ensuring fast boot times and low latency.
+
+## Architectural Synergy
+(table here)
+
+[Stig](https://github.com/ophelialabs/ophelialabs.github.io/tree/main/pages/legacy/wiki-old/linux/pages/setup) 

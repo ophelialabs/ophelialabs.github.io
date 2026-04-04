@@ -198,4 +198,4 @@ Core Technology & Design
 - Detector Composition: The array consists of 120 hyper-pure germanium (HPGe) crystals arranged in 30 "quad" modules.
 - Segmentation: Each crystal is segmented into 36 separate electrical elements. This allows the detector to identify the exact 3D position (within 1–2 mm) and energy of every interaction as a gamma ray scatters through the germanium.
 - Cryogenic Cooling: To maintain high resolution and minimize thermal noise, the crystals must be kept at roughly -315°F (80 Kelvin) using liquid nitrogen.
-- **Data Throughput**: Each crystal can process up to 50,000 signals per second, generating massive data streams that will eventually utilize the *[**DELERIA**]()* pipeline for ***real-time analysis at off-site supercomputers***. 
+- **Data Throughput**: Each crystal can process up to 50,000 signals per second, generating massive data streams that will eventually utilize the DELERIA pipeline for ***real-time analysis at off-site supercomputers***. 

@@ -15,15 +15,13 @@
 3. "Seeing behind ***[The Curtain](#curtain)***"
 4. "Put them in a "***[Container](#geo-index2)***"
 5. "What is his/her Itinerary? And what is the ***Exit Strategy***"
-
-## SPLIT
-![](./assets/IMG_0027.jpg)
-![](./assets/image1.jpeg)
-
 6. "Who are they on the ***[phone](#comm)*** with?"
 7. "Trying to do our job for us. ***[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)***"
 8. "[Lets make it deep.](#harvest-index3)" / [Self-Healing](https://www.science.org/doi/10.1126/sciadv.adx4359)
    * Bi-direction will now become "dulled"
+
+![](./assets/IMG_0027.jpg)
+![](./assets/image1.jpeg)
 
 ---
 

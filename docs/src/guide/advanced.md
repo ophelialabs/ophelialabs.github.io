@@ -1,270 +1,284 @@
-# Advanced Usage
-
-Advanced topics and techniques for power users.
-
-## Advanced Topics
-
-### Custom Type Extensions
-
-Extend existing types with your own functionality:
-
-```julia
-import MyDocumentation: Document
+# Homodyne Detection — Practical Overview
+
+## What it is
+Balanced homodyne detection mixes a weak optical signal with a strong local oscillator (LO) to measure amplitude/phase quadratures with high sensitivity.
+
+## How it works (short)
+- Mix signal + LO on a 50/50 beam splitter.  
+- Two photodiodes measure outputs; subtract photocurrents to cancel LO noise.  
+- The differential current ∝ A_LO × A_signal × cos(phase difference).
+
+## Typical Hardware
+- 50/50 beam splitter (high symmetry)  
+- Matched photodiode pair (matched responsivity/capacitance)  
+- Stable, high‑power LO with phase control (piezo/phase shifter)  
+- Low‑noise transimpedance amplifiers and balanced subtraction
 
-# Custom function for documents
-function summary(doc::Document)::String
-    word_count = length(split(doc.content))
-    return "$(doc.title) by $(doc.author) ($(word_count) words)"
-end
-
-doc = Document("Example", "This is content", "Author")
-println(summary(doc))
-```
-
-### Performance Optimization
+## Key Performance Metrics
+- Shot‑noise clearance (shot noise >> electronic noise)  
+- Common Mode Rejection Ratio (CMRR) of detector pair  
+- Spatial mode overlap (visibility) between LO and signal
 
-When working with large collections:
+## Common Challenges & Mitigations
+- Phase noise → pilot tone or pilot pulses for phase estimation and digital compensation.  
+- LO manipulation attacks (in QKD) → prefer Local LO (LLO) with pilot tone synchronization.  
+- Detector saturation/blinding → real‑time shot‑noise monitoring and linearity checks.
 
-```julia
-using MyDocumentation
+## Applications
+- CV‑QKD receivers (homodyne/heterodyne)  
+- Quantum state tomography and squeezed light detection  
+- High‑sensitivity interferometry (LIGO, metrology)
 
-# Process many documents efficiently
-function batch_process(docs::Vector{Document})
-    # Pre-allocate results
-    results = String[]
-    
-    # Vectorized operations
-    for doc in docs
-        push!(results, "Processed: $(doc.title)")
-    end
-    
-    return results
-end
-```
+## Practical Tips
+- Ensure >10 dB shot‑noise clearance for quantum‑limited operation.  
+- Use pilot tones and DSP for LLO synchronization in telecom links.  
+- Match photodiode pairs and keep amplifier noise low.
 
-### Integration with Other Packages
-
-MyDocumentation.jl works well with other Julia packages:
-
-```julia
-using MyDocumentation
-using JSON3
 
-# Export documents to JSON
-function to_json(doc::Document)
-    return JSON3.write(dict(
-        :title => doc.title,
-        :content => doc.content,
-        :author => doc.author,
-    ))
-end
-```
-
-## Advanced Patterns
-
-### Builder Pattern
-
-Create documents using a builder approach:
-
-```julia
-using MyDocumentation
-
-struct DocumentBuilder
-    title::String
-    content::Ref{String}
-    author::Ref{String}
-    
-    DocumentBuilder(title) = new(title, Ref(""), Ref(""))
-end
+# Homodyne Detection and Continuous-Variable QKD — Overview
 
-function with_content(builder::DocumentBuilder, content::String)
-    builder.content[] = content
-    return builder
-end
+Homodyne detection is a sensitive measurement technique that extracts information by mixing a weak signal with a reference oscillation (the Local Oscillator, LO) at the same frequency. In optics and quantum mechanics it is the primary tool for measuring the field quadratures (amplitude X and phase P) of light.
 
-function with_author(builder::DocumentBuilder, author::String)
-    builder.author[] = author
-    return builder
-end
+## Core mechanism
+- Mixing: A weak signal is combined with a strong LO on a 50/50 beam splitter.  
+- Interference: LO and signal must share frequency and a stable relative phase.  
+- Detection: Two photodiodes measure intensities at the beam splitter outputs.  
+- Subtraction: In a balanced detector, the two photocurrents are subtracted to cancel common-mode noise and yield a signal proportional to a field quadrature.
 
-function build(builder::DocumentBuilder)::Document
-    return Document(builder.title, builder.content[], builder.author[])
-end
+Key characteristics:
+- Phase sensitivity: Vary LO phase to measure X (in‑phase) or P (quadrature).  
+- Quantum precision: Resolves vacuum fluctuations and squeezed states.  
+- Direct conversion: Converts signal to baseband (DC), unlike heterodyne detection.
 
-# Usage
-doc = build(
-    with_author(
-        with_content(
-            DocumentBuilder("My Title"),
-            "Document content here"
-        ),
-        "John Doe"
-    )
-)
-```
+Primary applications:
+- Quantum communication (QKD, QRNG)  
+- Gravitational-wave detectors (e.g., LIGO upgrades)  
+- Coherent fiber communications and sensing  
+- Remote sensing (velocity, topography)
 
-### Functional Composition
+---
 
-Compose operations functionally:
+## Mathematical derivation (simplified)
 
-```julia
-using MyDocumentation
+Fields:
+- Signal: \(E_S = A_S \cos(\omega t + \theta)\)  
+- Local oscillator: \(E_{LO} = A_{LO} \cos(\omega t + \phi)\)
 
-# Compose transformations
-uppercase_title(doc) = Document(uppercase(doc.title), doc.content, doc.author)
-add_prefix(prefix) = doc -> Document("$prefix: $(doc.title)", doc.content, doc.author)
+Beam splitter outputs (50/50):
+\[
+E_1 = \frac{1}{\sqrt{2}}(E_{LO} + E_S),\qquad
+E_2 = \frac{1}{\sqrt{2}}(E_{LO} - E_S)
+\]
+Photocurrents (intensity ∝ |E|^2) and subtraction give:
+\[
+i_{diff} \propto 2 E_{LO} E_S \Rightarrow i_{diff}\propto A_{LO}A_{S}\cos(\theta-\phi)
+\]
+Implications:
+- The small signal \(A_S\) is amplified by the large LO amplitude \(A_{LO}\).  
+- Adjusting LO phase \(\phi\) selects the measured quadrature.
 
-# Apply composed transformations
-doc = Document("original", "content", "author")
-result = add_prefix("IMPORTANT")(uppercase_title(doc))
-```
+---
 
-## Performance Considerations
+## Hardware requirements (summary)
 
-### Memory Usage
+Component | Requirement | Purpose
+--- | ---: | ---
+50/50 beam splitter | High symmetry (<0.5% deviation) | Ensures LO noise cancels
+Photodiode pair | Matched responsivity & capacitance | Prevents noise leakage
+Local Oscillator | High power; spatial mode match | Lifts signal above electronics noise
+Phase controller | Piezo or phase shifter | Sweep/lock relative phase
+Transimpedance amplifier | Low-noise, high-bandwidth | Convert current to voltage
 
-For large-scale document processing:
+Key technical challenges:
+- Common-Mode Rejection Ratio (CMRR) — target >30 dB  
+- Spatial overlap (visibility) — mismatch reduces signal and adds vacuum noise  
+- Shot-noise clearance — LO shot noise must be ≫ electronic dark noise (typically >10 dB)
 
-```julia
-using MyDocumentation
+---
 
-# Use String interning for repeated content
-const title_cache = Dict{String, String}()
+## Shot noise and its role in QKD
 
-function cached_title(title::String)
-    get!(title_cache, title, title)
-end
+Shot noise is the quantum-limited variance from photon arrival statistics. For a balanced homodyne detector:
+\[
+\sigma_{sn}^2 = 2 e \, R \, P_{LO} \, B
+\]
+where e is the electron charge, R is photodiode responsivity, \(P_{LO}\) is LO power and B is bandwidth.
 
-# For memory-intensive operations, consider strided arrays and views
-function process_large_collection(docs::Vector{Document})
-    # Process in chunks to manage memory
-    chunk_size = 1000
-    for i in 1:chunk_size:length(docs)
-        chunk = @view docs[i:min(i+chunk_size-1, end)]
-        # Process chunk
-    end
-end
-```
+Shot-noise clearance: compare dark noise (LO off) to shot noise (LO on). For quantum-limited operation, shot noise should be 10–20 dB above dark noise.
 
-### Multithreading
+In CV-QKD, shot noise is the normalization unit (1 SNU) used to spot excess noise and detect eavesdropping.
 
-Enable parallel processing:
+---
 
-```julia
-using MyDocumentation
-using Base.Threads
+## CV‑QKD basics (protocol flow)
 
-function parallel_process(docs::Vector{Document})
-    results = Vector{String}(undef, length(docs))
-    
-    @threads for i in eachindex(docs)
-        doc = docs[i]
-        results[i] = "Processed: $(doc.title)"
-    end
-    
-    return results
-end
-```
+- Alice: prepares weak pulses, Gaussian-modulates amplitude X and phase P.  
+- Bob: measures with homodyne detector; randomly chooses X or P by changing LO phase.  
+- Sifting: Alice and Bob keep only matching-quadrature events.  
+- Reconciliation + privacy amplification yield final secret keys.
 
-## Debugging Techniques
+Why CV-QKD? Uses standard telecom components, high symbol rates, and is daylight‑tolerant due to the LO acting as a narrowband filter.
 
-### Enable Verbose Logging
+---
 
-```julia
-using Logging
+## CV vs DV QKD (high-level)
 
-# Set debug logging level
-global_logger(ConsoleLogger(stderr, Logging.Debug))
+Feature | CV-QKD | DV-QKD
+--- | --- | ---
+Detection | Homodyne (quadratures) | Single-photon counters
+Hardware | Telecom components (PIN diodes, LOs) | SNSPDs/APDs (often cryogenic)
+Operating env. | Room temperature, daylight-friendly | Often requires cooling; sunlight-sensitive
+Data rate | Very high (Gbps potential) | Lower (detector dead time)
+Distance | Short-to-medium (<~100 km) | Long-range (can exceed 400 km)
 
-# Your code here
-@debug "Processing document" doc=doc
-```
+---
 
-### Profiling Code
+## Reconciliation in CV-QKD (overview)
 
-Identify bottlenecks:
+The goal is to transform correlated real-valued measurements into identical bit strings.
 
-```julia
-using Profile, ProfileSVG
+Channel model:
+\[
+X_B = t X_A + z
+\]
+where t is transmission and z is noise (shot + electronic).
 
-function expensive_operation()
-    # Your code
-end
+Two approaches:
+- Direct reconciliation — Bob corrects to Alice (limited by 3 dB loss).  
+- Reverse reconciliation — Alice corrects to Bob (robust to loss; standard in CV-QKD).
 
-@profile expensive_operation()
-ProfileSVG.save("/tmp/profile.svg")
-```
+Pipeline:
+1. Quantization (multi-level slicing)  
+2. Slepian–Wolf coding (Bob sends syndrome using LDPC codes)  
+3. Error correction (high-efficiency LDPC; target β close to 1)  
+4. Privacy amplification (universal hashing)
 
-## Common Pitfalls
+Reconciliation efficiency β affects secret-key rate: \(\Delta K = \beta I_{AB} - I_{AE}\).
 
-### ❌ Mutable Struct Issues
+---
 
-Avoid unexpected mutations:
+## LDPC and hardware tradeoffs
 
-```julia
-# ❌ Bad: mutable but should be immutable
-mutable struct BadDocument
-    title::String
-    content::String
-end
+LDPC codes (especially MET-LDPC) are optimized for low SNR. Key points:
+- Use rate-adaptive codes (puncturing/shortening) as SNR changes.  
+- Large block sizes (10^6–10^8 bits) needed for close-to-Shannon efficiency.  
+- GPUs are common for prototypes; FPGAs lower latency but are harder to implement.
 
-# ✅ Good: immutable for safety
-struct GoodDocument
-    title::String
-    content::String
-end
-```
+---
 
-### ❌ Type Instability
+## Secret Key Rate (reverse reconciliation)
 
-Keep types consistent:
+\[
+K = f\cdot[\beta I(A\!:\!B)-\chi(E\!:\!B)]
+\]
+- f: repetition rate (Hz)  
+- β: reconciliation efficiency  
+- \(I(A:B) = \tfrac{1}{2}\log_2(1+\text{SNR})\) for Gaussian modulation  
+- \(\chi(E:B)\): Holevo bound (Eve’s maximum info about Bob)
 
-```julia
-# ❌ Bad: function returns different types
-function process(x)
-    if x < 0
-        return nothing  # Different type!
-    else
-        return x * 2
-    end
-end
+SNR at Bob:
+\[
+\text{SNR} = \frac{T V_A}{1 + T\xi + \nu_{el}}
+\]
+with transmissivity T, modulation variance \(V_A\), excess noise ξ, and electronic noise \(\nu_{el}\).
 
-# ✅ Good: consistent return type
-function process(x)::Int
-    return max(0, x * 2)
-end
-```
+Distance regimes:
+- Short (<15 km): plateau, limited by electronics and processing.  
+- Medium (15–50 km): exponential loss-dominated decay.  
+- Long (>50 km): waterfall cutoff when βI(A:B) ≈ χ(E:B).
 
-## Advanced Examples
+---
 
-### Custom Iteration
+## Excess noise monitoring & sources
 
-Implement iteration protocol:
+Parameter estimation:
+- Bob calibrates shot noise \(N_0\) and electronic noise \(v_{el}\).  
+- Alice and Bob reveal a test subset to estimate T and ξ.  
+- Express variances in SNU; use upper confidence bounds for security (finite-size effects).
 
-```julia
-using MyDocumentation
+Sources of technical excess noise:
+- Laser RIN (relative intensity noise)  
+- Residual phase noise (laser coherence/locking)  
+- Raman scattering from co-propagating classical channels
 
-struct DocumentCollection
-    docs::Vector{Document}
-end
+Real-time detectors use change-point algorithms (e.g., CUSUM) and abort the protocol if ξ exceeds thresholds (often 0.01–0.1 SNU).
 
-Base.iterate(dc::DocumentCollection) = iterate(dc.docs)
-Base.iterate(dc::DocumentCollection, state) = iterate(dc.docs, state)
-Base.length(dc::DocumentCollection) = length(dc.docs)
+---
 
-# Usage
-collection = DocumentCollection([
-    Document("Doc1", "content1", "author1"),
-    Document("Doc2", "content2", "author2"),
-])
+## Security proofs and the Holevo bound
 
-for doc in collection
-    println(doc.title)
-end
-```
+- Assume collective attacks and worst-case quantum-capable Eve.  
+- Holevo bound:
+\[
+\chi(E:B) = S(\rho_E) - \int dp_B\, S(\rho_{E|m_B})
+\]
+- Gaussian optimality: given measured covariance, Gaussian attacks are optimal — simplifies parameterization to (T, ξ).  
+- Finite-size corrections increase security margins and reduce SKR for small blocks.
 
-## Next Steps
+---
 
-- Check the [API Reference](../api/reference.md) for all available functions
-- Explore [Examples](../examples/advanced.md) for more code samples
-- Contribute improvements - see [Contributing](../contributing.md)
+## Phase stability and pilot tones
+
+Phase jitter between signal and LO maps into excess noise. For small phase error δφ:
+\[
+X_{measured} = X\cos(\delta\phi) - P\sin(\delta\phi)
+\]
+Contribution to excess noise: \(\xi_{phase}\approx V_A\cdot\mathrm{var}(\delta\phi)\).
+
+Mitigation:
+- Pilot tones (time- or frequency-multiplexed) used for real-time phase estimation and digital compensation.  
+- Local LO (LLO) vs Transmitted LO (TLO): LLO is more secure (no transmitted strong LO), TLO inherently shares fiber drift but opens LO-manipulation risks.
+
+Pilot-tone budget considerations: pilot power, frequency offset, and DSP speed (must correct faster than laser coherence time).
+
+---
+
+## Attacks and defenses (concise)
+
+- Trojan-horse: defend with isolators and filters.  
+- LO manipulation: prefer LLO; authenticate/check LO if TLO used.  
+- Saturation/blinding: real-time shot-noise monitoring and linearity checks.  
+- Side-channels (EM/power): shielding, randomized power consumption, constant-time processing.
+
+---
+
+## State of the art & trends
+
+- Distance records: lab ~202 km; field deployments 100+ km (very low SKR).  
+- High SKR: Gbps at short distances using FPGA/GPU acceleration.  
+- Integration: Photonic integrated circuits (SiPh) for stability and cost reduction.  
+- Coexistence: CV-QKD can co-propagate with high-capacity classical channels (WDM).
+
+---
+
+## Standardization and certification
+
+Key SDOs:
+- ETSI QKD ISG — interoperability and certification frameworks.  
+- ITU‑T — QKD network architectures and protocol recommendations.  
+- 3GPP/GSMA — roadmaps enabling QKD integration into 5G–6G.
+
+Common Criteria (ISO/IEC 15408) for QKD:
+- Protection Profiles (PP) define module boundaries and security objectives.  
+- Functional requirements include secure RNG, key zeroization, tamper detection, and side-channel resistance.  
+- Typical target assurance: EAL4+ for commercial QKD.
+
+Certification focuses: entropy tests for QRNG, shot-noise calibration and dynamic checks, optical isolation, tamper sensors, constant-time LDPC implementations, and audited finite-size security proofs.
+
+---
+
+## Vendor evaluation checklist (practical)
+
+- QRNG standards compliance (NIST / AIS 20/31) and health tests.  
+- Shot-noise clearance and dynamic calibration.  
+- Local LO generation or authenticated LO delivery.  
+- Optical isolation and wavelength filtering.  
+- Tamper detection and key zeroization.  
+- Constant-time cryptographic/post-processing implementation.  
+- ETSI/CC interoperability and REST key delivery interfaces.
+
+---
+
+## (Optional) Security Target (ST) example
+...existing code...
+{ add a specific Security Target (ST) example here if required }

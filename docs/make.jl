@@ -67,7 +67,7 @@ makedocs(
         ],
         "Algorithms" => [
             "hyperQUEEN" => "algorithms/hyperqueen.md"
-        ],
+        ]
     ],
     
     # HTML format configuration for GitHub Pages compatibility

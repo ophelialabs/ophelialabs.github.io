@@ -4,12 +4,6 @@
 
 ---
 
-![](./assets/Screenshot.png)
-
-- The [APT/ALADIN](https://share.google/aimode/OmNbSNjjehPcgIKFG) "front-facing" combination is the visual and logic engine
-
----
-
 ![](https://pubs.rsc.org/image/article/2025/mh/d4mh01854k/d4mh01854k-f1_hi-res.gif)
 ![](./assets/IMG_0022.jpg)
 

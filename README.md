@@ -1,3 +1,9 @@
+- [VoltAgent](https://github.com/VoltAgent/awesome-design-md)
+- Ophelia (Julia/Pluto/[Netlify](https://www.netlify.com/))
+- [Ophelia2](https://github.com/ophelialabs2) (.Net/[AppVeyor](https://www.appveyor.com/))
+- [Jlab](https://github.com/jlabclouds) (Python/)
+- [Jlab2](https://github.com/jlabcloud2) (Java/) 
+
 ### Training
  - [ASE](https://ase-lib.org/examples_generated/tutorials/ase_database.html) / [MatSCI](https://matsci.org/) / [SciX](https://scixplorer.org/) ([YT](https://www.youtube.com/watch?v=7ELEYN5L49U)) 
  - [Generic Constraints](https://www.youtube.com/watch?v=0qtwYT4n2CM) / [.NET 2026](https://www.youtube.com/watch?v=WYBZTraXlXQ)

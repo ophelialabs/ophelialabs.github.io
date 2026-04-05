@@ -4,10 +4,11 @@
 
 ## Ophelia
 - Main
-  * Julia/Pluto/[Netlify](https://www.netlify.com/)
+  * Julia/Pluto / [Netlify](https://www.netlify.com/)
+  * Documenter / gh-pages
 - [Ophelia2](https://github.com/ophelialabs2)
-  * [.Net](https://github.com/ophelialabs/Learning_Platform)/[AppVeyor](https://www.appveyor.com/)
-  * [CopilotKit](https://github.com/ophelialabs/maf.net)/[CF Pages]()
+  * [.Net](https://github.com/ophelialabs/Learning_Platform) / [AppVeyor](https://www.appveyor.com/)
+  * [CopilotKit](https://github.com/ophelialabs/maf.net) / [CF Pages]()
 
 ---
 

@@ -13,9 +13,9 @@
 
 ## Jlabs
 - [Main](https://github.com/jlabclouds) 
- * [Python](https://github.com/ophelialabs/sp-setup-)/
+  * [Python](https://github.com/ophelialabs/sp-setup-)/
 - [Jlab2](https://github.com/jlabcloud2)
- * [Java](https://github.com/ophelialabs/JavaUI)/
+  * [Java](https://github.com/ophelialabs/JavaUI)/
 
 ---
 

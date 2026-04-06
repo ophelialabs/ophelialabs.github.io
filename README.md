@@ -4,19 +4,19 @@
 
 ## Ophelia
 - Main
-  * Julia/Pluto / [Netlify](https://www.netlify.com/)
-  * Documenter / gh-pages
+  * Julia/Pluto > [Netlify](https://www.netlify.com/)
+  * Documenter > gh-pages
 - [Ophelia2](https://github.com/ophelialabs2)
-  * [.Net](https://github.com/ophelialabs/Learning_Platform) / [Avalonia](https://avaloniaui.net/) / [AppVeyor](https://www.appveyor.com/)
-  * [CopilotKit](https://github.com/ophelialabs/maf.net) / React / [CF Pages]()
+  * [.Net](https://github.com/ophelialabs/Learning_Platform) / [Avalonia](https://avaloniaui.net/), Maui, Blazor > [AppVeyor](https://www.appveyor.com/)
+  * [CopilotKit](https://github.com/ophelialabs/maf.net) / React > [CF Pages]()
 
 ---
 
 ## Jlabs
 - [Main](https://github.com/jlabclouds) 
-  * [Python](https://github.com/ophelialabs/sp-setup-)/
+  * [Python](https://github.com/ophelialabs/sp-setup-) /
 - [Jlab2](https://github.com/jlabcloud2)
-  * [Java](https://github.com/ophelialabs/JavaUI)/
+  * [Java](https://github.com/ophelialabs/JavaUI) /
 
 ---
 

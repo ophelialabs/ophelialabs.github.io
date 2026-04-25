@@ -1,4 +1,4 @@
-<div align="center"><img src="./qst.jpg" width="230"/>
+<div align="center"><img src="./qst.jpg" width="230"/></div>
   
 Building an eye and lens system designed to analyze light pattern differentiation-specifically for detecting subtle spatial variations, edge enhancements, or changes in surface structure-combines biological modeling with advanced machine vision technologies. A high-performance, programmable, and tunable optical system is typically used, incorporating structured light techniques, machine learning algorithms, or specialized gradient-index (GRIN) lenses to detect and interpret spatial frequencies. This system functions like a high-speed "optical auditor," capturing light data, comparing it against a known baseline, and flagging anomalies in real-time. To analyze light patterns and deviations effectively, the hardware must be matched to the specific type of deviation you are tracking: spatial (shape/position), spectral (color/wavelength), or temporal (timing/intensity).
 
@@ -49,7 +49,7 @@ To analyze differentiation in light patterns (e.g., distinguishing shapes, textu
 By leveraging [photometric stereo techniques and artifical illumination](https://youtube.com/watch?v=mVupiPxB_c8&ra=m), the system can compute surface normals to isolate material features from lighting changes, providing accurate analysis of spatial differentiation.
 
 --- 
-<div align="center"><img src="./././././int-ball2_simulator/docs/image/ib2_mission_emblem.png" width="230"/>     
+<div align="center"><img src="./././././int-ball2_simulator/docs/image/ib2_mission_emblem.png" width="230"/></div>     
 
 To analyze structures that are smooth, round, or lack tecture, you can move away from traditional "flat" imaging and use a Hexagonal Plenoptic (Light Field) Lens System.
 

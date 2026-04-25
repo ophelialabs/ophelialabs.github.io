@@ -1,4 +1,4 @@
-<div align="center"><img src="./qst.jpg" width="230"/></div>
+<div align="center"><img src="./qst.jpg" width="230"/><img src="" width="230"/></div>
   
 Building an eye and lens system designed to analyze light pattern differentiation-specifically for detecting subtle spatial variations, edge enhancements, or changes in surface structure-combines biological modeling with advanced machine vision technologies. A high-performance, programmable, and tunable optical system is typically used, incorporating structured light techniques, machine learning algorithms, or specialized gradient-index (GRIN) lenses to detect and interpret spatial frequencies. This system functions like a high-speed "optical auditor," capturing light data, comparing it against a known baseline, and flagging anomalies in real-time. To analyze light patterns and deviations effectively, the hardware must be matched to the specific type of deviation you are tracking: spatial (shape/position), spectral (color/wavelength), or temporal (timing/intensity).
 

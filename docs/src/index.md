@@ -19,7 +19,7 @@
 8. "[Lets make it deep.](#harvest-index3)" / [Self-Healing](https://www.science.org/doi/10.1126/sciadv.adx4359)
    * Bi-direction will now become "dulled"
 
-<div><img src="./assets/IMG_0022.jpg" width="230"/><img src="./assets/IMG_0027.jpg" width="230"/><img src="./assets/image1.jpeg" width="230"</div>
+<div><img src="./assets/IMG_0022.jpg" width="200" height="200"/><img src="./assets/IMG_0027.jpg" width="200" height="200"/><img src="./assets/image1.jpeg" width="200" height="200"/></div>
 
 ---
 

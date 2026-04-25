@@ -5,7 +5,6 @@
 ---
 
 ![](https://pubs.rsc.org/image/article/2025/mh/d4mh01854k/d4mh01854k-f1_hi-res.gif)
-![](./assets/IMG_0022.jpg)
 
 **NOTE**: *FLASHING LIGHT AND MIRRORS AID IN CAMERA DETECTION*. DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed implantable, high-resolution [neural interfaces](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored Hearing Systems or Behind The Ear Hearing Aids.
 
@@ -20,7 +19,7 @@
 8. "[Lets make it deep.](#harvest-index3)" / [Self-Healing](https://www.science.org/doi/10.1126/sciadv.adx4359)
    * Bi-direction will now become "dulled"
 
-<div><img src="./assets/IMG_0027.jpg" width="230"/><img src="./assets/image1.jpeg" width="230"</div>
+<div><img src="./assets/IMG_0022.jpg" width="230"/><img src="./assets/IMG_0027.jpg" width="230"/><img src="./assets/image1.jpeg" width="230"</div>
 
 ---
 

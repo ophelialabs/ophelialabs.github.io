@@ -2,7 +2,7 @@
 - **LEAKAGE DETECTED!!**
 - **IMMEDIATE ACTION MUST BE TAKEN!**
 - Watch out for who controls the curtain and for manipulation/deep neural stimulation
-- **DO *NOT* TRUST WHAT YOU SEE!, Stealth will most definitely be applied**
+- **DO *NOT* TRUST WHAT YOU SEE! Stealth will also most definitely be applied**
 - Compromising someone in the middle of the night and implanting them in their sleep. How do I bring ***YOU*** out into the light?
 
 ---

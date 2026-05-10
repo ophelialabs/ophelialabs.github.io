@@ -10,7 +10,7 @@
 - Advanced Interrogation: Technologies like the Neural Evidence Aggregation Tool (NEAT) are designed to detect preconscious brain signals, aiming to identify mental health risks or determine what a person believes to be true or false without relying on voluntary, filtered answers.
 
 
-In the context of brain-machine interfaces (BMIs), Field Emission Display (FED) technology and green light excitation are specialized components used for high-precision visual stimulation and optogenetic control.
+In the context of brain-machine interfaces (BMIs), Field Emission Display (FED) technology and **external green laser light** excitation are specialized components used for high-precision visual stimulation and optogenetic control.
 
 # Neuro-manipulation
 

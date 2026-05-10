@@ -49,7 +49,7 @@ In a bidirectional BMI, these wavelengths work in a continuous loop:
 
 - **Recording (Feedback)**: One laser (often red or infrared for deeper penetration) illuminates the cortex to monitor neuronal activity via optical imaging or to provide sensory feedback from a prosthetic limb.
 - **Processing**: A computer decodes these optical signals into digital commands.
-- **Stimulation (Influence)**: A second laser (green or blue) triggers specific light-sensitive proteins (opsins) in the neurons to influence behavior, such as correcting the movement of a robotic arm in real-time. 
+- **Stimulation (Influence)**: A second laser (**[green]()** or blue) triggers specific light-sensitive proteins (opsins) in the neurons to influence behavior, such as correcting the movement of a robotic arm in real-time. 
 
 ## 3. Multiplexing Techniques
 To ensure these signals do not overlap, researchers use advanced hardware:

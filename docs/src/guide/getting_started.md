@@ -59,14 +59,14 @@ To ensure these signals do not overlap, researchers use advanced hardware:
 - **Dual-Color Probes**: Modern neural probes, like the Neuropixels Opto, integrate separate red and blue/green light emitters alongside electrical recording sites to manage high-bandwidth bidirectional data. 
 
 ## 4. Direct Influence on Behavior
-By combining these colors, a BCI can achieve opposing control. For instance, in experimental models, red light can be used to inhibit certain neural circuits (slowing down a process), while green light can be used to excite others (speeding it up), providing a "gas and brake" system for precise behavioral control. 
+By combining these colors, a BCI can achieve opposing control. For instance, in experimental models, red light can be used to inhibit certain neural circuits (slowing down a process), while [green light can be used to excite others]() (speeding it up), providing a "gas and brake" system for precise behavioral control. 
 
 ---
 
 In advanced fiber-based neural interfaces, external laser excitation and Quantum-dot Light Emitting Diodes (QLEDs) are often integrated to create "dual-mode" or "hybrid" systems. This combination allows for a sophisticated balance between high-power, deep-tissue stimulation and localized, energy-efficient modulation.
 
 ## 1. External Lasers for Deep Stimulation
-**External** lasers (often diode lasers) serve as the primary high-intensity excitation source. 
+**External** lasers (often [diode lasers]()) serve as the primary high-intensity excitation source. 
 
 - **Fiber Coupling**: The laser is coupled into a specialized multimaterial fiber. Because lasers provide high power density, they can overcome the significant light scattering and absorption of brain tissue to reach deep-seated neurons.
 

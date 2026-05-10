@@ -14,7 +14,7 @@ In the context of brain-machine interfaces (BMIs), Field Emission Display (FED) 
 
 # Neuro-manipulation
 
-## 1. **FED-Based Visual Stimulation: 
+## 1. FED-Based Visual Stimulation: 
 Field Emission Displays are utilized in BMIs—specifically those relying on Steady-State Visually Evoked Potentials (SSVEP)—because of their superior temporal resolution and ability to produce high-frequency flickers without the lag or "ghosting" found in LCDs. 
 
 - *Precision Timing*: FEDs can deliver extremely precise stimulation frequencies (e.g., 7–10 Hz) with error rates as low as 0.15%.

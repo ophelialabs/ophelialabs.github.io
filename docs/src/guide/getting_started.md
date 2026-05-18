@@ -8,8 +8,8 @@
 ---
 
 # Neuro-manipulation
-[Cortical glutamatergic and GABAergic inputs support learning-driven
-hippocampal stability]()
+  * [Cortical glutamatergic and GABAergic inputs](https://www.science.org/doi/10.1126/science.adn0623)
+  * [Modelling the spatial and temporal constrains of the GABAergic influence on neuronal excitability](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009199)
 
 - Advanced Interrogation: Technologies like the Neural Evidence Aggregation Tool (NEAT) are designed to detect preconscious brain signals, aiming to identify or determine what a person believes to be true or false without relying on voluntary, filtered answers.
 

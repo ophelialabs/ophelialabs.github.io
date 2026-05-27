@@ -304,9 +304,6 @@ Future advancements should focus on:
 
 Overall, the proposed system not only adds value to existing technologies but also sets a foundation for future research and applications in light pattern analysis.
 
-## References
-[^1]: Reference Title 1 - Link [^2]: Reference Title 2 - Link [^3]: Reference Title 3 - Link
-
 ## Appendices
 
 The appendices serve as supplementary material for the main content of this research. They include additional resources, experiments, and data that provide deeper insights into the techniques, methodologies, and findings related to analyzing light pattern differentiation.

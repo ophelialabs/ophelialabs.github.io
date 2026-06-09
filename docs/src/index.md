@@ -38,6 +38,10 @@
 
 ---
 
+[Informatics](braininitiative.nih.gov) / [NQI](https://www.quantum.gov/wp-content/uploads/2022/04/NQI-Factsheet.pdf) / [NQCO](https://www.quantum.gov/nqco/) | [QNET](https://arxiv.org/html/2508.03806v1) | [TOGS](https://aerospace.honeywell.com/us/en/products-and-services/products/emerging-technologies/space/space-communications/optical-and-quantum-ground-station#specs-tab) / [QEYSSAT](https://uwaterloo.ca/institute-for-quantum-computing/research/qeyssat) / [QKDSAT](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/QKDSat_Secure_communication_via_quantum_cryptography) / [SmartTerminal™]() | [HyperSpectral imaging with microcombs](https://arxiv.org/abs/2508.18219) 
+
+---
+
 # Citations
 1. [*CoOp Behavior*](https://www.science.org/doi/10.1126/science.adw8151) 
 2. [*Emerging fiber-based neural interfaces*](https://www.nature.com/articles/s41528-025-00465-w#Sec14)

@@ -21,7 +21,6 @@
 
 <div><img src="./assets/IMG_0022.jpg" width="200" height="200"/><img src="./assets/IMG_0027.jpg" width="200" height="200"/><img src="./assets/image1.jpeg" width="200" height="200"/></div>
 
-<div><img src="./assets/IMG_0070.PNG" width="200" height="200"/><img src="./assets/IMG_0070.jpg" width="200" height="200"/><img src="./assets/IMG_0071.jpg" width="200" height="200"/></div>
 ---
 
 ## Two sides to every **coin**: 

@@ -1,5 +1,5 @@
-[Go]() | [Podman]() | [P1]( ) | [SDS]() |
-[QICK]() | [ENTRA]() | [Envoy]()
+[Go](https://google.com) | [Podman](https://google.com) | [P1]( ) | [SDS](https://google.com) |
+[QICK](https://google.com) | [ENTRA](https://google.com) | [Envoy](https://google.com)
 
 ---
 
@@ -8,9 +8,9 @@ To implement a MEG-fiber neural interface within architectures using "containers
 ## 1. The "Sidecar" Architecture
 In this specific environment, you don't just run an app; you run a Pod.
 - Data Acquisition Container: A lightweight C++ or Rust-based container that talks directly to the fiber hardware, converting the MEG-generated voltages into digital signal packets.
-- Security Sidecar: A secondary container (like [Istio]() or [Envoy]()) that handles [Mutual TLS (mTLS)](#comm-index2). This encrypts the neural data before it ever leaves the local node, meeting Zero Trust requirements. "Wrap" the neural data in a [***TLS 1.3 tunnel***]() before it hits the backbone.
+- Security Sidecar: A secondary container (like [Istio](https://google.com) or [Envoy](https://google.com)) that handles [Mutual TLS (mTLS)](#comm-index2). This encrypts the neural data before it ever leaves the local node, meeting Zero Trust requirements. "Wrap" the neural data in a [***TLS 1.3 tunnel***](https://google.com) before it hits the backbone.
 
-- If needed, To stay "AWS-compatible", you would deploy [AWS Outposts]() or [Snowball Edge]() devices at the tactical "edge." This allows your Go-based sidecars to run locally while still being managed by the AWS console.
+- If needed, To stay "AWS-compatible", you would deploy [AWS Outposts](https://google.com) or [Snowball Edge](https://google.com) devices at the tactical "edge." This allows your Go-based sidecars to run locally while still being managed by the AWS console.
 
 ## 2. Implementation via DevSecOps (Big Bang)
 The architecture uses a standardized "container factory" approach called Platform One.
@@ -19,7 +19,7 @@ The architecture uses a standardized "container factory" approach called Platfor
 
 ## 3. Edge Computing (K3s)
 Because these fibers are often wearable or implanted, you can't rely on a distant cloud.
-- Weightless Containers: You would use [K3s]() designed for the tactical edge.
+- Weightless Containers: You would use [K3s](https://google.com) designed for the tactical edge.
 - Isolation: The "container" acts as a sandbox. If the neural interface is compromised by an adversary, the container prevents the attacker from "hopping" onto the rest of the network [13].
 
 ## 4. Data "Wrappers" (NITF/SICC)
@@ -34,8 +34,7 @@ The Moisture-driven Electric Generator (MEG) fiber harvests energy from ambient 
 - The Output: It converts these analog signals into a digital stream (e.g., Protobuf or JSON) for network transport.
 
 ## RHEL UBI-Micro (The Secure Base)
-- Why: It is the smallest hardened image (
-MB) that still uses glibc, ensuring compatibility with security tools. It contains no package manager or shell, which minimizes the "attack surface".
+- Why: It is the smallest hardened image (MB) that still uses glibc, ensuring compatibility with security tools. It contains no package manager or shell, which minimizes the "attack surface".
 
 ## Big Bang (The Factory)
 P1 is the official "software factory."
@@ -76,7 +75,7 @@ type ETSI_014_Key struct {
 	Key   string `json:"key"` // The actual quantum-generated entropy
 }
 
-func fetchQuantumKey() (string, string) {
+func fetchQuantumKey(https://google.com) (string, string) {
 	// 1. Call the Q-NET hardware API (ETSI GS QKD 014)
 	resp, _ := http.Get("http://qkd-node/api/v1/keys/slave_node_id/enc_key")
 	var k ETSI_014_Key
@@ -87,7 +86,7 @@ func fetchQuantumKey() (string, string) {
 type sdsServer struct{}
 
 func (s *sdsServer) StreamSecrets(stream discovery.SecretDiscoveryService_StreamSecretsServer) error {
-	keyID, secretKey := fetchQuantumKey()
+	keyID, secretKey := fetchQuantumKey(https://google.com)
 
 	// 2. Wrap the Quantum Key into an Envoy SDS Secret
 	envoySecret := &secret.Secret{

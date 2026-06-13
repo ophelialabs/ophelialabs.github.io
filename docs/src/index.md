@@ -20,9 +20,11 @@
 6. "Who are they on the ***[phone](#comm)*** with?":  
 7. "Trying to do our job for us. ***[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)***"
 8. "[Lets make it deep.](#harvest-index3)" / [Self-Healing](https://www.science.org/doi/10.1126/sciadv.adx4359)
-9. "[Reduce amount of access](https://google.com)"
+9. [Control over this](https://google.com) | 
+10. "[Reduce amount of access](https://google.com)"
     - Bi-direction will now become "dulled"
-10. "[Not unless he is psychic](https://google.com)": In Progress
+11. "[This may be our last chance]()"
+11. "[Not unless he is psychic](https://google.com)": In Progress
     -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether video or not. Use emotional baseline and dont get *hooked*.
 ---
 

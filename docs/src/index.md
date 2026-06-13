@@ -23,7 +23,7 @@
 
 9. [Not unless he is psychic](https://google.com): In Progress
     **Note**: This is to the point and not updated unless the scientific method has been applied
-   Whether video or not.
+   - Whether video or not.
 ---
 
 ## Two sides to every **coin**: 

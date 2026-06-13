@@ -23,7 +23,7 @@
 
 <div><img src="./assets/IMG_0022.jpg" width="200" height="200"/><img src="./assets/IMG_0027.jpg" width="200" height="200"/><img src="./assets/image1.jpeg" width="200" height="200"/></div>
 
-10. [Not unless he is psychic](https://google.com): In Progress
+10. "[Not unless he is psychic](https://google.com)": In Progress
     -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether video or not. Use emotional baseline and dont get *hooked*.
 ---
 

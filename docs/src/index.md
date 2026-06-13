@@ -7,9 +7,10 @@
 ![](https://pubs.rsc.org/image/article/2025/mh/d4mh01854k/d4mh01854k-f1_hi-res.gif)
 
 **NOTE**: *FLASHING LIGHT AND MIRRORS AID IN CAMERA DETECTION*. DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed implantable, high-resolution [neural interfaces](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored Hearing Systems or Behind The Ear Hearing Aids. 
-- How do I bring **YOU** out into the light? (Try the attic again while I am sleeping) The green laser for cognitive writing was not satellite, but under the barrel.
 
 ## Verbatim (Note: The Order of Operations)
+- How do I bring **YOU** out into the light? (Try the attic again while I am sleeping) The green laser for cognitive writing was not satellite, but under the barrel.
+
 <div><img src="./assets/IMG_0022.jpg" width="200" height="200"/><img src="./assets/IMG_0027.jpg" width="200" height="200"/><img src="./assets/image1.jpeg" width="200" height="200"/></div>
 
 1. "***[AI](https://www.ai.mil/Initiatives/CJADC2/)*** is going to learn a lot"

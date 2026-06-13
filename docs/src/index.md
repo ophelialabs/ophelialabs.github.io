@@ -26,7 +26,7 @@
 10. "[This may be our last chance]()"
 11. "[Find out what kind of Doctor they are]()" 
 11. "[Not unless he is psychic](https://google.com)": In Progress
-    -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether video or not. Use emotional baseline **ZERO**-trust and dont get ***hooked***.
+    -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether video or not. Use emotional baseline, **ZERO**-trust, and dont get ***hooked***.
 ---
 
 ## Two sides to every **coin**: 

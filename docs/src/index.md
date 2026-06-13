@@ -10,6 +10,7 @@
 - How do I bring **YOU** out into the light? (Try the attic again while I am sleeping)
 
 ## Verbatim (Note: The Order of Operations)
+<div><img src="./assets/IMG_0022.jpg" width="200" height="200"/><img src="./assets/IMG_0027.jpg" width="200" height="200"/><img src="./assets/image1.jpeg" width="200" height="200"/></div>
 1. "***[AI](https://www.ai.mil/Initiatives/CJADC2/)*** is going to learn a lot"
 2. "How can I ***[see what he/she sees?](#implant-index3)***"
 3. "Seeing behind ***[The Curtain](#curtain)***"
@@ -20,9 +21,6 @@
 8. "[Lets make it deep.](#harvest-index3)" / [Self-Healing](https://www.science.org/doi/10.1126/sciadv.adx4359)
 9. "[Reduce amount of access](https://google.com)"
     - Bi-direction will now become "dulled"
-
-<div><img src="./assets/IMG_0022.jpg" width="200" height="200"/><img src="./assets/IMG_0027.jpg" width="200" height="200"/><img src="./assets/image1.jpeg" width="200" height="200"/></div>
-
 10. "[Not unless he is psychic](https://google.com)": In Progress
     -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether video or not. Use emotional baseline and dont get *hooked*.
 ---

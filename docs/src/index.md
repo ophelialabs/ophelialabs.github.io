@@ -23,7 +23,8 @@
 8. [Control over this](https://google.com) | 
 9. "[Reduce amount of access](https://google.com)"
     - "[Lets make it deep.](#harvest-index3)" / [Self-Healing](https://www.science.org/doi/10.1126/sciadv.adx4359) Bi-direction will now become "dulled". Cochneal implants
-19. "[This may be our last chance]()"
+10. "[This may be our last chance]()"
+11. "[Find out what kind of Doctor they are]()" 
 11. "[Not unless he is psychic](https://google.com)": In Progress
     -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether video or not. Use emotional baseline and dont get ***hooked***.
 ---

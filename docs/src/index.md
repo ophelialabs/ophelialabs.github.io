@@ -19,7 +19,7 @@
 7. "Trying to do our job for us. ***[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)***"
 8. "[Lets make it deep.](#harvest-index3)" / [Self-Healing](https://www.science.org/doi/10.1126/sciadv.adx4359)
 9. "[Reduce amount of access](https://google.com)"
-  * Bi-direction will now become "dulled"
+    - Bi-direction will now become "dulled"
 
 <div><img src="./assets/IMG_0022.jpg" width="200" height="200"/><img src="./assets/IMG_0027.jpg" width="200" height="200"/><img src="./assets/image1.jpeg" width="200" height="200"/></div>
 

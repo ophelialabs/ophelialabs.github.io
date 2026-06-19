@@ -10,7 +10,6 @@
 
 ## Verbatim (Note: The Order of Operations)
 - How do I bring **YOU** out into the light? (Try the attic again while I am sleeping) The green laser for cognitive writing was not satellite, but under the barrel.
-- [Counter Intelligence](https://google.com) - "You're giving away more information than what you are getting"
 
 <div><img src="./assets/IMG_0022.jpg" width="200" height="200"/><img src="./assets/IMG_0027.jpg" width="200" height="200"/><img src="./assets/image1.jpeg" width="200" height="200"/></div>
 

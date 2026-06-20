@@ -6,7 +6,7 @@
 
 ![](https://pubs.rsc.org/image/article/2025/mh/d4mh01854k/d4mh01854k-f1_hi-res.gif)
 
-**NOTE**: *FLASHING LIGHT AND MIRRORS AID IN CAMERA DETECTION*. DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed implantable, high-resolution [neural interfaces](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored Hearing Systems or Behind The Ear Hearing Aids. -
+**NOTE**: *FLASHING LIGHT AND MIRRORS AID IN CAMERA DETECTION*. DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed a **minimally invasive** implantable, high-resolution [neural interfaces](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored Hearing Systems or Behind The Ear Hearing Aids. -
 - Cochneal implants a bi huh also with algae lighting up like a x-mas tree
 - "Better be glad you caught us on camera".
 - I will prove it, without it looking "fried"

@@ -14,7 +14,7 @@
 - Everything aside, no reason my eyes should also be magnetic (see image.jl). hmm how does that apply? Scientific method here we go. 
 
 ## Verbatim (Note: The Order of Operations)
-- How do I bring **YOU** out into the light? (Try the attic again while I am sleeping) The green laser for **cognitive writing** was not satellite, but under the barrel.
+- How do I bring **YOU** out into the light? (Try the attic again while I am sleeping) The green laser for **cognitive writing** was not satellite, but **under the barrel**.
 
 <div><img src="./assets/IMG_0022.jpg" width="200" height="200"/><img src="./assets/IMG_0027.jpg" width="200" height="200"/><img src="./assets/image1.jpeg" width="200" height="200"/></div>
 

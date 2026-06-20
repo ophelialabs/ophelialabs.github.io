@@ -11,7 +11,7 @@
 - "Better be glad you caught us on camera".
 - I will prove it, without it looking "fried"
 - "I should have never taken this job"
-- Everything aside, no reason my eyes should be magnetic (see image.jl). hmm how does that apply? Scientific method here we go. 
+- Everything aside, no reason my eyes should also be magnetic (see image.jl). hmm how does that apply? Scientific method here we go. 
 
 ## Verbatim (Note: The Order of Operations)
 - How do I bring **YOU** out into the light? (Try the attic again while I am sleeping) The green laser for cognitive writing was not satellite, but under the barrel.

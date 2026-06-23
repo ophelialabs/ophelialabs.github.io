@@ -28,11 +28,10 @@
 5. "What is his/her Itinerary? And what is the ***Exit Strategy***"
 6. "Who are they on the ***[phone](#comm)*** with?":  
 7. "Trying to do our job for us. ***[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)***"
-8. [Control over this](https://google.com) | 
-9. "[Reduce amount of access](https://google.com)"
+8. [Control over this](https://google.com) | "[Reduce amount of access](https://google.com)"
     - "[Lets make it deep.](#harvest-index3)" / [Self-Healing](https://www.science.org/doi/10.1126/sciadv.adx4359) Bi-direction will now become "dulled". Cochneal implants
-10. "[This may be our last chance]()"
-11. "[Find out what kind of Doctor they are]()" 
+9. "[This may be our last chance]()"
+10. "[Find out what kind of Doctor they are]()" 
 11. "[Not unless he is psychic](https://google.com)": In Progress
     -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether ***video or not***. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or you can isolate it as originating from the bottom right), and dont get ***hooked***.
 ---

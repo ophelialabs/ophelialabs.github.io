@@ -1,4 +1,4 @@
-# Painted in any color
+# Painted in Any Color
 **You know Im going here next** | [Under Silence](https://www.youtube.com/shorts/zJMaLuX4uN0)
 
 ![](./assets/BMI.png)
@@ -17,7 +17,7 @@
 - Eyes magnetic? See image.jl. Scientific method here we go. 
 
 ## Verbatim (Note: The Order of Operations)
-- How do I bring **YOU** out into the light? (Try the ***attic*** again while I am sleeping) The green laser for **cognitive writing** was not satellite, but **under the barrel**.
+- How do I bring **YOU** out into the light? (Try the ***Attic*** again while ***I am Sleeping***) The green laser for **cognitive writing** was not satellite, but **under the barrel**.
 
 <div><img src="./assets/IMG_0022.jpg" width="200" height="200"/><img src="./assets/IMG_0027.jpg" width="200" height="200"/><img src="./assets/image1.jpeg" width="200" height="200"/></div>
 

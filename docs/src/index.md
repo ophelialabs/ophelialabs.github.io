@@ -1,5 +1,6 @@
 # Let's run those simulations at the same time
 - I will show you a `FIDDLE`
+- SigINT, SigOPS, SatCOM, I haven't forgotten... What has the other party given away?
   
 ![](./assets/Screenshot3.png)
 

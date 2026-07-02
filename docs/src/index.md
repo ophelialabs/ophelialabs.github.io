@@ -20,7 +20,7 @@
 ## What information did I offload? 
 - ***"No business sticking your nose in"***
   * ... ***BUT***... if I wasnt given instruction or directed otherwise...
-- Whatever it is with **Salesforce** that gave **Shareholder** access (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow]() / [knowledgebase]() / ***(sponsorship and how you can benefit company)***?... thats not on me
+- Whatever it is with **Salesforce** that gave **Shareholder** access (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow]() / [knowledgebase]() / Sponsorship and how you can benefit company?... ***thats not on me***
 - ***Explicitly*** provided instructions to join ***confluence/jira***
 - **We May Have Something**: Due diligence / Timeline doesn't add up does it
 

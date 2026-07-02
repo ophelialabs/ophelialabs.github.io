@@ -9,12 +9,12 @@
 
 ![](https://pubs.rsc.org/image/article/2025/mh/d4mh01854k/d4mh01854k-f1_hi-res.gif)
 
-**NOTE**: *FLASHING LIGHT AND MIRRORS AID IN CAMERA DETECTION*. DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed a **minimally invasive** implantable, high-resolution [neural interface](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored (Cochneal) Hearing Systems, or Behind The Ear Hearing Aids. -
+**NOTE**: *FLASHING LIGHT AND MIRRORS AID IN CAMERA DETECTION*. DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed a **minimally invasive** implantable, high-resolution [neural interface](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored (Cochneal) Hearing Systems, or Behind The Ear Hearing Aids.
 - Cochneal implants a bi huh also with algae lighting up like a x-mas tree
 - "Better be glad you caught us on camera".
 - I will prove it, without it looking "fried"
 - "I should have never taken this job"
-- Eyes magnetic? See image.jl. Scientific method here we go.
+- Eyes magnetic? See image.jl. Scientific method here we go!
 - All because **I wanted to print an instructional return process sheet for my coworker**
   
 ## What information did I offload? 

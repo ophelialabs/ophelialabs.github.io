@@ -1,5 +1,5 @@
 # Let's run those simulations at the same time
-- This is the one that "divvies" up
+- I will show you a "FIDDLE"
   
 ![](./assets/Screenshot3.png)
 

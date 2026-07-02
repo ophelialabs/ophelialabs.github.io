@@ -14,7 +14,15 @@
 - "Better be glad you caught us on camera".
 - I will prove it, without it looking "fried"
 - "I should have never taken this job"
-- Eyes magnetic? See image.jl. Scientific method here we go. 
+- Eyes magnetic? See image.jl. Scientific method here we go.
+- All because **I wanted to print an instructional return process sheet for my coworker**
+  
+## What information did I offload? 
+- ***"No business sticking your nose in"***
+  * ... ***BUT***... if I wasnt given instruction or directed otherwise...
+- Whatever it is with **Salesforce** that gave **Shareholder** access (Shipt, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow]() / [knowledgebase]() / (sponsorship and how you can benefit company)***?... thats not on me
+- ***Explicitly*** provided instructions to join ***confluence/jira***
+- **We May Have Something**: Due diligence / Timeline doesn't add up does it
 
 ## Verbatim (Note: The Order of Operations)
 - How do I bring **YOU** out into the light? (Try the ***Attic*** again while ***I am Sleeping***) The green laser for **cognitive writing** was not satellite, but **under the barrel**.

@@ -10,6 +10,8 @@
 - "Running" or "Distancing" is for the `guilty`
     * (I know what you're about to do w/o `predictive`)
 - Just like chess, thinking `3 moves ahead`
+- I thought you were the specialist?
+  
 ---
 
 - Re-think folder heirarchy and place in other `2 projects accordingly`. be precise and to the point, use external project links (ie - xref) for cleanliness

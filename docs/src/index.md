@@ -1,4 +1,6 @@
 ![](./assets/BMI.png)
+![](./assets/547935828_10166482413357355_964167318611828034_n.jpg)
+![](
 
  [iot](https://github.com/jlabclouds/qsharpIoT/tree/main) / [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) / [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) / [Under Silence](https://www.youtube.com/shorts/zJMaLuX4uN0)
 

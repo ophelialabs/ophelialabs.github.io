@@ -3,7 +3,7 @@
 ![](
 
  [iot](https://github.com/jlabclouds/qsharpIoT/tree/main) / [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) / [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) / [Under Silence](https://www.youtube.com/shorts/zJMaLuX4uN0)
-
+- Note: link 2 no longer works. Had to deal with APT
 - All because **I wanted to print an instructional return process sheet for my coworker**
 - Re-think folder heirarchy and place in other `2 projects accordingly`. be precise and to the point, use external project links (ie - xref) for cleanliness
 - "Doesn't even know how to build, it will take at least 9 months to cover gaps"; Well I'm going to build this aren't I

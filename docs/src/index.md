@@ -3,6 +3,7 @@
 - SigINT, SigOPS, SatCOM, I haven't forgotten... What has the other party given away?
   
 ![](./assets/Screenshot3.png)
+- 1A: DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed a **minimally invasive** implantable, high-resolution [neural interface](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored (Cochneal) Hearing Systems, or Behind The Ear Hearing Aids.
 
 [iot](https://github.com/jlabclouds/qsharpIoT/tree/main) / [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) / [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) / [Under Silence](https://www.youtube.com/shorts/zJMaLuX4uN0)
 - All because **I wanted to print an instructional return process sheet for my coworker**
@@ -27,7 +28,7 @@
 
 ![](https://pubs.rsc.org/image/article/2025/mh/d4mh01854k/d4mh01854k-f1_hi-res.gif)
 
-**NOTE**: *FLASHING LIGHT AND MIRRORS AID IN CAMERA DETECTION*. DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed a **minimally invasive** implantable, high-resolution [neural interface](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored (Cochneal) Hearing Systems, or Behind The Ear Hearing Aids.
+**NOTE**: *FLASHING LIGHT AND MIRRORS AID IN CAMERA DETECTION*. 
 - Cochneal implants a bi huh also with algae lighting up like a x-mas tree
 - "Better be glad you caught us on camera".
 - I will prove it, without it looking "fried"

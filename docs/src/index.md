@@ -1,5 +1,4 @@
-![](./assets/BMI.png)
-![](./assets/Screenshot2.png)
+![](./assets/Screenshot3.png)
 
 [iot](https://github.com/jlabclouds/qsharpIoT/tree/main) / [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) / [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) / [Under Silence](https://www.youtube.com/shorts/zJMaLuX4uN0)
   *  Note: link [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) no longer works. Had to deal with APT / Quantum bubbles

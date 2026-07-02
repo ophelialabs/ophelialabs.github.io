@@ -1,5 +1,6 @@
 # Let's run those simulations at the same time
-
+- This is the one that "divvies" up
+  
 ![](./assets/Screenshot3.png)
 
 [iot](https://github.com/jlabclouds/qsharpIoT/tree/main) / [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) / [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) / [Under Silence](https://www.youtube.com/shorts/zJMaLuX4uN0)

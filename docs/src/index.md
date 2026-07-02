@@ -11,7 +11,8 @@
 ---
 
 - Re-think folder heirarchy and place in other `2 projects accordingly`. be precise and to the point, use external project links (ie - xref) for cleanliness
-- "Doesn't even know how to build, it will take at least 9 months to cover gaps"; Well I'm going to build this aren't I
+- "Doesn't even know how to build, it will take at least 9 months to cover gaps"
+   * Well I'm going to build this aren't I
 - Please note, that is still playing catchup, reactive vs proactive (algorithms being narrowed down and **bugs**: i.e. access being granted before restriction)
 - I believe it is chess, if the `nudge` wants you looking left at `Anthropic`, look right towards `Google`: ***(The leading platform on AI)***
 ---

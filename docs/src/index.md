@@ -5,6 +5,8 @@
 ![](./assets/Screenshot3.png)
 - 1A: DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed a **minimally invasive** implantable, high-resolution [neural interface](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored (Cochneal) Hearing Systems, or Behind The Ear Hearing Aids.
 
+---
+
 [iot](https://github.com/jlabclouds/qsharpIoT/tree/main) / [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) / [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) / [Under Silence](https://www.youtube.com/shorts/zJMaLuX4uN0)
 - All because **I wanted to print an instructional return process sheet for my coworker**
 - Note: link [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) no longer works. Had to deal with APT / Quantum bubbles

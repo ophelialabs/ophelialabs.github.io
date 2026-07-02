@@ -10,7 +10,6 @@
 - "Running" or "Distancing" is for the `guilty`
     * (I know what you're about to do w/o `predictive`)
 - Just like chess, thinking `3 moves ahead`
-- I thought you were the specialist?
   
 ---
 
@@ -28,7 +27,7 @@
 - Cochneal implants a bi huh also with algae lighting up like a x-mas tree
 - "Better be glad you caught us on camera".
 - I will prove it, without it looking "fried"
-- "I should have never taken this job"
+- "I should have never taken this job"; I thought he was your specialty?
 - Eyes magnetic? See image.jl. Scientific method here we go!
   
 ## What information did I offload? 

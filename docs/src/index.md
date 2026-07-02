@@ -11,6 +11,7 @@
 - "Doesn't even know how to build, it will take at least 9 months to cover gaps"; Well I'm going to build this aren't I
 - Please note, that is still playing catchup, reactive vs proactive (algorithms being narrowed down and **bugs**: i.e. access being granted before restriction)
 - I believe it is chess, if the `nudge` wants you looking left at `Anthropic`, look right towards `Google`: ***(The leading platform on AI)***
+- Just like chess, thinking `3 moves ahead`
 ---
 
 ![](https://pubs.rsc.org/image/article/2025/mh/d4mh01854k/d4mh01854k-f1_hi-res.gif)

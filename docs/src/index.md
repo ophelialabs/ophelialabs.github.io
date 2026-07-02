@@ -1,9 +1,6 @@
-# Painted in Any Color
-**You know Im going here next** | [Under Silence](https://www.youtube.com/shorts/zJMaLuX4uN0)
-
 ![](./assets/BMI.png)
 
- [iot](https://github.com/jlabclouds/qsharpIoT/tree/main) / [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) / [2](https://share.google/aimode/wRjK9mBnjBANLHI3M)
+ [iot](https://github.com/jlabclouds/qsharpIoT/tree/main) / [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) / [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) / [Under Silence](https://www.youtube.com/shorts/zJMaLuX4uN0)
 
 ---
 

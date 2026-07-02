@@ -1,5 +1,5 @@
 # Let's run those simulations at the same time
-- <wiki:Fiddle>`  
+- <wiki:Fiddle>
 ![](./assets/Screenshot3.png)
 - 1A: DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed a **minimally invasive** implantable, high-resolution [neural interface](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored (Cochneal) Hearing Systems, or Behind The Ear Hearing Aids.
 

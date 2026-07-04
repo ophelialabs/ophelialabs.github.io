@@ -63,7 +63,8 @@
     *  Me: Tried to name AI assistant "Cortana"
          - Remember to treat it as an [internal]() tool
     *  Me: "This was built for me and you (Cortana) work for me now
-9. Her: "I would like to [Reduce his amount of access](https://google.com)", "A wildcard". See Also: [CTSS Squelch]()
+9. Her: "I would like to [Reduce his amount of access](https://google.com)", "A wildcard".
+       *See Also: [CTSS Squelch]()
     - Him: "[Lets make it deep.](#harvest-index3)"
     - Note: Bi-direction will now become "dulled". Cochneal implants
 10. Him: "[This may be our last chance]()"

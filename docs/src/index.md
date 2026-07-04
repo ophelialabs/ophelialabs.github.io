@@ -47,19 +47,23 @@
 
 <div><img src="./assets/IMG_0022.jpg" width="200" height="200"/><img src="./assets/IMG_0027.jpg" width="200" height="200"/><img src="./assets/image1.jpeg" width="200" height="200"/></div>
 
-1. "***[AI](https://www.ai.mil/Initiatives/CJADC2/)*** is going to learn a lot"
-2. "How can I ***[see what he/she sees?](#implant-index3)***"
-3. "Seeing behind ***[The Curtain](#curtain)***"
-4. "Put them in a "***[Container](#geo-index2)***"
-5. "What is his/her Itinerary? And what is the ***Exit Strategy***"
-6. "Who are they on the ***[phone](#comm)*** with?":  
-7. "Trying to do our job for us. ***[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)***"
-8. [About to get control over this](https://google.com) | Tried to name AI assistant "Cortana"
-9. "[Reduce amount of access](https://google.com)"
-    - "[Lets make it deep.](#harvest-index3)" / [Self-Healing](https://www.science.org/doi/10.1126/sciadv.adx4359) Bi-direction will now become "dulled". Cochneal implants
-10. "[This may be our last chance]()"
-11. "[Find out what kind of Doctor they are]()" 
-12. "[Not unless he is psychic](https://google.com)": In Progress
+## Transript: 
+1. Him: "***[AI](https://www.ai.mil/Initiatives/CJADC2/)*** is going to learn a lot"
+2. Him: "How can I ***[see what he/she sees?](#implant-index3)***"
+3. Him: "Saw behind ***[The Curtain](#curtain)***"
+4. Them: "Put them in a "***[Container](#geo-index2)***"
+5. Her: "What is his/her Itinerary? And what is the ***Exit Strategy***"
+6. Him: "Who are they on the ***[phone](#comm)*** with?":  
+7. Him "Trying to do our job for us. ***[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)***"
+8. Her: [He's about to get control over this](https://google.com)
+    *  Me: Tried to name AI assistant "Cortana"
+    *  Me: This was built for me and you work for me now
+9. Her: "I would like to [Reduce (his/her) amount of access](https://google.com)"
+    - Him: "[Lets make it deep.](#harvest-index3)"
+    - Note: Bi-direction will now become "dulled". Cochneal implants
+1o. Him: "[This may be our last chance]()"
+11. Him: "[Find out what kind of Doctor they are]()" 
+12. Her: "[Not unless he is psychic](https://google.com)": In Progress
     -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether ***video or not***. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or you can isolate it as originating from the bottom right), and dont get ***hooked***.
 ---
 

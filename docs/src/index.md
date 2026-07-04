@@ -28,7 +28,9 @@
 
 ![](https://pubs.rsc.org/image/article/2025/mh/d4mh01854k/d4mh01854k-f1_hi-res.gif)
 
+## Reflections
 **NOTE**: *FLASHING LIGHT AND MIRRORS AID IN CAMERA DETECTION*. 
+   * If you ever feel like or are instructed to cover mirrors or `reflective` surfaces, DONT
 - Cochneal implants a bi huh also with algae lighting up like a x-mas tree
 - "Better be glad you caught us on camera".
 - I will prove it, without it looking "fried"

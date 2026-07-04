@@ -21,7 +21,7 @@
    * [Q](https://ophelialabs.github.io/q_compute) | [jb](https://ophelialabs.github.io/jb./) | [c2](https://github.com/ophelialabs/Platform/blob/main/fluent/cmd_cntr2/README.md#c2)
        - Support the [1](https://ophelialabs.github.io)
             * Did your cover of 12 do this? Either way......I'm about to build this
-- Please note, that is still playing catchup, reactive vs proactive (algorithms being narrowed down and **bugs**: i.e. access being granted before restriction)
+- Please note, that is still playing catchup, reactive vs proactive ([algorithms](https://adaptivecards.io) being narrowed down and **bugs**: i.e. access being granted before restriction)
 - I believe it is ***chess***, if the `nudge` wants you looking left at `Anthropic`, look right towards `Google`: ***(The leading platform on AI)***
     * Pay attention to what matters most!
 ---

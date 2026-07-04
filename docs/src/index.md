@@ -52,7 +52,7 @@
 2. Him: "How can I ***[see what he/she sees?](#implant-index3)***"
 3. Him: "Saw behind ***[The Curtain](#curtain)***"
 4. Them: "Put them in a "***[Container](#geo-index2)***"
-5. Her: "What is his/her Itinerary? And what is the ***Exit Strategy***"
+5. Her: "What is his Itinerary? And what is the ***Exit Strategy***"
 6. Him: "Who are they on the ***[phone](#comm)*** with?":  
 7. Him "Trying to do our job for us. ***[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)***"
 8. Her: [He's about to get control over this](https://google.com)

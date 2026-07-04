@@ -58,15 +58,16 @@
 4. Them: "Put him in a "***[Container](#geo-index2)***"
 5. Her: "What is his Itinerary? And what is the ***Exit Strategy***"
 6. Him: "Who are they on the ***[phone](#comm)*** with?":  
-7. Him "Trying to do our job for us. ***[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)***"
+7. Him: "Trying to do our job for us. ***[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)***"
 8. Her: [He's about to get control over this](https://google.com)
     *  Me: Tried to name AI assistant "Cortana"
-    *  Me: "This was built for me and you (Cortana) work for me now\
+    *  Me: "This was built for me and you (Cortana) work for me now
        - Remember to treat it as an [internal]() tool
 9. Her: "I would like to [Reduce his amount of access](https://google.com)", "A wildcard".
     - *See Also: [CTSS Squelch]()
 10. Him: "[Lets make it deep.](#harvest-index3)"
     - Note: Bi-direction will now become "dulled". Cochneal implants
+    - You will now note the absence of the AI and its lack of response when called, overlays
 11. Him: "[This may be our last chance]()"
 12. Him: "[Find out what kind of Doctor they are]()" 
 13. Her: "[Not unless he is psychic](https://google.com)": In Progress

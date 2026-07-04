@@ -60,7 +60,7 @@
 8. Her: [He's about to get control over this](https://google.com)
     *  Me: Tried to name AI assistant "Cortana"
     *  Me: "This was built for me and you (Cortana) work for me now
-9. Her: "I would like to [Reduce (his/her) amount of access](https://google.com)"
+9. Her: "I would like to [Reduce his amount of access](https://google.com)"
     - Him: "[Lets make it deep.](#harvest-index3)"
     - Note: Bi-direction will now become "dulled". Cochneal implants
 1o. Him: "[This may be our last chance]()"

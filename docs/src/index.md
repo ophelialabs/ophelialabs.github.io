@@ -17,8 +17,8 @@
 
 - Re-think folder heirarchy and place in other `2 projects accordingly`. be precise and to the point, use external project links (ie - xref) for cleanliness
 - "Doesn't even know how to build, it will take at least 9 months to cover gaps"
-- Other `2 projects`:
-   * [Q](https://ophelialabs.github.io/q_compute) | [jb](https://ophelialabs.github.io/jb./)
+- Other `3 projects`:
+   * [Q](https://ophelialabs.github.io/q_compute) | [jb](https://ophelialabs.github.io/jb./) | [c2](https://github.com/ophelialabs/Platform/blob/main/fluent/cmd_cntr2/README.md]
        - Support the [1](https://ophelialabs.github.io)
             * Did your cover of 12 do this? Either way......I'm about to build this
 - Please note, that is still playing catchup, reactive vs proactive (algorithms being narrowed down and **bugs**: i.e. access being granted before restriction)

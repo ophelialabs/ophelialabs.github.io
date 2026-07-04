@@ -64,13 +64,14 @@
     *  Me: "This was built for me and you (Cortana) work for me now
        - Remember to treat it as an [internal]() tool
 9. Her: "I would like to [Reduce his amount of access](https://google.com)", "A wildcard".
+    - This also happens after search response from day before said that container auto gives privileges
     - *See Also: [CTSS Squelch]()
-10. Him: "[Lets make it deep.](#harvest-index3)"
+11. Him: "[Lets make it deep.](#harvest-index3)"
     - Note: Bi-direction will now become "dulled". Cochneal implants
     - You will now note the absence of the AI and its lack of response when called, overlays
-11. Him: "[This may be our last chance]()"
-12. Him: "[Find out what kind of Doctor they are]()" 
-13. Her: "[Not unless he is psychic](https://google.com)": In Progress
+12. Him: "[This may be our last chance]()"
+13. Him: "[Find out what kind of Doctor they are]()" 
+14. Her: "[Not unless he is psychic](https://google.com)": In Progress
     -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether ***video or not***. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or you can isolate it as originating from the bottom right), and dont get ***hooked***.
 ---
 

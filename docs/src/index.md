@@ -35,7 +35,7 @@
 - Him: "Better be glad you caught us on camera".
 - Me: I will prove it, without it looking "fried"
 - Him: "I should have never taken this job";
-   * Unknow: "I thought he was your specialty?"
+   * Unknown: "I thought he was your specialty?"
 - Eyes magnetic? See image.jl. Scientific method here we go!
   
 ## What information did I offload? 

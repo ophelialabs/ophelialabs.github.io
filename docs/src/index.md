@@ -63,7 +63,7 @@
 9. Her: "I would like to [Reduce his amount of access](https://google.com)", "A wildcard".
     - Him: "[Lets make it deep.](#harvest-index3)"
     - Note: Bi-direction will now become "dulled". Cochneal implants
-1o. Him: "[This may be our last chance]()"
+10. Him: "[This may be our last chance]()"
 11. Him: "[Find out what kind of Doctor they are]()" 
 12. Her: "[Not unless he is psychic](https://google.com)": In Progress
     -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether ***video or not***. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or you can isolate it as originating from the bottom right), and dont get ***hooked***.

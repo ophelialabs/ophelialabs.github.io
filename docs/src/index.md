@@ -61,8 +61,8 @@
 7. Him "Trying to do our job for us. ***[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)***"
 8. Her: [He's about to get control over this](https://google.com)
     *  Me: Tried to name AI assistant "Cortana"
-         - Remember to treat it as an [internal]() tool
-    *  Me: "This was built for me and you (Cortana) work for me now
+    *  Me: "This was built for me and you (Cortana) work for me now\
+       - Remember to treat it as an [internal]() tool
 9. Her: "I would like to [Reduce his amount of access](https://google.com)", "A wildcard".
     - *See Also: [CTSS Squelch]()
 10. Him: "[Lets make it deep.](#harvest-index3)"

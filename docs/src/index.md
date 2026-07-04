@@ -57,7 +57,7 @@
 7. Him "Trying to do our job for us. ***[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)***"
 8. Her: [He's about to get control over this](https://google.com)
     *  Me: Tried to name AI assistant "Cortana"
-    *  Me: This was built for me and you work for me now
+    *  Me: "This was built for me and you (Cortana) work for me now
 9. Her: "I would like to [Reduce (his/her) amount of access](https://google.com)"
     - Him: "[Lets make it deep.](#harvest-index3)"
     - Note: Bi-direction will now become "dulled". Cochneal implants

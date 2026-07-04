@@ -32,17 +32,19 @@
 **NOTE**: *FLASHING LIGHT AND MIRRORS AID IN CAMERA DETECTION*. 
    * If you ever feel like, or are instructed to cover mirrors or `reflective` surfaces, DONT
 - Cochneal implants a bi huh also with algae lighting up like a x-mas tree
-- "Better be glad you caught us on camera".
-- I will prove it, without it looking "fried"
-- "I should have never taken this job"; I thought he was your specialty?
+- Him: "Better be glad you caught us on camera".
+- Me: I will prove it, without it looking "fried"
+- Him: "I should have never taken this job";
+   * Unknow: "I thought he was your specialty?"
 - Eyes magnetic? See image.jl. Scientific method here we go!
   
 ## What information did I offload? 
-- ***"No business sticking your nose in"***
-  * ... ***BUT***... if I wasnt given instruction or directed otherwise...
+- Him: ***"No business sticking your nose in"***
+  * Me: ... ***BUT***... if I wasnt given instruction or directed otherwise...
 - Whatever it is with **Salesforce** that gave **Shareholder** access (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow]() / [knowledgebase]() / Sponsorship and how you can benefit company?... ***Thats not on me***
 - ***Explicitly*** provided instructions to join ***confluence/jira***
-- **We May Have Something**: Due diligence / Timeline doesn't add up does it
+- #1 of 12: **We May Have Something**
+   * Due diligence? / Timeline doesn't add up does it?
 
 ## Verbatim (Note: The Order of Operations)
 - How do I bring **YOU** out into the light? (Try the ***Attic*** again while ***I am Sleeping***) The green laser for **cognitive writing** was not satellite, but **under the barrel**.

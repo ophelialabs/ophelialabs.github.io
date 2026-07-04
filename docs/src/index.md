@@ -64,7 +64,7 @@
     *  Me: "This was built for me and you (Cortana) work for me now
        - Remember to treat it as an [internal]() tool
 9. Her: "I would like to [Reduce his amount of access](https://google.com)", "A wildcard".
-    - This also happens after search response from day before said that `K3` container auto gives privileges
+    - This also happens after search response from day before stated that the `K3 container` auto gives privileges
     - *See Also: [CTSS Squelch]()
 11. Him: "[Lets make it deep.](#harvest-index3)"
     - Note: Bi-direction will now become "dulled". Cochneal implants

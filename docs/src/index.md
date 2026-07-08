@@ -64,6 +64,7 @@
     *  Me: Tried to name AI assistant "Cortana"
     *  Me: "This was built for me and you (Cortana) work for me now
        - Remember to treat it as an [internal]() tool
+       - Let me find my Entra ID and k3 container
 9. Her: "I would like to [Reduce his amount of access](https://google.com)", "A wildcard".
     - This also happens after search response from day before stated that the `K3 container` auto gives privileges
     - *See Also: [CTSS Squelch]()

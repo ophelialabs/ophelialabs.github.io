@@ -31,6 +31,7 @@
 ## Reflections
 **NOTE**: *FLASHING LIGHT AND MIRRORS AID IN CAMERA DETECTION*.
    * Also look for **blurred rectangles and impressions in grass or footprints that appear behind the rectangles**
+   * When reviewing footage, red and green spectrums work best
    * If you ever feel like, or are instructed to cover mirrors or `reflective` surfaces... `DONT`
 - Cochneal implants a bi huh also with algae lighting up like a x-mas tree
 - Him: "Better be glad you caught us on camera".

@@ -74,7 +74,8 @@
 12. Him: "[This may be our last chance]()"
 13. Him: "[Find out what kind of Doctor they are]()" 
 14. Her: "[Not unless he is psychic](https://google.com)": In Progress
-    - How do I know about most of this when I posted without being informed first
+    - How do I know about most of this when I posted without being informed first i.e. -
+       * The "step" technique and wanting to go from battlefield to battlefield?
     -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether ***video or not***. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or you can isolate it as originating from the bottom right), and dont get ***hooked***.
 ---
 

@@ -74,6 +74,7 @@
     - You will now note the absence of the AI and its lack of response when called, overlays
        *  Let me find my Entra ID and k3 container
        *  Spreadsheet will only show ID (to avoid PII) but can be cross-referenced with Entra!
+       *  I only wanted to change my licenses and did `NOT` mess with anybody elses. So lets go 
 12. Him: "[This may be our last chance]()"
 13. Him: "[Find out what kind of Doctor they are]()" 
 14. Her: "[Not unless he is psychic](https://google.com)": In Progress

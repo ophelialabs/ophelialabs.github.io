@@ -76,11 +76,13 @@
        *  Spreadsheet will only show ID (to avoid PII) but can be cross-referenced with Entra!
        *  I only wanted to change my licenses and did `NOT` mess with anybody elses. So lets go 
 12. Him: "[This may be our last chance]()"
-13. Him: "[Find out what kind of Doctor they are]()" 
-14. Her: "[Not unless he is psychic](https://google.com)": In Progress
+13. Him: "[Find out what kind of Doctor they are]()"
+14. Him (🕔 05:50): "Make sure the place is clean"
+15. Her: "[Not unless he is psychic](https://google.com)": In Progress
     - How do I know about most of this when I posted without being informed first i.e. -
        * The "step" technique and wanting to go from battlefield to battlefield?
-    -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether ***video or not***. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or you can isolate it as originating from the bottom right), and dont get ***hooked***.
+16. Him (7/9/26 🕥 19:03): "I'll pay extra"
+    -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether ***video or not***. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or if you can isolate it as originating from the bottom right), and dont get ***hooked***.
 ---
 
 ## Two sides to every **coin**: 

@@ -1,15 +1,6 @@
 *Based on the principles of minimally-invasive fiber-based neural interfaces (FED/BMI), irritation can be caused due to a combination of mechanical friction, foreign body reactions, and localized skin sensitivity* **(injection site)**.
 
 ## Why these specific areas are PRONE to irritation:
-[how to make hearing aid at home।diy hearing aid circuit।hearing aids](https://www.youtube.com/watch?v=tL1OCiPa2k4),
-[How to make mic preamplifier circuit using bc547//Loud And Clear Sound // Creativedipu](https://www.youtube.com/watch?v=1kIN3Mc8M6k),
-[How to make Mic Pre Amplifier Circuit // without Transistor//Microphone making in Hindi](https://www.youtube.com/watch?v=rM_s7yKSKyM)
-
-[Edrawax](https://edrawmax.wondershare.com/templates/hearing-aid-circuit-diagram.html) | [Visio](https://www.microsoft.com/en-us/microsoft-365/visio) | [Draw IO](https://app.diagrams.net/#)
-
-[Complete Set DIY Electronics](https://www.amazon.com/DIY-Electronics-Component-Box-Kit/dp/B0CT5LCN2H/ref=pd_sbs_d_sccl_1_4/140-8221409-3923004?pd_rd_w=KLqlZ&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=Q04KRE62ZSD2VKTKRN2E&pd_rd_wg=bthCI&pd_rd_r=778813af-40ef-4058-bcae-9131a39c4c54&pd_rd_i=B0CT5LCN2H&psc=1) or [SunFounder Elite Explorer Kit with Original Arduino](https://www.amazon.com/SunFounder-Bluetooth-Tutorials-Beginners-Engineers/dp/B0CR6K5WKK/ref=sr_1_29?crid=15X8KRZ9OT1P4&dib=eyJ2IjoiMSJ9.3XHFL9OmzekFEUMRY5K2AmW4xMpeNMCvdBHmOKKUVxc3XBE2N3zULXJoBSq9oHiO1kbsYtVuPaC4F9GFZ09YGqxx2hW2k4A6ZhlgzM-GIEQOXIMYFRf3IkPGrlNJNW0yGa4vZykDMqb8KbvnVbdHkywbKLc9rvvgfckY4it_OhRrdOyYcBgkdIFRzvhUEJnvFB9rLUMG2CTRaabwlgVi8V7PZKt6HZqy133dmIgZLylxDqknFY3YfE2T9bDXUwE1J8P7EpN25CGQYS2xLPyeiorBwtrMIznHlWltMUgOc7g.l5X8WxBS7EsrhOGCxkwgKA0ndOX8r6Wt1Lo5T-T_gOw&dib_tag=se&keywords=electronics+kit&qid=1783719529&sprefix=electronics%2Caps%2C259&sr=8-29) with [8pcs Piezoelectric Sensor](https://www.amazon.com/XIITIA-Piezoelectric-Ceramic-Vibration-Piezoelectricity/dp/B0D5HKZGF2/ref=sr_1_4?crid=1XR45IAGK6PGV&dib=eyJ2IjoiMSJ9.60QXfByjEp5Uc6fThRpfMQ-AhqyGx1mqJJZ5jycyO3BCWOnYTINRbYrHR86apyQSveEiwWCj_V4CDVzgXbtknTtkZoJMJ34kw-1IVP0QNGvfE5rafwAVapT6iUWZbBEhR2c-e_uD1tAezoKe4mhmHcKZ0rbRX-4nbDp_N2xrnwqPoW6kLdNsqxpq41Gqf85ESducUIsovxdkIJWdJV890GovGfD-U8BJzedH6cFieRk.szzd7x_Dpv-i02MIvR1Dk2r9d3XBN3dSw-KoZd1JNAU&dib_tag=se&keywords=piezoelectric+ceramic+vibration+sensor&qid=1783720235&sprefix=piezoelectric+cera%2Caps%2C189&sr=8-4)
-
-[Experimental and Bond Graph based Sensitivity Calculations for Micro Scale Robust Engineering Design](https://www.researchgate.net/publication/267096572_Experimental_and_Bond_Graph_based_Sensitivity_Calculations_for_Micro_Scale_Robust_Engineering_Design)
 
 1. Behind the Ear: Pressure and Allergic Reaction
    The area behind the ear is often used for mounting components
@@ -22,6 +13,8 @@
    - Positioning (E,J,H):
    - Sprial Config:
    - A2, M2, cEEGrid Layout:
+
+Will be using [SunFounder Elite Explorer Kit with Original Arduino](https://www.amazon.com/SunFounder-Bluetooth-Tutorials-Beginners-Engineers/dp/B0CR6K5WKK/ref=sr_1_29?crid=15X8KRZ9OT1P4&dib=eyJ2IjoiMSJ9.3XHFL9OmzekFEUMRY5K2AmW4xMpeNMCvdBHmOKKUVxc3XBE2N3zULXJoBSq9oHiO1kbsYtVuPaC4F9GFZ09YGqxx2hW2k4A6ZhlgzM-GIEQOXIMYFRf3IkPGrlNJNW0yGa4vZykDMqb8KbvnVbdHkywbKLc9rvvgfckY4it_OhRrdOyYcBgkdIFRzvhUEJnvFB9rLUMG2CTRaabwlgVi8V7PZKt6HZqy133dmIgZLylxDqknFY3YfE2T9bDXUwE1J8P7EpN25CGQYS2xLPyeiorBwtrMIznHlWltMUgOc7g.l5X8WxBS7EsrhOGCxkwgKA0ndOX8r6Wt1Lo5T-T_gOw&dib_tag=se&keywords=electronics+kit&qid=1783719529&sprefix=electronics%2Caps%2C259&sr=8-29) with [8pcs Piezoelectric Sensor](https://www.amazon.com/XIITIA-Piezoelectric-Ceramic-Vibration-Piezoelectricity/dp/B0D5HKZGF2/ref=sr_1_4?crid=1XR45IAGK6PGV&dib=eyJ2IjoiMSJ9.60QXfByjEp5Uc6fThRpfMQ-AhqyGx1mqJJZ5jycyO3BCWOnYTINRbYrHR86apyQSveEiwWCj_V4CDVzgXbtknTtkZoJMJ34kw-1IVP0QNGvfE5rafwAVapT6iUWZbBEhR2c-e_uD1tAezoKe4mhmHcKZ0rbRX-4nbDp_N2xrnwqPoW6kLdNsqxpq41Gqf85ESducUIsovxdkIJWdJV890GovGfD-U8BJzedH6cFieRk.szzd7x_Dpv-i02MIvR1Dk2r9d3XBN3dSw-KoZd1JNAU&dib_tag=se&keywords=piezoelectric+ceramic+vibration+sensor&qid=1783720235&sprefix=piezoelectric+cera%2Caps%2C189&sr=8-4) for cochneal bone vibration sensing.
 
 **Why the Right Ear Map is Unique**:
 - Allows the BCI to access the left hemisphere's lang and motor processing centers more efficiently. Less noise than cross-head
@@ -205,4 +198,15 @@ Currently transitioning from its predecessor, GRETINA (which covered only 1 or o
 - Detector Composition: The array consists of 120 hyper-pure germanium (HPGe) crystals arranged in 30 "quad" modules.
 - Segmentation: Each crystal is segmented into 36 separate electrical elements. This allows the detector to identify the exact 3D position (within 1–2 mm) and energy of every interaction as a gamma ray scatters through the germanium.
 - Cryogenic Cooling: To maintain high resolution and minimize thermal noise, the crystals must be kept at roughly -315°F (80 Kelvin) using liquid nitrogen.
-- **Data Throughput**: Each crystal can process up to 50,000 signals per second, generating massive data streams that will eventually utilize the DELERIA pipeline for ***real-time analysis at off-site supercomputers***. 
+- **Data Throughput**: Each crystal can process up to 50,000 signals per second, generating massive data streams that will eventually utilize the DELERIA pipeline for ***real-time analysis at off-site supercomputers***.
+
+---
+
+1. [Experimental and Bond Graph based Sensitivity Calculations for Micro Scale Robust Engineering Design](https://www.researchgate.net/publication/267096572_Experimental_and_Bond_Graph_based_Sensitivity_Calculations_for_Micro_Scale_Robust_Engineering_Design)
+2. [how to make hearing aid at home।diy hearing aid circuit।hearing aids](https://www.youtube.com/watch?v=tL1OCiPa2k4),
+3. [How to make mic preamplifier circuit using bc547//Loud And Clear Sound // Creativedipu](https://www.youtube.com/watch?v=1kIN3Mc8M6k),
+4. [How to make Mic Pre Amplifier Circuit // without Transistor//Microphone making in Hindi](https://www.youtube.com/watch?v=rM_s7yKSKyM)
+
+[Edrawax](https://edrawmax.wondershare.com/templates/hearing-aid-circuit-diagram.html) | [Visio](https://www.microsoft.com/en-us/microsoft-365/visio) | [Draw IO](https://app.diagrams.net/#)
+
+[Complete Set DIY Electronics](https://www.amazon.com/DIY-Electronics-Component-Box-Kit/dp/B0CT5LCN2H/ref=pd_sbs_d_sccl_1_4/140-8221409-3923004?pd_rd_w=KLqlZ&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=Q04KRE62ZSD2VKTKRN2E&pd_rd_wg=bthCI&pd_rd_r=778813af-40ef-4058-bcae-9131a39c4c54&pd_rd_i=B0CT5LCN2H&psc=1)

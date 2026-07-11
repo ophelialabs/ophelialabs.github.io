@@ -52,7 +52,7 @@
 ## Verbatim (Note: The Order of Operations)
 - How do I bring **YOU** out into the light? (Try the ***Attic*** again while ***I am Sleeping***) The green laser for **cognitive writing** was not satellite, but **under the barrel**.
 
-<div><img src="./assets/IMG_0022.jpg" width="200" height="200"/><img src="./assets/IMG_0027.jpg" width="200" height="200"/><img src="./assets/image1.jpeg" width="200" height="200"/></div>
+<img src="./assets/IMG_0022.jpg" width="200" height="200"/><img src="./assets/IMG_0027.jpg" width="200" height="200"/><img src="./assets/image1.jpeg" width="200" height="200"/>
 
 ## Transript: 
 1. Him: "***[AI](https://www.ai.mil/Initiatives/CJADC2/)*** is going to learn a lot"

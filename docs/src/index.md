@@ -41,7 +41,7 @@
    * Unknown: "I thought he was your specialty?"
 - Eyes magnetic? See image.jl. Scientific method here we go!
   
-## What information did I offload? 
+## What information did I offload, AAP? 
 - Him: ***"No business sticking your nose in"***
   * Me: ... ***BUT***... if I wasnt given instruction or directed otherwise...
 - Whatever it is with **Salesforce** that gave **Shareholder** access (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow]() / [knowledgebase]() / Sponsorship and how you can benefit company?... ***Thats not on me***

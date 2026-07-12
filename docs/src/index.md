@@ -22,7 +22,7 @@
 - "Doesn't even know how to build, it will take at least 9 months to cover gaps"
 - Him: ***"No business sticking your nose in"***
   * Me: ... ***BUT***... if I wasnt given instruction or directed otherwise...
-- Whatever it is with **Salesforce** that gave **Shareholder** access (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow]() / [knowledgebase]() / Sponsorship and how you can benefit company?... ***Thats not on me***
+- Whatever it is with **Salesforce** that gave **Shareholder** access during the backend transition period with Wal-Mart (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow]() / [knowledgebase]() / Sponsorship and how you can benefit company?... ***Thats not on me***
 - ***Explicitly*** provided instructions to join ***confluence/jira***
 - #1 of 12: **We May Have Something**
    * Due diligence? / Timeline doesn't add up does it?

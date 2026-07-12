@@ -48,6 +48,7 @@
 - ***Explicitly*** provided instructions to join ***confluence/jira***
 - #1 of 12: **We May Have Something**
    * Due diligence? / Timeline doesn't add up does it?
+- I will always be a firm believer that once a schedule is published, if it is unpublished for changes, the affected team members whose schedule has been edited should be notified via email and text. 
 
 ## Verbatim (Note: The Order of Operations)
 - How do I bring **YOU** out into the light? (Try the ***Attic*** again while ***I am Sleeping***) The green laser for **cognitive writing** was not satellite, but **under the barrel**.

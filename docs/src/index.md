@@ -60,13 +60,13 @@
        - Remember to treat it as an [internal]() tool
 9. Her: "I would like to [Reduce his amount of access](https://google.com)", "A wildcard".
     - This also happens after search response from day before stated that the `K3 container` auto gives privileges
-    - *See Also: [CTSS Squelch]()
-11. Him: "[Lets make it deep.](#harvest-index3)"
+    - *See Also: [CTSS Squelch](./assets/03_Gemini_Generated_Image_BMI-CTSS.png)
+11. Him: "[Lets make it deep.](https://ophelialabs.github.io/jb./index3/#id-2-implementation-of-shallow-mode-in-go-nesd)"
     - Note: Bi-direction will now become "dulled". Cochneal implants
     - You will now note the absence of the AI and its lack of response when called, overlays
        *  Let me find my Entra ID and k3 container
-       *  Spreadsheet will only show ID (to avoid PII) but can be cross-referenced with Entra!
-       *  I only wanted to change my licenses and did `NOT` mess with anybody elses. So lets go 
+       *  Spreadsheet will only show ID (to avoid PII) but can be cross-referenced with Entra
+       *  I only wanted to change my licenses and did `NOT` mess with anybody elses. 
 12. Him: "[This may be our last chance]()"
 13. Him: "[Find out what kind of Doctor they are]()"
 14. Him (3/10/26 🕔 05:50): "Make sure the place is clean"

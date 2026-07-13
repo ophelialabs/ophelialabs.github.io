@@ -47,28 +47,28 @@ makedocs(
     pages=[
         "Home" => "index.md",
         "Guide" => [
-            "Getting Started" => "guide/getting_started.md",
-            "Tutorial" => "guide/tutorial.md",
-            "Advanced Usage" => "guide/advanced.md",
+            "Getting Started" => "01_guide/getting_started.md",
+            "Tutorial" => "01_guide/tutorial.md",
+            "Advanced Usage" => "01_guide/advanced.md",
         ],
         "Medical" => [
-            "Overview" => "medical/index.md",
-            "Diagnostics" => "medical/diagnostics.md",
-            "Imaging" => "medical/imaging.md",
+            "Overview" => "02_medical/index.md",
+            "Diagnostics" => "02_medical/diagnostics.md",
+            "Imaging" => "02_medical/imaging.md",
         ],
         "Networking" => [
-            "Containers" => "networking/informatics2.md",
-            "Protocols" => "networking/protocols.md",
-            "Quantum" => "networking/index.md",
-            "Quantum2" => "networking/index2.md",
+            "Containers" => "03_networking/informatics2.md",
+            "Protocols" => "03_networking/protocols.md",
+            "Quantum" => "03_networking/index.md",
+            "Quantum2" => "03_networking/index2.md",
         ],
         "Robotics" => [
-            "Overview" => "robotics/index.md",
-            "Control" => "robotics/control.md",
-            "Sensing" => "robotics/sensing.md",
+            "Overview" => "04_robotics/index.md",
+            "Control" => "04_robotics/control.md",
+            "Sensing" => "04robotics/sensing.md",
         ],
         "Algorithms" => [
-            "hyperQUEEN" => "algorithms/hyperqueen.md",
+            "hyperQUEEN" => "05_algorithms/hyperqueen.md",
         ],
     ],
     

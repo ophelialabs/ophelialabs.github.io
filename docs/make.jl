@@ -65,7 +65,7 @@ makedocs(
         "Robotics" => [
             "Overview" => "04_robotics/index.md",
             "Control" => "04_robotics/control.md",
-            "Sensing" => "04robotics/sensing.md",
+            "Sensing" => "04_robotics/sensing.md",
         ],
         "Algorithms" => [
             "hyperQUEEN" => "05_algorithms/hyperqueen.md",

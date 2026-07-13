@@ -60,7 +60,7 @@
        - Remember to treat it as an [internal]() tool
 9. Her: "I would like to [Reduce his amount of access](https://google.com)", "A wildcard".
     - This also happens after search response from day before stated that the `K3 container` auto gives privileges
-    - *See Also: [CTSS Squelch](./__assets/03_Gemini_Generated_Image_BMI-CTSS.png)
+    - *See Also: [CTSS Squelch](./_assets/03_Gemini_Generated_Image_BMI-CTSS.png)
 11. Him: "[Lets make it deep.](https://ophelialabs.github.io/jb./index3/#id-2-implementation-of-shallow-mode-in-go-nesd)"
     - Note: Bi-direction will now become "dulled". Cochneal implants
     - You will now note the absence of the AI and its lack of response when called, overlays

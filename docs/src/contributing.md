@@ -200,7 +200,7 @@ Each section should:
 
 ## Building Documentation Locally
 
-See [Getting Started](guide/getting_started.md#building-documentation-locally) for detailed instructions.
+See [Getting Started](01_guide/getting_started.md#building-documentation-locally) for detailed instructions.
 
 ## Running Examples
 

@@ -13,17 +13,17 @@
    * [Q](https://ophelialabs.github.io/q_compute) | [jb](https://ophelialabs.github.io/jb./) | [c2](https://github.com/ophelialabs/Platform/blob/main/fluent/cmd_cntr2/README.md#c2) 
        - Support the [1](https://ophelialabs.github.io)
 - Please note, that is still playing catchup, reactive vs proactive ([algorithms](https://adaptivecards.io) being narrowed down and **bugs**: i.e. access being granted before restriction)
-- I believe it is ***chess***, if the `nudge` wants you looking left at `Anthropic`, look right towards `Google`: ***(The leading platform on AI)***
+- I believe it is **chess**, if the `nudge` wants you looking left at `Anthropic`, look right towards `Google`: **(The leading platform on AI)**
     * Pay attention to what matters most!
 
 ## What information did I offload, AAP? 
 - <wiki:Counterintelligence> | <wiki:Psychological_warfare> | [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) / [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) 
 - All because **I wanted to print an instructional return process sheet for my coworker**
 - "Doesn't even know how to build, it will take at least 9 months to cover gaps"
-- Him: ***"No business sticking your nose in"***
-  * Me: ... ***BUT***... if I wasnt given instruction or directed otherwise...
-- Whatever it is with **Salesforce** that gave **Shareholder** access during the backend transition period with Wal-Mart (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow]() / [knowledgebase]() / Sponsorship and how you can benefit company?... ***Thats not on me***
-- ***Explicitly*** provided instructions to join ***confluence/jira***
+- Him: **"No business sticking your nose in"**
+  * Me: ... **BUT**... if I wasnt given instruction or directed otherwise...
+- Whatever it is with **Salesforce** that gave **Shareholder** access during the backend transition period with Wal-Mart (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow]() / [knowledgebase]() / Sponsorship and how you can benefit company?... **Thats not on me**
+- **Explicitly** provided instructions to join **confluence/jira**
 - #1 of 12: **We May Have Something**
    * Due diligence? / Timeline doesn't add up does it?
 - I will always be a firm believer that once a schedule is published, if it is unpublished for changes, the affected team members whose schedule has been edited should be notified via email and text. 
@@ -44,16 +44,16 @@
 - Eyes magnetic? See image.jl. Scientific method here we go!
 
 ## Verbatim (Note: The Order of Operations)
-- How do I bring **YOU** out into the light? (Try the ***Attic*** again while ***I am Sleeping***) The green laser for **cognitive writing** was not satellite, but **under the barrel**.
+- How do I bring **YOU** out into the light? (Try the **Attic** again while **I am Sleeping**) The green laser for **cognitive writing** was not satellite, but **under the barrel**.
 
 ## Transript: 
-1. Him: "***[AI](https://www.ai.mil/Initiatives/CJADC2/)*** is going to learn a lot"
-2. Him: "How can I ***see what he/she sees?***" [(1)](https://ophelialabs.github.io/jb./tutorial-1/#loading-the-neural-data), [(2)](https://ophelialabs.github.io/jb./stack/#augmented-intent), [(3)](https://ophelialabs.github.io/jb./stack/#syglass-the-lens)
-3. Him: "Saw behind ***The Curtain ***" [(1)](https://ophelialabs.github.io/jb./tutorial-2/#id-3-ethical-and-psychological-curtains)
-4. Them: "Put him in a "***Container***" [(1)](https://ophelialabs.github.io/dev/03_networking/informatics2/)
-5. Her: "What is his Itinerary? And what is the ***Exit Strategy***"
-6. Him: "Who are they on the ***[phone](#comm)*** with?":  
-7. Him: "Trying to do our job for us. ***[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)***"
+1. Him: "**[AI](https://www.ai.mil/Initiatives/CJADC2/)** is going to learn a lot"
+2. Him: "How can I **see what he/she sees?**" [(1)](https://ophelialabs.github.io/jb./tutorial-1/#loading-the-neural-data), [(2)](https://ophelialabs.github.io/jb./stack/#augmented-intent), [(3)](https://ophelialabs.github.io/jb./stack/#syglass-the-lens)
+3. Him: "Saw behind **The Curtain **" [(1)](https://ophelialabs.github.io/jb./tutorial-2/#id-3-ethical-and-psychological-curtains)
+4. Them: "Put him in a "**Container**" [(1)](https://ophelialabs.github.io/dev/03_networking/informatics2/)
+5. Her: "What is his Itinerary? And what is the **Exit Strategy**"
+6. Him: "Who are they on the **[phone](#comm)** with?":  
+7. Him: "Trying to do our job for us. **[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)**"
 8. Her: [He's about to get control over this](https://google.com)
     *  Me: Tried to name AI assistant "Cortana"
     *  Me: "This was built for me and you (Cortana) work for me now
@@ -74,11 +74,11 @@
     - How do I know about most of this when I posted without being informed first i.e. -
        * The "step" technique and wanting to go from battlefield to battlefield?
 16. Him (7/9/26 🕥 19:03): "I'll pay extra"
-    -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether ***video or not***. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or if you can isolate it as originating from the bottom right), and dont get ***hooked***.
+    -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether **video or not**. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or if you can isolate it as originating from the bottom right), and dont get **hooked**.
 ---
 
 ## Two sides to every **coin**: 
-1. The [***PATCH***](#Implant-index3)
+1. The [**PATCH**](#Implant-index3)
 
 ---
 

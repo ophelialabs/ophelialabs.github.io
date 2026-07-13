@@ -50,8 +50,8 @@
 
 ## Transript: 
 1. Him: "***[AI](https://www.ai.mil/Initiatives/CJADC2/)*** is going to learn a lot"
-2. Him: "How can I ***[see what he/she sees?](#implant-index3)***"
-3. Him: "Saw behind ***[The Curtain](#curtain)***"
+2. Him: "How can I ***[see what he/she sees?](https://ophelialabs.github.io/jb./tutorial-1/#loading-the-neural-data)***"
+3. Him: "Saw behind ***[The Curtain](https://ophelialabs.github.io/jb./tutorial-2/#id-3-ethical-and-psychological-curtains)***"
 4. Them: "Put him in a "***[Container](#networking-informatics2)***"
 5. Her: "What is his Itinerary? And what is the ***Exit Strategy***"
 6. Him: "Who are they on the ***[phone](#comm)*** with?":  

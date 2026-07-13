@@ -57,9 +57,10 @@ makedocs(
             "Imaging" => "medical/imaging.md",
         ],
         "Networking" => [
-            "Overview" => "networking/index.md",
+            "Containers" => "networking/informatics2.md",
             "Protocols" => "networking/protocols.md",
-            "Index2" => "networking/index2.md",
+            "Quantum" => "networking/index.md",
+            "Quantum2" => "networking/index2.md",
         ],
         "Robotics" => [
             "Overview" => "robotics/index.md",

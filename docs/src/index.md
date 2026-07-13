@@ -1,6 +1,6 @@
 # Let's run those simulations at the same time
-![](./assets/Screenshot3.png)
-![](./assets/m_d4mh01854k-f1.png)
+![](./_assets/Screenshot3.png)
+![](./_assets/m_d4mh01854k-f1.png)
 - Not your Lab Rat
 - 1A: DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed a **minimally invasive** implantable, high-resolution [neural interface](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored (Cochneal) Hearing Systems, or Behind The Ear Hearing Aids.
 - Note: link [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) no longer works. Had to deal with APT / Quantum bubbles
@@ -60,7 +60,7 @@
        - Remember to treat it as an [internal]() tool
 9. Her: "I would like to [Reduce his amount of access](https://google.com)", "A wildcard".
     - This also happens after search response from day before stated that the `K3 container` auto gives privileges
-    - *See Also: [CTSS Squelch](./assets/03_Gemini_Generated_Image_BMI-CTSS.png)
+    - *See Also: [CTSS Squelch](./__assets/03_Gemini_Generated_Image_BMI-CTSS.png)
 11. Him: "[Lets make it deep.](https://ophelialabs.github.io/jb./index3/#id-2-implementation-of-shallow-mode-in-go-nesd)"
     - Note: Bi-direction will now become "dulled". Cochneal implants
     - You will now note the absence of the AI and its lack of response when called, overlays
@@ -83,7 +83,7 @@
 ---
 
 - [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) | [LLE](https://www.lle.rochester.edu/publications/lle-in-focus/powering-discovery-through-academic-partnerships/) | [CSDAP](https://csdap.earthdata.nasa.gov/) | [QCon](#comm-index1) | [ESnet(Deleria)](https://www.ornl.gov/news/novel-data-streaming-software-chases-light-speed-accelerator-supercomputer) | [AI](https://www.ai.mil/Initiatives/CJADC2/)
-- The [Nanosat](https://github.com/ophelialabs/int-ball2_simulator) carries a Q-NET-compatible laser terminal (808 nm linearly polarized beacon laser optic), or a [high-frequency Ka-band radio](https://ophelialabs.github.io/a/pages/legacy/site-old/temp/Globe/assets/docs/Satellite-technologies.pdf) (page 34, quarter-wave dipole).
+- The [Nanosat](https://github.com/ophelialabs/int-ball2_simulator) carries a Q-NET-compatible laser terminal (808 nm linearly polarized beacon laser optic), or a [high-frequency Ka-band radio](https://ophelialabs.github.io/a/pages/legacy/site-old/temp/Globe/_assets/docs/Satellite-technologies.pdf) (page 34, quarter-wave dipole).
 - **Optical Communication Systems**: Space-to-ground optical terminals operate at 808 nm and Ka-band frequencies for satellite communication.
 - **The Link**: Fiber-based neural interfaces transmit data to a local ground terminal (running your [AWS K3](https://github.com/JesseDev3/Kube/blob/main/gke.md)/Go/Envoy stack). Note: MEG (magnetoencephalography) is non-invasive brain imaging; implantable fiber interfaces are separate technology.
 - [CSDAP](https://csdap.earthdata.nasa.gov/) is a NASA data platform providing satellite imagery and geospatial data for monitoring.

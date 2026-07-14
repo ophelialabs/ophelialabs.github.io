@@ -28,7 +28,7 @@
 - **Explicitly** provided instructions to join **confluence/jira**
 - #1 of 12: **We May Have Something**
    * Due diligence? / Timeline doesn't add up does it?
-- Was delegated NW regional distribution management, then intervention
+- Was delegated **NW regional distribution manager**, then intervention
 - I will always be a firm believer that once a schedule is published, if it is unpublished for changes, the affected team members whose schedule has been edited should be notified via email and text. 
       
 ---

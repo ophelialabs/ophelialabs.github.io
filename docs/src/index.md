@@ -47,7 +47,7 @@
 - Eyes magnetic? See image.jl. Scientific method here we go!
 
 ## Verbatim (Note: The Order of Operations)
-- How do I bring **YOU** out into the light? (Try the **Attic** again while **I am Sleeping**) The green laser for **cognitive writing** was not satellite, but **under the barrel**.
+- How do I bring **YOU** out into the light? (Try sneaking through the **Attic** again while **I am Sleeping**) for implant. The green laser for **cognitive writing** was not satellite, but **under the barrel** in the garage.
 
 ## Transript: 
 1. Him: "**[AI](https://www.ai.mil/Initiatives/CJADC2/)** is going to learn a lot"

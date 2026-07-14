@@ -2,16 +2,18 @@
 ![](./00_assets/Screenshot3.png)
 ![](./00_assets/m_d4mh01854k-f1.png)
 - Not your Lab Rat
-- 1A: DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed a **minimally invasive** implantable, high-resolution [neural interface](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored (Cochneal) Hearing Systems, or Behind The Ear Hearing Aids.
-- Note: link [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) no longer works. Had to deal with APT / Quantum bubbles
+- 1A: DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed a **minimally invasive** implantable, high-resolution [neural interface](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored (Cochleal) Hearing Systems, or Behind The Ear Hearing Aids.
+
+<!-- - Note: link [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) no longer works. Had to deal with APT / Quantum bubbles
 - Youtube blocking comments
+- Re-think folder heirarchy and place in other `2 projects accordingly`. be precise and to the point, use external project links (ie - xref) for cleanliness
+
+-->
 
 ---
 
-- Re-think folder heirarchy and place in other `2 projects accordingly`. be precise and to the point, use external project links (ie - xref) for cleanliness
 - Other `3 projects`:
-   * [Q](https://ophelialabs.github.io/q_compute) | [jb](https://ophelialabs.github.io/jb./) | [c2](https://github.com/ophelialabs/Platform/blob/main/fluent/cmd_cntr2/README.md#c2) 
-       - Support the [1](https://ophelialabs.github.io)
+   * [Q](https://ophelialabs.github.io/q_compute) | [jb](https://ophelialabs.github.io/jb./) | [c2](https://github.com/ophelialabs/Platform/blob/main/fluent/cmd_cntr2/README.md#c2) - Support [main](https://ophelialabs.github.io)
 - Please note, that is still playing catchup, reactive vs proactive ([algorithms](https://adaptivecards.io) being narrowed down and **bugs**: i.e. access being granted before restriction)
 - I believe it is **chess**, if the `nudge` wants you looking left at `Anthropic`, look right towards `Google`: **(The leading platform on AI)**
     * Pay attention to what matters most!

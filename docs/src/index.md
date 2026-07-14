@@ -7,6 +7,8 @@
 <!-- - Note: link [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) no longer works. Had to deal with APT / Quantum bubbles
 - Youtube blocking comments
 - Re-think folder heirarchy and place in other `2 projects accordingly`. be precise and to the point, use external project links (ie - xref) for cleanliness
+- Please note, that is still playing catchup, reactive vs proactive ([algorithms](https://adaptivecards.io) being narrowed down and **bugs**: i.e. access being granted before restriction)
+- I believe it is **chess**, if the `nudge` wants you looking left at `Anthropic`, look right towards `Google`: **(The leading platform on AI)**
 
 -->
 
@@ -14,8 +16,6 @@
 
 - Other `3 projects`:
    * [Q](https://ophelialabs.github.io/q_compute) | [jb](https://ophelialabs.github.io/jb./) | [c2](https://github.com/ophelialabs/Platform/blob/main/fluent/cmd_cntr2/README.md#c2) - Support [main](https://ophelialabs.github.io)
-- Please note, that is still playing catchup, reactive vs proactive ([algorithms](https://adaptivecards.io) being narrowed down and **bugs**: i.e. access being granted before restriction)
-- I believe it is **chess**, if the `nudge` wants you looking left at `Anthropic`, look right towards `Google`: **(The leading platform on AI)**
     * Pay attention to what matters most!
 
 ## What information did I offload, AAP? 

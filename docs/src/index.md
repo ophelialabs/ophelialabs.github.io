@@ -1,9 +1,11 @@
-# Let's run those simulations at the same time
 ![](./00_assets/Screenshot3.png)
 ![](./00_assets/implant.png)
 - Not your Lab Rat
 - 1A: DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed a **minimally invasive** implantable, high-resolution [neural interface](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored (Cochleal) Hearing Systems, or Behind The Ear Hearing Aids.
 
+# Let's run those simulations at the same time
+## Verbatim (Note: The Order of Operations)
+- How do I bring **YOU** out into the light? (Try sneaking through the **Attic** again while **I am Sleeping**) for implant. The green laser for **cognitive writing** was not satellite, but **under the barrel** in the garage.
 <!-- 
 - Note: link [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) no longer works. Had to deal with APT / Quantum bubbles
 - Youtube blocking comments
@@ -45,9 +47,6 @@
 - Him: "I should have never taken this job";
    * Unknown: "I thought he was your specialty?"
 - Eyes magnetic? See image.jl. Scientific method here we go!
-
-## Verbatim (Note: The Order of Operations)
-- How do I bring **YOU** out into the light? (Try sneaking through the **Attic** again while **I am Sleeping**) for implant. The green laser for **cognitive writing** was not satellite, but **under the barrel** in the garage.
 
 ## Transript: 
 1. Him: "**[AI](https://www.ai.mil/Initiatives/CJADC2/)** is going to learn a lot"

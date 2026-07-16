@@ -31,13 +31,13 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
 - **Explicitly** provided instructions to join **confluence/jira**
   
 <marquee behavior="scroll" direction="left" scrollamount="5">
-  Greggory
+# Greggory
 </marquee>
 
 - #12 of 12 (the LAST): **We May Have Something, talk offline or whatever we need to do**
    * Due diligence? / Timeline doesn't add up does it?
       - Was delegated **NW regional distribution manager**, then intervention
-- I did not want to, but last minute email ID changed, and the urge to follow through last second was prominent. You have lost this form of autonamous control havent you? Its been around 2 weeks to a month. I feel it.
+- I did not want to, but last minute email ID changed, and the urge to follow through last second was prominent. You have lost this form of autonamous control havent you? Its been about 2 weeks to a month. I feel it.
 - I will always be a firm believer that once a schedule is published, if it is unpublished for changes, the affected team members whose schedule has been edited should be notified via email and text. 
       
 ---

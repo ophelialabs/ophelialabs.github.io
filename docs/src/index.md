@@ -33,6 +33,7 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
 # Greggory (marquee)
 ## 12 of 12 (the LAST): **We May Have Something, talk offline or whatever we need to do**
    * Due diligence? / Timeline doesn't add up does it?
+   * Remember when you said you were ready? You also said you would take responsibility. Or do you plan to just throw your team under the bus?
       - Was delegated **NW regional distribution manager**, then intervention
 - I did not want to, but last minute email ID changed, and the urge to follow through last second was prominent. You have lost this form of autonamous control havent you? Its been about 2 weeks to a month. I feel it.
 - I will always be a firm believer that once a schedule is published, if it is unpublished for changes, the affected team members whose schedule has been edited should be notified via email and text. 

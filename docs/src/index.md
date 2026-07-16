@@ -63,7 +63,7 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
 3. Him: "Saw behind **The Curtain **" [(1)](https://ophelialabs.github.io/jb./tutorial-2/#id-3-ethical-and-psychological-curtains)
 4. Them: "Put him in a "**Container**" [(1)](https://ophelialabs.github.io/dev/03_networking/informatics2/)
 5. Her: "What is his Itinerary? And what is the **Exit Strategy**"
-6. Him: "Who are they on the **[phone](#comm)** with?":  
+6. Him: "Who are they on the **[phone](#comm)** with?": hmm I wonder who, even if they didnt like my first response.   
 7. Him: "Trying to do our job for us. **[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)**"
 8. Her: [He's about to get control over this](https://google.com)
     *  Me: Tried to name AI assistant "Cortana"

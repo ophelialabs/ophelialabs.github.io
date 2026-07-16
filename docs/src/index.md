@@ -20,7 +20,8 @@
    * [Q](https://ophelialabs.github.io/q_compute) | [jb](https://ophelialabs.github.io/jb./) | [c2](https://github.com/ophelialabs/Platform/blob/main/fluent/cmd_cntr2/README.md#c2) - Support [main](https://ophelialabs.github.io)
     * Pay attention to what matters most!
 
-## What information did I offload, AAP? 
+## What information did I offload, AAP?
+- Means atleast 02/01/24 to present
 - <wiki:Counterintelligence> | <wiki:Psychological_warfare> | [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) / [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) 
 - All because **I wanted to print an instructional return process sheet for my coworker**
 - "Doesn't even know how to build, it will take at least 9 months to cover gaps"

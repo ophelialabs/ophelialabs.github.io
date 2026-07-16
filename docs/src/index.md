@@ -29,12 +29,9 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
   * Me: ... **BUT**... if I wasnt given instruction or directed otherwise...
 - Whatever it is with **Salesforce** that gave **Shareholder** access during the backend transition period with Wal-Mart (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow kb]() / [Sponsorship]() and how you can benefit company?... **Thats not on me**
 - **Explicitly** provided instructions to join **confluence/jira**
-  
-<marquee behavior="scroll" direction="left" scrollamount="5">
-# Greggory
-</marquee>
 
-- #12 of 12 (the LAST): **We May Have Something, talk offline or whatever we need to do**
+# Greggory (marquee)
+## 12 of 12 (the LAST): **We May Have Something, talk offline or whatever we need to do**
    * Due diligence? / Timeline doesn't add up does it?
       - Was delegated **NW regional distribution manager**, then intervention
 - I did not want to, but last minute email ID changed, and the urge to follow through last second was prominent. You have lost this form of autonamous control havent you? Its been about 2 weeks to a month. I feel it.

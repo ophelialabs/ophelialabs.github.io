@@ -29,9 +29,11 @@
   * Me: ... **BUT**... if I wasnt given instruction or directed otherwise...
 - Whatever it is with **Salesforce** that gave **Shareholder** access during the backend transition period with Wal-Mart (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow kb]() / [Sponsorship]() and how you can benefit company?... **Thats not on me**
 - **Explicitly** provided instructions to join **confluence/jira**
+  
 <marquee behavior="scroll" direction="left" scrollamount="5">
   Greggory
 </marquee>
+
 - #1 of 12: **We May Have Something, talk offline or whatever we need to do**
    * Due diligence? / Timeline doesn't add up does it?
 - Was delegated **NW regional distribution manager**, then intervention

@@ -38,6 +38,7 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
    * THINK. You send a team in the middle of the night to implant me. No terrorist acts or just pre-emptive. Have you found anything yet that you can explain that wasnt manipulation?
    * Oh yeah, you are `not` keeping this separate. How much have you spent? my BOM is < $300
       - Was delegated **NW regional distribution manager**, then intervention
+      - Are you ready now?
 - I did not want to, but last minute email ID changed, and the urge to follow through last second was prominent. You have lost this form of autonamous control havent you? Its been about 2 weeks to a month. I feel it.
 - I will always be a firm believer that once a schedule is published, if it is unpublished for changes, the affected team members whose schedule has been edited should be notified via email and text. 
       

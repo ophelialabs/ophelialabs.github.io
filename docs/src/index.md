@@ -7,6 +7,7 @@
 ## Verbatim (Note: The Order of Operations)
 - How do I bring **YOU** out into the light? (Try sneaking through the **Attic** again while **I am Sleeping**) for implant. The green laser for **cognitive writing** was not satellite, but **under the barrel** in the garage. 
 - This is not singular but plural. Once this is proven, you dont think everyone should take the "Jesse" test. How many convictions have to be re-visited with this info? I am obviously not the first! So you tell me what happens if I testify
+- Just wait, it will be your son or daughter next. Gotta love surface level thinking
 <!-- 
 - Note: link [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) no longer works. Had to deal with APT / Quantum bubbles
 - Youtube blocking comments

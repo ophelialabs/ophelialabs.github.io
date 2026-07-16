@@ -34,7 +34,7 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
 ## 12 of 12 (the LAST): 
 **We May Have Something, talk offline or whatever we need to do**
    * Due diligence? / Timeline doesn't add up does it?
-   * Remember when you said you were ready? You also said you would take responsibility. Or do you plan to just throw your team under the bus?
+   * Remember when you said you were ready? Remember when I said you giving away more information that what you were getting? You also said you would take responsibility. Or do you plan to just throw your team under the bus?
    * THINK. You send a team in the middle of the night to implant me. No terrorist acts or just pre-emptive. Have you found anything yet that you can explain that wasnt manipulation?
    * Oh yeah, you are `not` keeping this separate. How much have you spent? my BOM is < $300
       - Was delegated **NW regional distribution manager**, then intervention

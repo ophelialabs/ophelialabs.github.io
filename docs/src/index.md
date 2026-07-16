@@ -21,7 +21,7 @@
     * Pay attention to what matters most!
 
 ## What information did I offload, AAP?
-- Means atleast 08/01/23 to present
+- Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly to present
 - <wiki:Counterintelligence> | <wiki:Psychological_warfare> | [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) / [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) 
 - All because **I wanted to print an instructional return process sheet for my coworker**
 - "Doesn't even know how to build, it will take at least 9 months to cover gaps"

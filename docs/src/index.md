@@ -34,7 +34,7 @@
   Greggory
 </marquee>
 
-- #1 of 12: **We May Have Something, talk offline or whatever we need to do**
+- #12 of 12 (the LAST): **We May Have Something, talk offline or whatever we need to do**
    * Due diligence? / Timeline doesn't add up does it?
 - Was delegated **NW regional distribution manager**, then intervention
 - I did not want to, but last minute email ID changed, and the urge to follow through last second was prominent. You have lost this form of autonamous control havent you? I feel it.

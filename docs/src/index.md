@@ -67,7 +67,7 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
 3. Him: "Saw behind **The Curtain **" [(1)](https://ophelialabs.github.io/jb./tutorial-2/#id-3-ethical-and-psychological-curtains)
 4. Them: "Put him in a "**Container**" [(1)](https://ophelialabs.github.io/dev/03_networking/informatics2/)
 5. Her: "What is his Itinerary? And what is the **Exit Strategy**"
-6. Him: "Who are they on the **[phone](#comm)** with?": hmm I wonder who, even if they didnt like my first response.   
+6. Him: "Who are they on the **phone** with?" [(1)](https://ophelialabs.github.io/dev/03_networking/informatics2/#3.-Simplified-with-QICK) 
 7. Him: "Trying to do our job for us. **[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)**"
 8. Her: [He's about to get control over this](https://google.com)
     *  Me: Tried to name AI assistant "Cortana"
@@ -82,7 +82,7 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
        *  Let me find my Entra ID and k3 container
        *  Spreadsheet will only show ID (to avoid PII) but can be cross-referenced with Entra
        *  I only wanted to change my licenses and did `NOT` mess with anybody elses. 
-12. Him: "[This may be our last chance]()"
+12. Him: "[This may be our last chance]()" 
 13. Him: "[Find out what kind of Doctor they are]()"
 14. Him (3/10/26 🕔 05:50): "Make sure the place is clean"
 15. Her: "[Not unless he is psychic](https://google.com)": In Progress

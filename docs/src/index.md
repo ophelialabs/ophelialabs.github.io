@@ -82,7 +82,7 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
        *  Let me find my Entra ID and k3 container
        *  Spreadsheet will only show ID (to avoid PII) but can be cross-referenced with Entra
        *  I only wanted to change my licenses and did `NOT` mess with anybody elses. 
-12. Him: "[This may be our last chance]()" 
+12. Him: "This may be our last chance" [(1)](https://ophelialabs.github.io/dev/02_medical/#Last-Chance) 
 13. Him: "[Find out what kind of Doctor they are]()"
 14. Him (3/10/26 🕔 05:50): "Make sure the place is clean"
 15. Her: "[Not unless he is psychic](https://google.com)": In Progress

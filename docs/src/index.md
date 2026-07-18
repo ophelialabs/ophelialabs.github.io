@@ -19,8 +19,7 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
 - Whatever it is with **Salesforce** that gave **Shareholder** access during the backend transition period with Wal-Mart (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow kb]() / [Sponsorship]() and how you can benefit company?... **Thats not on me**
 - **Explicitly** provided instructions to join **confluence/jira**
 
-# Greggory (marquee)
-## 12 of 12 (the LAST): 
+## 12 of 12 (the LAST): Greggory (marquee)
 **We May Have Something, talk offline or whatever we need to do**
    * Due diligence? / Timeline doesn't add up 
       - Was delegated **NW regional distribution manager**, then intervention

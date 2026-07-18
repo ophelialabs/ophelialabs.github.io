@@ -1,6 +1,6 @@
 17. Him: (7/18/26 🕦 14:30): neither confirm nor deny
 	- Me: If thats the case, how did it change last minute along with the use of emotional influence and manipulation?
-     14:57 - (note time of return) : silence, big mad. most likely plotting next, what to expect and prepare 
+    - 14:57 - (note time of return) : silence, big mad. most likely plotting next, what to expect and prepare 
 
 ---
 

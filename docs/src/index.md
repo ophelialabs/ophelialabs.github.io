@@ -6,21 +6,8 @@
 # Let's run those simulations at the same time
 ## Verbatim (Note: The Order of Operations)
 - How do I bring **YOU** out into the light? (Try sneaking through the **Attic** again while **I am Sleeping**) for implant. The green laser for **cognitive writing** was not satellite, but **under the barrel** in the garage. 
-- This is not singular but plural. Once this is proven, you dont think everyone should take the "Jesse" test. How many convictions have to be re-visited with this info? I am obviously not the first! So you tell me what happens if I testify
-- Just wait, it will be your son or daughter next. Gotta love surface level thinking
-<!-- 
-- Note: link [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) no longer works. Had to deal with APT / Quantum bubbles
-- Youtube blocking comments
-- Re-think folder heirarchy and place in other `2 projects accordingly`. be precise and to the point, use external project links (ie - xref) for cleanliness
-- Please note, that is still playing catchup, reactive vs proactive ([algorithms](https://adaptivecards.io) being narrowed down and **bugs**: i.e. access being granted before restriction)
-- I believe it is **chess**, if the `nudge` wants you looking left at `Anthropic`, look right towards `Google`: **(The leading platform on AI)**
--->
 
 ---
-
-- Other `3 projects`:
-   * [Q](https://ophelialabs.github.io/q_compute) | [jb](https://ophelialabs.github.io/jb./) | [c2](https://github.com/ophelialabs/Platform/blob/main/fluent/cmd_cntr2/README.md#c2) - Support [main](https://ophelialabs.github.io)
-    * Pay attention to what matters most!
 
 ## What information did I offload, AAP?
 Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
@@ -35,10 +22,7 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
 # Greggory (marquee)
 ## 12 of 12 (the LAST): 
 **We May Have Something, talk offline or whatever we need to do**
-   * Due diligence? / Timeline doesn't add up does it?
-   * Remember when you said you were ready? Remember when I said you giving away more information that what you were getting? You also said you would take responsibility. Or do you plan to just throw your team under the bus?
-   * THINK. You send a team in the middle of the night to implant me. No terrorist acts or just pre-emptive. Have you found anything yet that you can explain that wasnt manipulation?
-   * Oh yeah, you are `not` keeping this separate. How much have you spent? my BOM is < $300
+   * Due diligence? / Timeline doesn't add up 
       - Was delegated **NW regional distribution manager**, then intervention
 - I will always be a firm believer that once a schedule is published, if it is unpublished for changes, the affected team members whose schedule has been edited should be notified via email and text. 
       

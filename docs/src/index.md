@@ -9,38 +9,21 @@
 
 ---
 
-## What information did I offload, AAP?
+## 12 of 12 (the LAST): Greggory (marquee)
 Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
 - <wiki:Counterintelligence> | <wiki:Psychological_warfare> | [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) / [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) 
 - All because **I wanted to print an instructional return process sheet for my coworker**
-- "Doesn't even know how to build, it will take at least 9 months to cover gaps"
-- Him: **"No business sticking your nose in"**
-  * Me: ... **BUT**... if I wasnt given instruction or directed otherwise...
 - Whatever it is with **Salesforce** that gave **Shareholder** access during the backend transition period with Wal-Mart (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow kb]() / [Sponsorship]() and how you can benefit company?... **Thats not on me**
 - **Explicitly** provided instructions to join **confluence/jira**
-
-## 12 of 12 (the LAST): Greggory (marquee)
-**We May Have Something, talk offline or whatever we need to do**
-   * Due diligence? / Timeline doesn't add up 
-      - Was delegated **NW regional distribution manager**, then intervention
-- I will always be a firm believer that once a schedule is published, if it is unpublished for changes, the affected team members whose schedule has been edited should be notified via email and text. 
+  - **We May Have Something, talk offline or whatever we need to do**
+  - "Doesn't even know how to build, it will take at least 9 months to cover gaps"
+  - **"No business sticking your nose in"**
+    * Me: I was not given instruction or directed otherwise...
+     * Due diligence? / Timeline doesn't add up 
+        - Was delegated **NW regional distribution manager**, then intervention
+- I will always be a firm believer that once a schedule is published, if it is unpublished for changes, the affected team members whose schedule has been edited should be notified via email and text.
       
 ---
-
-## Reflections
-**NOTE**: *FLASHING LIGHT AND MIRRORS AID IN CAMERA DETECTION*.
-   * Look for **blurred rectangles and impressions in grass or footprints that appear behind the rectangles**
-   * Cover eyes (shirt, towel, hand) and look for green and red sources of light)
-   * When reviewing footage, red and green spectrums work best. 
-   * If you ever feel like, or are instructed to cover mirrors or `reflective` surfaces... `DONT`
-
-![](./00_assets/gaza_algae.jpg)
-- Cochleal implants also with algae lighting up like a x-mas tree
-- Him: "Better be glad you caught us on camera".
-- Me: I will prove it, without it looking "fried"
-- Him: "I should have never taken this job";
-   * Unknown: "I thought he was your specialty?"
-- Eyes magnetic? See image.jl. Scientific method here we go!
 
 ## Transript: 
 1. Him: "**[AI](https://www.ai.mil/Initiatives/CJADC2/)** is going to learn a lot"
@@ -62,7 +45,6 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
     - You will now note the absence of the AI and its lack of response when called, overlays
        *  Let me find my Entra ID and k3 container
        *  Spreadsheet will only show ID (to avoid PII) but can be cross-referenced with Entra
-       *  I only wanted to change my licenses and did `NOT` mess with anybody elses. 
 12. Him: "This may be our last chance" [(1)](https://ophelialabs.github.io/dev/02_medical/#Last-Chance) 
 13. Him: "[Find out what kind of Doctor they are]()"
 14. Him (3/10/26 🕔 05:50): "Make sure the place is clean"
@@ -74,8 +56,19 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
     -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether **video or not**. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or if you can isolate it as originating from the bottom right), and dont get **hooked**.
 ---
 
-## Two sides to every **coin**: 
-1. The [**PATCH**](#Implant-index3)
+## Reflections
+**NOTE**: *FLASHING LIGHT AND MIRRORS AID IN CAMERA DETECTION*.
+   * Look for **blurred rectangles and impressions in grass or footprints that appear behind the rectangles**
+   * Cover eyes (shirt, towel, hand) and look for green and red sources of light)
+   * When reviewing footage, red and green spectrums work best. 
+   * If you ever feel like, or are instructed to cover mirrors or `reflective` surfaces... `DONT`
+
+![](./00_assets/gaza_algae.jpg)
+- Cochleal implants also with algae lighting up like a x-mas tree
+- Him: "Better be glad you caught us on camera".
+- Me: I will prove it, without it looking "fried"
+- Him: "I should have never taken this job";
+   * Unknown: "I thought he was your specialty?"
 
 ---
 

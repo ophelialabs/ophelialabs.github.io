@@ -1,5 +1,5 @@
 17. Him: (7/18/26 🕦 14:30): neither confirm nor deny
-	- If thats the case, how did it change last minute along with the use of emotional influence and manipulation
+	- Me: If thats the case, how did it change last minute along with the use of emotional influence and manipulation?
 
 ---
 

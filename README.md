@@ -1,3 +1,26 @@
+17. Him: (7/18/26 🕦 14:30): neither confirm nor deny
+	- If thats the case, how did it change last minute along with emotional influence and manipulation
+
+---
+
+- This is not singular but plural. Once this is proven, you dont think everyone should take the "Jesse" test. I am obviously not the first 
+- Just wait, it will be your son or daughter next. 
+<!-- 
+- Note: link [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) no longer works. Had to deal with APT / Quantum bubbles
+- Youtube blocking comments
+- Re-think folder heirarchy and place in other `2 projects accordingly`. be precise and to the point, use external project links (ie - xref) for cleanliness
+- Please note, that is still playing catchup, reactive vs proactive ([algorithms](https://adaptivecards.io) being narrowed down and **bugs**: i.e. access being granted before restriction)
+- I believe it is **chess**, if the `nudge` wants you looking left at `Anthropic`, look right towards `Google`: **(The leading platform on AI)**
+-->
+
+- Other `3 projects`:
+   * [Q](https://ophelialabs.github.io/q_compute) | [jb](https://ophelialabs.github.io/jb./) | [c2](https://github.com/ophelialabs/Platform/blob/main/fluent/cmd_cntr2/README.md#c2) - Support [main](https://ophelialabs.github.io)
+    * Pay attention to what matters most!
+      
+   * Remember when you said you were ready? Remember when I said you giving away more information that what you were getting? You also said you would take responsibility. Or do you plan to just throw your team under the bus?
+   * THINK. You send a team in the middle of the night to implant me. No terrorist acts or just pre-emptive. Have you found anything yet that you can explain that wasnt manipulation?
+   * Oh yeah, you are `not` keeping this separate. How much have you spent? 
+
 - [VoltAgent](https://github.com/VoltAgent/awesome-design-md)
 
 ---

@@ -50,7 +50,7 @@ makedocs(
             "Getting Started" => "01_guide/getting_started.md",
             "Tutorial" => "01_guide/tutorial.md",
             "Advanced Usage" => "01_guide/advanced.md",
-            "Advanced 2" => ""01_guide/advanced2.md"
+            "Advanced 2" => ""01_guide/advanced2.md",
         ],
         "Medical" => [
             "Overview" => "02_medical/index.md",

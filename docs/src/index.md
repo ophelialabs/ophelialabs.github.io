@@ -48,8 +48,8 @@ Verbatim (Note: The Order of Operations)
 12. Him: "This may be our last chance" [(1)](https://ophelialabs.github.io/dev/02_medical/#Last-Chance)
 13. Him: "Turn that shit off"
     - Sounded like heart rate monitor beeping
-    - Accompanied by the "feeling" of being strapped to a bed and briefly being able to see under the bottom of a headset
-    - Followed by the [AI visualization](https://github.com/ophelialabs/Platform/blob/main/fluent/cmd_cntr2/wwwroot/assets/app/221E99F5-3D39-405D-B593-E46C0321336B_1_102_a.jpeg) (12 planes then main)
+    - Accompanied by the "feeling" of being strapped to a bed with restricted movement and briefly being able to see under the bottom of a headset.
+    - Followed by the [AI visualization](https://github.com/ophelialabs/Platform/blob/main/fluent/cmd_cntr2/wwwroot/assets/app/221E99F5-3D39-405D-B593-E46C0321336B_1_102_a.jpeg) (12 planes then main). Was awake and laying in bed between 11am and 2pm. 
 15. Him: "Find out what kind of Doctor they are"
 16. Him (3/10/26 🕔 05:50): "Make sure the place is clean"
 17. Her: "[Not unless he is psychic](https://google.com)": In Progress
@@ -58,7 +58,7 @@ Verbatim (Note: The Order of Operations)
 18. "Cancel this, let them finish what they started" 
     - 06/29/2026: Approximately 12 AM, slight shift. Compared to a Vinn Diagram, overlapping set of bubbles, felt as two brains converging into one
 18. Him (7/9/26 🕥 19:03): "I'll pay extra"
-    - I hope this isnt a professional in the medical field. Are you going to withhold this information from them too? Otherwise they may not take the job
+    - Me: I hope this isnt a professional in the medical field. Are you going to withhold this information from them too? Otherwise they may not take the job
 19. Her (7/19/26 🕥 11:32): Have to get him into surgery 
     -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether **video or not**. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or if you can isolate it as originating from the bottom right), and dont get **hooked**.
 ---

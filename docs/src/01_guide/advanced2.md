@@ -2,6 +2,10 @@
   
 Building an eye and lens system designed to analyze light pattern differentiation-specifically for detecting subtle spatial variations, edge enhancements, or changes in surface structure-combines biological modeling with advanced machine vision technologies. A high-performance, programmable, and tunable optical system is typically used, incorporating structured light techniques, machine learning algorithms, or specialized gradient-index (GRIN) lenses to detect and interpret spatial frequencies. This system functions like a high-speed "optical auditor," capturing light data, comparing it against a known baseline, and flagging anomalies in real-time. To analyze light patterns and deviations effectively, the hardware must be matched to the specific type of deviation you are tracking: spatial (shape/position), spectral (color/wavelength), or temporal (timing/intensity).
 
+[TSL25X1]() | [Light Sensor](https://www.publicsensors.org/light-sensor/) | [Direct](https://www.directindustry.com/prod/ams/product-102577-2258038.html) | [YT](https://youtube.com/watch?v=QESevE2c_cc&ra=m)
+
+The TSL25X1 series consists of light-to-digital converters that measure ambient light intensity and convert it into a digital signal using an I2C interface. They integrate a broadband photodiode (visible plus infrared) and an infrared-responding photodiode on a single CMOS circuit.
+
 ## Core Principles for Light Pattern Analysis
 To analyze differentiation in light patterns (e.g., distinguishing shapes, textures, or contrast, the system must be sensitive to spatial frequencies rather than just total light intensity.
   - **Baseline Establishment**: The system learns what "normal" looks like (e.g., a steady laser pulse or a specific sunset gradient).

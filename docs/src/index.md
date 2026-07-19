@@ -49,12 +49,15 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
 13. Him: "Turn that shit off"
     - Sounded like heart rate monitor beeping
     - Accompanied by the "feeling" of being strapped to a bed and briefly being able to see under the bottom of a headset
-    - Followed by the [AI visualization]() (12 planes then main)
+    - Followed by the [AI visualization](https://github.com/ophelialabs/Platform/blob/main/fluent/cmd_cntr2/wwwroot/assets/app/221E99F5-3D39-405D-B593-E46C0321336B_1_102_a.jpeg) (12 planes then main)
 15. Him: "Find out what kind of Doctor they are"
 16. Him (3/10/26 🕔 05:50): "Make sure the place is clean"
 17. Her: "[Not unless he is psychic](https://google.com)": In Progress
     - How do I know about most of this when I posted without being informed first i.e. -
        * The "step" technique and wanting to go from battlefield to battlefield?
+18. June 29, 2026: Approximately 12 AM
+  - Slight shift. Compared to a Vinn Diagram, overlapping set of bubbles.
+  - Felt as two brains converging into one
 18. Him (7/9/26 🕥 19:03): "I'll pay extra"
     - I hope this isnt a professional in the medical field. Are you going to withhold this information from them too? Otherwise they may not take the job
 19. Her (7/19/26 🕥 11:32): Have to get him into surgery 

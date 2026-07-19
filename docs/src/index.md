@@ -65,7 +65,6 @@ Let's run those simulations at the same time
     - Me: I hope this isnt a professional in the medical field. Are you going to withhold this information from them too? Otherwise they may not take the job
 19. Her (7/19/26 🕥 11:32): Have to get him into surgery
     - Note 13 and how it verifies more so that these are ploys.
-    - Even if a direct connection was possible and a digital replacement was effective, how would it be beneficial, it wouldnt.
 
 **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether **video or not**. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or if you can isolate it as originating from the bottom right), and dont get **hooked**.
 

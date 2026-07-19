@@ -7,7 +7,7 @@
 
 ## 12 of 12 (the LAST): Greggory (marquee)
 Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
-- <wiki:Counterintelligence> | <wiki:Psychological_warfare> | [Learned Helplessness]() | [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) | [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) 
+- <wiki:Counterintelligence> | <wiki:Psychological_warfare> | [Learned Helplesness]() | [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) | [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) 
 - All because **I wanted to print an instructional return process sheet for my coworker**
 - Whatever it is with **Salesforce** that gave **Shareholder** access during the backend transition period with Wal-Mart (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow kb]() / [Sponsorship]() and how you can benefit company?... **Thats not on me**
 - **Explicitly** provided instructions to join **confluence/jira**

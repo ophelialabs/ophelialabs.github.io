@@ -55,9 +55,8 @@ Verbatim (Note: The Order of Operations)
 17. Her: "[Not unless he is psychic](https://google.com)": In Progress
     - How do I know about most of this when I posted without being informed first i.e. -
        * The "step" technique and wanting to go from battlefield to battlefield?
-18. June 29, 2026: Approximately 12 AM
-  - Slight shift. Compared to a Vinn Diagram, overlapping set of bubbles.
-  - Felt as two brains converging into one
+18. "Cancel this, let them finish what they started" 
+    - 06/29/2026: Approximately 12 AM, slight shift. Compared to a Vinn Diagram, overlapping set of bubbles, felt as two brains converging into one
 18. Him (7/9/26 🕥 19:03): "I'll pay extra"
     - I hope this isnt a professional in the medical field. Are you going to withhold this information from them too? Otherwise they may not take the job
 19. Her (7/19/26 🕥 11:32): Have to get him into surgery 

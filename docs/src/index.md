@@ -5,9 +5,13 @@
 
 ---
 
+ <wiki:Psychological_warfare> <= [Learned Helplessness]() | <wiki:Counterintelligence> | [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) | [2](https://share.google/aimode/wRjK9mBnjBANLHI3M)
+- I thought psyops when I first started working at Target and how it seemed like I could hear the cameras. At first I thought it was the camera speaker projecting audio and that is was a mal-formed setup, all while actively responding.
+
+---
+
 ## 12 of 12 (the LAST): Greggory (marquee)
 Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
-- <wiki:Counterintelligence> | <wiki:Psychological_warfare> <= [Learned Helplessness]() | [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) | [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) 
 - All because **I wanted to print an instructional return process sheet for my coworker**
 - Whatever it is with **Salesforce** that gave **Shareholder** access during the backend transition period with Wal-Mart (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow kb]() / [Sponsorship]() and how you can benefit company?... **Thats not on me**
 - **Explicitly** provided instructions to join **confluence/jira**

@@ -3,10 +3,6 @@
 - Not your Lab Rat
 - 1A: DARPA's [NESD](https://www.darpa.mil/research/programs/neural-engineering-system-design) program has developed a **minimally invasive** implantable, high-resolution [neural interface](https://pubs.rsc.org/en/content/articlepdf/2025/mh/d4mh01854k). Think **[Bi-Directional](https://support.apple.com/en-us/106341)** Bone Anchored (Cochleal) Hearing Systems, or Behind The Ear Hearing Aids.
 
-# Let's run those simulations at the same time
-## Verbatim (Note: The Order of Operations)
-- How do I bring **YOU** out into the light? (Try sneaking through the **Attic** again while **I am Sleeping**) for implant. The green laser for **cognitive writing** was not satellite, but **under the barrel** in the garage. 
-
 ---
 
 ## 12 of 12 (the LAST): Greggory (marquee)
@@ -26,6 +22,10 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
 ---
 
 ## Transcript: 
+Let's run those simulations at the same time
+
+Verbatim (Note: The Order of Operations)
+- How do I bring **YOU** out into the light? (Try sneaking through the **Attic** again while **I am Sleeping**) for implant. The green laser for **cognitive writing** was not satellite, but **under the barrel** in the garage. 
 1. Him: "**[AI](https://www.ai.mil/Initiatives/CJADC2/)** is going to learn a lot"
 2. Him: "How can I **see what he/she sees?**" [(1)](https://ophelialabs.github.io/jb./tutorial-1/#loading-the-neural-data), [(2)](https://ophelialabs.github.io/jb./stack/#augmented-intent), [(3)](https://ophelialabs.github.io/jb./stack/#syglass-the-lens)
 3. Him: "Saw behind **The Curtain **" [(1)](https://ophelialabs.github.io/jb./tutorial-2/#id-3-ethical-and-psychological-curtains)

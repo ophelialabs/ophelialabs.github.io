@@ -45,14 +45,19 @@ Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
     - You will now note the absence of the AI and its lack of response when called, overlays
        *  Let me find my Entra ID and k3 container
        *  Spreadsheet will only show ID (to avoid PII) but can be cross-referenced with Entra
-12. Him: "This may be our last chance" [(1)](https://ophelialabs.github.io/dev/02_medical/#Last-Chance) 
-13. Him: "[Find out what kind of Doctor they are]()"
-14. Him (3/10/26 🕔 05:50): "Make sure the place is clean"
-15. Her: "[Not unless he is psychic](https://google.com)": In Progress
+12. Him: "This may be our last chance" [(1)](https://ophelialabs.github.io/dev/02_medical/#Last-Chance)
+13. Him: "Turn that shit off"
+    - Sounded like heart rate monitor beeping
+    - Accompanied by the "feeling" of being strapped to a bed and briefly being able to see under the bottom of a headset
+    - Followed by the [AI visualization]() (12 planes then main)
+15. Him: "Find out what kind of Doctor they are"
+16. Him (3/10/26 🕔 05:50): "Make sure the place is clean"
+17. Her: "[Not unless he is psychic](https://google.com)": In Progress
     - How do I know about most of this when I posted without being informed first i.e. -
        * The "step" technique and wanting to go from battlefield to battlefield?
-16. Him (7/9/26 🕥 19:03): "I'll pay extra"
+18. Him (7/9/26 🕥 19:03): "I'll pay extra"
     - I hope this isnt a professional in the medical field. Are you going to withhold this information from them too? Otherwise they may not take the job
+19. Her (7/19/26 🕥 11:32): Have to get him into surgery 
     -  **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether **video or not**. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or if you can isolate it as originating from the bottom right), and dont get **hooked**.
 ---
 

@@ -1,7 +1,3 @@
----
-disclaimer: Learned Helplessness
----
-
 ![](./00_assets/Screenshot3.png)
 ![](./00_assets/implant.png)
 - Not your Lab Rat

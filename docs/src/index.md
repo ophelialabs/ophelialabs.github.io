@@ -11,13 +11,15 @@
 ---
 
 ## 12 of 12 (the LAST): Greggory (marquee)
-Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present
+Means atleast 08/01/23 (2.5 yrs) dissapointing on my part honestly, to present.
+
 - All because **I wanted to print an instructional return process sheet for my coworker**
 - Whatever it is with **Salesforce** that gave **Shareholder** access during the backend transition period with Wal-Mart (eg... Shipt, Uber, Third Party Delivery (Last Mile), otherwise how do I know about [servicenow kb]() / [Sponsorship]() and how you can benefit company?... **Thats not on me**
 - **Explicitly** provided instructions to join **confluence/jira**
   - **We May Have Something, talk offline or whatever we need to do**
   - "Doesn't even know how to build, it will take at least 9 months to cover gaps"
   - **"No business sticking your nose in"**
+    * What was on that whiteboard? Remember.
     * Me: I was not given instruction or directed otherwise...
      * Due diligence? / Timeline doesn't add up 
         - Was delegated **NW regional distribution manager**, then intervention
@@ -65,6 +67,7 @@ Let's run those simulations at the same time
     - Me: I hope this isnt a professional in the medical field. Are you going to withhold this information from them too? Otherwise they may not take the job
 19. Her (7/19/26 🕥 11:32): Have to get him into surgery
     - Note 12 and how it verifies more so that these are ploys?
+    - Him (19:12): "Suicidal"  
 
 **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether **video or not**. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or if you can isolate it as originating from the bottom right), and dont get **hooked**.
 

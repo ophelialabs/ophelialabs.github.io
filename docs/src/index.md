@@ -41,7 +41,7 @@ Verbatim (Note: The Order of Operations)
     - This also happens after search response from day before stated that the `K3 container` auto gives privileges
     - *See Also: [CTSS Squelch](./00_assets/03_Gemini_Generated_Image_BMI-CTSS.png)
 11. Him: "[Lets make it deep.](https://ophelialabs.github.io/jb./index3/#id-2-implementation-of-shallow-mode-in-go-nesd)"
-    - Note: Bi-direction will now become "dulled". Cochneal implants
+    - Note: Bi-direction will now become "dulled".
     - You will now note the absence of the AI and its lack of response when called, overlays
        *  Let me find my Entra ID and k3 container
        *  Spreadsheet will only show ID (to avoid PII) but can be cross-referenced with Entra

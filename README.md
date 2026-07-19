@@ -2,7 +2,7 @@
 
 1. Her: He was walking on another plane of existence
    - When was the hyperspectral visualization between the bed and wall?
-   - Neurons being reactive to light allow the visualization of the formation of the bubble that warped light around it and looked more like an egg?
+   - Neurons being reactive to light allow the visualization of the formation of the bubble that warped light around it and looked more like a pointy egg?
 	  
 17. Him: (7/18/26 🕦 14:30): neither confirm nor deny
 	- Me: If thats the case, how did it change last minute along with the use of emotional influence and manipulation?

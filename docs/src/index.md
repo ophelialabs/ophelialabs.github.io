@@ -68,6 +68,7 @@ Let's run those simulations at the same time
     - Even if a direct connection was possible and a digital replacement was effective, how would it be beneficial, it wouldnt.
 
 **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether **video or not**. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or if you can isolate it as originating from the bottom right), and dont get **hooked**.
+
 ---
 
 ## Reflections

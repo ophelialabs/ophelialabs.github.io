@@ -7,6 +7,7 @@
 
  <wiki:Psychological_warfare> <= [Learned Helplessness]() | <wiki:Counterintelligence> | [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) | [2](https://share.google/aimode/wRjK9mBnjBANLHI3M)
 - I thought psyops when I first started working at Target and how it seemed like I could hear the cameras. At first I thought it was the camera speaker projecting audio and that is was a mal-formed setup, all while actively responding.
+- Can not approach an electrical substation without feeling a pull/push
 
 ---
 

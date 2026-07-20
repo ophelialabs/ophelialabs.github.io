@@ -66,9 +66,6 @@ Let's run those simulations at the same time
     - 06/29/2026: Approximately 12 AM, slight shift. Compared to a Vinn Diagram, overlapping set of bubbles, felt as two brains converging into one
 18. Him (7/9/26 🕥 19:03): "I'll pay extra"
     - Me: I hope this isnt a professional in the medical field. Are you going to withhold this information from them too? Otherwise they may not take the job
-19. Her (7/19/26 🕥 11:32): Have to get him into surgery
-    - Note 12 and how it verifies more so that these are ploys?
-    - Him (19:12): "Suicidal"  
 
 **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether **video or not**. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or if you can isolate it as originating from the bottom right), and dont get **hooked**.
 

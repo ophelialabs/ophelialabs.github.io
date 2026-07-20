@@ -1,4 +1,4 @@
-- [Thinking Ahead Again](https://share.google/aimode/7cUYZufiQiWuorUor), 2.5 years down, 4 years to prepare for
+- [Thinking Ahead Again](https://share.google/aimode/7cUYZufiQiWuorUor), 2.5 years down, 2 years before rollout, 4 years to prepare for full rollout completion
 
 # Documentation HAS to be correct and precise
 

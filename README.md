@@ -1,3 +1,5 @@
+- [Thinking Ahead Again](https://share.google/aimode/7cUYZufiQiWuorUor)
+
 # Documentation HAS to be correct and precise
 
 1. Her: He was walking on another plane of existence

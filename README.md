@@ -8,7 +8,11 @@
 17. Him: (7/18/26 🕦 14:30): neither confirm nor deny
 	- Me: If thats the case, how did it change last minute along with the use of emotional influence and manipulation?
     - 14:57 - 15:24 : silence, big mad. most likely plotting next, what to expect and prepare
-    - **Brainstorm**  
+    - **Brainstorm**
+   
+19. Her (7/19/26 🕥 11:32): Have to get him into surgery
+    - Note 12 and how it verifies more so that these are ploys?
+    - Him (19:12): "Suicidal"  
 
 ---
 

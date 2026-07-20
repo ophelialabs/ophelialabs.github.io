@@ -79,7 +79,7 @@ Let's run those simulations at the same time
    * If you ever feel like, or are instructed to cover mirrors or `reflective` surfaces... `DONT`
 
 ![](./00_assets/gaza_algae.jpg)
-- Cochleal implants with pond algae (cj final determinations viral piggyback research?) [(1)](https://1drv.ms/x/c/204c37d0ad34e8d9/IQBk2x1GhfYwRYVboMsMrAMaASk6Ev-qJo-tPTPL-vycF3c?e=ZOtvme), [(2)](./assets/science.adn0623_sm.pdf)
+- Cochleal implants with pond algae (cj final determinations viral piggyback research?) [(1)](https://1drv.ms/x/c/204c37d0ad34e8d9/IQBk2x1GhfYwRYVboMsMrAMaASk6Ev-qJo-tPTPL-vycF3c?e=ZOtvme), [(2)](./00_assets/science.adn0623_sm.pdf)
 - Him: "Better be glad you caught us on camera".
 - Me: I will prove it, without it looking "fried"
 - Him: "I should have never taken this job";

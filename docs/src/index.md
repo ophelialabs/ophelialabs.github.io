@@ -75,6 +75,7 @@ Let's run those simulations at the same time
 
 ## Reflections
 **NOTE**: *FLASHING LIGHT AND MIRRORS AID IN CAMERA DETECTION*.
+   * Listen closely for clicks before comm, distinct
    * Look for **blurred rectangles and impressions in grass or footprints that appear behind the rectangles**
    * Cover eyes (shirt, towel, hand) and look for green and red sources of light)
    * When reviewing footage, red and green spectrums work best. 

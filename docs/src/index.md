@@ -65,8 +65,9 @@ Let's run those simulations at the same time
        * The "step" technique and wanting to go from battlefield to battlefield?
 18. "Cancel this, let them finish what they started" 
     - 06/29/2026: Approximately 12 AM, slight shift. Compared to a Vinn Diagram, overlapping set of bubbles, felt as two brains converging into one
-18. Him (7/9/26 🕥 19:03): "I'll pay extra"
+19. Him (7/9/26 🕥 19:03): "I'll pay extra"
     - Me: I hope this isnt a professional in the medical field. Are you going to withhold this information from them too? Otherwise they may not take the job
+20. Outside of? Na sounds a little self-righteous, that was 2.5 years ago right
 
 **Note**: This is to the point! and not updated unless the scientific method has been applied. Whether **video or not**. Use emotional baseline, **ZERO**-trust (Responding "Negative" to every subliminal thought, noting that if it feels like wordart or if you can isolate it as originating from the bottom right), and dont get **hooked**.
 

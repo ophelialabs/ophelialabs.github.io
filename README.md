@@ -15,24 +15,12 @@
 19. Her (7/19/26 🕥 11:32): Have to get him into surgery
     - Note 12 and how it verifies more so that these are ploys?
     - Him (19:12): "Suicidal"
-   
----
-
-[(1)](https://share.google/aimode/lsDCN3A9g4QSryGBL)
-- first objective, use implant to coerce
-- w/o revealing video. 
-- under br window = kris (he's right there)
-- trash = sonia, michaela.
-- br: kamari (holding between camera optic and room), michaela (arm holding out) and neighbor? (reflected at the attic door). 
-- neighbor and kamari on roof
-- micheal in garage, but under mask??
-- doesnt trust us yet (like what, serious?)
-
 
 ---
 
 - This is not singular but plural. Once this is proven, you dont think everyone should take the "Jesse" test. I am obviously not the first 
-- Just wait, it will be your son or daughter next. 
+- Just wait, it will be your son or daughter next.
+  
 <!-- 
 - Note: link [2](https://share.google/aimode/wRjK9mBnjBANLHI3M) no longer works. Had to deal with APT / Quantum bubbles
 - Youtube blocking comments

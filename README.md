@@ -6,6 +6,8 @@
 	* No boss should have that much control 
 	* Manipulation to make me feel like I have to work? If so, must need vacancy (missed or placing) something?
 
+---
+
 | Walmart | Target | AMZ | GOV |
 | ------- | ------ | --- | --- |
 | MS | GCP | AWS | Linux |

@@ -1,1 +1,2 @@
 placeholder
+[yt](https://www.youtube.com/watch?v=b5C9SPVlU4U) | [SI4735 Ard Lib](https://github.com/pu2clr/SI4735) | [dra818v](https://www.aliexpress.com/w/wholesale-dra818v.html) | [150 mhz module]() | [M005-V11](https://www.digikey.com/en/products/detail/m5stack-technology-co-ltd/M005-V11/23628213?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlj8L9Jau5u4uImRJ1k_glq3e&gclid=CjwKCAjwyOzSBhBTEiwAmxvJ-l7a8bU2CIfaSKkzwUaCxXbi4yny6rf9evTu1-nI3l_krBy5OfYneBoCnBUQAvD_BwE) | 

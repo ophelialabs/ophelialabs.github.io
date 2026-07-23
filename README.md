@@ -2,7 +2,8 @@
 
 | Walmart | Target | AMZ | GOV |
 | ------- | ------ | --- | --- |
-| MS | GCP | AWS | Linux (az.gov) |
+| MS | GCP | AWS | Linux |
+
 
 # Documentation HAS to be correct and precise
 

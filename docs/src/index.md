@@ -11,9 +11,9 @@
 
 ---
 
-- Currently working on external vibration sensors and specific frequencies, not robotics.
-- Also will be **working on a way to to combat the viral injection method that allows the algae to adhere to neurons. Whatever frameworks may be in development, can not allow a backdoor for hijacking, data writing and visual scrubbing so must create a combatant, viral? Must target specific AAV strain**
-- How to bring the fox out of the hole and show who the true villain of the story is? Anything to accomplish the mission right
+- Currently working on external vibration sensors and specific frequencies.
+- Also will be **working on a way to to combat the viral injection method that allows the algae to adhere to neurons. Whatever frameworks may be in development, can not allow a backdoor for hijacking (auditory, sensory perception), neural manipulation, data writing and visual scrubbing (would remove the need to use quantum stealth) so must create an AAV strain combatant.**
+- How to bring the fox out of the hole and show who the true villain of the story is and how far they are willing to go to accomplish the mission.
 
 ---
 

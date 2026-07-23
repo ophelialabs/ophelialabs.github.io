@@ -1,5 +1,10 @@
 - [Thinking Ahead Again](https://share.google/aimode/7cUYZufiQiWuorUor), 2.5 years down, 2 years before rollout, 4 years to prepare for full rollout completion
 
+- 07/23/36: (11:30) Fire him then
+- Asked to stay late today responded that I couldn't. Saw voicemail asking to pick up shift tomorrow
+  	  1. No boss should have that much control 
+  	  2. Manipulation to make me feel like I have to work? If so, must need vacancy (missed or placing) something?
+
 | Walmart | Target | AMZ | GOV |
 | ------- | ------ | --- | --- |
 | MS | GCP | AWS | Linux |

@@ -1,5 +1,9 @@
 - [Thinking Ahead Again](https://share.google/aimode/7cUYZufiQiWuorUor), 2.5 years down, 2 years before rollout, 4 years to prepare for full rollout completion
 
+| Walmart | Target | AMZ | GOV |
+| ------- | ------ | --- | --- |
+| MS | GCP | AWS | Linux (az.gov) |
+
 # Documentation HAS to be correct and precise
 
 1. Her: He was walking on another plane of existence

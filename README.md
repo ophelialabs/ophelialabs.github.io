@@ -37,9 +37,8 @@
       
    * Remember when you said you were ready? Remember when I said you giving away more information that what you were getting? You also said you would take responsibility. Or do you plan to just throw your team under the bus?
    * THINK. You send a team in the middle of the night to implant me. No terrorist acts or just pre-emptive. Have you found anything yet that you can explain that wasnt manipulation?
-   * Oh yeah, you are `not` keeping this separate. How much have you spent? 
-   
-   [(1)](https://share.google/aimode/lsDCN3A9g4QSryGBL)
+   * Oh yeah, you are `not` keeping this separate. How much have you spent? [(1)](https://share.google/aimode/lsDCN3A9g4QSryGBL)
+     
 - first objective, use implant to coerce
 - under br window = kris (he's right there)
 - trash = sonia, michaela.

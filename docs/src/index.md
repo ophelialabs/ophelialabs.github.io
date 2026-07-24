@@ -39,11 +39,11 @@ Let's run those simulations at the same time
 - How do I bring **YOU** out into the light? (Try sneaking through the **Attic** again while **I am Sleeping**) for implant. The green laser for **cognitive writing** was not satellite, but **under the barrel** in the garage.
   
 1. Him: "**[AI](https://www.ai.mil/Initiatives/CJADC2/)** is going to learn a lot"
-2. Him: "How can I **see what he/she sees?**" [(1)](https://ophelialabs.github.io/jb./tutorial-1/#loading-the-neural-data), [(2)](https://ophelialabs.github.io/jb./stack/#augmented-intent), [(3)](https://ophelialabs.github.io/jb./stack/#syglass-the-lens)
+2. Him: "Saw behind **The Curtain **" [(1)](https://ophelialabs.github.io/jb./tutorial-2/#id-3-ethical-and-psychological-curtains)
+3. Them: "Put him in a "**Container**" [(1)](https://ophelialabs.github.io/dev/03_networking/informatics2/).  [(2)](https://ophelialabs.github.io/dev/03_networking/informatics2/#Big-Bang-(The-Factory)), [(3)](https://ophelialabs.github.io/dev/03_networking/informatics2/#2.-Implementation-via-DevSecOps-(Big-Bang))
+4. Her: "What is his Itinerary? And what is the **Exit Strategy**"
+5. Him: "How can I **see what he/she sees?**" [(1)](https://ophelialabs.github.io/jb./tutorial-1/#loading-the-neural-data), [(2)](https://ophelialabs.github.io/jb./stack/#augmented-intent), [(3)](https://ophelialabs.github.io/jb./stack/#syglass-the-lens)
      * Her: "Its like watching a movie"
-3. Him: "Saw behind **The Curtain **" [(1)](https://ophelialabs.github.io/jb./tutorial-2/#id-3-ethical-and-psychological-curtains)
-4. Them: "Put him in a "**Container**" [(1)](https://ophelialabs.github.io/dev/03_networking/informatics2/).  [(2)](https://ophelialabs.github.io/dev/03_networking/informatics2/#Big-Bang-(The-Factory)), [(3)](https://ophelialabs.github.io/dev/03_networking/informatics2/#2.-Implementation-via-DevSecOps-(Big-Bang))
-5. Her: "What is his Itinerary? And what is the **Exit Strategy**"
 6. Him: "Who are they on the **phone** with?" [(1)](https://ophelialabs.github.io/dev/03_networking/informatics2/#3.-Simplified-with-QICK) 
 7. Him: "Trying to do our job for us. **[Hand it off to me](https://www.syglass.io/academy/v/tracing-basics-fn2tc)**"
 8. Her: [He's about to get control over this](https://google.com)

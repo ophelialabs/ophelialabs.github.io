@@ -5,17 +5,14 @@
 
 ---
 
- <wiki:Psychological_warfare> <= [Learned Helplessness]() | <wiki:Counterintelligence> | [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) | [2](https://share.google/aimode/JCu4XfOsYUc6DXwYo) (https://share.google/aimode/wRjK9mBnjBANLHI3M no longer works) 
+### Do NOT Negotiate With Terrorists
+Painting your own Picture
+- <wiki:Psychological_warfare> <= [Learned Helplessness]() | <wiki:Counterintelligence> | [1](https://share.google/aimode/GT8QVoCJNxMhWmDjX) | [2](https://share.google/aimode/JCu4XfOsYUc6DXwYo) (https://share.google/aimode/wRjK9mBnjBANLHI3M no longer works) 
 - I thought psyops when I first started working at Target and how it seemed like I could hear the cameras. At first I thought it was the camera speaker projecting audio and that is was a mal-formed setup, all while actively responding.
 - Can not approach an electrical substation without feeling a pull/push
-
----
-
-### Do NOT Negotiate With Terrorists
-
 - Currently working on external vibration sensors and specific frequencies.
 - Also will be **working on a way to to combat the viral injection method that allows the algae to adhere to neurons. Whatever frameworks may be in development, can not allow a backdoor for hijacking (auditory, sensory perception), neural manipulation, data writing and visual scrubbing (would remove the need to use quantum stealth) so must create an AAV strain combatant.**
-- How to bring the fox out of the hole and show who the true villain of the story is and how far they are willing to go to accomplish the mission.
+- How to bring the fox out of the hole and show who the true villain of the story is, and how far they are willing to go to accomplish the mission.
 
 ---
 
@@ -43,6 +40,7 @@ Let's run those simulations at the same time
   
 1. Him: "**[AI](https://www.ai.mil/Initiatives/CJADC2/)** is going to learn a lot"
 2. Him: "How can I **see what he/she sees?**" [(1)](https://ophelialabs.github.io/jb./tutorial-1/#loading-the-neural-data), [(2)](https://ophelialabs.github.io/jb./stack/#augmented-intent), [(3)](https://ophelialabs.github.io/jb./stack/#syglass-the-lens)
+ * Her: "Its like watching a movie"
 3. Him: "Saw behind **The Curtain **" [(1)](https://ophelialabs.github.io/jb./tutorial-2/#id-3-ethical-and-psychological-curtains)
 4. Them: "Put him in a "**Container**" [(1)](https://ophelialabs.github.io/dev/03_networking/informatics2/).  [(2)](https://ophelialabs.github.io/dev/03_networking/informatics2/#Big-Bang-(The-Factory)), [(3)](https://ophelialabs.github.io/dev/03_networking/informatics2/#2.-Implementation-via-DevSecOps-(Big-Bang))
 5. Her: "What is his Itinerary? And what is the **Exit Strategy**"
